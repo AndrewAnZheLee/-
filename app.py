@@ -4,6 +4,8 @@ import os
 import glob
 import pandas as pd
 import plotly.graph_objects as go
+import random 
+
 # === 1. 頁面基礎設定 ===
 st.set_page_config(
     page_title="分科測驗素養練習",
@@ -262,7 +264,10 @@ else:
                         chart_type = c.get("type", "line").lower()
                         
                         # 定義科學風格的顏色 (經典藍)
-                        science_color = "#1da3b4" 
+                        palette = [
+                            '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', 
+                            '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'
+                        ] 
 
                         # === 針對不同類型加入不同的 Trace ===
                         if chart_type == "bar":
@@ -271,7 +276,7 @@ else:
                                 x=c['data_x'],
                                 y=c['data_y'],
                                 name='Data',
-                                marker_color=science_color,
+                                marker_color=random.choice(palette),
                                 # 如果是長條圖，可以設定寬度讓它不要太擠
                                 # width=0.5 
                             ))
@@ -283,7 +288,7 @@ else:
                                 y=c['data_y'],
                                 mode='markers',
                                 name='Data',
-                                marker=dict(size=10, color=science_color)
+                                marker=dict(size=10, color=random.choice(palette))
                             ))
                             
                         else:
@@ -293,7 +298,7 @@ else:
                                 y=c['data_y'],
                                 mode='lines+markers',
                                 name='Data',
-                                line=dict(color=science_color, width=4),
+                                line=dict(color=random.choice(palette), width=4),
                                 marker=dict(size=12)
                             ))
 
@@ -393,4 +398,5 @@ else:
                     else:
 
                         st.warning("請先作答！")
+
 
