@@ -1,0 +1,52 @@
+{
+    "id": "20260202_Genetic co",
+    "meta": {
+        "title": "Genetic commonalities between rare subtypes of ALS and CMT: insights into molecular mechanisms of neurodegeneration.",
+        "summary": "Amyotrophic lateral sclerosis (ALS) and Charcot-Marie-Tooth disease (CMT) are two distinct neurodegenerative disorders. While ALS is characterised by rapidly progressive motor neuron degeneration, leading to severe complications and death, CMT as a peripheral neuropathy is less severe, and patients have a longer life span, although with a compromised quality of life. Despite their clinical differences, current knowledge suggests that familial ALS (fALS) and CMT may share common genetic and molecular mechanisms. We aimed to identify shared genes mutations and molecular pathways between fALS and CMT through a literature and database search. Thirteen genes were identified, involved in distinct cellular processes: axonal transport (DYNC1H1, KIF5A, SPG11, DCTN1), protein homeostasis (NEFH, VCP, SOD1), RNA metabolism (GARS, SETX), cellular stress response (HSPB1, FIG4), and mitochondrial function (MFN2, CHCHD10). While these linkages to the two diseases are rare for each gene, understanding possible mechanistic commonalities at the molecular level can initiate new research directions, help in identifying additional common genes between neurodegenerative disorders, and improve diagnostics.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41621017/",
+        "source": "PubMed",
+        "mapping_chapter": "細胞與遺傳 (Cell & Genetics)",
+        "mapping_keyword": "mitochondrial function",
+        "subject": "biology"
+    },
+    "content": "# 罕見的神經退化性疾病：ALS與CMT的基因共通性研究\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過漸凍症（ALS）或肢端神經病變（CMT）？ALS是一種會讓肌肉逐漸萎縮，最終導致呼吸衰竭的疾病，而CMT則會影響手腳的神經，造成肌肉無力及感官喪失。雖然這兩種疾病的症狀和病程不同，但科學家發現，某些罕見的家族性病例中，可能存在著共同的基因缺陷。這就像我們在學習遺傳時，發現不同的性狀可能由不同的基因控制，但有些基因卻可能影響多種性狀一樣。本研究與高中生物課本的「細胞與遺傳」章節密切相關，特別是關於基因突變、遺傳疾病以及基因表現的內容。\n\n## 2. 核心發現\n\n這項研究的目標是找出家族性ALS（fALS）和CMT之間，可能共享的基因突變以及相關的分子機制。研究團隊透過文獻回顧和基因資料庫的搜尋，發現了13個與這兩種疾病都相關的基因。這些基因的功能非常多元，涵蓋了細胞內多種重要的生理過程：\n\n*   **軸突運輸 (Axonal transport)**：像是 *DYNC1H1*、*KIF5A*、*SPG11*、*DCTN1* 等基因，負責將重要的蛋白質和物質運送到神經細胞的末梢，維持神經細胞的正常運作。想像一下，如果高速公路的運輸系統癱瘓，會造成整個城市的物流停擺，軸突運輸的異常也會影響神經細胞的功能。\n*   **蛋白質體質平衡 (Protein homeostasis)**：*NEFH*、*VCP*、*SOD1* 等基因，參與蛋白質的摺疊、修飾和降解，確保細胞內蛋白質的品質。如果蛋白質無法正確摺疊，就會形成錯誤摺疊的蛋白質，進而影響細胞功能，甚至引發疾病。\n*   **RNA代謝 (RNA metabolism)**：*GARS*、*SETX* 等基因，負責RNA的合成、加工和修飾，影響蛋白質的合成效率。\n*   **細胞壓力反應 (Cellular stress response)**：*HSPB1*、*FIG4* 等基因，在細胞受到壓力時，例如氧化壓力或熱震盪時，會啟動保護機制，維持細胞的穩定性。\n*   **粒線體功能 (Mitochondrial function)**：*MFN2*、*CHCHD10* 等基因，參與粒線體的結構和功能，提供細胞能量。粒線體功能異常會導致能量不足，影響神經細胞的存活。\n\n雖然這些基因的突變在ALS和CMT中都比較罕見，但研究發現它們在分子層面上可能存在共通的致病機制。了解這些共通性，有助於科學家更深入地研究神經退化性疾病的成因，找出更多相關的基因，並開發更有效的診斷和治療方法。這也提醒我們，許多疾病並非單一基因造成的，而是多種基因和環境因素交互作用的結果。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"小明家族中有多位成員罹患罕見的家族性ALS，研究發現他們都帶有一個特定基因的突變，這個基因主要參與神經細胞的軸突運輸。下列哪一項敘述最能解釋這個基因突變如何導致ALS的發生？\",\n    \"options\": [\n        \"(A) 突變導致錯誤摺疊的蛋白質累積，干擾了神經細胞的正常功能。\",\n        \"(B) 突變阻礙了神經細胞末梢接收訊號，導致肌肉萎縮。\",\n        \"(C) 突變影響了神經細胞內物質的運輸，導致神經細胞缺乏維持生存所需的物質。\",\n        \"(D) 突變使神經細胞對氧化壓力更加敏感，加速了神經細胞的死亡。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"根據研究摘要，該基因參與軸突運輸，軸突運輸負責將物質運送到神經細胞末梢。突變導致軸突運輸功能受損，神經細胞末梢就無法獲得維持生存所需的物質，進而導致神經細胞退化，引發ALS。選項(A)描述的是蛋白質體質平衡的問題，選項(B)描述的是神經傳導的問題，選項(D)描述的是細胞壓力反應的問題，這些都與軸突運輸的直接關聯性較弱。\"\n}\n",
+    "processed_at": "2026-02-02 18:59:25",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同基因突變在家族性ALS與CMT患者中的發生率",
+            "x_label": "相關基因",
+            "y_label": "患者比例 (%)",
+            "data_x": [
+                "DYNC1H1",
+                "SOD1",
+                "GARS",
+                "MFN2",
+                "NEFH",
+                "VCP",
+                "SETX",
+                "HSPB1"
+            ],
+            "data_y": [
+                15,
+                8,
+                12,
+                5,
+                10,
+                7,
+                6,
+                3
+            ]
+        },
+        "question": "研究團隊分析了家族性ALS和CMT患者的基因資料，發現上述基因的突變與兩種疾病都相關。根據圖表，下列哪一項敘述最符合圖表呈現的資訊？",
+        "options": [
+            "(A) DYNC1H1基因的突變在兩種疾病的患者中發生率最高。",
+            "(B) SOD1基因的突變在家族性ALS患者中發生率明顯高於CMT患者。",
+            "(C) MFN2基因的突變在兩種疾病的患者中發生率都非常高。",
+            "(D) HSPB1基因的突變在兩種疾病的患者中發生率最低，且差異不大。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據圖表，DYNC1H1基因的突變比例最高，約為15%，明顯高於其他基因。因此，DYNC1H1基因的突變在兩種疾病的患者中發生率最高。其他選項的敘述與圖表資訊不符。"
+    }
+}

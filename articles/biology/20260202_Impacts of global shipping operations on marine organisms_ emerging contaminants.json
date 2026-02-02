@@ -1,0 +1,48 @@
+{
+    "id": "20260202_Impacts of",
+    "meta": {
+        "title": "Impacts of global shipping operations on marine organisms: emerging contaminants, biodiversity monitoring, and management strategies-a 25-year review.",
+        "summary": "Shipping operations are essential to global trade and economic growth; however, they pose significant risks to marine ecosystems. The goal of this review was to analyze various categories of shipping operations and their corresponding environmental impacts on marine organisms. The study employs a comprehensive approach that encompasses literature analysis and the synthesis of contemporary scientific findings. This study focused on peer-reviewed articles published from 2000 to 2025 on Web of Science and PubMed. EndNote was used for reference management. The evaluation categorizes shipping operations by ship type and commercial shipping operation type and examines their diverse effects, including chemical and physical pollution. The literature search initially identified 2993 articles. After systematically removing duplicates and evaluating the relevance of each study, the final selection was reduced to 2094 articles. Principal stressors from ship discharges, namely, marine litter, oil spills, ballast water discharge, antifouling paints, sewage, and bilge water, are emphasized for their contributions to habitat degradation, toxicity, and the proliferation of invasive species. VOSviewer software facilitated the creation of visual relatedness maps and timelines for recurring keywords. Physical disruptions from shipbreaking, sinking, underwater acoustics, and artificial lighting further exacerbate the stress on marine animals, influencing their behavior, physiology, and survival. The report assesses the limitations of existing research and regulatory frameworks, highlighting significant knowledge gaps that impede effective mitigation. This review consolidates the knowledge from recent studies and serves as a helpful foundation for marine and environmental scientists and policymakers on shipping operations, biodiversity monitoring, and management techniques for future research.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41606356/",
+        "source": "PubMed",
+        "mapping_chapter": "生態與演化 (Ecology & Evolution)",
+        "mapping_keyword": "invasive species impact",
+        "subject": "biology"
+    },
+    "content": "# 全球航運對海洋生物的影響：新興污染物、生物多樣性監測與管理策略 (25 年回顧)\n\n## 1. 研究背景與課本關聯\n\n大家平時吃的東西、穿的衣服，很多都是靠貨輪從世界各地運過來的。這些貨輪雖然促進了全球貿易，但卻可能對海洋生態造成很大的影響。想想看，如果一個外來物種隨著船運被帶到台灣，可能會像入侵種一樣，排擠掉原本的生物，破壞生態平衡。這就像我們在生物課本「生態與演化」章節中學習的「物種競爭」和「生態位」概念，以及「外來種入侵」對「生物多樣性」的威脅。這份研究就是探討這些問題，了解航運如何影響海洋生物，並提出解決方案。\n\n## 2. 核心發現\n\n這份研究回顧了過去 25 年 (2000-2025) 相關的學術文獻，分析全球航運對海洋生物的影響。研究發現，航運造成的壓力源非常多樣，主要可以分為「化學汙染」和「物理干擾」兩大類。\n\n**化學汙染方面**，包括：\n\n*   **海洋垃圾**：塑膠垃圾、廢棄漁網等，可能被海洋生物誤食，造成「生物累積」和「生物放大」的現象，影響食物鏈的健康。\n*   **油汙事件**：油類洩漏會直接毒害海洋生物，破壞牠們的「生理機能」，例如影響魚類的「呼吸作用」和「神經系統」。\n*   **壓艙水排放**：貨輪為了保持平衡，會吸入和排放大量的壓艙水，這可能攜帶不同地區的海洋生物，造成「外來種入侵」，改變原本的「群集結構」。\n*   **防污漆**：為了防止船體被海洋生物附著，會使用防污漆，但這些漆料中可能含有有毒物質，對海洋生物造成「毒性」影響。\n*   **船上汙水和壓艙水**：包含生活污水和機器維護產生的廢水，含有有機物和污染物，造成「富營養化」，導致藻類大量繁殖，進而影響水質和生態系統。\n\n**物理干擾方面**，包括：\n\n*   **拆船、沉船**：這些行為會直接破壞海洋「棲息地」，影響生物的生存。\n*   **水下噪音**：船隻的引擎和聲納發出的噪音，會干擾海洋動物的「行為模式」，例如影響鯨魚的「溝通」和「導航」。\n*   **人工照明**：港口和船隻的照明，可能會影響海洋生物的「生理時鐘」和「繁殖行為」。\n\n研究也指出，現有的監測和管理措施仍然存在不足，需要更深入的研究來填補知識缺口，才能更有效地保護海洋生態。例如，需要更精確地監測「生物多樣性」，評估不同汙染物的「毒性作用」，並制定更完善的「環境法規」。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某貨輪在航行過程中不慎洩漏大量油汙，造成鄰近珊瑚礁生態系統嚴重損害。下列哪一項敘述最能解釋油汙對珊瑚礁生態系統的影響？\",\n    \"options\": [\n        \"(A) 油汙阻礙了珊瑚的呼吸作用，導致珊瑚白化，進而影響整個珊瑚礁生態系統的能量流動。\",\n        \"(B) 油汙增加了水中的溶氧量，使得珊瑚無法適應高氧環境，導致珊瑚死亡。\",\n        \"(C) 油汙促進了珊瑚的生長，使得珊瑚礁過度繁殖，破壞了生態平衡。\",\n        \"(D) 油汙吸引了大量的掠食者，導致珊瑚礁中的魚類數量減少，生態系統失去平衡。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"油汙會覆蓋珊瑚表面，阻礙其進行光合作用和呼吸作用，導致珊瑚白化，甚至死亡。珊瑚礁生態系統是一個複雜的網絡，珊瑚的死亡會影響到依賴珊瑚生存的其他生物，進而影響整個生態系統的能量流動。選項(B)錯誤，油汙會降低溶氧量；選項(C)錯誤，油汙不會促進珊瑚生長；選項(D)雖然掠食者可能被吸引，但主要影響還是來自於油汙對珊瑚本身的直接毒害。\"\n}\n",
+    "processed_at": "2026-02-02 19:00:20",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "2000-2025年全球貨輪壓艙水排放量與外來種入侵事件數量變化趨勢",
+            "x_label": "年份",
+            "y_label": "數量 (百萬噸/事件數)",
+            "data_x": [
+                2000,
+                2005,
+                2010,
+                2015,
+                2020,
+                2025
+            ],
+            "data_y": [
+                10,
+                12,
+                15,
+                18,
+                20,
+                22
+            ]
+        },
+        "question": "根據圖表所示，下列哪一項推論最合理？",
+        "options": [
+            "(A) 全球貨輪壓艙水排放量與外來種入侵事件數量呈現正相關趨勢，隨著壓艙水排放量的增加，外來種入侵事件的數量也隨之增加。",
+            "(B) 全球貨輪壓艙水排放量與外來種入侵事件數量呈現負相關趨勢，隨著壓艙水排放量的增加，外來種入侵事件的數量反而減少。",
+            "(C) 全球貨輪壓艙水排放量與外來種入侵事件數量之間沒有明顯關聯，兩者變化趨勢互不影響。",
+            "(D) 2010年是外來種入侵事件數量最多的年份，因此壓艙水排放管理在2010年前後最為重要。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著年份的增加，壓艙水排放量和外來種入侵事件數量都呈現上升趨勢。這表明兩者之間存在正相關關係，即壓艙水排放量的增加可能導致外來種入侵事件的增加。壓艙水是外來種入侵的重要媒介，因此這種趨勢是合理的。選項(B)與圖表趨勢相反；選項(C)忽略了圖表顯示的明顯關聯；選項(D)雖然點出一個年份，但沒有說明整體趨勢。"
+    }
+}

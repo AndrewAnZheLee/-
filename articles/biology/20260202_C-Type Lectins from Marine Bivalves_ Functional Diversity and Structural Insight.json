@@ -1,0 +1,48 @@
+{
+    "id": "20260202_C-Type Lec",
+    "meta": {
+        "title": "C-Type Lectins from Marine Bivalves: Functional Diversity and Structural Insights.",
+        "summary": "C-type lectins (CTLs) are a large family of calcium-dependent carbohydrate-binding proteins that play crucial roles in innate immunity as pattern recognition receptors. Bivalve mollusks possess exceptionally diverse and expanded repertoires of CTLs, yet a systematic review integrating their structural, functional, and regulatory aspects has been lacking. This article provides a comprehensive synthesis of current knowledge on bivalve CTLs, analyzing their biosynthesis, complex tissue-specific expression under both normal and stressed conditions, and their multifaceted roles in immune defense and other physiological processes. Our analysis consolidates data on their diverse domain architectures, phylogenetic relationships, and the variability of key motifs within their carbohydrate-recognition domains. The results demonstrate that bivalve CTLs are not only critical for pathogen recognition, agglutination, and phagocytosis but also involved in processes like nutrition, development, byssus formation and biomineralization. However, a significant finding is that the detailed carbohydrate specificity for most bivalve CTLs remains poorly characterized, often limited to monosaccharide inhibition assays. In conclusion, while the immune role of bivalve CTLs is well-established, this review underscores a critical gap in understanding their fine glycan-binding profiles. Therefore, a shift in the focus of future research towards elucidating their structure and carbohydrate specificity is required for a full understanding of their biological functions and an assessment of their biomedical potential.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41590713/",
+        "source": "PubMed",
+        "mapping_chapter": "生態與演化 (Ecology & Evolution)",
+        "mapping_keyword": "phylogenetic tree analysis",
+        "subject": "biology"
+    },
+    "content": "# 海雙殼類動物的C型凝集素：功能多樣性與結構解析\n\n## 1. 研究背景與課本關聯\n\n你有沒有觀察過海邊的蛤蜊、牡蠣，或是養殖的文蛤？這些雙殼類動物為了在充滿細菌、病毒的海洋環境中生存，演化出非常精密的免疫系統。它們的免疫系統中，有一種叫做「C型凝集素」的蛋白質，扮演著非常重要的角色。這就像我們人體內的免疫細胞，可以辨識並清除外來入侵者。這個研究探討的就是這些海洋雙殼類動物C型凝集素的多樣性與功能，這與高中生物課本的「生態與演化」章節中，關於生物如何適應環境、演化出不同防禦機制，以及生物多樣性的內容息息相關。\n\n## 2. 核心發現\n\n這篇研究主要探討海洋雙殼類動物（例如蛤蜊、牡蠣等）體內的一種蛋白質家族：C型凝集素 (C-type lectins, CTLs)。C型凝集素是一種依賴鈣離子的碳水化合物結合蛋白，在許多生物的先天免疫系統中扮演著重要的角色，就像是免疫系統的「偵測器」，可以辨識病原體表面的特定分子結構，也就是所謂的「病原體相關分子圖案 (Pathogen-Associated Molecular Patterns, PAMPs)」。\n\n研究發現，雙殼類動物的C型凝集素種類特別多，而且在不同組織、不同生理狀態下，表現的量也會有所不同。例如，當動物受到壓力或感染時，某些C型凝集素的表達量會增加，以增強免疫防禦能力。\n\n這些C型凝集素的功能非常多樣，不僅可以辨識病原體、使病原體凝集 (Agglutination)，促進吞噬作用 (Phagocytosis)，協助免疫細胞清除病原體，還參與營養吸收、發育、分泌絲狀物 (Byssus formation，蛤蜊用來附著在岩石上的蛋白質纖維) 以及礦物化 (Biomineralization，例如牡蠣殼的形成) 等生理過程。\n\n然而，研究也指出，目前對於大多數雙殼類動物C型凝集素所能辨識的碳水化合物種類，還不夠了解。雖然可以知道它們對某些單醣的反應，但對於更複雜的碳水化合物結構的辨識能力，仍有待進一步研究。\n\n總結來說，這項研究強調了雙殼類動物C型凝集素在免疫防禦和其他生理過程中的重要性，也點出了未來研究的方向：更深入地了解它們的結構和碳水化合物辨識能力，才能更完整地理解它們的生物功能，甚至探索它們在醫學上的潛在應用。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊發現，在受到細菌感染的牡蠣體內，特定C型凝集素的表達量明顯增加。請問，此C型凝集素最可能在牡蠣的免疫反應中扮演下列哪種角色？\",\n    \"options\": [\n        \"(A) 促進細菌的細胞壁合成，加速感染。\",\n        \"(B) 抑制免疫細胞的活性，降低免疫反應。\",\n        \"(C) 辨識細菌表面的特定碳水化合物，促進吞噬作用。\",\n        \"(D) 降低牡蠣體內的鈣離子濃度，影響生理機能。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"C型凝集素是先天免疫系統中的模式辨識受體，可以辨識病原體表面的碳水化合物，並促進吞噬作用，協助清除病原體。選項(A)描述的是細菌的行為，與C型凝集素的功能無關；選項(B)與C型凝集素的免疫促進作用相反；選項(D)則與C型凝集素的鈣離子依賴性結合能力有關，但並非其主要功能。\"\n}\n",
+    "processed_at": "2026-02-02 18:57:54",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "蛤蜊受到不同濃度細菌刺激後，C型凝集素A的表達量變化",
+            "x_label": "細菌濃度 (CFU/mL)",
+            "y_label": "C型凝集素A表達量 (相對值)",
+            "data_x": [
+                0,
+                100,
+                500,
+                1000,
+                5000,
+                10000
+            ],
+            "data_y": [
+                1.0,
+                1.5,
+                3.2,
+                5.8,
+                8.1,
+                9.5
+            ]
+        },
+        "question": "某研究團隊以不同濃度的細菌刺激蛤蜊，並測量特定C型凝集素A的表達量。根據圖表所示的結果，下列敘述何者最合理？",
+        "options": [
+            "(A) C型凝集素A的表達量隨著細菌濃度的增加而增加，顯示其在蛤蜊的免疫反應中可能扮演重要角色。",
+            "(B) C型凝集素A的表達量在細菌濃度低時最高，隨著細菌濃度增加而下降，表示蛤蜊對低濃度細菌的防禦能力較強。",
+            "(C) C型凝集素A的表達量與細菌濃度無明顯關聯，表示其在蛤蜊的免疫反應中作用不大。",
+            "(D) C型凝集素A的表達量在細菌濃度達到500 CFU/mL時達到最大值，之後不再增加，表示蛤蜊的免疫系統有飽和點。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，C型凝集素A的表達量隨著細菌濃度的增加而呈現上升趨勢。這表示蛤蜊在受到細菌刺激時，會增加C型凝集素A的表達，以增強免疫防禦能力。因此，選項(A)最合理。選項(B)與圖表趨勢相反；選項(C)忽略了圖表顯示的明顯關聯；選項(D)雖然提到最大值，但圖表顯示表達量持續上升，並未達到飽和。"
+    }
+}

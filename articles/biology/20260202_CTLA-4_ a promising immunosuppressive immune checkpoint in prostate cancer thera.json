@@ -1,0 +1,48 @@
+{
+    "id": "20260202_CTLA-4_ a ",
+    "meta": {
+        "title": "CTLA-4: a promising immunosuppressive immune checkpoint in prostate cancer therapy.",
+        "summary": "Prostate cancer (PCa) continues to represent a substantial public health issue and constitutes one of the foremost etiologies of mortality among men, with increasing incidence rates observed in both developing and industrialized regions. Conventional treatment methods, including surgery followed by chemotherapy or radiotherapy, often yield unacceptable results. Consequently, there is an urgent requirement for the advancement of innovative and more efficacious therapeutic approaches. Immunotherapy offers a compelling and innovative approach to treating PCa by strengthening the immune system's capacity to recognize and eliminate neoplastic cells, suppress recurrence, and prevent metastatic progression. Among immunotherapeutic methods, targeting immune checkpoints has proven to be a notably efficacious approach. CTLA-4 (cytotoxic T lymphocyte-associated antigen-4) is an immune checkpoint molecule expressed on activated T lymphocytes that play a crucial role in regulating the cell cycle, controlling T cell proliferation, and modulating cytokine secretion. Currently, anti-CTLA-4 agents are extensively utilized in clinical research studies across various cancer types. These monoclonal antibodies (mAbs), whether administered either as a standalone therapy or in conjunction with other therapeutic modalities, have significantly enhanced the immune system's ability to suppress cancerous cells as well as have contributed to improved cancer outcomes. Thus, immune checkpoint inhibitors could hold considerable promise for PCa therapy, either as standalone treatments or alongside conventional approaches. In this review, we investigate the function of CTLA-4, and the therapeutic prospects of its inhibition in the context of PCa management.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41621014/",
+        "source": "PubMed",
+        "mapping_chapter": "動物生理 (Animal Physiology)",
+        "mapping_keyword": "T-cell immunity",
+        "subject": "biology"
+    },
+    "content": "# CTLA-4：前列腺癌治療的新希望 – 免疫檢查點的突破\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過「免疫系統失調」會導致癌症？就像我們身體的守護者，免疫細胞有時會因為某些原因而「懈怠」，無法有效清除癌細胞。這篇研究就探討如何重新激活免疫系統，對抗前列腺癌。前列腺癌是男性常見的癌症之一，傳統治療方式效果有限，因此科學家們正在尋找更有效的方法。這與高中生物課本的「動物生理」章節密切相關，因為我們在學習免疫系統時，就提到淋巴球（如T細胞）如何辨識並攻擊異物，以及免疫調節的重要性。這篇研究正是針對免疫調節的關鍵機制進行深入探討。\n\n## 2. 核心發現\n\n這篇研究聚焦在一個名為 CTLA-4 的蛋白質上，它就像 T 細胞上的「煞車」，可以抑制 T 細胞的活性。T 細胞是免疫系統中非常重要的細胞，負責攻擊被病毒感染或癌變的細胞。當 CTLA-4 受到活化時，會減緩 T 細胞的增殖、影響細胞週期，並減少細胞激素的分泌，進而降低免疫反應。\n\n前列腺癌細胞會利用 CTLA-4 這種機制，來逃避 T 細胞的攻擊，讓癌細胞得以存活和擴散。因此，科學家們發展出「抗 CTLA-4 抗體」，這是一種單株抗體，可以阻斷 CTLA-4 的功能，解除 T 細胞上的「煞車」，讓 T 細胞重新啟動，更有效地攻擊癌細胞。\n\n臨床研究顯示，使用抗 CTLA-4 抗體治療癌症，無論是單獨使用，或是與其他治療方式（如化療、放射線治療）合併使用，都能顯著提升免疫系統抑制癌細胞的能力，改善病人的預後。這代表著免疫檢查點抑制劑（immune checkpoint inhibitors）在治療前列腺癌方面，具有很大的潛力。\n\n簡單來說，這項研究發現，透過阻斷 CTLA-4 的功能，可以增強免疫系統對前列腺癌的攻擊力，為前列腺癌的治療帶來新的希望。這也呼應了我們在課堂上學習到的免疫調節機制，以及免疫系統在抵抗疾病中的重要角色。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某位前列腺癌患者接受了抗 CTLA-4 抗體治療後，其免疫系統的反應發生了以下變化：(1) T 細胞數量增加；(2) T 細胞的細胞激素分泌量增加；(3) 癌細胞被 T 細胞攻擊的比例增加。這些變化最直接的生理機制是？\",\n    \"options\": [\n        \"(A) 抗 CTLA-4 抗體阻斷了 CTLA-4 的功能，解除 T 細胞的抑制，使其活性增強。\",\n        \"(B) 抗 CTLA-4 抗體直接刺激癌細胞凋亡，導致癌細胞數量減少。\",\n        \"(C) 抗 CTLA-4 抗體促進了 B 細胞的分化，產生更多抗體攻擊癌細胞。\",\n        \"(D) 抗 CTLA-4 抗體改變了癌細胞的基因表現，使其失去增殖能力。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"CTLA-4 是一種抑制 T 細胞活性的免疫檢查點。抗 CTLA-4 抗體可以阻斷 CTLA-4 的功能，解除 T 細胞的抑制，使其能夠更有效地攻擊癌細胞。選項 (B) 描述的是直接的細胞毒性作用，與 CTLA-4 的調節功能不符。選項 (C) 涉及 B 細胞，與本研究的焦點 T 細胞不同。選項 (D) 描述的是基因層面的改變，與抗體的作用機制不符。\"\n}\n",
+    "processed_at": "2026-02-02 18:58:21",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "抗 CTLA-4 抗體治療對前列腺癌腫瘤體積的影響",
+            "x_label": "治療時間 (週)",
+            "y_label": "腫瘤體積 (cm³)",
+            "data_x": [
+                0,
+                2,
+                4,
+                6,
+                8,
+                10
+            ],
+            "data_y": [
+                5.2,
+                4.8,
+                3.5,
+                2.1,
+                1.5,
+                1.0
+            ]
+        },
+        "question": "研究人員對一群前列腺癌小鼠進行了抗 CTLA-4 抗體治療，並定期測量腫瘤體積。圖表顯示了腫瘤體積隨治療時間的變化趨勢。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 抗 CTLA-4 抗體治療顯著抑制了腫瘤的生長。",
+            "(B) 腫瘤體積在治療初期快速增加，之後才開始減緩。",
+            "(C) 抗 CTLA-4 抗體治療對腫瘤體積沒有明顯影響。",
+            "(D) 腫瘤體積在治療過程中呈現週期性波動。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著治療時間的增加，腫瘤體積呈現持續下降的趨勢。這表明抗 CTLA-4 抗體治療有效地抑制了腫瘤的生長。選項 (B) 與圖表趨勢不符，腫瘤體積並未在治療初期快速增加。選項 (C) 錯誤，圖表顯示有明顯的抑制效果。選項 (D) 錯誤，腫瘤體積的變化趨勢是單調下降，而非週期性波動。"
+    }
+}
