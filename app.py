@@ -58,7 +58,7 @@ all_articles = load_articles()
 # 側邊欄：標題與篩選
 with st.sidebar:
     st.title("🔬 科普日報")
-    st.markdown("針對**分科測驗**設計的 AI 讀報機器人。")
+    st.markdown("針對**分科測驗**素養題設計的閱讀網站")
     st.divider()
 
     # 科目篩選器
@@ -80,7 +80,7 @@ with st.sidebar:
     with st.expander("ℹ️ 使用條款與免責聲明"):
         st.markdown("""
         ### 1. AI 生成內容聲明
-        本應用程式之文章、試題與圖表數據皆由 **人工智慧 (AI)** 根據學術論文摘要自動生成。
+        本應用程式之文章、試題與圖表數據皆由 **人工智慧 (AI)** 根據學術論文摘要自動生成。使用模型包括 Gemini 2.0 2.5 3.0 與 Gemma 3。
         * 內容旨在輔助**高中分科測驗**備考與科普新知擴充。
         * AI 可能產生「幻覺」或數據誤差，**若內容與高中教科書有出入，請以教育部審定之教科書為準**。
         
@@ -96,16 +96,17 @@ with st.sidebar:
         ### 4. 隱私權
         * 本程式目前於本地端環境運行，**不會**收集使用者的個人瀏覽紀錄或個資。
         ### 5. 疑難排解
-        * 有任何問題可以向開發者李安哲詢問。
+        * 有任何問題可以向開發者**李安哲**詢問。
         """)
-        st.caption("© 分科測驗科普日報 ")
+        st.caption("© 分科測驗素養科普 ")
+        st.caption("台南一中 李安哲 ")
 
 # 主畫面內容邏輯
 if not all_articles:
     st.warning("📭 資料庫是空的！")
     st.markdown("""
     ### 快速啟動指南：
-    1. 執行 `python step2_unified.py` 抓取論文。
+    1. 執行 `python step2_fetch_papers.py` 抓取論文。
     2. 執行 `python step3_ai_processor.py` 生成文章。
     3. 重新整理此頁面。
     """)
@@ -392,3 +393,4 @@ else:
                     else:
 
                         st.warning("請先作答！")
+
