@@ -2,7 +2,8 @@ import streamlit as st
 import json
 import os
 import glob
-
+import pandas as pd
+import plotly.graph_objects as go
 # === 1. 頁面基礎設定 ===
 st.set_page_config(
     page_title="分科測驗：前沿科普日報",
@@ -69,9 +70,35 @@ with st.sidebar:
     
     st.info(f"目前資料庫共有 {len(all_articles)} 篇文章")
     
-    # 重新整理按鈕 (Streamlit 只要按 R 或重新整理網頁就會重讀，這裡做個按鈕增加儀式感)
+# 重新整理按鈕
     if st.button("🔄 重新載入資料庫"):
         st.rerun()
+
+    # === ✨ 新增：使用條款與免責聲明 ===
+    st.divider() # 加一條分隔線
+    
+    with st.expander("ℹ️ 使用條款與免責聲明"):
+        st.markdown("""
+        ### 1. AI 生成內容聲明
+        本應用程式之文章、試題與圖表數據皆由 **人工智慧 (AI)** 根據學術論文摘要自動生成。
+        * 內容旨在輔助**高中分科測驗**備考與科普新知擴充。
+        * AI 可能產生「幻覺」或數據誤差，**若內容與高中教科書有出入，請以教育部審定之教科書為準**。
+        
+        ### 2. 非專業建議
+        本平台內容僅供學術討論與考試訓練：
+        * **生物/醫學類文章**：僅供生物學理探討，**絕不可作為醫療診斷、用藥或治療依據**。身體不適請諮詢專業醫師。
+        * **物理/化學類文章**：實驗數據多為模擬生成，進行實作時請務必遵循實驗室安全規範。
+
+        ### 3. 資料來源與版權
+        * 原始論文來源為公開資料庫 [arXiv](https://arxiv.org/) 與 [PubMed](https://pubmed.ncbi.nlm.nih.gov/)。
+        * 本 App 僅進行轉譯、改寫與教學應用，原始論文版權歸原作者所有。
+        
+        ### 4. 隱私權
+        * 本程式目前於本地端環境運行，**不會**收集使用者的個人瀏覽紀錄或個資。
+        ### 5. 疑難排解
+        * 有任何問題可以向開發者李安哲詢問。
+        """)
+        st.caption("© 分科測驗科普日報 ")
 
 # 主畫面內容邏輯
 if not all_articles:
@@ -158,59 +185,209 @@ else:
                 st.markdown(article_text)
                 
                 # === 3. 互動式測驗區 ===
-                st.divider()
-                st.subheader("📝 隨堂測驗")
-                
-                try:
-                    # 清洗 AI 雞婆加入的 Markdown 標記
-                    json_text = json_text.strip()
-                    if json_text.startswith("```"):
-                        # 移除 ```json 或 ```
-                        json_text = json_text.replace("```json", "").replace("```", "").strip()
-                    
-                    # 解析 JSON
-                    quiz_data = json.loads(json_text)
-                    
-                    # A. 顯示題目
-                    st.write(f"**題目：** {quiz_data['question']}")
-                    
-                    # B. 顯示選項
-                    user_choice = st.radio(
-                        "請選擇一個答案：",
-                        quiz_data['options'],
-                        key=f"radio_{article['id']}",
-                        index=None
-                    )
-                    
-                    # C. 送出按鈕
-                    if st.button("送出答案", key=f"btn_{article['id']}"):
-                        if user_choice:
-                            # 判斷答案 (假設正確答案是 A，選項是 (A)...)
-                            ans_char = quiz_data['correct_answer'].upper() # 轉大寫防呆
-                            correct_tag = f"({ans_char})"
-                            
-                            if correct_tag in user_choice:
-                                st.balloons()
-                                st.success(f"🎉 答對了！答案是 {ans_char}")
-                                st.markdown("### 💡 詳解")
-                                st.info(quiz_data['explanation'])
-                            else:
-                                st.error(f"❌ 答錯囉！正確答案是 {ans_char}")
-                                st.markdown("### 💡 詳解")
-                                st.info(quiz_data['explanation'])
-                        else:
-                            st.warning("請先選擇一個選項喔！")
+            st.divider()
+            st.subheader("📝 隨堂測驗")
 
-                    # 偷看詳解
-                    with st.expander("👁️ 偷看詳解"):
-                         st.markdown(f"**正確答案：({quiz_data['correct_answer']})**")
-                         st.markdown(quiz_data['explanation'])
-
-                except json.JSONDecodeError:
-                    st.error("⚠️ 題目資料格式有誤，無法轉換為測驗。")
-                    with st.expander("查看原始資料 (Debug)"):
-                        st.code(json_text)
+            # -------------------------------------------------------
+            # 第一部分：基礎觀念題 (來自 Step 3 的文字題)
+            # -------------------------------------------------------
+            text_quiz_data = None
             
+            # 嘗試解析文章內的 JSON
+            if "===QUIZ_JSON===" in content:
+                 try:
+                     parts = content.split("===QUIZ_JSON===")
+                     json_text = parts[1].strip()
+                     if json_text.startswith("```"):
+                         json_text = json_text.replace("```json", "").replace("```", "").strip()
+                     text_quiz_data = json.loads(json_text)
+                 except:
+                     pass
+            elif "\n---" in content: # 備用解析策略
+                 try:
+                     parts = content.rsplit("\n---", 1)
+                     if len(parts) > 1 and "{" in parts[1]:
+                         json_text = parts[1].strip()
+                         if json_text.startswith("```"):
+                             json_text = json_text.replace("```json", "").replace("```", "").strip()
+                         text_quiz_data = json.loads(json_text)
+                 except:
+                     pass
+
+            if text_quiz_data:
+                st.markdown("#### 🔹 第一題：基礎觀念")
+                st.write(f"**題目：** {text_quiz_data['question']}")
+                
+                # 注意 key 必須加上 _text 後綴，避免跟下面的圖表題衝突
+                user_choice_text = st.radio(
+                    "請選擇答案：",
+                    text_quiz_data['options'],
+                    key=f"radio_text_{article['id']}", 
+                    index=None
+                )
+                
+                if st.button("送出答案 (基礎題)", key=f"btn_text_{article['id']}"):
+                    if user_choice_text:
+                        ans = text_quiz_data['correct_answer'].upper()
+                        if f"({ans})" in user_choice_text:
+                            st.success(f"🎉 答對了！")
+                            st.info(f"詳解：{text_quiz_data['explanation']}")
+                        else:
+                            st.error(f"❌ 答錯了！正確答案是 {ans}")
+                            st.info(f"詳解：{text_quiz_data['explanation']}")
+                    else:
+                        st.warning("請先作答！")
             else:
-                # 如果完全找不到 JSON，就顯示全文
-                st.markdown(content)
+                st.info("本篇文章無基礎文字題。")
+
+            # -------------------------------------------------------
+            # 第二部分：進階圖表題 (來自 Step 4 的注入資料)
+            # -------------------------------------------------------
+            if "chart_quiz" in article:
+                st.markdown("---")
+                st.markdown("#### 📊 第二題：數據分析")
+                
+                chart_data = article["chart_quiz"]
+                
+                if "chart_config" in chart_data:
+                    c = chart_data["chart_config"]
+                    st.caption(f"圖表：{c.get('title', '數據分析')}")
+                    
+                    try:
+                        # 1. 建立 Figure 物件
+                        fig = go.Figure()
+                        
+                        # 2. 判斷圖表類型 (Line, Bar, Scatter)
+                        chart_type = c.get("type", "line").lower()
+                        
+                        # 定義科學風格的顏色 (經典藍)
+                        science_color = "#1da3b4" 
+
+                        # === 針對不同類型加入不同的 Trace ===
+                        if chart_type == "bar":
+                            # 長條圖
+                            fig.add_trace(go.Bar(
+                                x=c['data_x'],
+                                y=c['data_y'],
+                                name='Data',
+                                marker_color=science_color,
+                                # 如果是長條圖，可以設定寬度讓它不要太擠
+                                # width=0.5 
+                            ))
+                        
+                        elif chart_type == "scatter":
+                            # 散佈圖 (只有點，沒有線)
+                            fig.add_trace(go.Scatter(
+                                x=c['data_x'],
+                                y=c['data_y'],
+                                mode='markers',
+                                name='Data',
+                                marker=dict(size=10, color=science_color)
+                            ))
+                            
+                        else:
+                            # 預設：折線圖 (線 + 點)
+                            fig.add_trace(go.Scatter(
+                                x=c['data_x'], 
+                                y=c['data_y'],
+                                mode='lines+markers',
+                                name='Data',
+                                line=dict(color=science_color, width=4),
+                                marker=dict(size=12)
+                            ))
+
+                        # 3. === 關鍵樣式設定 (科學期刊風格 + 大字體黑粗版) ===
+                        fig.update_layout(
+                            template="plotly_white",
+                            
+                            # --- 1. 主標題設定 ---
+                            title=dict(
+                                text=c.get('title', ''),
+                                x=0.5,              # ✅ 強制置中 (原本可能是自動或靠右)
+                                y=0.9,              # 稍微留點上方邊距
+                                xanchor='center',
+                                yanchor='top',
+                                font=dict(
+                                    family="Microsoft JhengHei, Arial Black, sans-serif", # 優先用正黑體或粗體
+                                    size=24,        # ✅ 標題字體加大
+                                    color="black"   # ✅ 純黑
+                                )
+                            ),
+                            
+                            font=dict(family="Arial", size=14, color="black"),
+                            margin=dict(l=80, r=40, t=80, b=80), # 邊距加大一點以免字太大切到
+                            
+                            # --- 2. X 軸設定 ---
+                            xaxis=dict(
+                                title=dict(
+                                    text=c.get('x_label', 'X-Axis'),
+                                    font=dict(size=20, family="Arial Black", color="black") # ✅ 軸標題加大加粗
+                                ),
+                                showgrid=False,
+                                showline=True,
+                                linewidth=3,          # ✅ 框線更粗 (2 -> 3)
+                                linecolor='black',
+                                ticks='inside',
+                                tickwidth=3,          # ✅ 刻度更粗
+                                tickcolor='black',
+                                mirror=True,
+                                # 數值標籤設定
+                                tickfont=dict(
+                                    size=16,          # ✅ 軸數值加大
+                                    family="Arial Black", 
+                                    color="black"
+                                )
+                            ),
+                            
+                            # --- 3. Y 軸設定 ---
+                            yaxis=dict(
+                                title=dict(
+                                    text=c.get('y_label', 'Y-Axis'),
+                                    font=dict(size=20, family="Arial Black", color="black") # ✅ 軸標題加大加粗
+                                ),
+                                showgrid=False,
+                                showline=True,
+                                linewidth=3,          # ✅ 框線更粗
+                                linecolor='black',
+                                ticks='inside',
+                                tickwidth=3,
+                                tickcolor='black',
+                                mirror=True,
+                                # 數值標籤設定
+                                tickfont=dict(
+                                    size=16,          # ✅ 軸數值加大
+                                    family="Arial Black", 
+                                    color="black"
+                                )
+                            ),
+                            showlegend=False
+                        )
+
+                        # 4. 顯示
+                        st.plotly_chart(fig, use_container_width=True)
+                            
+                    except Exception as e:
+                        st.error(f"圖表繪製失敗: {e}")
+                # 2. 顯示題目
+                st.write(f"**題目：** {chart_data['question']}")
+                
+                # 注意 key 必須加上 _chart 後綴
+                user_choice_chart = st.radio(
+                    "請選擇答案：",
+                    chart_data['options'],
+                    key=f"radio_chart_{article['id']}",
+                    index=None
+                )
+                
+                if st.button("送出答案 (圖表題)", key=f"btn_chart_{article['id']}"):
+                    if user_choice_chart:
+                        ans = chart_data['correct_answer'].upper()
+                        if f"({ans})" in user_choice_chart:
+                            st.balloons() # 答對進階題才有氣球！
+                            st.success(f"🎉 太強了！圖表題也答對！")
+                            st.info(f"詳解：{chart_data['explanation']}")
+                        else:
+                            st.error(f"❌ 答錯了！正確答案是 {ans}")
+                            st.info(f"詳解：{chart_data['explanation']}")
+                    else:
+                        st.warning("請先作答！")

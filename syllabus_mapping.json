@@ -128,6 +128,8 @@
         ],
         "植物生物學 (Plant Biology)": [
             "photosynthesis efficiency",
+            "photorespiration",
+            "plant hormone",
             "plant defense mechanism",
             "auxin transport",
             "transpiration pull",
@@ -148,6 +150,7 @@
         "生物技術 (Biotechnology)": [
             "monoclonal antibodies",
             "synthetic biology",
+            "mRNA vaccines",
             "biofuel production",
             "PCR technology application",
             "enzyme engineering"
