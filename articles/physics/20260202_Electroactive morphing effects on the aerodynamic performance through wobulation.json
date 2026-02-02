@@ -1,0 +1,52 @@
+{
+    "id": "20260202_Electroact",
+    "meta": {
+        "title": "Electroactive morphing effects on the aerodynamic performance through wobulation around an A320 wing with vibrating trailing edge at high Reynolds number",
+        "summary": "This study aims to investigate the effects of electroactive morphing on a 70cm chord A320 wing by means of near trailing edge slight deformation and vibration. Wing morphing is performed by Macro Fiber Composites (MFC) mini-piezoelectric actuators distributed along the span of the ''Reduced Scale'' (RS) A320 prototype of the H2020 No 723402 European research project SMS, ''Smart Morphing and Sensing for aeronautical configurations'', (https://cordis.europa.eu/project/id/723402 and www.smartwing.org/SMS/EU). The configuration studied corresponds to a low-subsonic regime (Mach number 0.063) with a 10 degree incidence and a Reynolds number of 1 Million. The numerical simulations are carried out with the Navier-Stokes Multi-Block (NSMB) solver, which takes into account the deformation of the rear part of the wing implemented experimentally with the piezoelectric actuators. A detailed physical analysis of the morphing effects on the wake dynamics and on the aerodynamic performance is conducted with a constant amplitude of 0.7cm over a wide range of actuation frequencies [10-600]Hz. Optimal vibration ranges of [180-192]Hz and [205-215]Hz were found to respectively provide a 1% drag reduction and a 2% lift-to-drag ratio increase compared to the non-morphing (static) configuration. The natural frequencies associated with the shear layer Kelvin-Helmholtz (KH) vortices and the Von-Karman (VK) vortex shedding were found to play a central role in the modification of the wake dynamics by morphing as well as in the increase of the aerodynamic performance. Actuating at (or close to) the upper shear layer (USL) natural frequency (~185Hz) provides an order of 1% drag reduction and 1% lift-to-drag ratio increase, while actuating at (or close to) the lower shear layer (LSL) natural frequency (~208Hz) provides an order of 8% lift increase and 2% lift-to-drag increase. Furthermore, the linear variation of the actuation frequency over time, called wobulation, was shown to have significant effects. This approach demonstrated, through an appropriate mapping, the ability to quickly and efficiently detect optimal constant actuation frequency ranges providing aerodynamic performance increase and simultaneously reducing the amplitude of the main instability modes.",
+        "published": "2026-01-30",
+        "url": "http://arxiv.org/abs/2601.22768v1",
+        "source": "arXiv",
+        "mapping_chapter": "力學 (Mechanics)",
+        "mapping_keyword": "aerodynamics",
+        "subject": "physics"
+    },
+    "content": "# 飛機機翼的「微調」效應：透過邊緣震動提升飛行效率\n\n## 1. 研究背景與課本關聯\n\n你有沒有觀察過鳥類飛行時，翅膀會稍微彎曲、變形，以應對不同的氣流？這種自然的「變形」其實能幫助牠們更有效率地飛行。現在，科學家們也試著將這個概念應用在飛機設計上。這項研究就探討了如何透過控制飛機機翼後緣的微小變形和震動，來改善飛機的空氣動力性能。這與高中物理課本的「力學」章節息息相關，特別是關於「流體力學」、「阻力」與「升力」的討論，以及對「邊界層」概念的理解。\n\n## 2. 核心發現\n\n這項研究以一架縮小版的 A320 飛機機翼（翼弦長 70 公分）為模型，探討了如何利用「巨纖維複合材料」（Macro Fiber Composites, MFC）這種特殊的壓電元件，來控制機翼後緣的變形和震動。壓電元件就像一個可以將電能轉換成機械能的裝置，透過施加電壓，可以讓機翼後緣產生微小的彎曲和震動。\n\n研究人員利用電腦模擬，模擬了飛機在低速飛行（馬赫數 0.063，迎角 10 度）時的狀況，並設定了雷諾數為 100 萬，模擬真實飛行環境下的氣流狀況。他們發現，透過控制機翼後緣的震動頻率，可以顯著改善飛機的空氣動力性能。\n\n具體來說，當震動頻率落在 180-192 赫茲的範圍時，可以降低約 1% 的「阻力」（drag）；當震動頻率落在 205-215 赫茲的範圍時，可以提升約 2% 的「升阻比」（lift-to-drag ratio），這代表飛機在同樣的推力下，可以飛得更遠、更省油。\n\n研究更深入探討了這種變形對「尾流」的影響。尾流中存在著兩種重要的渦流：一種是「開爾文-亥姆霍茲不穩定性」（Kelvin-Helmholtz instability）產生的渦流，另一種是「馮卡門渦街」（Von-Karman vortex street）產生的渦流。研究發現，透過調整震動頻率，可以改變這些渦流的特性，進而影響飛機的空氣動力性能。\n\n特別的是，研究人員還嘗試了一種稱為「擺動」（wobulation）的控制方式，也就是讓震動頻率隨著時間線性變化。這種方式可以快速且有效地找到最佳的震動頻率範圍，進一步提升飛行效率，並降低尾流中的不穩定性。簡單來說，就像是調整樂器的音調，找到最能產生共鳴的頻率一樣，讓機翼與氣流達到最佳的互動。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"一架飛機在飛行時，若要降低阻力並提升升阻比，根據上述研究，最有效的方法是什麼？\",\n    \"options\": [\n        \"(A) 增加飛機的飛行速度，使其達到更高的馬赫數。\",\n        \"(B) 調整飛機機翼後緣的震動頻率至 180-192 赫茲的範圍。\",\n        \"(C) 增加飛機的迎角，使其產生更大的升力。\",\n        \"(D) 減小飛機的翼弦長，降低空氣阻力。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據研究結果，當機翼後緣的震動頻率落在 180-192 赫茲的範圍時，可以降低約 1% 的阻力，並提升升阻比。選項 (A) 增加速度會增加阻力；選項 (C) 增加迎角雖然增加升力，但也會增加阻力；選項 (D) 減小翼弦長會影響升力產生。\"\n}\n",
+    "processed_at": "2026-02-02 19:13:18",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "機翼後緣震動頻率與升阻比的關係",
+            "x_label": "震動頻率 (赫茲)",
+            "y_label": "升阻比",
+            "data_x": [
+                170,
+                180,
+                190,
+                200,
+                205,
+                210,
+                215,
+                220
+            ],
+            "data_y": [
+                1.85,
+                1.92,
+                1.98,
+                2.01,
+                2.03,
+                2.02,
+                2.01,
+                1.99
+            ]
+        },
+        "question": "根據圖表所示，在多大頻率範圍內，機翼後緣的震動對提升升阻比的效果最顯著？",
+        "options": [
+            "(A) 205-215 赫茲",
+            "(B) 170-180 赫茲",
+            "(C) 190-200 赫茲",
+            "(D) 215-220 赫茲"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，在 205-215 赫茲的頻率範圍內，升阻比呈現明顯上升趨勢，達到最高點，之後又開始下降。這表示在這個頻率範圍內，機翼震動對提升升阻比的效果最為顯著，與文章中提到的研究結果相符。"
+    }
+}

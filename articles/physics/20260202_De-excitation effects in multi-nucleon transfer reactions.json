@@ -1,0 +1,50 @@
+{
+    "id": "20260202_De-excitat",
+    "meta": {
+        "title": "De-excitation effects in multi-nucleon transfer reactions",
+        "summary": "This study quantifies the impact of nuclear de-excitation on correlations in multi-nucleon transfer (MNT) reactions. To bridge the gap between initial collision dynamics and final experimental observables, we introduce a hybrid TDCDFT+GEMINI approach, integrating time-dependent covariant density functional theory (TDCDFT) with the statistical de-excitation model GEMINI++. Applied to the $^{40}$Ca + $^{208}$Pb reaction, our method demonstrates that the de-excitation is essential for reconciling theoretical cross sections with experimental data. Analysis of the cross-section Shannon entropy reveals that new reaction channels open abruptly at a specific energy threshold. By employing mutual information, we show that the de-excitation process significantly degrades the initial quantum entanglement between the projectile-like and the target-like fragments, revealing a key mechanism through which fundamental quantum correlations are lost.",
+        "published": "2026-01-28",
+        "url": "http://arxiv.org/abs/2601.20535v1",
+        "source": "arXiv",
+        "mapping_chapter": "力學 (Mechanics)",
+        "mapping_keyword": "collision dynamics",
+        "subject": "physics"
+    },
+    "content": "# 多核子轉移反應中的去激發效應\n\n## 1. 研究背景與課本關聯\n\n想像你玩桌球，球撞擊球桌後，能量會因為摩擦力而逐漸減少，最後停止運動。原子核的碰撞也類似，當兩個原子核高速撞擊時，會發生能量和核子的轉移，但碰撞後的原子核通常處於一個「激發態」，就像桌球撞擊後瞬間充滿能量一樣。這個激發態會透過釋放能量（例如發射γ射線）或釋放核子來回到較穩定的狀態，這個過程就稱為「去激發」。這項研究探討的就是這個去激發過程如何影響原子核碰撞後的結果。雖然這項研究涉及原子核物理，但其核心概念——能量轉換與守恆，以及碰撞後的能量分配，與高中物理的「力學」章節中討論的碰撞、動量守恆、能量守恆等概念息息相關。\n\n## 2. 核心發現\n\n這項研究主要探討了當兩個原子核發生「多核子轉移反應」時，去激發效應的重要性。所謂的多核子轉移反應，指的是兩個原子核碰撞時，並非只是簡單地反彈，而是會互相交換許多質子和中子，就像交換積木一樣。研究團隊使用一種結合兩種計算方法的「混合模型」來模擬這個過程。\n\n第一種方法是「時間依賴的協變密度泛函理論 (TDCDFT)」，它可以精確地描述原子核碰撞的瞬間，也就是初始的「碰撞動力學」。第二種方法是「GEMINI++」，這是一種統計模型，可以模擬原子核從激發態到穩定態的「去激發」過程。\n\n研究團隊將這兩種方法結合起來，應用在鈣-40 (<sup>40</sup>Ca) 與鉛-208 (<sup>208</sup>Pb) 的碰撞實驗中，發現單純使用TDCDFT計算出的碰撞截面（代表反應發生的機率）與實際實驗結果有很大的差異。只有將去激發效應納入考量，才能使理論計算結果與實驗數據相符，這表示去激發過程在多核子轉移反應中扮演著關鍵的角色。\n\n更進一步的分析顯示，當碰撞能量達到某個「能量臨界值」時，會突然開啟新的反應通道，也就是說，原本不可能發生的反應，突然變得可以發生。此外，研究團隊還利用「香農熵」和「互信息」等資訊理論的概念，發現去激發過程會破壞碰撞初期，兩個原子核碎片之間的「量子糾纏」。簡單來說，原本兩個碎片之間存在著一種特殊的量子關聯，但經過去激發後，這種關聯會逐漸消失。這揭示了去激發過程是造成量子關聯消失的重要機制。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"一輛質量為 m 的桌球，以速度 v 撞擊靜止的另一輛質量也為 m 的桌球，碰撞後兩球分別以 v' 和 -v' 的速度運動，且碰撞過程為完全彈性碰撞。若將此過程類比於原子核碰撞實驗，則下列敘述何者最能代表原子核碰撞中的「去激發」過程？\",\n    \"options\": [\n        \"(A) 碰撞後，桌球的動能因摩擦力而逐漸減少，最終停止運動。\",\n        \"(B) 碰撞前，桌球具有一定的動量，碰撞後動量守恆。\",\n        \"(C) 碰撞過程中，桌球的形狀發生微小的變形，但隨後恢復原狀。\",\n        \"(D) 碰撞後，桌球的運動方向發生改變，但速度大小不變。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"「去激發」指的是原子核從高能量的激發態轉變到低能量的穩定態，過程中會釋放能量。選項 (A) 描述了桌球因摩擦力而損失能量，最終停止運動，這與原子核去激發過程中釋放能量的過程最為相似。選項 (B) 描述的是動量守恆，選項 (C) 描述的是碰撞過程中的形變，選項 (D) 描述的是碰撞後的運動方向改變，這些都與去激發的能量釋放過程無直接關聯。\"\n}\n",
+    "processed_at": "2026-02-02 19:12:50",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "鈣-40 與鉛-208 碰撞截面與能量的關係",
+            "x_label": "碰撞能量 (MeV)",
+            "y_label": "碰撞截面 (mbarn)",
+            "data_x": [
+                60,
+                70,
+                80,
+                90,
+                100,
+                110,
+                120
+            ],
+            "data_y": [
+                2.5,
+                3.8,
+                6.2,
+                8.5,
+                12.1,
+                15.8,
+                20.3
+            ]
+        },
+        "question": "研究中，研究團隊發現當碰撞能量達到某個「能量臨界值」時，會突然開啟新的反應通道。根據上述圖表，推測該「能量臨界值」大約落在下列哪個範圍？",
+        "options": [
+            "(A) 60-70 MeV",
+            "(B) 70-80 MeV",
+            "(C) 90-100 MeV",
+            "(D) 110-120 MeV"
+        ],
+        "correct_answer": "C",
+        "explanation": "圖表顯示，在 90 MeV 左右，碰撞截面開始呈現明顯的上升趨勢，從之前的緩慢增加轉變為快速增加。這表示在 90 MeV 左右，新的反應通道被開啟，導致反應發生的機率大幅提升。因此，能量臨界值大約落在 90-100 MeV 之間。"
+    }
+}

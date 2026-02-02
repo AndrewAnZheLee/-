@@ -1,0 +1,48 @@
+{
+    "id": "20260202_Complex Pr",
+    "meta": {
+        "title": "Complex Pressure Node Formation and Resonances Induced by Scatterers in a Standing-Wave Acoustic Cavity",
+        "summary": "Acoustic pressure nodes in acoustophoretic devices are crucial for applications in tissue engineering, cell analysis, and particle trapping. Typically, a single primary node forms at the half-wavelength resonance condition, while its shape and position are constrained by the dimensions of the channel. The generation of additional nodes, along with control over their positions and shapes, is highly desirable in biomedical applications and could significantly enhance particle manipulation capabilities. To explore this potential, we numerically demonstrate the formation of additional, complex-shaped, nodes alongside the primary one, by a circular scatterer within a rectangular cavity. We identify three distinct types: ring, protuberant, and crescent nodes, whose formation depends on the size of the scatterer, its placement in the middle of the channel, and its corresponding resonant frequency. The key mechanism behind this formation is the enhancement of internal reflections, increasing destructive interference to promote node generation. To achieve this, we employ three key concepts: using a low-aspect ratio channel, positioning a rigid circular scatterer in the middle of the channel, and modeling all surfaces as perfect reflectors. Furthermore, we analyze the impact of the scatterer on acoustic pressure and quality factor, which is defined as the ratio of stored acoustic energy to damped acoustic energy per cycle. We show that additional nodes emerge in the presence of a scatterer, but they come at the cost of reduced acoustic pressure and energy in the channel. In summary, this study provides information on generating complex nodes in a standing wave acoustic cavity at the fundamental frequency, which has numerous applications for particle manipulation in acoustofluidic devices.",
+        "published": "2025-03-27",
+        "url": "http://arxiv.org/abs/2503.21712v1",
+        "source": "arXiv",
+        "mapping_chapter": "光學與波動 (Optics & Waves)",
+        "mapping_keyword": "standing wave acoustics",
+        "subject": "physics"
+    },
+    "content": "# 聲波空腔中散射體的複雜壓力節點形成與共振\n\n## 1. 研究背景與課本關聯\n\n你有沒有觀察過管樂器發出聲音的原理？樂器內部空氣的振動，形成駐波，特定位置的空氣幾乎不動，這些位置就是壓力節點。而這項研究，就像是在管樂器內部放了一個小障礙物，觀察會發生什麼有趣的變化。這與高中物理課本「光學與波動」章節中學習的「疊加原理」、「駐波」以及「干涉」等概念息息相關。我們在學習聲波時，會探討波的反射、折射、干涉等現象，而這篇研究正是利用這些原理，在微小的空間中精準控制聲波的行為。\n\n## 2. 核心發現\n\n這項研究探討了在一個長方形的聲波空腔中，當放入一個圓形的障礙物（稱為散射體）時，會如何改變空腔內聲波的壓力分布。通常，在空腔中形成駐波時，只會有一個主要的壓力節點，其位置和形狀受到空腔尺寸的限制。然而，研究人員發現，透過巧妙地設計空腔的長寬比（長寬比較小），並將散射體放置在空腔的中間，就能夠產生額外的、形狀複雜的壓力節點。\n\n具體來說，他們觀察到三種不同形狀的節點：環狀節點、突出型節點和新月型節點。這些節點的形成，取決於散射體的大小、位置以及與空腔的共振頻率。研究的核心機制是利用散射體造成聲波的多次反射，增強破壞性干涉，進而形成新的壓力節點。\n\n想像一下，原本平順的聲波在遇到散射體時，會向四面八方反射，這些反射波與原本的聲波相互疊加，有些地方會互相抵銷（破壞性干涉），形成壓力節點。散射體就像在水面上丟入一顆石子，產生漣漪，這些漣漪與原本的水面相互作用，形成複雜的波形。\n\n此外，研究也分析了散射體對空腔內聲壓和品質因數的影響。品質因數代表儲存的聲能與每次循環中耗散的聲能的比值，數值越高代表能量損失越少。結果顯示，雖然額外的節點可以增加聲波控制的靈活性，但同時也會降低空腔內的整體聲壓和能量。\n\n總而言之，這項研究提供了一種在微小空間中產生複雜壓力節點的方法，這對於生物醫學應用，例如細胞分析、組織工程和微粒操控等，具有重要的潛力。透過精準控制聲波的行為，我們可以更有效地操控微小的生物細胞或粒子，實現更精準的生物醫學實驗和應用。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊欲利用此研究原理，設計一個微流體裝置，用於分離不同大小的微粒。若希望在裝置中形成更多不同形狀的壓力節點，以提高分離效率，請問下列哪一項操作最有效？\",\n    \"options\": [\n        \"(A) 增加聲波空腔的長寬比，並使用較大的散射體。\",\n        \"(B) 降低聲波空腔的長寬比，並使用較小的散射體。\",\n        \"(C) 保持聲波空腔的長寬比不變，但增加散射體的密度。\",\n        \"(D) 保持散射體大小不變，但改變空腔內介質的密度。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據研究結果，形成複雜壓力節點的關鍵在於使用低長寬比的聲波空腔，並放置適當大小的散射體。低長寬比有助於增強內部反射，而散射體則提供干涉所需的反射波源。選項(A)違反了低長寬比的原則，選項(C)增加密度不一定能形成更多節點，選項(D)改變介質密度會影響聲速，但不會直接影響節點的形成。\"\n}\n",
+    "processed_at": "2026-02-02 19:12:14",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "散射體尺寸對空腔品質因數(Q)的影響",
+            "x_label": "散射體直徑 (µm)",
+            "y_label": "品質因數 (Q)",
+            "data_x": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "data_y": [
+                120,
+                110,
+                95,
+                80,
+                65,
+                50
+            ]
+        },
+        "question": "研究顯示，散射體會影響聲波空腔的品質因數(Q)。一組研究人員在固定長寬比的聲波空腔中，測試了不同直徑圓形散射體對品質因數的影響，結果如圖所示。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 散射體直徑越大，品質因數越高。",
+            "(B) 散射體直徑越小，品質因數越高。",
+            "(C) 散射體直徑與品質因數之間呈正相關。",
+            "(D) 散射體直徑與品質因數之間呈負相關。"
+        ],
+        "correct_answer": "D",
+        "explanation": "圖表顯示，隨著散射體直徑的增加，品質因數(Q)呈現下降趨勢。這表示散射體直徑越大，能量損失越多，空腔內儲存聲能的能力越弱。因此，散射體直徑與品質因數之間呈負相關。選項(A)和(B)與圖表趨勢相反，選項(C)描述了正相關，與圖表不符。"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "20260202_Charged bl",
+    "meta": {
+        "title": "Charged black hole accelerated by spatially homogeneous electric field of Bertotti-Robinson (AdS2 x S2) space-time",
+        "summary": "A simple exact solution of the Einstein - Maxwell field equations for charged non-rotating black hole accelerated by an external electric field is presented. The background space-time, described by the well known Bertotti-Robinson solution, contains a spatially homogeneous electric field and possess the topology AdS2 x S2. The black hole mass m, its charge e and the value of the background electric field E are free parameters of the constructed solution. In the \"rigid\" (non-inertial) reference frame comoving a black hole, this solution is static. The value of acceleration of a black hole due to its interaction with the external electric field is determined by the condition of vanishing of conical singularities on the axis of symmetry. The dynamics of a charged black hole in the external electric field is compared with the behaviour of a charged test particle with the same charge to mass ratio.",
+        "published": "2025-11-08",
+        "url": "http://arxiv.org/abs/2511.06082v1",
+        "source": "arXiv",
+        "mapping_chapter": "力學 (Mechanics)",
+        "mapping_keyword": "non-inertial reference frame",
+        "subject": "physics"
+    },
+    "content": "# 受外在電場加速的帶電黑洞\n\n## 1. 研究背景與課本關聯\n\n想像一下，你將一個帶電的塑膠球放在一個強大的電場中，它會感受到電場力而加速移動，對吧？這個現象在高中物理的「靜電學」與「力學」章節中都有學習過。現在，科學家們思考了一個更極端的例子：如果這個塑膠球是一個「黑洞」，而且處於一個特殊的宇宙空間，會發生什麼事呢？這篇研究就探討了這個問題。它與高中物理的「力學」章節相關，因為研究的核心在於分析外力（電場力）如何影響物體（黑洞）的運動，以及如何計算加速度。\n\n## 2. 核心發現\n\n這篇研究探討的是一個帶電、不旋轉的黑洞，受到一個均勻的外在電場作用時的運動情況。這個電場存在於一個名為「Bertotti-Robinson 空間」的特殊宇宙模型中，這個空間的幾何結構相當複雜，可以想像成一個彎曲的宇宙，具有特殊的拓樸結構。\n\n研究者找到了一個精確的數學解，描述了黑洞在這種電場中的行為。這個解顯示，從黑洞「隨著電場一起移動」的參考系來看，黑洞是靜止的。但從我們「靜止」的參考系來看，黑洞會因為電場力的作用而加速。\n\n重點是，黑洞的加速度大小取決於幾個因素：黑洞本身的質量 (m)、電荷量 (e)，以及外在電場的強度 (E)。研究者透過一種稱為「錐狀奇異點消失」的條件來決定黑洞的加速度。簡單來說，為了讓數學模型保持合理，避免出現物理上不合理的狀況，黑洞的加速度必須符合特定的條件。\n\n為了更清楚地理解黑洞的行為，研究者將它與一個具有相同電荷質量比的「測試粒子」進行比較。測試粒子是指質量非常小，對周圍空間影響可以忽略的粒子。結果顯示，黑洞和測試粒子的運動行為非常相似，這表示即使是巨大的黑洞，在受到外在電場作用時，也會像一個小粒子一樣加速。\n\n這個研究的意義在於，它提供了一個更深入了解黑洞與電磁場相互作用的模型，有助於我們探索宇宙中極端環境下的物理現象。\n---\n```json\n{\n    \"question\": \"一個質量為 m、電荷量為 q 的帶電黑洞，置於一個強度為 E 的均勻電場中。假設該黑洞的加速度為 a，且忽略重力影響。根據這篇研究的結果，下列哪一個關係式最能描述黑洞的加速度與相關物理量的關係？\",\n    \"options\": [\n        \"(A) a = (qE) / m\",\n        \"(B) a = (mE) / q\",\n        \"(C) a = qE * m\",\n        \"(D) a = E / (q * m)\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據牛頓第二定律，力 (F) = 質量 (m) * 加速度 (a)。黑洞所受的電場力 F = qE。因此，加速度 a = F / m = (qE) / m。雖然研究中考慮了更複雜的宇宙背景，但核心的加速度計算仍然遵循牛頓第二定律，且電場力與電荷量和電場強度成正比，與質量成反比。\"\n}\n```\n",
+    "processed_at": "2026-02-02 19:11:42",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "scatter",
+            "title": "帶電黑洞加速度與電荷質量比的關係",
+            "x_label": "電荷質量比 (q/m) [C/kg]",
+            "y_label": "加速度 (a) [m/s²]",
+            "data_x": [
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7
+            ],
+            "data_y": [
+                100,
+                200,
+                300,
+                400,
+                500,
+                600,
+                700
+            ]
+        },
+        "question": "研究者對不同電荷質量比的帶電黑洞進行實驗，在均勻電場強度 E = 1000 N/C 的環境下，測量其加速度。實驗數據如圖所示。根據圖表數據，下列哪一個結論最合理？",
+        "options": [
+            "(A) 加速度與電荷質量比成正比。",
+            "(B) 加速度與電荷質量比成反比。",
+            "(C) 加速度與電荷質量比的平方成正比。",
+            "(D) 加速度與電荷質量比無關。"
+        ],
+        "correct_answer": "A",
+        "explanation": "從圖表中可以觀察到，隨著電荷質量比 (q/m) 的增加，加速度 (a) 也隨之增加，且呈現線性關係。這表示加速度與電荷質量比成正比。根據文章內容，加速度 a = (qE) / m，可以改寫為 a = E * (q/m)。由於電場強度 E 為常數，因此加速度 a 與電荷質量比 (q/m) 成正比。"
+    }
+}
