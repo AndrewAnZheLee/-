@@ -1,0 +1,15 @@
+{
+    "id": "20260202_Automated ",
+    "meta": {
+        "title": "Automated sample preparation systems for food analysis: A mini-review.",
+        "summary": "Sample preparation has emerged as an essential component in complex food matrix analysis. Automated systems integrate precise machine operation, cutting-edge sample extraction methodologies and sophisticated detection equipment, and have been proven to effectively improve the accuracy and detection efficiency in food analysis. This review provides a mini-overview of automated sample preparation methods currently employed in the field of food analysis. These primarily encompass automated solid-phase extraction methods, microfluidics, robotic systems and integration with detection equipment. In addition, the main challenges currently faced by automated sample preparation were discussed, and suggestions for future research directions were also proposed. This review aims to serve as a reference for researchers in the field and facilitate their work on automated sample preparation methods for food analysis.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41616728/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "chromatography techniques",
+        "subject": "chemistry"
+    },
+    "content": "# 食品分析的自動化樣品前處理系統：微型綜述\n\n## 1. 研究背景與課本關聯\n在食安問題備受關注的台灣，檢測手搖飲中的農藥殘留或加工食品的添加物是化學家的日常。然而，食物成分複雜（稱為基質），不能直接放入儀器。這就涉及高中化學《無機與分析化學》章節中最重要的核心——「物質的分離、純化與鑑定」。課本中我們學過分液漏斗的「萃取」與濾紙「層析」，而這篇研究探討的是如何將這些手動步驟自動化，利用機械手臂與微流體技術，提升檢測的精準度與效率，這正是現代分析化學邁向工業 4.0 的關鍵。\n\n## 2. 核心發現\n這篇綜述論文深入探討了食品分析中「樣品前處理」的自動化趨勢。在傳統實驗室中，樣品前處理往往佔據了 60% 以上的分析時間，且人為操作容易產生誤差。研究指出，目前的自動化技術主要集中在以下四大領域：\n\n第一是**自動化固相萃取 (Automated Solid-Phase Extraction, SPE)**。這可以看作是高中課本中「管柱層析」的進階版。透過自動泵浦控制流速，讓樣品通過填充了特定吸附劑的管柱，選擇性地吸附待測物（如瘦肉精），再用極性合適的溶劑洗脫。自動化系統能精確控制壓力與流速，確保每次萃取的回收率一致。\n\n第二是**微流體技術 (Microfluidics)**。這是在微米等級的晶片上進行化學反應，又稱為「實驗室晶片」。它利用流體在微小尺度下的物理特性，僅需極少量的化學試劑即可完成混合、反應與分離，極大地符合「綠色化學」減少廢棄物的原則。\n\n第三是**機器人系統 (Robotic Systems)**。利用多軸機械手臂模擬實驗員的取樣、稀釋、離心等動作。這不僅解決了重複性工作的疲勞問題，更能在處理具揮發性或毒性的有機溶劑時，保護實驗人員的安全。\n\n最後是**系統串接 (Integration)**。研究強調將前處理系統直接與偵測儀器（如氣相層析質譜儀 GC-MS 或液相層析質譜儀 LC-MS）串聯。樣品一旦進入系統，從秤重到產出數據一氣呵成，大幅降低了樣品被環境污染的風險。儘管目前仍面臨設備成本高昂與複雜基質干擾等挑戰，但自動化無疑是未來食品安全守門人的最強利器。\n\n===QUIZ_JSON===\n{\n    \"question\": \"在食品分析的自動化樣品前處理中，常利用「固相萃取 (SPE)」技術來分離複雜基質中的待測物。假設某自動化系統欲從含有油脂的肉類萃取液中，分離出極性較大的動物用藥殘留。根據高中化學「物質的分離」原理，下列關於此過程的敘述何者正確？\",\n    \"options\": [\n        \"(A) 若固相萃取管柱內填充的是非極性的吸附劑，則極性較大的待測物會較容易被吸附在管柱中\",\n        \"(B) 固相萃取的原理與層析法類似，是利用物質在固定相與流動相間分配性質的差異來達到分離效果\",\n        \"(C) 自動化系統能提升準確度，主要是因為機械操作能改變待測物在溶劑中的溶解度\",\n        \"(D) 為了將吸附在管柱上的極性待測物洗脫下來，應選擇極性極小的有機溶劑作為洗脫液\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \" (A) 根據「同類互溶」原理，非極性吸附劑易吸附非極性物質，極性待測物較不易被吸附。(B) 正確，固相萃取本質上是一種管柱層析技術。(C) 自動化系統提升的是操作的「精密度」與「重現性」，並不會改變物質本身的物理性質（如溶解度）。(D) 欲洗脫極性待測物，應使用極性較大的溶劑，才能克服吸附力將其帶出。\"\n}",
+    "processed_at": "2026-02-02 13:48:25"
+}
