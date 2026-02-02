@@ -1,4 +1,5 @@
 arxiv
 google-generativeai
 python-dotenv
+plotly
 streamlit
