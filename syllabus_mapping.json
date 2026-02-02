@@ -1,0 +1,68 @@
+{
+    "physics": {
+        "力學 (Mechanics)": [
+            "aerodynamics",
+            "projectile motion",
+            "collision dynamics",
+            "planetary orbit"
+        ],
+        "電磁學 (Electromagnetism)": [
+            "superconductor",
+            "electromagnetic induction",
+            "hall effect",
+            "wireless power transfer"
+        ],
+        "光學與波動 (Optics & Waves)": [
+            "fiber optics",
+            "doppler effect",
+            "laser physics",
+            "interference pattern"
+        ],
+        "近代物理 (Modern Physics)": [
+            "quantum entanglement",
+            "photoelectric effect",
+            "nuclear fusion",
+            "standard model physics"
+        ]
+    },
+    "chemistry": {
+        "物質構造 (Structure of Matter)": [
+            "molecular orbital theory",
+            "graphene structure",
+            "crystal lattice",
+            "coordination complex"
+        ],
+        "有機化學 (Organic Chemistry)": [
+            "polymer degradation",
+            "catalytic synthesis",
+            "green chemistry",
+            "drug delivery system"
+        ],
+        "化學反應 (Chemical Reactions)": [
+            "reaction kinetics",
+            "electrochemical cell",
+            "entropy change",
+            "buffer solution"
+        ]
+    },
+    "biology": {
+        "細胞與遺傳 (Cell & Genetics)": [
+            "CRISPR-Cas9",
+            "mRNA vaccine",
+            "mitochondrial function",
+            "epigenetics"
+        ],
+        "動物生理 (Animal Physiology)": [
+            "neurotransmission",
+            "T-cell immunity",
+            "circadian rhythm",
+            "synaptic plasticity"
+        ],
+        "生態與演化 (Ecology & Evolution)": [
+            "biodiversity loss",
+            "carbon cycle",
+            "evolutionary adaptation",
+            "microbiome"
+        ]
+    }
+}
