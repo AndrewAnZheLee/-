@@ -4,7 +4,7 @@ import os
 import glob
 import pandas as pd
 import plotly.graph_objects as go
-import random 
+import random
 
 # === 1. 頁面基礎設定 ===
 st.set_page_config(
@@ -14,14 +14,43 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# === ✨ 新增功能：使用者進度存檔系統 ===
+USER_DATA_FILE = "user_progress.json"
+
+def load_user_progress():
+    """讀取使用者的閱讀進度與收藏"""
+    if not os.path.exists(USER_DATA_FILE):
+        return {"read": [], "starred": []}
+    try:
+        with open(USER_DATA_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return {"read": [], "starred": []}
+
+def save_user_progress(data):
+    """儲存進度到本地檔案"""
+    with open(USER_DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+def toggle_status(article_id, list_type):
+    """切換狀態 (已讀/收藏)"""
+    data = load_user_progress()
+    current_list = data.get(list_type, [])
+    
+    if article_id in current_list:
+        current_list.remove(article_id) # 如果有了就移除 (取消)
+    else:
+        current_list.append(article_id) # 如果沒有就加入
+    
+    data[list_type] = current_list
+    save_user_progress(data)
+
 # === 2. 核心邏輯：讀取資料庫 ===
 def load_articles():
     base_dir = "articles"
     if not os.path.exists(base_dir):
         return []
 
-    # 搜尋所有子資料夾中的 JSON
-    # 結構: articles/physics/xxx.json
     files = glob.glob(f"{base_dir}/**/*.json", recursive=True)
     
     articles = []
@@ -31,18 +60,19 @@ def load_articles():
                 with open(filepath, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     
-                    # 補上一些前端需要的屬性
-                    # 從路徑判斷科目 (windows/linux 路徑分隔符號處理)
                     folder_name = os.path.basename(os.path.dirname(filepath))
                     data['subject_category'] = folder_name
                     data['filepath'] = filepath
+                    
+                    # 確保每個文章都有 ID，如果沒有就用檔名代替
+                    if 'id' not in data:
+                        data['id'] = os.path.basename(filepath)
                     
                     articles.append(data)
             except Exception as e:
                 print(f"Error loading {filepath}: {e}")
                 continue
     
-    # 按照 id (通常是日期開頭) 倒序排列，新的在前面
     articles.sort(key=lambda x: x.get('id', ''), reverse=True)
     return articles
 
@@ -54,31 +84,96 @@ def get_subject_emoji(subject):
 
 # === 3. 介面佈局 ===
 
-# 載入資料
+# 載入文章資料
 all_articles = load_articles()
+
+# ✨ 載入使用者進度
+user_progress = load_user_progress()
+read_ids = set(user_progress.get("read", []))
+starred_ids = set(user_progress.get("starred", []))
 
 # 側邊欄：標題與篩選
 with st.sidebar:
     st.title("🔬 科普日報")
     st.markdown("針對**分科測驗**素養題設計的閱讀網站")
+    st.subheader("🏆 學習里程碑")
+    
+    total_articles = len(all_articles)
+    read_count = len(read_ids)
+    
+    # 計算總進度
+    if total_articles > 0:
+        overall_progress = read_count / total_articles
+        st.write(f"**總進度**：{int(overall_progress*100)}%")
+        st.progress(overall_progress)
+        
+        # 根據進度給予回饋文字
+        if overall_progress == 1.0:
+            st.success("🎓 恭喜畢業！全科制霸！")
+        elif overall_progress == 0.5:
+            st.info("不可中道而廢")
+        elif overall_progress == 0.9:
+            st.info("行百里者半九十")
+        elif overall_progress == 0:
+            st.info("🌱 千里之行，始於足下！")
+    else:
+        st.warning("尚無文章資料")
+
+    # === ✨ 2. 分科詳細進度 (新增功能) ===
+    st.markdown("---")
+    st.markdown("#### 科目進度")
+
+    # 初始化統計字典
+    # key 必須對應資料夾名稱
+    sub_stats = {
+        "physics":   {"name": "物理", "icon": "⚛️", "total": 0, "read": 0},
+        "chemistry": {"name": "化學", "icon": "⚗️", "total": 0, "read": 0},
+        "biology":   {"name": "生物", "icon": "🧬", "total": 0, "read": 0}
+    }
+
+    # 統計數據邏輯
+    for a in all_articles:
+        cat = a.get('subject_category', '')
+        # 確保這個科目在我們的統計名單內 (避免未知的資料夾報錯)
+        if cat in sub_stats:
+            sub_stats[cat]["total"] += 1
+            if a['id'] in read_ids:
+                sub_stats[cat]["read"] += 1
+    
+    # 顯示各科進度條
+    for cat, data in sub_stats.items():
+        # 避免分母為 0
+        if data["total"] > 0:
+            p = data["read"] / data["total"]
+            # 顯示格式： ⚛️ 物理 (3/10)
+            label = f"{data['icon']} **{data['name']}** ({data['read']}/{data['total']})"
+            st.markdown(label) 
+            st.progress(p)
+        else:
+            # 如果該科目沒有文章，就不顯示進度條，或者顯示無資料
+            st.caption(f"{data['icon']} {data['name']}：暫無文章")
+
+    st.divider()
+    
+    if st.button("🔄 重新載入資料庫", key="reload_sidebar"):
+        st.rerun()
+    # ✨ 顯示統計數據
+    c1, c2 , c3= st.columns(3)
+    c1.metric("已讀", len(read_ids))
+    c2.metric("收藏", len(starred_ids))
+    c3.metric("收錄文章",len(all_articles))
     st.divider()
 
-    # 科目篩選器
     subject_filter = st.radio(
         "選擇科目資料夾：",
-        ["全部顯示", "physics (物理)", "chemistry (化學)", "biology (生物)"],
+        ["全部顯示", "physics (物理)", "chemistry (化學)", "biology (生物)","✅ 已讀文章", "⭐ 我的收藏"], # 新增收藏篩選
         index=0
     )
     
-    st.info(f"目前資料庫共有 {len(all_articles)} 篇文章")
-    
-# 重新整理按鈕
     if st.button("🔄 重新載入資料庫"):
         st.rerun()
 
-    # === ✨ 新增：使用條款與免責聲明 ===
-    st.divider() # 加一條分隔線
-    
+    st.divider()
     with st.expander("ℹ️ 使用條款與免責聲明"):
         st.markdown("""
         ### 1. AI 生成內容聲明
@@ -100,42 +195,46 @@ with st.sidebar:
         ### 5. 疑難排解
         * 有任何問題可以向開發者**李安哲**詢問。
         """)
-        st.caption("© 分科測驗素養科普 ")
+        st.caption("© 分科測驗科普日報")
         st.caption("台南一中 李安哲 ")
 
 # 主畫面內容邏輯
 if not all_articles:
-    st.warning("📭 資料庫是空的！")
-    st.markdown("""
-    ### 快速啟動指南：
-    1. 執行 `python step2_fetch_papers.py` 抓取論文。
-    2. 執行 `python step3_ai_processor.py` 生成文章。
-    3. 重新整理此頁面。
-    """)
+    st.warning("📭 資料庫是空的！請先執行爬蟲與生成腳本。")
 else:
-    # 1. 根據側邊欄篩選資料
+    # 1. 篩選邏輯
     if subject_filter == "全部顯示":
         filtered_articles = all_articles
+    elif subject_filter == "⭐ 我的收藏":
+        filtered_articles = [a for a in all_articles if a['id'] in starred_ids]
+    elif subject_filter == "✅ 已讀文章":
+        filtered_articles = [a for a in all_articles if a['id'] in read_ids]
     else:
-        # 取出括號前的英文單字來比對 (例如 "physics")
         target_sub = subject_filter.split(" ")[0]
         filtered_articles = [a for a in all_articles if a['subject_category'] == target_sub]
+    
+    filtered_articles.sort(key=lambda x: x['id'] in read_ids)
 
     if not filtered_articles:
-        st.info("此分類目前沒有文章。趕快去抓幾篇吧！")
+        st.info("此分類目前沒有文章。")
     else:
-        # 2. 雙欄佈局：左邊選單，右邊閱讀
         col_menu, col_content = st.columns([1, 2.5])
 
         with col_menu:
             st.subheader("📚 文章列表")
-            # 製作選單項目標題
-            options = {
-                index: f"{get_subject_emoji(a['subject_category'])} {a['meta']['published']} | {a['meta']['title']}"
-                for index, a in enumerate(filtered_articles)
-            }
             
-            # 使用 radio button 當作導航列
+            # ✨ 製作選單項目標題 (加入狀態圖示)
+            options = {}
+            for index, a in enumerate(filtered_articles):
+                aid = a['id']
+                # 組合標籤：科目符號 + 狀態標記 + 日期 + 標題
+                status_icon = ""
+                if aid in starred_ids: status_icon += "⭐"
+                if aid in read_ids: status_icon += "✅"
+                
+                label = f"{get_subject_emoji(a['subject_category'])} {status_icon} {a['meta']['published']} | {a['meta']['title']}"
+                options[index] = label
+            
             selected_index = st.radio(
                 "請點擊閱讀：",
                 options=options.keys(),
@@ -147,16 +246,49 @@ else:
             article = filtered_articles[selected_index]
             meta = article['meta']
             content = article['content']
+            aid = article['id']
             
-            # === 1. 顯示文章 header ===
-            st.markdown(f"### {meta.get('title', '無標題')}")
+            is_read = aid in read_ids
+            is_starred = aid in starred_ids
+            status_container = st.container()
+            with status_container:
+                if is_read:
+                    st.success(f"✅ **已讀完**｜你已經完成這篇 {article['subject_category']} 文章的學習！")
+                else:
+                    st.warning("⏳ **未讀**｜這篇文章尚未閱讀，讀完記得標示已讀喔！")
+            # === ✨ 操作按鈕區 (Action Bar) ===
+            # 使用 container 讓按鈕排版更整齊
+            with st.container():
+                st.markdown(f"### {meta.get('title', '無標題')}")
+                
+                # 狀態判斷
+                is_read = aid in read_ids
+                is_starred = aid in starred_ids
+                
+                col_btn1, col_btn2, col_info = st.columns([1, 1, 3])
+                
+                with col_btn1:
+                    # 收藏按鈕
+                    btn_label = "★ 取消收藏" if is_starred else "☆ 加入收藏"
+                    btn_type = "primary" if is_starred else "secondary"
+                    if st.button(btn_label, key=f"star_{aid}", type=btn_type):
+                        toggle_status(aid, "starred")
+                        st.rerun() # 重新整理以更新介面
+
+                with col_btn2:
+                    # 已讀按鈕
+                    read_label = "✅ 標示未讀" if is_read else "⭕ 標示已讀"
+                    if st.button(read_label, key=f"read_{aid}"):
+                        toggle_status(aid, "read")
+                        st.rerun() # 重新整理以更新介面
+                
+                st.divider()
+
+            # 顯示文章資訊
             c1, c2, c3 = st.columns(3)
             with c1: st.caption(f"**科目：** {article['subject_category'].upper()}")
             with c2: st.caption(f"**日期：** {meta.get('published', '未知')}")
             with c3: st.caption(f"**來源：** [{meta.get('source')}]({meta.get('url', '#')})")
-            st.divider()
-            
-           # === 2. 智慧解析：分離文章與題目 (增強版) ===
             
             article_text = content
             json_text = None
@@ -186,8 +318,12 @@ else:
             if json_text:
                 # 顯示科普文章本體
                 st.markdown(article_text)
-                
-                # === 3. 互動式測驗區 ===
+            
+            # 如果這篇文章還沒讀過，且使用者滑到了底部(或看完了)，可以提示
+            if not is_read:
+               st.caption("💡 閱讀完畢後，記得點擊上方的「標示已讀」喔！")
+
+            # === 3. 互動式測驗區 (保持原本邏輯) ===
             st.divider()
             st.subheader("📝 隨堂測驗")
 
