@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Enzymes_ p",
+    "meta": {
+        "title": "Enzymes: principles and biotechnological applications.",
+        "summary": "Enzymes are biological catalysts (also known as biocatalysts) that speed up biochemical reactions in living organisms, and which can be extracted from cells and then used to catalyse a wide range of commercially important processes. This chapter covers the basic principles of enzymology, such as classification, structure, kinetics and inhibition, and also provides an overview of industrial applications. In addition, techniques for the purification of enzymes are discussed.",
+        "published": "2015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26504249/",
+        "source": "PubMed",
+        "mapping_chapter": "化學反應 (Chemical Reactions)",
+        "mapping_keyword": "enzyme kinetics",
+        "subject": "chemistry"
+    },
+    "content": "# 酵素：原理與生物科技應用\n\n## 1. 研究背景與課本關聯\n\n你是否曾經注意到，切生魚片時，加入一點鳳梨酵素，魚肉就會變得特別軟嫩？或者，我們吃澱粉類食物時，口水中的澱粉酶會將澱粉分解成葡萄糖，讓我們更容易消化吸收？這些現象背後，都是「酵素」在發揮作用！酵素是一種特殊的蛋白質，能夠加速化學反應，但本身在反應前後卻不會被消耗掉，就像一個默默付出的幫手。這與我們高中化學課本中「化學反應」章節所學的「催化劑」概念非常相似，只是酵素是生物體內的催化劑，更精巧、更有效率。\n\n## 2. 核心發現\n\n這篇學術論文主要探討了酵素的原理以及在生物科技上的應用。首先，酵素是一種**生物催化劑**，它能降低化學反應的**活化能**，使反應速率加快。我們可以將酵素想像成一座橋樑，讓反應物更容易跨越能量的障礙，生成產物。\n\n酵素的種類繁多，依照其催化的反應類型，可以進行分類。例如，**氧化還原酶**參與氧化還原反應，**水解酶**則催化水解反應，而**轉移酶**則負責將特定基團從一個分子轉移到另一個分子。\n\n酵素的結構非常重要，它具有特定的**活性中心**，反應物（稱為**基質**）會與活性中心結合，形成**酵素-基質錯合物**，進而發生反應。活性中心的形狀和化學性質決定了酵素的專一性，也就是說，每種酵素通常只催化特定的反應。\n\n除了了解酵素如何作用，研究人員也關注如何控制酵素的活性。**酵素抑制劑**可以阻礙酵素的活性，分為**競爭性抑制**和**非競爭性抑制**兩種。競爭性抑制劑與基質競爭活性中心，而非競爭性抑制劑則會改變酵素的形狀，使其活性降低。\n\n此外，論文也提到酵素的**精製技術**，這對於生物科技的應用至關重要。例如，在食品工業中，我們可以利用酵素來改善食品的口感、增加風味；在醫學領域，酵素可以作為診斷工具或藥物；在環境保護方面，酵素可以分解污染物。這些應用都仰賴我們能夠有效地分離和純化酵素。總而言之，酵素不僅是生物體內重要的化學反應催化劑，也是生物科技發展的重要基石。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某實驗中，研究人員發現當加入某種化學物質後，酵素的催化效率明顯降低，但即使增加基質濃度，酵素活性也無法恢復。根據上述現象，最合理的推測是該化學物質屬於哪一種酵素抑制劑？\",\n    \"options\": [\n        \"(A) 競爭性抑制劑\",\n        \"(B) 非競爭性抑制劑\",\n        \"(C) 輔酶\",\n        \"(D) 激活劑\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"非競爭性抑制劑會改變酵素的空間結構，降低酵素與基質結合的能力，即使增加基質濃度也無法克服。競爭性抑制劑則會與基質競爭活性中心，增加基質濃度可以部分克服抑制效果。輔酶是酵素反應所必需的輔助分子，激活劑則會增加酵素活性。\"\n}\n",
+    "processed_at": "2026-02-03 11:31:59",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同溫度下澱粉酶的催化活性",
+            "x_label": "溫度 (°C)",
+            "y_label": "反應速率 (μmol/min)",
+            "data_x": [
+                20,
+                30,
+                40,
+                50,
+                60,
+                70
+            ],
+            "data_y": [
+                15,
+                35,
+                60,
+                75,
+                50,
+                10
+            ]
+        },
+        "question": "某研究團隊探討溫度對澱粉酶催化活性的影響。實驗結果如圖所示，下列敘述何者最合理？",
+        "options": [
+            "(A) 澱粉酶在 50°C 時活性最高，且超過 60°C 後活性會顯著下降，可能因為酵素結構被破壞。",
+            "(B) 澱粉酶的活性隨溫度升高而持續增加，因此提高反應溫度可以有效提高澱粉分解效率。",
+            "(C) 澱粉酶在 20°C 時活性最低，表示澱粉酶在低溫環境下無法發揮作用。",
+            "(D) 澱粉酶的活性與溫度無關，實驗結果僅代表實驗操作的誤差。"
+        ],
+        "correct_answer": "A",
+        "explanation": "澱粉酶是一種蛋白質，蛋白質的結構會受到溫度影響。從圖中可以觀察到，澱粉酶的活性隨著溫度升高而增加，在 50°C 左右達到最大值，但超過 60°C 後活性迅速下降，這表示高溫可能導致澱粉酶變性，失去其催化功能。選項 (B) 錯誤，因為活性並非持續增加；選項 (C) 錯誤，因為澱粉酶在低溫下仍有活性，只是較低；選項 (D) 錯誤，因為實驗結果呈現明顯的趨勢。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "20260203_[Associati",
+    "meta": {
+        "title": "[Association between the Risk of Drug-induced Liver Injury and the Reactive Metabolites Acyl Glucuronides].",
+        "summary": "Acyl glucuronides (AG), reactive metabolites formed via the glucuronidation of carboxylic acid-containing drugs such as non-steroidal anti-inflammatory drugs (NSAIDs), are closely associated with drug-induced liver injury (DILI), particularly idiosyncratic types. AG can covalently bind to proteins, potentially disrupting their function and triggering immune responses. Their toxicity is influenced by chemical instability, stereoselectivity, and interactions with specific uridine 5'-diphospho-glucuronosyltransferase (UGT) isoforms. Transporters such as multidrug resistance-associated protein 2 (MRP2) and breast cancer resistance protein (BCRP) mediate AG disposition, while enzymes like β-glucuronidase and esterases regulate AG degradation. Studies have shown that AG derived from NSAIDs differ in their ability to form protein adducts, with propionic acid derivatives exhibiting higher reactivity. Glutathione (GSH), a key detoxifying molecule, plays a critical role in mitigating AG toxicity. GSH depletion in rats has been shown to increase AG accumulation and protein binding, even for drugs generally considered safe. Quantitative analysis of AG formation, degradation, and protein binding using liver microsomes and LC-MS/MS has revealed that AG degradation rates can distinguish between safe drugs, those requiring a warning, and those withdrawn. Furthermore, AG exhibit stereoselective binding to UGTs, with R-enantiomers often showing higher reactivity. These findings underscore the importance of evaluating AG kinetics and protein interactions in predicting DILI risk. Future research should focus on the qualitative assessment of AG-protein adducts and the development of personalized risk models. Integrating AG behavior into drug safety evaluations may enhance the prediction and prevention of DILI, contributing to safer drug development and regulatory strategies.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41621892/",
+        "source": "PubMed",
+        "mapping_chapter": "化學反應 (Chemical Reactions)",
+        "mapping_keyword": "enzyme kinetics",
+        "subject": "chemistry"
+    },
+    "content": "# [Association between the Risk of Drug-induced Liver Injury and the Reactive Metabolites Acyl Glucuronides]. (藥物誘發肝損傷風險與活性代謝物醯基葡糖苷的關聯)\n\n## 1. 研究背景與課本關聯\n\n你可能吃過止痛藥、消炎藥，這些藥物在體內會經過一系列的化學反應，最終被排出體外。但有時候，藥物代謝的過程中會產生一些「中間產物」，這些產物可能對肝臟造成傷害。就像烹飪時，食材經過加熱會產生不同的風味，有些風味令人愉悅，有些卻可能令人不適。這個研究就探討了這些藥物代謝產物，特別是「醯基葡糖苷」這種物質，如何影響肝臟的健康。這與高中化學的「化學反應」章節息息相關，因為藥物在體內的代謝過程，本質上就是一系列的氧化、還原、水解、酯化等化學反應。了解這些反應，才能明白藥物如何發揮作用，以及可能產生的副作用。\n\n## 2. 核心發現\n\n這個研究發現，某些藥物，特別是非類固醇消炎止痛藥 (NSAIDs)，在經過肝臟代謝後會產生一種叫做「醯基葡糖苷 (Acyl Glucuronides, AG)」的活性代謝物。這種 AG 並不是無害的，它具有很強的反應性，可以與體內的蛋白質結合，就像樂高積木一樣，改變蛋白質的結構和功能，進而引發肝臟的損傷，這就是所謂的「藥物誘發肝損傷 (Drug-induced Liver Injury, DILI)」。\n\n這種肝損傷的嚴重程度，受到多種因素影響。首先，AG 的化學穩定性很重要，不穩定的 AG 更容易與蛋白質結合。其次，AG 具有「立體異構性」，也就是說，同一個 AG 分子，左右手呈現的結構不同 (R-型和 S-型)，它們與肝臟酵素「葡糖醛酸轉移酶 (Uridine 5'-diphospho-glucuronosyltransferase, UGT)」的結合能力也不同，R-型通常更活潑。\n\n此外，肝臟中還有一些「搬運蛋白」，像是多藥物抗藥性相關蛋白 2 (MRP2) 和乳癌抗藥性蛋白 (BCRP)，負責將 AG 從肝細胞中運出；而「β-葡糖苷酶」和「酯酶」則可以分解 AG，降低其毒性。研究發現，不同 NSAIDs 產生的 AG，與蛋白質結合的能力不同，例如，以丙酸為基礎的 NSAIDs 產生的 AG 更容易與蛋白質結合。\n\n更重要的是，體內一種重要的抗氧化劑「麩胱甘肽 (Glutathione, GSH)」可以中和 AG 的毒性。實驗發現，當 GSH 的含量降低時，AG 在肝臟中的累積量增加，與蛋白質結合的程度也更高，即使是原本被認為安全的藥物也可能造成肝損傷。\n\n研究團隊利用「肝臟微粒體」和「液體層析-串聯質譜 (LC-MS/MS)」等技術，定量分析 AG 的形成、分解和與蛋白質結合的情況，發現 AG 的分解速率可以區分不同藥物的安全性，甚至可以預測哪些藥物需要加強警示，或應該從市場上撤回。\n\n總而言之，這個研究強調了評估 AG 的動態變化 (形成、分解、與蛋白質結合) 對於預測藥物誘發肝損傷風險的重要性。未來，更精確地評估 AG 與蛋白質結合的特性，並發展個人化的風險評估模型，將有助於開發更安全的藥物，並改善藥物監管策略。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某藥物在肝臟代謝過程中產生了大量的醯基葡糖苷 (AG)，研究發現該藥物與肝臟蛋白質的結合力較強，且患者體內的麩胱甘肽 (GSH) 含量偏低。根據上述資訊，下列哪種推論最合理？\",\n    \"options\": [\n        \"(A) 此藥物可能增加藥物誘發肝損傷 (DILI) 的風險。\",\n        \"(B) 此藥物代謝速率較快，不易在體內累積。\",\n        \"(C) 此藥物主要透過 MRP2 搬運蛋白排出體外，安全性較高。\",\n        \"(D) 此藥物與 UGT 酵素的結合力較弱，不易產生活性代謝物。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據研究，AG 與蛋白質結合力強且 GSH 含量低，會增加肝損傷風險。GSH 可以中和 AG 的毒性，含量低代表解毒能力不足。選項 (B) 與 AG 累積有關，但累積本身並非代表安全性；選項 (C) 雖然 MRP2 有助於排除 AG，但結合力強表示仍有機會造成損傷；選項 (D) 與研究結果相反，AG 的產生正是因為 UGT 酵素的作用。\"\n}\n",
+    "processed_at": "2026-02-03 11:45:52",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同濃度醯基葡糖苷 (AG) 對肝臟蛋白質結合率的影響",
+            "x_label": "醯基葡糖苷 (AG) 濃度 (μM)",
+            "y_label": "肝臟蛋白質結合率 (%)",
+            "data_x": [
+                0,
+                5,
+                10,
+                20,
+                50,
+                100
+            ],
+            "data_y": [
+                2,
+                8,
+                15,
+                30,
+                65,
+                90
+            ]
+        },
+        "question": "研究人員進行實驗，探討不同濃度的醯基葡糖苷 (AG) 對肝臟蛋白質結合率的影響。結果如圖所示。根據圖表資訊，下列哪種推論最合理？",
+        "options": [
+            "(A) 隨著 AG 濃度的增加，肝臟蛋白質結合率呈現正相關趨勢。",
+            "(B) 在 AG 濃度低於 5 μM 時，肝臟蛋白質結合率變化不明顯。",
+            "(C) AG 濃度達到 20 μM 時，肝臟蛋白質結合率達到最大值。",
+            "(D) 肝臟蛋白質結合率與 AG 濃度呈線性關係。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著 AG 濃度的增加，肝臟蛋白質結合率也隨之增加，呈現明顯的正相關趨勢。選項 (B) 正確指出低濃度時變化不明顯，但 (A) 更全面地描述了整體趨勢。選項 (C) 錯誤，因為結合率持續上升，並未在 20 μM 時達到最大值。選項 (D) 錯誤，因為圖表呈現的是曲線關係，而非線性關係。"
+    }
+}

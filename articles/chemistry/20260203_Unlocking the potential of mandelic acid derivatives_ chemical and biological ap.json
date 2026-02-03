@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Unlocking ",
+    "meta": {
+        "title": "Unlocking the potential of mandelic acid derivatives: chemical and biological applications - a comprehensive review.",
+        "summary": "Mandelic acid, an aromatic α-hydroxy acid first identified in 1831, has become a valuable scaffold in synthetic, medicinal, and industrial chemistry. Its aromatic ring, carboxylic acid group, and stereogenic centre provide a rare combination of chemical reactivity and stereochemical control, enabling the creation of structurally diverse and biologically active molecules. Enantiomer-specific derivatives find targeted pharmaceutical uses, with the <i>R</i>-form applied in the synthesis of cephalosporins, penicillin, anticancer agents, and anti-obesity drugs, and the <i>S</i>-form in the preparation of nonsteroidal anti-inflammatory agents. Beyond therapeutics, mandelic acid derivatives are important in catalysis, chiral separations, cosmetics, analytical chemistry, and materials science. They display a wide spectrum of biological activities, including antimicrobial, antiviral, antifungal, anticancer, anti-inflammatory, and enzyme-inhibitory properties, often enhanced through incorporation into heterocycles, hybrid frameworks, and polymeric systems. This review consolidates advances in the synthesis of bioactive derivatives such as factor Xa inhibitors, anti-HIV agents, dual-action anti-inflammatory and antimicrobial compounds, pyrazole-mandelic acid hybrids, thiazolidinone-based carbonic anhydrase IX inhibitors, oxadiazothioether antifungal agents, and plant pathogen virulence disruptors. It also highlights catalytic roles, separation technologies, and advanced material applications. Structure-activity relationship insights, emerging trends, and key challenges are discussed to guide the rational design of next-generation mandelic acid derivatives with enhanced chemical and biological potential.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41496831/",
+        "source": "PubMed",
+        "mapping_chapter": "有機化學 (Organic Chemistry)",
+        "mapping_keyword": "chiral separation",
+        "subject": "chemistry"
+    },
+    "content": "# 解鎖扁桃酸衍生物的潛力：化學與生物應用 - 全面回顧 (扁桃酸：化學世界的超級英雄)\n\n## 1. 研究背景與課本關聯\n\n你可能在皮膚護理產品中看過「杏仁酸」，它其實就是扁桃酸的一種。扁桃酸是一種天然存在的有機酸，最早在1831年被發現。它就像一個化學積木，可以透過化學反應，組合成各式各樣的分子，這些分子可能具有藥用價值，甚至應用在工業上。這篇研究就探討了扁桃酸及其衍生物的各種可能性。這與高中化學的「有機化學」章節息息相關，因為我們學習的官能基、異構體、取代反應等概念，都是理解扁桃酸化學性質和衍生物合成的基礎。\n\n## 2. 核心發現\n\n扁桃酸的分子結構中，同時擁有一個苯環、一個羧基(-COOH)和一個手性碳原子。這三個特徵讓它成為一個非常特別的化學分子。苯環賦予它穩定性，羧基則提供酸性，可以參與酯化、醯胺化等反應。而手性碳原子則意味著扁桃酸存在兩種鏡像異構物，也就是 *R*-扁桃酸和 *S*-扁桃酸。\n\n這兩種異構物在生物體內的表現卻大不相同！*R*-扁桃酸是合成許多重要藥物的關鍵原料，例如頭孢菌素、青黴素等抗生素，甚至還能用於製造抗癌藥物和減肥藥。*S*-扁桃酸則常用於非類固醇消炎止痛藥的製備。\n\n研究發現，扁桃酸衍生物的應用範圍遠不止於藥物。它們還能作為催化劑，加速化學反應；用於分離手性分子，就像過濾掉不需要的異構物；甚至應用在化妝品、分析化學和新材料的開發中。\n\n更令人興奮的是，扁桃酸衍生物具有多種生物活性，包括抗菌、抗病毒、抗真菌、抗癌、抗發炎和抑制酵素等。科學家們透過將扁桃酸與其他分子結合，例如雜環化合物、混合骨架和聚合物，來增強這些生物活性。例如，研究人員合成了一些可以抑制凝血因子 Xa 的化合物，有望用於治療血栓；也開發出抗 HIV 病毒的藥物，以及同時具有抗發炎和抗菌效果的雙效藥物。\n\n總而言之，扁桃酸衍生物的潛力是巨大的，未來研究將著重於更深入了解結構與活性之間的關係，並設計出更有效、更安全的下一代扁桃酸衍生物。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"扁桃酸分子中，同時具有苯環、羧基和手性碳原子。手性碳原子會導致扁桃酸存在兩種異構物，稱為 *R*-扁桃酸和 *S*-扁桃酸。若某種藥物需要使用純粹的 *R*-扁桃酸作為原料，下列哪一種方法最適合用於分離 *R*-扁桃酸和 *S*-扁桃酸的混合物？\",\n    \"options\": [\n        \"(A) 利用蒸餾法，因 *R*-扁桃酸和 *S*-扁桃酸的沸點不同。\",\n        \"(B) 利用萃取法，因 *R*-扁桃酸和 *S*-扁桃酸在不同溶劑中的溶解度不同。\",\n        \"(C) 利用手性色層分析法，利用固定相與 *R*-扁桃酸和 *S*-扁桃酸的交互作用差異。\",\n        \"(D) 利用過濾法，因 *R*-扁桃酸和 *S*-扁桃酸的分子大小不同。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"手性色層分析法是分離對映異構體（如 *R*-扁桃酸和 *S*-扁桃酸）最有效的方法。它利用固定相與對映異構體間微小的交互作用差異，達到分離的目的。蒸餾法和萃取法是利用物理性質的差異，無法有效分離對映異構體。過濾法則適用於固液分離，與本題無關。\"\n}\n",
+    "processed_at": "2026-02-03 11:44:45",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同濃度 *R*-扁桃酸衍生物對凝血因子 Xa 抑制率的影響",
+            "x_label": "*R*-扁桃酸衍生物濃度 (μM)",
+            "y_label": "凝血因子 Xa 抑制率 (%)",
+            "data_x": [
+                0,
+                1,
+                5,
+                10,
+                25,
+                50,
+                100
+            ],
+            "data_y": [
+                5,
+                15,
+                40,
+                65,
+                85,
+                92,
+                95
+            ]
+        },
+        "question": "根據圖表所示，*R*-扁桃酸衍生物對凝血因子 Xa 的抑制率與濃度之間呈現何種關係？",
+        "options": [
+            "(A) 抑制率隨濃度增加而增加，但增加幅度逐漸減緩。",
+            "(B) 抑制率隨濃度增加而線性增加。",
+            "(C) 抑制率隨濃度增加而降低。",
+            "(D) 抑制率與濃度無明顯關聯。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，當 *R*-扁桃酸衍生物濃度從 0 μM 增加到 100 μM 時，凝血因子 Xa 的抑制率從 5% 增加到 95%。然而，隨著濃度越來越高，抑制率的增加幅度逐漸變小，呈現一個趨近飽和的現象。這表示在高濃度下，衍生物對凝血因子 Xa 的抑制作用達到一定程度後，再增加濃度所帶來的效果有限。"
+    }
+}

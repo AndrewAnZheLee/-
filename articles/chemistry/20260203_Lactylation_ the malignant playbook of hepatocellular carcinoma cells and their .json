@@ -1,0 +1,44 @@
+{
+    "id": "20260203_Lactylatio",
+    "meta": {
+        "title": "Lactylation: the malignant playbook of hepatocellular carcinoma cells and their roadmap to therapy resistance.",
+        "summary": "Hepatocellular carcinoma (HCC) is a significant global health issue, characterized by a high mortality rate closely linked to treatment resistance and late-stage diagnosis. Lactylation, a distinctive post-translational modification linking cellular metabolism and epigenetics, has recently attracted significant attention due to its potential role in HCC. This review aims to systematically elucidate how lactylation facilitates the malignant progression of HCC through many mechanisms, including regulation of cell proliferation, invasion and metastasis, immune response, and stem cell properties. It examines its role in immunotherapy and resistance to targeted therapy in greater depth. The essay succinctly evaluates the therapeutic promise and translational challenges of targeting lactylation, offering a resource for future study.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41624887/",
+        "source": "PubMed",
+        "mapping_chapter": "有機化學 (Organic Chemistry)",
+        "mapping_keyword": "peptide synthesis",
+        "subject": "chemistry"
+    },
+    "content": "# 乳糖醯化：肝癌細胞的惡性策略與治療抗藥性的地圖\n\n## 1. 研究背景與課本關聯\n\n大家可能知道，肝癌是台灣常見的癌症之一，而且往往發現時已經是晚期，治療效果不佳。癌細胞的惡性程度高，除了基因突變之外，細胞內蛋白質的修飾也扮演著重要的角色。這就像我們在做菜時，同樣的食材，用不同的調味料和烹調方式，就能做出千變萬化的料理一樣。而「乳糖醯化」就是一種特殊的蛋白質修飾，它會影響癌細胞的行為。這與高中化學的「有機化學」章節息息相關，因為乳糖醯化涉及一個叫做「醯化反應」的有機化學反應，也就是將一個「醯基」加到蛋白質上，改變蛋白質的功能。\n\n## 2. 核心發現\n\n這篇研究探討的是乳糖醯化在肝癌細胞中的作用。簡單來說，乳糖醯化就像在蛋白質上貼上一個「標籤」，這個標籤是由乳酸衍生的「乳醯基」組成的。這個「標籤」會影響蛋白質的結構和功能，進而影響肝癌細胞的行為。\n\n研究發現，乳糖醯化會促進肝癌細胞的增殖、侵襲和轉移。想像一下，癌細胞就像一群士兵，乳糖醯化就像是給了這些士兵加速增員、突破防線的命令。它會影響細胞分裂的速率，讓癌細胞更快地複製自己；同時，也會讓癌細胞更容易穿透周圍組織，進而擴散到身體的其他部位。\n\n更重要的是，乳糖醯化還會影響肝癌細胞的免疫反應。癌細胞會利用乳糖醯化來「偽裝」自己，躲避免疫系統的攻擊，就像變色龍一樣。此外，乳糖醯化也與肝癌細胞的「幹細胞特性」有關。幹細胞具有自我更新和分化的能力，而癌幹細胞則具有無限增殖和形成腫瘤的能力。乳糖醯化可以維持癌幹細胞的特性，讓癌細胞更難被根除。\n\n目前，針對肝癌的治療方式包括標靶藥物和免疫療法。然而，癌細胞往往會產生抗藥性，導致治療失敗。研究發現，乳糖醯化也參與了肝癌細胞對這些治療方式的抗藥性。例如，癌細胞可以透過乳糖醯化來降低標靶藥物的效果，或者抑制免疫細胞的活性，逃避免疫攻擊。\n\n因此，針對乳糖醯化進行治療，或許可以克服肝癌的抗藥性，提高治療效果。然而，要將乳糖醯化作為治療靶點，還需要克服許多挑戰，例如如何開發出能夠特異性抑制乳糖醯化的藥物，以及如何確保藥物能夠有效地到達腫瘤部位。這篇研究為未來針對乳糖醯化進行研究提供了重要的參考。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"乳糖醯化是一種蛋白質的修飾，涉及一個有機化學反應。下列哪一個關於乳糖醯化的敘述**錯誤**？\",\n    \"options\": [\n        \"(A) 乳糖醯化會改變蛋白質的結構和功能。\",\n        \"(B) 乳糖醯化涉及醯化反應，將乳醯基加到蛋白質上。\",\n        \"(C) 乳糖醯化可以增強免疫系統對癌細胞的攻擊能力。\",\n        \"(D) 乳糖醯化可能與肝癌細胞的抗藥性有關。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"乳糖醯化並不會增強免疫系統對癌細胞的攻擊能力，反而會讓癌細胞「偽裝」自己，躲避免疫系統的攻擊。選項 A、B、D 都是正確的，乳糖醯化確實會改變蛋白質功能、涉及醯化反應，且與抗藥性有關。\"\n}\n",
+    "processed_at": "2026-02-03 11:36:11",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "乳糖醯化程度與肝癌細胞藥物敏感性之關係",
+            "x_label": "肝癌細胞株",
+            "y_label": "標靶藥物 IC50 (μM)",
+            "data_x": [
+                "HepG2 (低乳糖醯化)",
+                "Huh7 (中等乳糖醯化)",
+                "PLC/PRF/5 (高乳糖醯化)",
+                "HepG2-LR (乳糖醯化過度表達)"
+            ],
+            "data_y": [
+                2.5,
+                5.0,
+                10.0,
+                15.0
+            ]
+        },
+        "question": "研究人員比較不同乳糖醯化程度的肝癌細胞株對某種標靶藥物的敏感性。IC50 值越低，代表藥物效果越好。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 乳糖醯化程度越高，細胞對標靶藥物的敏感性越高。",
+            "(B) 乳糖醯化程度越高，細胞對標靶藥物的敏感性越低。",
+            "(C) 乳糖醯化程度與細胞對標靶藥物的敏感性無關。",
+            "(D) HepG2 細胞株對標靶藥物具有最高的敏感性，因為其乳糖醯化程度最高。"
+        ],
+        "correct_answer": "B",
+        "explanation": "圖表顯示，隨著肝癌細胞株乳糖醯化程度的增加（從 HepG2 到 HepG2-LR），標靶藥物的 IC50 值也隨之增加。這表示乳糖醯化程度越高，細胞對標靶藥物的敏感性越低，也就是抗藥性越高。選項 A 錯誤，因為圖表顯示的是負相關。選項 C 錯誤，因為圖表顯示存在明顯的關聯。選項 D 錯誤，因為 HepG2 細胞株的乳糖醯化程度最低。"
+    }
+}

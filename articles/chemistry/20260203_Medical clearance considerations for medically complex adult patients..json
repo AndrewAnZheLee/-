@@ -1,0 +1,52 @@
+{
+    "id": "20260203_Medical cl",
+    "meta": {
+        "title": "Medical clearance considerations for medically complex adult patients.",
+        "summary": "Medically complex patients are increasingly common in dental practice, requiring dentists to make informed decisions regarding medical clearance. The authors aimed to provide general dentists with evidence-based tools to determine when medical clearance is necessary before outpatient oral health care. The authors synthesized peer-reviewed literature and clinical guidelines from leading medical societies. Sources include guidelines from the American Heart Association, American Dental Association, American Association of Oral and Maxillofacial Surgeons, American College of Cardiology, American Diabetes Association, and Global Initiative for Chronic Obstructive Lung Disease. European guidelines from the European Society of Cardiology, European Society of Anaesthesiology and Intensive Care, and European Association for the Study of the Liver were also reviewed. Literature published from 2000 through 2024 was selected on the basis of relevance, publication date, and applicability to dental treatment planning. The authors consolidated guidance on when medical clearance is required before dental treatment for patients with cardiovascular, pulmonary, cerebrovascular, hepatic, kidney, endocrine, orthopedic, and oncologic conditions. They emphasized using the American Society of Anesthesiologists physical status classification, disease stability, symptom severity, and procedural risk to guide decision making. Condition-specific thresholds are outlined to help clinicians identify when care should be modified, deferred, or coordinated with a physician. By means of integrating the latest medical guidelines into a single resource, the authors equip general dentists with a unified resource to support clinical decision making around medical clearance, reducing the need to consult multiple sources. They reinforced the importance of timely physician collaboration and risk-based treatment planning to enhance safety in managing the treatment of medically complex patients.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41627268/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "coordination complex",
+        "subject": "chemistry"
+    },
+    "content": "# 複雜疾病患者的牙科治療前評估考量 (Medical clearance considerations for medically complex adult patients.)\n\n## 1. 研究背景與課本關聯\n\n你有沒有想過，為什麼有些長輩或慢性病患者，去看牙醫前，牙醫會特別詢問病史，甚至建議先去看家庭醫生？這其實是因為他們的身體狀況比較複雜，牙科治療可能對他們的健康造成影響。就像我們在化學實驗室裡，要了解每種物質的特性，才能安全地進行實驗一樣，牙醫也需要了解患者的身體狀況，才能安全地進行治療。這份研究探討的就是如何評估這些複雜病患的狀況，以確保他們在接受牙科治療時的安全。這與高中化學的「物質構造」章節有關，因為了解人體內的各種生化物質（例如葡萄糖、蛋白質、脂肪等）的組成、結構與功能，才能理解疾病發生的原因，以及治療方式如何影響身體的化學平衡。\n\n## 2. 核心發現\n\n這份研究整合了美國、歐洲等地的醫學會的最新指引，旨在幫助牙醫判斷哪些患者在進行牙科治療前，需要先經過醫師評估，確認身體狀況是否允許。研究強調，並非所有慢性病患者都需要額外的評估，關鍵在於疾病的穩定性、症狀的嚴重程度，以及牙科治療的風險高低。\n\n研究中，醫師們常用到「美國麻醉師學會身體狀況分級 (American Society of Anesthesiologists physical status classification)」來評估患者的整體健康狀況。這個分級從 I 到 VI，I 代表患者非常健康，VI 代表患者病情非常嚴重，接近死亡。\n\n針對不同疾病，研究也提出了具體的評估標準。例如：\n\n*   **心血管疾病：** 如果患者有心臟病，且症狀控制良好，例如心絞痛發作頻率低、血壓穩定，那麼一般的牙科治療可能不需要額外的評估。但如果患者剛經歷過心肌梗塞，或是心臟衰竭嚴重，則需要先請心臟科醫師評估。\n*   **肺部疾病：** 患有慢性阻塞性肺病 (COPD) 的患者，如果肺功能穩定，且沒有嚴重的呼吸困難，那麼一般的牙科治療可能可以進行。但如果患者正在急性發作，或是需要使用呼吸器，則需要謹慎評估。\n*   **糖尿病：** 糖尿病患者的血糖控制是關鍵。如果血糖控制良好，那麼牙科治療的風險相對較低。但如果血糖控制不佳，則可能增加感染的風險，需要先請內分泌科醫師評估。\n*   **腎臟疾病：** 腎臟功能不佳的患者，可能需要調整藥物劑量，或是避免使用某些藥物，以避免對腎臟造成額外的負擔。\n\n研究強調，牙醫在治療前，應該與患者的家庭醫師密切合作，共同制定治療計畫，並根據患者的具體情況，調整治療方式，以確保患者的安全。這就像化學反應中的「控制變數」，我們需要控制所有可能影響實驗結果的因素，才能得到準確的結論一樣。牙醫需要考慮患者的整體健康狀況，才能安全地進行牙科治療。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"一位患有控制良好的第二型糖尿病的患者，需要接受拔牙手術。根據這份研究，下列哪種做法最合適？\",\n    \"options\": [\n        \"(A) 直接進行拔牙手術，無需額外評估。\",\n        \"(B) 拔牙前，建議患者先去看家庭醫生，評估血糖控制狀況，並確認是否需要調整藥物。\",\n        \"(C) 拔牙前，建議患者先去看心臟科醫生，評估心血管狀況。\",\n        \"(D) 拔牙前，建議患者先進行肺功能檢查。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"研究強調，糖尿病患者的血糖控制是關鍵。雖然患者的糖尿病控制良好，但拔牙手術仍可能引起血糖波動，因此建議拔牙前先請家庭醫生評估血糖控制狀況，並確認是否需要調整藥物，以確保手術的安全性。選項(A)忽略了拔牙可能對血糖的影響，選項(C)和(D)與糖尿病的直接關聯性較低。\"\n}\n",
+    "processed_at": "2026-02-03 11:37:50",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "糖尿病患者血糖控制與拔牙後感染風險之關係",
+            "x_label": "空腹血糖值 (mg/dL)",
+            "y_label": "拔牙後感染發生率 (%)",
+            "data_x": [
+                70,
+                90,
+                110,
+                130,
+                150,
+                170,
+                190,
+                210
+            ],
+            "data_y": [
+                2,
+                4,
+                8,
+                15,
+                25,
+                38,
+                55,
+                70
+            ]
+        },
+        "question": "根據圖表所示，糖尿病患者的空腹血糖值與拔牙後的感染發生率呈現何種關係？",
+        "options": [
+            "(A) 空腹血糖值越高，拔牙後感染發生率越低。",
+            "(B) 空腹血糖值越低，拔牙後感染發生率越高。",
+            "(C) 空腹血糖值與拔牙後感染發生率之間呈現正相關，血糖值越高，感染風險越高。",
+            "(D) 空腹血糖值與拔牙後感染發生率之間沒有明顯關係。"
+        ],
+        "correct_answer": "C",
+        "explanation": "圖表顯示，隨著空腹血糖值的增加，拔牙後的感染發生率也隨之增加。這表示兩者之間存在正相關關係，血糖控制不佳的患者拔牙後感染風險較高。這與文章中提到的糖尿病患者血糖控制是關鍵的觀點相符。"
+    }
+}

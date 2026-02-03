@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Rational d",
+    "meta": {
+        "title": "Rational design of C<sub>2</sub>N based atomically dispersed catalysts for energy conversion applications.",
+        "summary": "C<sub>2</sub>N is an emerging two-dimensional graphene-like carbon nitride material that is distinguished by its high specific surface area, uniformly distributed N<sub>6</sub> cavities, excellent chemical stability, and tunable electronic structures. These properties make it an ideal support for atomically dispersed catalysts (SACs, DACs, and clusters), enabling precise control of coordination, electronic properties, and reactivity. This review systematically summarizes the main types of C<sub>2</sub>N-supported catalysts, which achieve maximal atomic utilization and tunable active sites, delivering outstanding performance in the oxygen reduction reaction (ORR), oxygen evolution reaction (OER), hydrogen evolution reaction (HER), and carbon dioxide reduction reaction (CO<sub>2</sub>RR). It also outlines synthesis strategies, recent progress, and challenges regarding stability, scalability, and long-term performance. Overall, this review provides a comprehensive overview of C<sub>2</sub>N-based atomically dispersed catalysts, highlighting their promise and challenges for future energy and environmental applications.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41623471/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "graphene structure",
+        "subject": "chemistry"
+    },
+    "content": "# C<sub>2</sub>N 奈米材料：打造高效能的「原子級催化劑」\n\n## 1. 研究背景與課本關聯\n\n你是否曾經想過，為什麼電池的效率會越來越高？或者，如何將空氣中的二氧化碳變成有用的燃料？這些問題的答案，往往與「催化劑」息息相關。催化劑就像化學反應的幫手，能加速反應速率，但本身不會被消耗掉。現在，科學家們正在研究一種新材料，希望能打造出更高效、更精準的催化劑。這與高中化學的「物質構造」章節緊密相關，因為我們需要了解物質的原子排列、電子結構，才能設計出具有特定功能的材料。\n\n## 2. 核心發現\n\n這篇研究報告主要介紹一種名為 C<sub>2</sub>N 的新材料，以及它在催化劑領域的應用。C<sub>2</sub>N 是一種像石墨烯一樣的二維材料，由碳和氮原子組成。它具有許多優點：首先，C<sub>2</sub>N 的表面積非常大，就像鋪了一層厚厚的毛毯，能提供更多的反應空間。其次，C<sub>2</sub>N 內部有均勻分佈的「氮空洞」（N<sub>6</sub> cavities），這些空洞可以作為固定催化劑的「位點」。\n\n更重要的是，C<sub>2</sub>N 的電子結構是可以調整的，這意味著我們可以改變材料的電子特性，進而影響催化劑的活性。科學家們利用 C<sub>2</sub>N 作為「載體」，將單個原子（例如：鉑、鐵等）分散在 C<sub>2</sub>N 的表面，形成所謂的「原子級分散催化劑」（Atomically Dispersed Catalysts, DACs）。\n\n這種原子級分散催化劑的優點是，可以最大程度地利用催化劑的原子，避免原子聚集造成的效率降低。此外，由於原子被固定在 C<sub>2</sub>N 的特定位置，我們可以精準地控制原子的周圍環境，進而調整催化劑的活性和選擇性。\n\n研究報告指出，這種 C<sub>2</sub>N 載體的原子級分散催化劑，在許多重要的能量轉換反應中都表現出優異的性能，例如：\n\n*   **氧氣還原反應 (ORR)**：電池放電時發生的反應，提高電池效率。\n*   **氧氣析出反應 (OER)**：電解水製氫時發生的反應，降低製氫成本。\n*   **氫氣析出反應 (HER)**：電解水製氫時發生的反應，提高製氫效率。\n*   **二氧化碳還原反應 (CO<sub>2</sub>RR)**：將二氧化碳轉化為有用的燃料，減少溫室氣體排放。\n\n然而，研究也指出，目前 C<sub>2</sub>N 載體催化劑的穩定性、規模化生產以及長期使用性能仍存在挑戰，需要進一步的研究來克服。總體而言，C<sub>2</sub>N 載體的原子級分散催化劑，為未來能源和環境應用帶來了新的希望。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"科學家利用 C<sub>2</sub>N 作為載體，將鉑原子分散在表面製成原子級分散催化劑。下列關於此種催化劑的敘述，何者最合理？\",\n    \"options\": [\n        \"(A) 鉑原子分散在 C<sub>2</sub>N 表面，能有效提高鉑原子的利用率，降低催化劑的成本。\",\n        \"(B) C<sub>2</sub>N 的加入會降低鉑原子的催化活性，因為 C<sub>2</sub>N 本身不具催化能力。\",\n        \"(C) 鉑原子與 C<sub>2</sub>N 之間的化學鍵非常強，使得催化劑在反應過程中容易失活。\",\n        \"(D) 原子級分散的鉑原子會因為表面積小而降低與反應物的接觸面積，進而降低催化效率。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"原子級分散的催化劑能最大程度地利用催化劑的原子，避免原子聚集造成的效率降低，因此能有效提高鉑原子的利用率，降低催化劑的成本。選項 (B) 錯誤，因為 C<sub>2</sub>N 作為載體，能調整鉑原子的電子結構，進而影響催化活性。選項 (C) 錯誤，理想的催化劑應具有適當的鍵結強度，而非過強。選項 (D) 錯誤，原子級分散能最大化接觸面積。\"\n}\n",
+    "processed_at": "2026-02-03 11:41:52",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "C<sub>2</sub>N 載體上鉑原子分散程度與氧氣還原反應 (ORR) 電流密度的關係",
+            "x_label": "鉑原子分散比例 (原子數 / C<sub>2</sub>N 表面積, atoms/cm<sup>2</sup>)",
+            "y_label": "氧氣還原反應電流密度 (mA/cm<sup>2</sup>)",
+            "data_x": [
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7
+            ],
+            "data_y": [
+                2.5,
+                5.1,
+                7.8,
+                9.5,
+                10.2,
+                9.8,
+                8.5
+            ]
+        },
+        "question": "研究團隊利用不同比例的鉑原子分散在 C<sub>2</sub>N 載體上，測量了氧氣還原反應 (ORR) 的電流密度。根據圖表所示的結果，下列敘述何者最合理？",
+        "options": [
+            "(A) 鉑原子分散比例越高，ORR 電流密度也隨之增加，但達到一定程度後會趨於平緩甚至下降。",
+            "(B) 鉑原子分散比例與 ORR 電流密度之間沒有明顯的相關性，表示 C<sub>2</sub>N 載體本身具有較高的催化活性。",
+            "(C) 鉑原子分散比例越低，ORR 電流密度越高，表示鉑原子聚集反而能提高催化效率。",
+            "(D) ORR 電流密度在鉑原子分散比例為 0.3 atoms/cm<sup>2</sup> 時達到最大值，之後的增加反而會降低電流密度。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著鉑原子分散比例的增加，ORR 電流密度也隨之增加，但在鉑原子分散比例達到 0.5 atoms/cm<sup>2</sup> 後，電流密度開始趨於平緩，甚至在 0.7 atoms/cm<sup>2</sup> 時略有下降。這表示在達到最佳分散比例後，繼續增加鉑原子分散比例並不能顯著提高催化效率，甚至可能因為鉑原子間的相互作用而降低效率。這符合文章中提到的「最大程度地利用催化劑的原子」的觀點。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Mass spect",
+    "meta": {
+        "title": "Mass spectrometry and protein analysis.",
+        "summary": "Mass spectrometry is a central analytical technique for protein research and for the study of biomolecules in general. Driven by the need to identify, characterize, and quantify proteins at ever increasing sensitivity and in ever more complex samples, a wide range of new mass spectrometry-based analytical platforms and experimental strategies have emerged. Here we review recent advances in mass spectrometry instrumentation in the context of current and emerging research strategies in protein science.",
+        "published": "2006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16614208/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "mass spectrometry analysis",
+        "subject": "chemistry"
+    },
+    "content": "# 質譜分析與蛋白質研究 (Mass spectrometry and protein analysis.)\n\n## 1. 研究背景與課本關聯\n\n你是否曾經好奇，為什麼醫院可以透過血液檢測來診斷疾病？或者科學家如何知道食物中含有哪些成分？這些都仰賴精密的分析儀器。質譜分析法就像是化學界的「體重計」，可以測量分子的質量，進而辨識分子種類。這與高中化學的「無機與分析化學」章節息息相關，因為我們在學習分析化學時，就已經接觸到定性分析和定量分析的概念，而質譜分析法正是這些分析方法的重要工具之一。它能幫助我們了解物質的組成，並精準測量物質的含量。\n\n## 2. 核心發現\n\n這篇研究論文主要探討了質譜分析法在蛋白質研究上的最新進展。蛋白質是生物體內非常重要的分子，執行著各式各樣的功能，例如酵素催化反應、構成細胞結構、擔任信號傳遞者等等。要了解蛋白質的功能，首先必須知道蛋白質的種類、結構和含量。\n\n質譜分析法的工作原理是將分子轉變成帶電的**離子**，然後根據其**質量對電荷比 (m/z)** 在磁場或電場中移動時的偏折程度來判斷其質量。簡單來說，質量越小的離子，偏折程度越大。\n\n過去，質譜分析法在蛋白質研究上遇到一些挑戰，例如樣品複雜度高、蛋白質含量低等等。為了克服這些挑戰，科學家不斷改進質譜儀器的性能，並發展出新的實驗策略。\n\n近年來，質譜儀器的解析度（分辨不同質量的能力）大幅提升，可以更精準地測量蛋白質的質量。此外，新的**質譜法**，例如**串聯質譜 (tandem mass spectrometry, MS/MS)**，可以將蛋白質片段化，並分析這些片段的質量，進而推斷蛋白質的序列。\n\n研究中提到，現在的質譜分析技術已經可以應用在更複雜的樣品中，例如細胞、組織甚至是整個生物體。這使得科學家可以更深入地了解蛋白質在生物體內的表現和功能。例如，可以利用質譜分析法來找出疾病患者體內特異性的蛋白質標記物，進而開發新的診斷方法或治療藥物。\n\n總而言之，質譜分析法是蛋白質研究不可或缺的工具，隨著技術的進步，它將在生物醫學、環境科學等領域發揮更大的作用。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊利用質譜分析法分析一未知蛋白質樣品，得到主要離子的 m/z 值為 500。假設該離子帶有一個正電荷，則此離子的質量最接近下列哪個數值？(原子量：H=1, C=12, N=14, O=16)\",\n    \"options\": [\n        \"(A) 500 amu\",\n        \"(B) 499 amu\",\n        \"(C) 501 amu\",\n        \"(D) 1 amu\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"質譜分析的 m/z 值代表質量數除以電荷數。由於該離子帶有一個正電荷，因此質量數等於 m/z 值。所以，此離子的質量最接近 500 amu (atomic mass unit，原子質量單位)。選項 (B) 和 (C) 略有偏差，選項 (D) 顯然錯誤。\"\n}\n",
+    "processed_at": "2026-02-03 11:36:35",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同質譜儀解析度下，蛋白質鑑定成功率",
+            "x_label": "質譜儀解析度 (m/z)",
+            "y_label": "蛋白質鑑定成功率 (%)",
+            "data_x": [
+                10000,
+                20000,
+                30000,
+                40000,
+                50000,
+                60000
+            ],
+            "data_y": [
+                30,
+                55,
+                75,
+                85,
+                92,
+                95
+            ]
+        },
+        "question": "某研究團隊使用不同解析度的質譜儀分析複雜的蛋白質混合物，並記錄蛋白質鑑定成功率。根據圖表所示，下列敘述何者最合理？",
+        "options": [
+            "(A) 質譜儀解析度越高，蛋白質鑑定成功率越高。",
+            "(B) 質譜儀解析度越低，蛋白質鑑定成功率越高。",
+            "(C) 蛋白質鑑定成功率與質譜儀解析度無關。",
+            "(D) 在解析度達到 30000 時，蛋白質鑑定成功率達到最大值，之後不再提升。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著質譜儀解析度 (m/z) 的增加，蛋白質鑑定成功率呈現上升趨勢。這表示解析度更高的質譜儀能夠更精準地分辨不同質量的蛋白質片段，從而提高蛋白質鑑定成功率。選項 (B) 與圖表趨勢相反，選項 (C) 忽略了圖表呈現的相關性，選項 (D) 雖然在 30000 處上升趨緩，但並未達到最大值，且之後仍持續提升。"
+    }
+}

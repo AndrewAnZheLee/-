@@ -1,0 +1,44 @@
+{
+    "id": "20260203_Proteomic ",
+    "meta": {
+        "title": "Proteomic landscape of Alzheimer's Disease: novel insights into pathogenesis and biomarker discovery.",
+        "summary": "Mass spectrometry-based proteomics empowers deep profiling of proteome and protein posttranslational modifications (PTMs) in Alzheimer's disease (AD). Here we review the advances and limitations in historic and recent AD proteomic research. Complementary to genetic mapping, proteomic studies not only validate canonical amyloid and tau pathways, but also uncover novel components in broad protein networks, such as RNA splicing, development, immunity, membrane transport, lipid metabolism, synaptic function, and mitochondrial activity. Meta-analysis of seven deep datasets reveals 2,698 differentially expressed (DE) proteins in the landscape of AD brain proteome (n = 12,017 proteins/genes), covering 35 reported AD genes and risk loci. The DE proteins contain cellular markers enriched in neurons, microglia, astrocytes, oligodendrocytes, and epithelial cells, supporting the involvement of diverse cell types in AD pathology. We discuss the hypothesized protective or detrimental roles of selected DE proteins, emphasizing top proteins in \"amyloidome\" (all biomolecules in amyloid plaques) and disease progression. Comprehensive PTM analysis represents another layer of molecular events in AD. In particular, tau PTMs are correlated with disease stages and indicate the heterogeneity of individual AD patients. Moreover, the unprecedented proteomic coverage of biofluids, such as cerebrospinal fluid and serum, procures novel putative AD biomarkers through meta-analysis. Thus, proteomics-driven systems biology presents a new frontier to link genotype, proteotype, and phenotype, accelerating the development of improved AD models and treatment strategies.",
+        "published": "2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34384464/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "chromatography techniques",
+        "subject": "chemistry"
+    },
+    "content": "# 阿茲海默症的蛋白質組學研究：解開失智症的謎團與新希望\n\n## 1. 研究背景與課本關聯\n\n大家可能聽過阿茲海默症，也就是俗稱的「失智症」。隨著台灣人口老化，失智症的病例越來越多，對家庭和社會都是一個沉重的負擔。科學家們一直在努力研究失智症發生的原因，希望能找到有效的治療方法。這篇研究就利用了化學分析的尖端技術，來研究失智症患者體內蛋白質的變化。這與高中化學的「無機與分析化學」章節息息相關，因為研究中用到的「質譜儀」就是一種重要的分析儀器，可以精準地測量不同物質的質量，進而分析樣品中的成分。就像我們在實驗室用火焰測試來判斷金屬離子一樣，質譜儀也能幫助我們「看見」肉眼無法觀察到的微小分子。\n\n## 2. 核心發現\n\n這項研究主要利用「蛋白質體學」(Proteomics) 的方法，深入分析失智症患者大腦中蛋白質的組成和變化。蛋白質體學就像是研究生物體內所有蛋白質的「全家福」，可以讓我們了解哪些蛋白質在失智症的發生過程中扮演重要角色。\n\n研究團隊分析了超過一萬兩千種蛋白質，發現其中有 2,698 種蛋白質在失智症患者的大腦中表現量明顯不同。這些蛋白質的功能非常多樣，除了我們熟知的與阿茲海默症相關的「類澱粉蛋白」(Amyloid-β) 和「Tau蛋白」之外，還包括參與「RNA剪接」、「免疫反應」、「脂質代謝」等過程的蛋白質。這表示失智症的發生並非單純由類澱粉蛋白和Tau蛋白造成，而是涉及許多複雜的生物過程。\n\n更進一步的研究發現，Tau蛋白的「翻譯後修飾」(Post-translational modifications, PTMs) 與失智症的階段密切相關。翻譯後修飾就像是蛋白質身上的「裝飾」，會改變蛋白質的功能。不同的修飾模式代表著不同的疾病進程，也顯示了每個失智症患者的狀況可能有所不同，這對於未來發展「個人化醫療」非常重要。\n\n此外，研究團隊也分析了腦脊液和血液等體液中的蛋白質，希望能找到可以作為「生物標記」(Biomarker) 的蛋白質。生物標記就像是疾病的「指紋」，可以幫助我們早期診斷失智症，甚至預測疾病的發展。\n\n總而言之，這項研究利用蛋白質體學的技術，揭示了失智症發生的複雜機制，並提供了新的生物標記和治療方向。這就像是拼圖遊戲，科學家們正努力地將每一塊碎片拼湊起來，希望能完整地了解失智症的真相，並找到戰勝它的方法。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"質譜儀在蛋白質體學研究中扮演關鍵角色，其原理是根據不同物質的什麼物理性質進行分析？\\n(A) 沸點\\n(B) 熔點\\n(C) 質量電荷比 (m/z)\\n(D) 密度\",\n    \"options\": [\n        \"(A) 沸點\",\n        \"(B) 熔點\",\n        \"(C) 質量電荷比 (m/z)\",\n        \"(D) 密度\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"質譜儀是利用離子化的樣品在電磁場中運動時，其質量電荷比 (m/z) 的不同，來分離和偵測不同分子。質量電荷比是質譜分析的核心原理，可以精準地測量分子的質量，進而鑑定其成分。沸點、熔點和密度雖然是物質的物理性質，但並非質譜儀分析的基礎。\"\n}\n",
+    "processed_at": "2026-02-03 11:40:52",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "失智症患者與健康對照組大腦中Tau蛋白翻譯後修飾 (PTM) 比例比較",
+            "x_label": "實驗組別",
+            "y_label": "Tau蛋白 PTM 比例 (%)",
+            "data_x": [
+                "健康對照組",
+                "失智症早期",
+                "失智症中期",
+                "失智症晚期"
+            ],
+            "data_y": [
+                5,
+                25,
+                55,
+                80
+            ]
+        },
+        "question": "根據圖表資料，下列敘述何者正確？\n(A) 失智症患者大腦中Tau蛋白的PTM比例隨著疾病進程而增加。\n(B) 健康對照組的Tau蛋白PTM比例高於失智症晚期患者。\n(C) 失智症早期患者的Tau蛋白PTM比例與健康對照組幾乎相同。\n(D) 失智症中期患者的Tau蛋白PTM比例最低。",
+        "options": [
+            "(A) 失智症患者大腦中Tau蛋白的PTM比例隨著疾病進程而增加。",
+            "(B) 健康對照組的Tau蛋白PTM比例高於失智症晚期患者。",
+            "(C) 失智症早期患者的Tau蛋白PTM比例與健康對照組幾乎相同。",
+            "(D) 失智症中期患者的Tau蛋白PTM比例最低。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著失智症從早期到中期再到晚期，Tau蛋白的PTM比例呈現明顯的上升趨勢。這表示PTM的程度與疾病的嚴重程度相關。選項B錯誤，健康對照組比例最低。選項C錯誤，失智症早期比例明顯高於健康對照組。選項D錯誤，失智症中期比例高於早期。"
+    }
+}

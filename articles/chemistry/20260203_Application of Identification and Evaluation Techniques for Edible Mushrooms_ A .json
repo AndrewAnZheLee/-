@@ -1,0 +1,46 @@
+{
+    "id": "20260203_Applicatio",
+    "meta": {
+        "title": "Application of Identification and Evaluation Techniques for Edible Mushrooms: A Review.",
+        "summary": "Edible mushrooms are healthy food with high nutritional value, which is popular with consumers. With the increase of the problem of mushrooms being confused with the real and pollution in the market, people pay more and more attention to food safety. More than 167 articles of edible mushroom published in the past 20 years were reviewed in this paper. The analysis tools and data analysis methods of identification and quality evaluation of edible mushroom species, origin, mineral elements were reviewed. Five techniques for identification and evaluation of edible mushrooms were introduced and summarized. The macroscopic, microscopic and molecular identification techniques can be used to identify species. Chromatography, spectroscopy technology combined with chemometrics can be used for qualitative and quantitative study of mushroom and evaluation of mushroom quality. In addition, multiple supervised pattern-recognition techniques have good classification ability. Deep learning is more and more widely used in edible mushroom, which shows its advantages in image recognition and prediction. These techniques and analytical methods can provide strong support and guarantee for the identification and evaluation of mushroom, which is of great significance to the development and utilization of edible mushroom.",
+        "published": "2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34435928/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "spectroscopic identification",
+        "subject": "chemistry"
+    },
+    "content": "# 食用菇類辨識與品質評估技術應用：回顧 (食用菇類的化學分析與鑑定)\n\n## 1. 研究背景與課本關聯\n\n大家應該都吃過菇類，像是香菇、金針菇、杏鮑菇等等，它們不僅美味，營養價值也很高。但市面上菇類種類繁多，有時難免會買到混淆品種，甚至吃到受到污染的菇類，影響食安。這篇研究就針對如何正確辨識菇類種類、以及如何評估菇類的品質進行了整理。這與我們高中化學課本的「無機與分析化學」章節息息相關，因為菇類的鑑定與品質評估，需要運用到各種化學分析方法，例如層析法、光譜法等，來分析菇類中的成分，像是礦物質含量、毒素等等。\n\n## 2. 核心發現\n\n這篇研究回顧了過去 20 年來，針對食用菇類辨識與品質評估的 167 篇文章。研究發現，目前常用的技術可以分成三大類：**形態學鑑定**、**分子生物學鑑定**，以及**化學分析**。\n\n**形態學鑑定**是最傳統的方法，透過觀察菇類的形狀、顏色、菌褶等外觀特徵，以及利用顯微鏡觀察菇類的孢子等微觀結構來進行判斷。\n\n**分子生物學鑑定**則利用 DNA 技術，分析菇類的基因序列，來確定其種類。這就像是化學中的「指紋辨識」，可以更精確地分辨菇類。\n\n而**化學分析**，就是這篇研究重點關注的部分。研究中提到，**層析法 (Chromatography)**，例如氣相層析法 (Gas Chromatography, GC) 和液相層析法 (Liquid Chromatography, LC)，可以將菇類中的複雜成分分離，讓我們可以分析菇類中含有哪些有機化合物，例如胺基酸、維生素等。**光譜法 (Spectroscopy)**，例如原子吸收光譜 (Atomic Absorption Spectroscopy, AAS) 和誘導耦合電漿體發光光譜 (Inductively Coupled Plasma Optical Emission Spectrometry, ICP-OES)，則可以分析菇類中礦物質的含量，像是鉀、鈣、鎂等。這些分析結果，可以幫助我們了解菇類的營養價值，以及是否受到重金屬污染。\n\n此外，研究也提到，現在越來越多研究人員會將**化學計量學 (Chemometrics)** 應用在菇類的品質評估上。化學計量學是一種利用統計學方法分析化學數據的學科，可以幫助我們從大量的化學分析數據中，找出菇類品質的關鍵指標。\n\n更進一步地，研究也指出**機器學習 (Machine Learning)**，尤其是**深度學習 (Deep Learning)**，在菇類辨識上展現了強大的能力。透過訓練電腦學習大量的菇類圖片，電腦可以自動辨識菇類的種類，甚至可以預測菇類的品質。這就像是我們學習化學反應式一樣，透過大量的練習，我們可以更快更準確地判斷化學反應的進行。\n\n總而言之，這篇研究強調了各種化學分析技術在食用菇類辨識與品質評估上的重要性，這些技術的發展，對於保障食安、推廣菇類產業具有重要的意義。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊利用原子吸收光譜 (AAS) 分析不同產地的香菇樣本，發現A樣本的鉀含量明顯高於B樣本。鉀元素在植物體內扮演著重要的角色，下列哪一項最能解釋鉀含量差異可能造成的影響？\",\n    \"options\": [\n        \"(A) A樣本的香菇細胞壁較厚，不易被消化吸收。\",\n        \"(B) A樣本的香菇光合作用效率較高，產生更多葡萄糖。\",\n        \"(C) A樣本的香菇水分含量較低，鉀離子濃度較高。\",\n        \"(D) A樣本的香菇蛋白質含量較高，需要更多鉀離子參與合成。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"鉀離子是植物體內重要的營養元素，參與光合作用、蛋白質合成、調節滲透壓等重要生理過程。鉀含量較高通常表示光合作用效率較高，能產生更多葡萄糖，促進植物生長。A選項細胞壁厚度與鉀含量無直接關係；C選項水分含量與鉀離子濃度並非絕對正相關；D選項蛋白質合成需要鉀離子，但鉀含量差異主要影響光合作用效率。\"\n}\n",
+    "processed_at": "2026-02-03 11:30:48",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同菇類樣本中重金屬鉛 (Pb) 的含量",
+            "x_label": "菇類樣本",
+            "y_label": "鉛含量 (mg/kg)",
+            "data_x": [
+                "香菇",
+                "金針菇",
+                "杏鮑菇",
+                "鴻禧菇",
+                "灰樹花"
+            ],
+            "data_y": [
+                0.012,
+                0.008,
+                0.025,
+                0.005,
+                0.018
+            ]
+        },
+        "question": "某實驗室利用誘導耦合電漿體發光光譜 (ICP-OES) 分析市售五種菇類樣本中重金屬鉛 (Pb) 的含量，結果如圖所示。已知鉛對人體具有毒性，長期攝入可能影響神經系統。根據圖表資訊，下列敘述何者最合理？",
+        "options": [
+            "(A) 杏鮑菇的鉛含量最高，應避免食用。",
+            "(B) 金針菇的鉛含量最低，是五種菇類中最安全的選擇。",
+            "(C) 菇類樣本的鉛含量都低於安全標準，可以安心食用。",
+            "(D) 灰樹花的鉛含量略高於香菇，但仍屬於可接受範圍。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據圖表，杏鮑菇的鉛含量 (0.025 mg/kg) 顯著高於其他菇類樣本。雖然題目未提供安全標準，但題目強調鉛的毒性，因此杏鮑菇的較高鉛含量使其成為最需要注意的菇類。選項B錯誤，金針菇含量最低，但不能直接推論為最安全。選項C錯誤，題目未提供安全標準，無法判斷是否都低於安全標準。選項D錯誤，灰樹花的鉛含量高於香菇，且杏鮑菇的含量更高，因此杏鮑菇才是最需要注意的。"
+    }
+}

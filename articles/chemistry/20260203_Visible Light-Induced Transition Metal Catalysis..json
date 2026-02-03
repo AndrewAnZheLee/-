@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Visible Li",
+    "meta": {
+        "title": "Visible Light-Induced Transition Metal Catalysis.",
+        "summary": "In recent years, visible light-induced transition metal catalysis has emerged as a new paradigm in organic photocatalysis, which has led to the discovery of unprecedented transformations as well as the improvement of known reactions. In this subfield of photocatalysis, a transition metal complex serves a double duty by harvesting photon energy and then enabling bond forming/breaking events mostly via a single catalytic cycle, thus contrasting the established dual photocatalysis in which an exogenous photosensitizer is employed. In addition, this approach often synergistically combines catalyst-substrate interaction with photoinduced process, a feature that is uncommon in conventional photoredox chemistry. This Review describes the early development and recent advances of this emerging field.",
+        "published": "2022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34623151/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "transition metal catalysis",
+        "subject": "chemistry"
+    },
+    "content": "# 可見光誘導的過渡金屬催化 (Visible Light-Induced Transition Metal Catalysis)\n\n## 1. 研究背景與課本關聯\n\n你是否曾經曬太陽後皮膚會變黑？這就是光能與物質作用的例子！化學反應中，光能也能扮演重要的角色，加速反應的發生。傳統上，我們可能認為化學反應需要加熱才能進行，但現在科學家發現，利用可見光就能夠驅動許多化學反應，而且效率很高。這項研究與高中化學課本的「無機與分析化學」章節息息相關，因為我們在學習「配位化合物」時，會發現許多過渡金屬離子具有特殊的電子結構，能夠吸收光能，並參與催化反應。這項新技術正是利用過渡金屬的特性，發展出更有效率、更環保的化學反應。\n\n## 2. 核心發現\n\n這篇研究報告主要探討的是一種新興的「光催化」技術，稱為「可見光誘導的過渡金屬催化」。傳統的光催化通常需要額外添加一種稱為「光敏劑」的物質來吸收光能，然後再將能量傳遞給反應物。但這種新技術的厲害之處在於，**過渡金屬配合錯合物本身就同時扮演了吸收光能和催化反應的角色**，簡化了整個反應流程。\n\n想像一下，一個過渡金屬配合錯合物就像一個小太陽能板，它吸收可見光後，會進入一個「激發態」。這個激發態的配合錯合物具有很高的能量，能夠促進化學鍵的斷裂或形成，進而完成催化反應。與傳統的「光還原催化」不同，這種新技術更強調**催化劑與反應物之間的相互作用**，這種協同效應可以大幅提升反應效率和選擇性。\n\n舉例來說，某些過渡金屬配合錯合物可以吸收可見光，然後將有機分子中的特定官能基活化，使其更容易與其他分子反應，形成新的化學鍵。這種技術在有機合成中具有廣泛的應用前景，例如可以更有效地製造藥物、農藥或其他重要的化學物質。\n\n更重要的是，這種技術通常只需要使用可見光作為能量來源，相較於傳統的高溫高壓反應，更加節能、環保。科學家們正在積極研究各種不同的過渡金屬配合錯合物，希望能開發出更多高效、選擇性的光催化反應，為化學工業帶來革命性的改變。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊利用[Ru(bpy)₃]²⁺ (bpy = 雙聯吡啶) 作為光催化劑，在可見光照射下，成功將醇類氧化成醛類。下列關於此反應的敘述，何者最合理？\",\n    \"options\": [\n        \"(A) [Ru(bpy)₃]²⁺ 吸收可見光後，電子從低能階躍遷至高能階，形成激發態，並參與氧化還原反應。\",\n        \"(B) 醇類直接吸收可見光，被氧化成醛類，[Ru(bpy)₃]²⁺ 在反應中僅作為溶劑。\",\n        \"(C) 此反應為吸熱反應，需要持續加熱才能進行。\",\n        \"(D) [Ru(bpy)₃]²⁺ 在反應中被消耗，無法重複使用。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"選項 (A) 正確描述了可見光誘導的過渡金屬催化機制。[Ru(bpy)₃]²⁺ 是一種常見的光敏劑，它吸收可見光後會進入激發態，然後參與氧化還原反應，將醇類氧化成醛類。選項 (B) 錯誤，醇類通常不直接吸收可見光。選項 (C) 錯誤，光催化反應利用光能而非熱能。選項 (D) 錯誤，催化劑在反應中不會被消耗，可以重複使用。\"\n}\n",
+    "processed_at": "2026-02-03 11:45:05",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同過渡金屬配合錯合物光催化效率與光照時間關係",
+            "x_label": "光照時間 (分鐘)",
+            "y_label": "產物收率 (%)",
+            "data_x": [
+                0,
+                10,
+                20,
+                30,
+                40,
+                50
+            ],
+            "data_y": [
+                5,
+                15,
+                35,
+                60,
+                75,
+                85
+            ]
+        },
+        "question": "某研究團隊利用不同過渡金屬配合錯合物催化某種有機反應，並在相同強度的可見光照射下，測量不同時間下的產物收率。實驗結果如圖所示。根據圖表資訊，下列敘述何者最合理？",
+        "options": [
+            "(A) 隨著光照時間的增加，產物收率逐漸增加，且趨勢接近飽和，表示反應達到平衡。",
+            "(B) 產物收率在光照初期快速上升，之後趨於穩定，表示反應速率隨時間降低。",
+            "(C) 此圖表無法判斷反應是否為光催化反應，因為沒有提供催化劑的資訊。",
+            "(D) 產物收率隨光照時間增加而下降，表示催化劑被光照破壞。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示產物收率隨著光照時間的增加而增加，且增加速率逐漸減緩，趨近於一個最大值。這表示反應速率隨著反應物消耗而降低，最終達到平衡。選項 (B) 描述的趨勢雖然正確，但沒有提到反應趨近平衡的現象。選項 (C) 錯誤，圖表顯示了光照時間對產物收率的影響，暗示了光催化的作用。選項 (D) 錯誤，催化劑在催化反應中不會被消耗。"
+    }
+}

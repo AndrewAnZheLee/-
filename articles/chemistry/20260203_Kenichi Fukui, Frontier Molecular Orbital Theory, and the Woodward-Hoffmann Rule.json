@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Kenichi Fu",
+    "meta": {
+        "title": "Kenichi Fukui, Frontier Molecular Orbital Theory, and the Woodward-Hoffmann Rules. Part I. The Person<sup>†</sup>.",
+        "summary": "Kenichi Fukui shared the 1981 Nobel Prize in Chemistry with Roald Hoffmann for \"their theories, developed independently, concerning the course of chemical reactions.\" This is Paper 4 - Part I, of a three-part trilogy within a 27-paper series on the history of the development of the Woodward-Hoffmann rules. The personality and professional style of Fukui is discussed as well as his style of teaching and his mottos and sayings. A brief chronological history of his academic and professional life is presented along with a listing of Fukui's great flexibility in behaviors and in science. Lastly, a short list of Fukui's key awards is provided.",
+        "published": "2022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35315979/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "molecular orbital theory",
+        "subject": "chemistry"
+    },
+    "content": "# 福井謙一：化學反應的預言家 (Kenichi Fukui, Frontier Molecular Orbital Theory, and the Woodward-Hoffmann Rules. Part I. The Person<sup>†</sup>)\n\n## 1. 研究背景與課本關聯\n\n你是否曾經好奇，為什麼有些化學反應容易發生，有些卻需要加熱或催化劑才能進行？就像拼積木一樣，有些積木的連接方式很自然，有些則需要外力才能組裝。化學反應也是如此，反應物之間的「接觸方式」非常重要。這篇研究介紹的福井謙一教授，正是透過研究分子的電子結構，預測化學反應發生的可能性和方式。這與高中化學「物質構造」章節中學習的分子軌域理論息息相關，理解分子軌域的特性，就能更深入了解化學反應的奧秘。\n\n## 2. 核心發現\n\n福井謙一教授與羅爾德·霍夫曼教授，因其獨立發展的化學反應理論，共同獲得了1981年的諾貝爾化學獎。他們的理論，簡稱「前線分子軌域理論」(Frontier Molecular Orbital Theory, 簡稱FMO理論)，主要探討化學反應發生的機制。\n\n在高中化學中，我們學習到原子會透過鍵結形成分子，而分子具有不同的分子軌域。FMO理論認為，化學反應主要發生在分子的「最高佔有分子軌域」(Highest Occupied Molecular Orbital, 簡稱HOMO)和「最低未佔有分子軌域」(Lowest Unoccupied Molecular Orbital, 簡稱LUMO)之間。可以把HOMO想像成「想接受」電子的部位，而LUMO則是「想提供」電子的部位。\n\n福井教授發現，反應物之間的HOMO和LUMO的相互作用，決定了反應的發生方式，例如反應是屬於「協同反應」(concerted reaction) 還是「逐步反應」(stepwise reaction)，以及反應的立體化學選擇性(stereoselectivity)。\n\n與霍夫曼教授共同提出的「伍德華-霍夫曼規則」(Woodward-Hoffmann rules)，是FMO理論的重要應用。這個規則可以預測環狀化合物參與的環加成反應(cycloaddition reaction)和消除反應(elimination reaction)的反應速率和產物。例如，它可以預測[4+2]環加成反應（Diels-Alder反應）是否需要加熱才能發生，或者是否會形成特定的立體異構物。\n\n福井教授的研究，不僅深化了我們對化學反應的理解，也為有機合成提供了重要的理論指導，幫助化學家設計更有效率、更具選擇性的化學反應。他是一位極具彈性且充滿創意的科學家，他的教學風格和人生格言也深深影響了許多學生。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某反應的反應物A的HOMO與反應物B的LUMO發生有效重疊，且此重疊呈現對稱性。根據福井謙一的前線分子軌域理論，下列關於此反應的敘述，何者最合理？\",\n    \"options\": [\n        \"(A) 此反應傾向於發生協同反應，且反應速率較快。\",\n        \"(B) 此反應傾向於發生逐步反應，且需要較高的活化能。\",\n        \"(C) 此反應的產物立體選擇性較差，容易產生多種異構物。\",\n        \"(D) 此反應的發生與溫度無關，即使在低溫下也能有效進行。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據FMO理論，HOMO與LUMO的有效重疊是化學反應發生的關鍵。對稱性的重疊表示反應物之間有良好的電子交互作用，這通常發生在協同反應中，且協同反應通常具有較低的活化能，因此反應速率較快。逐步反應需要形成中間體，HOMO-LUMO重疊的對稱性與逐步反應的機制不符。產物立體選擇性與HOMO-LUMO重疊的對稱性有關，對稱性重疊通常會導致較高的立體選擇性。溫度會影響反應速率，與FMO理論的預測無直接關聯。\"\n}\n",
+    "processed_at": "2026-02-03 11:35:44",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同溫度下 Diels-Alder 反應速率常數變化",
+            "x_label": "溫度 (°C)",
+            "y_label": "速率常數 (k, s⁻¹)",
+            "data_x": [
+                25,
+                40,
+                55,
+                70,
+                85,
+                100
+            ],
+            "data_y": [
+                0.01,
+                0.05,
+                0.15,
+                0.4,
+                1.0,
+                2.5
+            ]
+        },
+        "question": "福井謙一與羅爾德·霍夫曼的伍德華-霍夫曼規則可以用來預測 Diels-Alder 反應的速率。實驗測量了不同溫度下某種 Diels-Alder 反應的速率常數，結果如圖所示。根據圖表和文章內容，下列關於此反應的敘述，何者最合理？",
+        "options": [
+            "(A) 隨著溫度升高，速率常數呈指數級增長，符合伍德華-霍夫曼規則中熱活化反應的預測。",
+            "(B) 速率常數隨溫度變化趨於平緩，表示此反應為非熱活化反應。",
+            "(C) 在低溫下，速率常數較高，表示此反應不需要加熱即可有效進行。",
+            "(D) 速率常數隨溫度升高而降低，表示反應為放熱反應。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據阿瑞尼思公式，化學反應速率常數與溫度呈指數關係。圖表顯示，隨著溫度升高，速率常數呈指數級增長，這符合伍德華-霍夫曼規則中對熱活化 Diels-Alder 反應的預測。Diels-Alder反應通常需要一定的活化能才能進行，因此升高溫度可以提高反應速率。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Antipsycho",
+    "meta": {
+        "title": "Antipsychotic-Related Prolactin Changes: A Systematic Review and Dose-Response Meta-analysis.",
+        "summary": "Prolactin increase is a common and potentially problematic adverse event of antipsychotics. We aimed to discover the relationship between antipsychotic doses and changes in prolactin levels. To examine the relationship between antipsychotic doses and changes in prolactin levels in adults with acutely exacerbated schizophrenia. We searched the Cochrane Schizophrenia Group register (last search 26 July 2024) and previous reviews for fixed-dose, randomized controlled trials (RCTs) that investigated monotherapy of 21 antipsychotics in adults with acutely exacerbated schizophrenia. The primary outcome was mean prolactin change from baseline to study endpoint adopting mean differences (MD) in ng/mL as the effect size measure. The dose-response curves were estimated by conducting random-effects dose-response meta-analyses using the restricted cubic spline method. Among 165 eligible studies, 68 studies with 238 dose arms (23,128 participants, 35% female) reported on prolactin and were meta-analyzed. Of these, 94% lasted ≤ 3 months, and 90% of the studies used oral formulations. Participants in one study experienced their first episode, while all other studies also included multiepisode participants. The dose-response curves indicated that with aripiprazole, higher doses were significantly associated with lower prolactin levels than lower doses. Brexpiprazole, cariprazine, lumateperone, and quetiapine carried negligible risks for prolactin increase across examined doses. During treatment with most other antipsychotics, i.e., asenapine, haloperidol, iloperidone, lurasidone, olanzapine, paliperidone, risperidone, and ziprasidone, prolactin levels rose with increasing doses and then continued to increase or plateaued. The shape of the dose-response curves was similar in males and females, with generally larger amplitudes of the curves in females. The prolactin-increasing property varies among antipsychotics, is dose-related, and is greater in females. These findings in adults with acutely exacerbated schizophrenia can help clinicians titrate and adapt antipsychotic doses and consider patients' sex in treatment decisions. The protocol was registered in the International Prospective Register of Systematic Reviews (PROSPERO); registration no. CRD42020181467.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40830715/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "titration curve analysis",
+        "subject": "chemistry"
+    },
+    "content": "# 抗精神病藥物與催乳激素變化：系統性回顧與劑量反應金屬分析\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過「內分泌失調」？它指的是體內荷爾蒙分泌失衡，可能導致許多生理問題。催乳激素就是一種重要的荷爾蒙，主要功能是促進乳腺發育和分泌乳汁。但它也參與免疫調節和行為控制等其他生理過程。有些治療精神疾病的藥物，例如抗精神病藥物，可能會影響催乳激素的水平。這項研究就探討了不同抗精神病藥物，以及它們的劑量，如何影響催乳激素的濃度。這與高中化學的「無機與分析化學」章節有關，因為催乳激素是一種蛋白質，而蛋白質的結構、功能，以及其在體內的濃度變化，都需要透過化學分析方法來偵測和研究。\n\n## 2. 核心發現\n\n這項研究是透過「系統性回顧」和「金屬分析」的方法，分析了165項臨床試驗的數據，總共包含了超過兩萬三千位患有急性精神分裂症的患者。研究人員想要了解，不同抗精神病藥物的劑量，與患者體內催乳激素濃度的變化之間，是否存在關聯性。\n\n研究發現，不同抗精神病藥物對催乳激素的影響差異很大，而且通常與劑量有關。我們可以將這些藥物大致分為三類：\n\n*   **降低催乳激素的藥物：** 像是aripiprazole（利培酮），它的高劑量反而會顯著降低催乳激素的濃度，呈現一種「劑量-反應」的負相關。\n*   **幾乎不影響催乳激素的藥物：** brexpiprazole、cariprazine、lumateperone 和 quetiapine 等藥物，在研究範圍內的劑量下，對催乳激素的影響非常小。\n*   **增加催乳激素的藥物：** asenapine、haloperidol（氟哌啶醇）、iloperidone、lurasidone、olanzapine、paliperidone、risperidone（利斯培隆）和 ziprasidone 等藥物，隨著劑量的增加，催乳激素的濃度會上升，並且在達到一定程度後，會持續上升或趨於穩定。\n\n此外，研究也發現，女性的催乳激素濃度變化幅度通常比男性更大。這可能與女性體內的性荷爾蒙（例如雌激素）對催乳激素分泌的影響有關。\n\n研究人員利用「限制三次樣條法」建立劑量-反應曲線，精確地描述了不同藥物和劑量對催乳激素濃度的影響。這些研究結果對於臨床醫師來說非常重要，可以幫助他們在開立抗精神病藥物時，根據患者的性別和病情，選擇合適的藥物和劑量，以減少藥物副作用，並提高治療效果。換句話說，醫師可以更精準地「滴定」藥物劑量，達到最佳的治療效果。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某位患有精神分裂症的女性患者，在服用某種抗精神病藥物後，發現乳房出現分泌乳汁的現象。根據這項研究，下列哪種藥物最有可能導致此副作用？\",\n    \"options\": [\n        \"(A) Aripiprazole (利培酮)\",\n        \"(B) Quetiapine (喹硫平)\",\n        \"(C) Risperidone (利斯培隆)\",\n        \"(D) Lumateperone (魯拉西酮)\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"研究結果顯示，Risperidone (利斯培隆) 是會增加催乳激素濃度的藥物之一，而催乳激素過高會導致泌乳現象。Aripiprazole (利培酮) 反而會降低催乳激素，Quetiapine (喹硫平) 和 Lumateperone (魯拉西酮) 對催乳激素的影響則較小。\"\n}\n",
+    "processed_at": "2026-02-03 11:30:22",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同劑量 Risperidone (利斯培隆) 對催乳激素濃度的影響 (女性患者)",
+            "x_label": "Risperidone 劑量 (mg/day)",
+            "y_label": "催乳激素濃度 (ng/mL)",
+            "data_x": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "data_y": [
+                25,
+                35,
+                60,
+                95,
+                130,
+                155
+            ]
+        },
+        "question": "一位患有精神分裂症的女性患者開始服用 Risperidone (利斯培隆) 治療。根據上述圖表，如果患者的 Risperidone 劑量從 2 mg/day 增加到 4 mg/day，預期其催乳激素濃度會發生什麼變化？",
+        "options": [
+            "(A) 催乳激素濃度會顯著增加。",
+            "(B) 催乳激素濃度會顯著降低。",
+            "(C) 催乳激素濃度會維持不變。",
+            "(D) 催乳激素濃度會先增加後降低。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著 Risperidone 劑量的增加，催乳激素濃度呈現上升趨勢。從 2 mg/day 到 4 mg/day，催乳激素濃度從 60 ng/mL 增加到 130 ng/mL，因此預期催乳激素濃度會顯著增加。這與文章中 Risperidone 屬於會增加催乳激素濃度的藥物相符。"
+    }
+}

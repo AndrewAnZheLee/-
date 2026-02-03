@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Germanium ",
+    "meta": {
+        "title": "Germanium in Carbon Fullerenes: Quantum-Chemical Insights into Substitution, Adsorption, and Encapsulation Phenomena.",
+        "summary": "Germanium (Ge) incorporation profoundly modifies the structural and electronic characteristics of carbon fullerenes, giving rise to a diverse landscape of substitutional, exohedral, and endohedral Ge-fullerene architectures. Although experimental studies demonstrate that Ge can be introduced into fullerene matrices through nuclear recoil implantation and arc-discharge synthesis, only exohedral germylated derivatives have been structurally confirmed to date. Substitutional germanium-doped fullerene (Ge-C<sub>60</sub>) species remain experimentally elusive, with available evidence relying largely on radiochemical signatures and indirect spectroscopic data. In contrast, computational investigations provide a detailed and coherent picture of germanium doping across fullerene sizes, showing that Ge induces significant cage distortion, breaks local symmetry, narrows the highest occupied molecular orbital-lowest unoccupied molecular orbital (HOMO-LUMO) gap, and enhances charge localization at the dopant site. These electronic perturbations strongly increase the affinity of Ge-doped fullerenes for external guest molecules, leading to enhanced adsorption energies and distinct optical and transport responses in exohedral complexes. Theoretical studies of endohedral systems further indicate that Ge atoms or small clusters could form stable encapsulated species with unique electronic properties. Collectively, current evidence positions germanium-doped fullerenes as electronically versatile nanostructures with potential applications in sensing, optoelectronics, catalysis, and nanomedicine, while highlighting the need for definitive experimental synthesis and structural validation of substitutional Ge-fullerene derivatives.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41465492/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "molecular orbital theory",
+        "subject": "chemistry"
+    },
+    "content": "# 碳富勒烯中的鍺：量子化學對取代、吸附與封裝現象的深入探討 (Germanium in Carbon Fullerenes: Quantum-Chemical Insights into Substitution, Adsorption, and Encapsulation Phenomena.)\n\n## 1. 研究背景與課本關聯\n\n你可能在課堂上見過足球烯（C<sub>60</sub>），一種由碳原子組成的球狀分子。想像一下，如果我們把足球烯視為一個空心的籠子，然後試著在裡面或外面塞入其他原子，會發生什麼事呢？這就像樂高積木，改變積木的種類和組合方式，就會產生不同的結構和性質。這篇研究就探討了將鍺（Germanium，Ge）原子加入碳富勒烯中的各種可能性。這與高中化學的「物質構造」章節密切相關，因為它探討了原子結構、分子結構，以及不同原子組合如何影響物質的性質，例如電子結構和化學反應性。\n\n## 2. 核心發現\n\n這項研究主要探討了鍺原子與碳富勒烯之間的互動，以及這種互動如何改變富勒烯的特性。研究人員透過電腦模擬，發現鍺原子可以以三種方式進入碳富勒烯：**取代**（直接取代富勒烯中的碳原子）、**吸附**（附著在富勒烯外表面）和**封裝**（被困在富勒烯的內部）。\n\n目前實驗上證實了鍺原子吸附在富勒烯外面的結構，但鍺原子直接取代碳原子形成 Ge-C<sub>60</sub> 的結構，至今仍未被直接觀測到，主要證據來自間接的實驗數據。然而，透過量子化學計算，研究人員發現，當鍺原子取代碳原子時，會對富勒烯的結構造成顯著的扭曲，破壞原本的對稱性。\n\n更重要的是，鍺原子的加入會改變富勒烯的**分子軌域**，特別是**最高佔有分子軌域 (HOMO)** 和 **最低未佔有分子軌域 (LUMO)** 之間的能隙會縮小。這個能隙的縮小，代表富勒烯更容易吸收光能或參與化學反應，也就是說，富勒烯的**反應活性**會增加。此外，鍺原子周圍的**電子雲密度**會增加，使得富勒烯更容易與其他分子結合，也就是說，**吸附能力**會增強。\n\n研究也發現，如果將鍺原子封裝在富勒烯內部，也能形成具有特殊電子性質的穩定結構。這些改變的富勒烯，在**感測器**、**光電子元件**、**催化劑**和**奈米醫學**等領域，都有潛在的應用價值。\n\n總而言之，這項研究顯示，鍺原子可以大幅改變碳富勒烯的結構和電子特性，使其成為一種具有多功能性的奈米材料。然而，要真正實現這些應用，仍需要實驗上證實鍺原子取代碳原子形成的結構，並進一步研究其特性。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"假設將少量鍺原子摻雜入 C<sub>60</sub> 富勒烯中，並觀察到其吸收特定波長的光的能力增強。根據上述研究，最可能的原因是什麼？\",\n    \"options\": [\n        \"(A) 鍺原子取代碳原子，縮小了 HOMO-LUMO 能隙，使富勒烯更容易吸收光能。\",\n        \"(B) 鍺原子吸附在富勒烯表面，增加了富勒烯的表面積，從而提高了光吸收效率。\",\n        \"(C) 鍺原子封裝在富勒烯內部，改變了富勒烯的形狀，使其更容易與光相互作用。\",\n        \"(D) 鍺原子與碳原子形成共價鍵，增加了富勒烯的穩定性，使其能夠吸收更多光能。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據研究摘要，鍺原子（尤其是取代時）會縮小 HOMO-LUMO 能隙，這意味著富勒烯需要更少的能量（即吸收較低能量的光）就能激發電子，因此吸收特定波長的光的能力會增強。選項 B 描述的是吸附效應，雖然吸附會改變性質，但並非主要原因。選項 C 描述的是封裝效應，研究中提到封裝會改變電子性質，但能隙縮小是更直接的影響。選項 D 描述的穩定性增加與光吸收能力增強沒有直接關聯。\"\n}\n",
+    "processed_at": "2026-02-03 11:33:58",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同鍺摻雜比例下 C<sub>60</sub> 的 HOMO-LUMO 能隙變化",
+            "x_label": "鍺原子摻雜比例 (wt%)",
+            "y_label": "HOMO-LUMO 能隙 (eV)",
+            "data_x": [
+                0,
+                0.5,
+                1,
+                1.5,
+                2,
+                2.5,
+                3
+            ],
+            "data_y": [
+                2.4,
+                2.2,
+                1.9,
+                1.6,
+                1.3,
+                1.0,
+                0.7
+            ]
+        },
+        "question": "研究顯示鍺原子摻雜會影響 C<sub>60</sub> 富勒烯的 HOMO-LUMO 能隙。根據上述圖表，以下哪種推論最合理？",
+        "options": [
+            "(A) 隨著鍺原子摻雜比例增加，C<sub>60</sub> 的 HOMO-LUMO 能隙逐漸減小，表示其反應活性可能增加。",
+            "(B) 隨著鍺原子摻雜比例增加，C<sub>60</sub> 的 HOMO-LUMO 能隙逐漸增大，表示其穩定性提高。",
+            "(C) 鍺原子摻雜比例與 C<sub>60</sub> 的 HOMO-LUMO 能隙之間沒有明顯關聯。",
+            "(D) 在低摻雜比例下，C<sub>60</sub> 的 HOMO-LUMO 能隙變化較大，而在高摻雜比例下則趨於穩定。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著鍺原子摻雜比例的增加，C<sub>60</sub> 的 HOMO-LUMO 能隙呈現下降趨勢。根據文章內容，HOMO-LUMO 能隙縮小意味著富勒烯更容易吸收光能或參與化學反應，因此反應活性會增加。選項 (B) 與文章內容相反，選項 (C) 不符合圖表數據，選項 (D) 的描述不準確。"
+    }
+}

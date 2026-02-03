@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Multidimen",
+    "meta": {
+        "title": "Multidimensional synergistic adaptation enhances the systemic resilience in China's food security.",
+        "summary": "How to manage the compounding risks to national food security is a major issue of global concern. China, as the world's largest producer of staple foods, has steadily strengthened its food security level, profoundly impacting global food systems. In this review, we propose a systemic resilience framework (the ability to predict, absorb, rebound from and adapt to disruptions) to analyze the evolution of China's food security and explore its driving factors and multidimensional adaptations. China's food security resilience has progressed through three distinct stages: low resilience (achieving basic sufficiency), medium resilience (achieving nutritional adequacy) and above-medium resilience (embracing sustainability). Multidimensional synergistic adaptation-integrating agricultural, climatic, socioeconomic and land-use strategies-has been key to these achievements. While agricultural advancements have significantly bolstered China's food security, the growing pressures of climate change threaten to undermine these achievements. We project that China's staple food self-sufficiency will remain above 98%, yet the overall food balance is expected to tighten under the combined pressures of dietary shifts and resource constraints. To better enhance the systemic resilience in China's food security, China can buffer climate- and water-related shocks by expanding high-standard farmland, ease resource and demand pressures by enforcing anti-food-waste laws, strengthen soil and water resilience through nature-based solutions, and dampen trade volatility with integrated climate-market early-warning systems. Insights from China's experience provide targeted levers for enhancing food-system resilience elsewhere.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41608041/",
+        "source": "PubMed",
+        "mapping_chapter": "化學反應 (Chemical Reactions)",
+        "mapping_keyword": "buffer solution",
+        "subject": "chemistry"
+    },
+    "content": "# 多面向協同調適強化中國糧食安全系統韌性\n\n## 1. 研究背景與課本關聯\n\n大家每天吃的米飯、麵包，背後隱藏著一個複雜的化學系統！農作物生長需要陽光、水、二氧化碳，這些都是參與「化學反應」的重要原料。肥料中的氮、磷、鉀等元素，更是提供植物生長所需的關鍵「反應物」。而氣候變遷、土地利用方式等因素，都會影響這些化學反應的速率和效率，進而影響糧食的產量。這篇研究探討的就是中國如何透過各種策略，提升糧食系統面對各種挑戰時的「韌性」，就像化學反應中的催化劑，幫助系統更穩定地運作。這與高中化學的「化學反應」章節，在理解反應條件、速率、平衡等概念上，有著密切的關聯。\n\n## 2. 核心發現\n\n這篇研究指出，中國的糧食安全系統經歷了三個階段的發展：從「基本充飢」、到「營養充足」，再到現在追求「永續發展」。要達到這些目標，關鍵在於「多面向協同調適」，也就是結合農業、氣候、社會經濟和土地利用等多個面向的策略。\n\n我們可以將中國糧食安全系統視為一個巨大的化學反應，目標是「產生」足夠的糧食。過去，中國主要透過提升農業技術，像是改良品種、增加肥料使用量（提供更多反應物），來提高糧食產量，就像提高化學反應的速率。然而，現在面臨的挑戰是氣候變遷，這就像是改變了反應的溫度或壓力，可能會降低反應效率，甚至導致反應失控。\n\n研究發現，中國目前在主食自給自足方面仍能維持在 98% 以上，但隨著人們飲食習慣的改變（例如，更多人選擇肉類，需要更多糧食來飼養牲畜）和資源的限制（例如，水資源短缺），整體糧食平衡可能會變得更加緊張。\n\n為了提升糧食系統的「韌性」，研究建議採取以下措施：\n\n*   **擴大優質農田：** 就像提供更大的反應容器，讓反應有更多空間進行。\n*   **落實反浪費食物法規：** 減少浪費，等於更有效率地利用反應物。\n*   **運用自然方法強化土壤和水資源：** 就像使用更有效的催化劑，提升反應效率。例如，利用植物根系加強土壤結構，增加土壤的保水能力，減少水資源的流失。\n*   **建立整合氣候市場的預警系統：** 提前預測氣候變遷可能帶來的影響，就像監控反應的溫度和壓力，及時調整反應條件。\n\n中國的經驗對於其他國家提升糧食系統的韌性具有參考價值，提供了一個整合多種策略，應對複雜挑戰的成功案例。\n\n\n\n---\n```json\n{\n    \"question\": \"假設某農田使用含硝酸鉀 (KNO₃) 的肥料，以提供作物生長所需的氮元素。若硝酸鉀在土壤中完全溶解，並與水反應生成硝酸 (HNO₃) 和氫氧化鉀 (KOH)。若該農田使用 100 公克的硝酸鉀，且反應完全，則理論上可以產生多少克的硝酸？ (KNO₃ 的分子量為 101 g/mol，HNO₃ 的分子量為 63 g/mol)\",\n    \"options\": [\n        \"(A) 63 g\",\n        \"(B) 630 g\",\n        \"(C) 101 g\",\n        \"(D) 10.1 g\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"硝酸鉀 (KNO₃) 與水反應的化學方程式為：KNO₃(s) + H₂O(l) → HNO₃(aq) + KOH(aq)。從方程式可知，1 莫耳的 KNO₃ 可以產生 1 莫耳的 HNO₃。首先，計算 100 克 KNO₃ 的莫耳數：100 g / 101 g/mol = 0.99 莫耳。因此，理論上可以產生 0.99 莫耳的 HNO₃。接著，計算 0.99 莫耳 HNO₃ 的質量：0.99 mol * 63 g/mol = 62.37 g，約為 63 g。因此，答案是 (A)。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:38:15",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "中國糧食產量與氣候變遷影響指數 (2010-2023)",
+            "x_label": "年份",
+            "y_label": "糧食產量 (百萬噸) / 氣候變遷影響指數 (無單位)",
+            "data_x": [
+                2010,
+                2012,
+                2014,
+                2016,
+                2018,
+                2020,
+                2022
+            ],
+            "data_y": [
+                580,
+                595,
+                610,
+                625,
+                630,
+                615,
+                620
+            ]
+        },
+        "question": "根據圖表資料，中國糧食產量在2010年至2023年間的趨勢為何？同時，分析氣候變遷影響指數的變化可能對糧食產量的影響。",
+        "options": [
+            "(A) 糧食產量整體呈現上升趨勢，但2020年後略有下降，可能與氣候變遷影響指數的上升有關。",
+            "(B) 糧食產量一直穩定上升，不受氣候變遷影響。",
+            "(C) 糧食產量呈現大幅波動，與氣候變遷影響指數的變化完全一致。",
+            "(D) 糧食產量整體呈現下降趨勢，氣候變遷影響指數也隨之下降。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，中國糧食產量在2010年至2018年期間呈現上升趨勢，但2020年後略有下降。雖然圖表沒有直接顯示氣候變遷影響指數，但我們可以推論，2020年後糧食產量下降可能與氣候變遷造成的負面影響有關，例如極端天氣事件、乾旱或洪澇等。這與文章中提到的氣候變遷會影響糧食產量相符。"
+    }
+}

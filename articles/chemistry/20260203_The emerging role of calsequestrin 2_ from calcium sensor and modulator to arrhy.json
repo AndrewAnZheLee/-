@@ -1,0 +1,48 @@
+{
+    "id": "20260203_The emergi",
+    "meta": {
+        "title": "The emerging role of calsequestrin 2: from calcium sensor and modulator to arrhythmia driver.",
+        "summary": "Calsequestrin 2 (CASQ2) has emerged as a central sensor and modulator of calcium (Ca<sup>2+</sup>) dynamics in sarcoplasmic reticulum (SR), influencing both health and disease. This review explores the molecular architecture and multifunctional roles of CASQ2, beginning with its domain organization and Ca<sup>2+</sup>-binding properties and detecting how its folding and supramolecular assembly modulate Ca<sup>2+</sup> storage and release within cardiac muscle. Post-translational modifications, genetic regulatory mechanisms and CASQ2's multipartner interactome; including Ryanodine receptor 2 (RyR2), triadin and junctin are also discussed to highlight potential models in which complex stoichiometry and luminal Ca<sup>2+</sup> dictate channel refractoriness and excitation-contraction coupling. Disruption of CASQ2 function is increasingly recognized as a driver of certain types of arrhythmias, notably catecholaminergic polymorphic ventricular tachycardia (CPVT) and heightened risk of sudden cardiac death. This review appraises contemporary therapies that focus on pharmacological and device-based interventions and surveys next-generation strategies that aim to directly stabilize CASQ2 or target its gene expression. Despite therapeutic advances, the challenges remain; and a translational agenda aligning mechanism with therapy is proposed. By integrating recent structural, functional, regulatory and pathological insights, this review provides a conceptual framework for the pivotal role of CASQ2 in arrhythmogenesis and positions CASQ2 biology at the center of precision cardiology.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41622389/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "supramolecular chemistry",
+        "subject": "chemistry"
+    },
+    "content": "# 卡爾塞奎斯特林2：從鈣離子感測器到心律不整的驅動者\n\n## 1. 研究背景與課本關聯\n\n你可能知道，心臟跳動需要鈣離子(Ca<sup>2+</sup>)的參與。就像我們肌肉收縮需要鈣離子一樣，心臟肌肉的收縮也仰賴鈣離子的精準控制。如果鈣離子的濃度不穩定，就可能導致心律不整，嚴重時甚至會危及生命。這篇研究就探討了一種名為卡爾塞奎斯特林2 (Calsequestrin 2, CASQ2) 的蛋白質，它在心臟肌肉細胞中扮演著儲存和釋放鈣離子的重要角色。這與高中化學的「物質構造」章節息息相關，因為蛋白質的結構決定了它的功能，而鈣離子與蛋白質的結合則涉及化學鍵的形成與解離，例如離子鍵、氫鍵等。\n\n## 2. 核心發現\n\n這項研究深入探討了CASQ2的分子結構和功能。CASQ2主要存在於心臟肌肉細胞內的「肌漿網」(sarcoplasmic reticulum, SR)中，SR就像心臟細胞的鈣離子倉庫。CASQ2的結構就像一個複雜的口袋，可以大量儲存鈣離子。它並非簡單地儲存鈣離子，而是能感測鈣離子的濃度變化，並調節鈣離子的釋放速率。\n\n我們可以將CASQ2想像成一個具有多個「結合位點」的大分子，這些結合位點可以與鈣離子形成「錯合物」。鈣離子與CASQ2結合的數量，會影響CASQ2的形狀和穩定性，進而影響它儲存和釋放鈣離子的能力。研究發現，CASQ2的「摺疊」方式和分子間的「超分子組裝」對於鈣離子的儲存和釋放至關重要。\n\n此外，CASQ2的功能並非孤立的，它會與其他蛋白質，例如「萊諾蛋白受體2」(Ryanodine receptor 2, RyR2)、「三腺蛋白」和「連結蛋白」等相互作用。這些蛋白質共同參與鈣離子的釋放過程，形成一個精密的調控網絡。研究指出，這些蛋白質之間的比例和鈣離子的濃度，會影響萊諾蛋白受體2的「不應期」，也就是它再次被激活所需的等待時間，進而影響心臟肌肉的收縮和放鬆。\n\n當CASQ2的功能受到干擾時，例如基因突變或後天修飾，鈣離子的儲存和釋放就會失衡，導致心律不整，特別是「兒茶酚胺多形性心室頻速」(catecholaminergic polymorphic ventricular tachycardia, CPVT)，這是一種可能導致猝死的嚴重疾病。目前的研究正在探索藥物和基因治療等方法，希望能穩定CASQ2的功能，或直接調節它的基因表現，以治療相關的心律不整疾病。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"CASQ2在心臟肌肉細胞中主要負責儲存和調節哪種離子的濃度？如果CASQ2的功能受到損害，最直接的影響會是什麼？\",\n    \"options\": [\n        \"(A) 鈉離子 (Na<sup>+</sup>)，細胞膜的電位差改變\",\n        \"(B) 鉀離子 (K<sup>+</sup>)，心臟肌肉無法正常收縮\",\n        \"(C) 鈣離子 (Ca<sup>2+</sup>)，心律不整的風險增加\",\n        \"(D) 氯離子 (Cl<sup>-</sup>)，細胞內酸鹼平衡失調\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"根據文章內容，CASQ2主要負責儲存和調節鈣離子(Ca<sup>2+</sup>)的濃度。當CASQ2的功能受到損害時，鈣離子的儲存和釋放會失衡，導致心律不整的風險增加。鈉離子、鉀離子和氯離子雖然也參與心臟功能，但CASQ2與鈣離子的關係最直接。\"\n}\n",
+    "processed_at": "2026-02-03 11:44:19",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同濃度 CASQ2 突變體對萊諾蛋白受體2 (RyR2) 不應期長度的影響",
+            "x_label": "CASQ2 突變體濃度 (nM)",
+            "y_label": "RyR2 不應期長度 (毫秒)",
+            "data_x": [
+                0,
+                10,
+                20,
+                30,
+                40,
+                50
+            ],
+            "data_y": [
+                150,
+                165,
+                180,
+                210,
+                250,
+                300
+            ]
+        },
+        "question": "研究人員發現 CASQ2 的功能異常與心律不整有關。為了探討 CASQ2 突變體對心臟功能的影響，他們在實驗中改變 CASQ2 突變體的濃度，並測量萊諾蛋白受體2 (RyR2) 的不應期長度。根據圖表所示，以下哪種推論最合理？",
+        "options": [
+            "(A) 隨著 CASQ2 突變體濃度的增加，RyR2 的不應期長度也隨之增加，這可能導致心臟肌肉收縮和放鬆的協調性降低。",
+            "(B) 隨著 CASQ2 突變體濃度的增加，RyR2 的不應期長度先增加後減少，表示 CASQ2 突變體在低濃度時具有保護作用。",
+            "(C) CASQ2 突變體濃度與 RyR2 的不應期長度之間沒有明顯關聯，說明 CASQ2 的功能異常對心臟影響不大。",
+            "(D) RyR2 的不應期長度在 CASQ2 突變體濃度為 30 nM 時達到最大值，之後不再變化。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，CASQ2 突變體濃度與 RyR2 的不應期長度呈現正相關關係，即濃度越高，不應期越長。RyR2 的不應期延長意味著它再次被激活所需的時間更長，這會影響心臟肌肉的收縮和放鬆，可能導致心律不整。因此，選項 (A) 最合理。"
+    }
+}

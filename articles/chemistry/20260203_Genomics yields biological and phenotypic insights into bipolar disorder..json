@@ -1,0 +1,44 @@
+{
+    "id": "20260203_Genomics y",
+    "meta": {
+        "title": "Genomics yields biological and phenotypic insights into bipolar disorder.",
+        "summary": "Bipolar disorder is a leading contributor to the global burden of disease<sup>1</sup>. Despite high heritability (60-80%), the majority of the underlying genetic determinants remain unknown<sup>2</sup>. We analysed data from participants of European, East Asian, African American and Latino ancestries (n = 158,036 cases with bipolar disorder, 2.8 million controls), combining clinical, community and self-reported samples. We identified 298 genome-wide significant loci in the multi-ancestry meta-analysis, a fourfold increase over previous findings<sup>3</sup>, and identified an ancestry-specific association in the East Asian cohort. Integrating results from fine-mapping and other variant-to-gene mapping approaches identified 36 credible genes in the aetiology of bipolar disorder. Genes prioritized through fine-mapping were enriched for ultra-rare damaging missense and protein-truncating variations in cases with bipolar disorder<sup>4</sup>, highlighting convergence of common and rare variant signals. We report differences in the genetic architecture of bipolar disorder depending on the source of patient ascertainment and on bipolar disorder subtype (type I or type II). Several analyses implicate specific cell types in the pathophysiology of bipolar disorder, including GABAergic interneurons and medium spiny neurons. Together, these analyses provide additional insights into the genetic architecture and biological underpinnings of bipolar disorder.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39843750/",
+        "source": "PubMed",
+        "mapping_chapter": "有機化學 (Organic Chemistry)",
+        "mapping_keyword": "functional group transformation",
+        "subject": "chemistry"
+    },
+    "content": "# Genomics yields biological and phenotypic insights into bipolar disorder. (基因體學揭示雙相情感疾患的生物與表型見解)\n\n## 1. 研究背景與課本關聯\n\n你有沒有發現，有些疾病在家族中更容易出現？例如，有些家族有較多的人患有憂鬱症或躁鬱症（雙相情感疾患）。這表示這些疾病的發生，除了環境因素外，與「基因」有很大的關係。這項研究就是試圖找出哪些基因與雙相情感疾患有關。而基因的結構，說穿了就是複雜的「有機分子」，例如 DNA、蛋白質等等。我們在高中化學的「有機化學」章節中學習的官能基、異構物、胺基酸、肽鍵等概念，正是理解這些基因結構與功能變異的基礎。研究基因變異，就像是在研究有機分子的微小結構差異如何影響其功能，進而影響個體的健康。\n\n## 2. 核心發現\n\n這項研究分析了超過 15 萬名患有雙相情感疾患的患者，以及超過 280 萬名健康人的基因資料，涵蓋了不同族群，包括歐洲人、東亞人、非裔美國人及拉丁美洲人。研究團隊發現了 298 個與雙相情感疾患顯著相關的基因位置，這個數字是過去研究的四倍！\n\n更進一步地，研究人員利用「精準定位」等技術，找出 36 個可能直接導致雙相情感疾患的「可信賴基因」。這些基因中，發現了許多罕見的「錯義突變」和「截斷突變」。\n\n*   **錯義突變 (Missense mutation)**：就像樂高積木的顏色改變，雖然積木的形狀沒變，但功能可能受到影響。在蛋白質的層面上，錯義突變會改變胺基酸序列，進而影響蛋白質的結構和功能。\n*   **截斷突變 (Protein-truncating variation)**：就像樂高積木被切斷，導致積木無法完整組裝。截斷突變會導致蛋白質提前停止合成，產生不完整的蛋白質，失去原本的功能。\n\n研究也發現，不同族群的基因表現有所差異，例如在東亞族群中，發現了一些獨特的基因關聯。此外，雙相情感疾患的不同類型（第一型和第二型）也可能具有不同的基因結構。\n\n更重要的是，研究指出，某些特定的腦細胞，例如「GABAergic 抑制性神經元」和「中棘神經元」，可能在雙相情感疾患的發病機制中扮演重要的角色。GABAergic 神經元負責抑制腦部的活動，而中棘神經元則參與獎勵和動機的調節。這些神經元的異常功能，可能與雙相情感疾患的情緒波動和行為失調有關。\n\n總而言之，這項研究透過大規模的基因體學分析，揭示了雙相情感疾患的複雜基因結構，並提供了新的生物學見解，有助於未來開發更有效的治療方法。\n\n---\n```json\n{\n    \"question\": \"假設某位雙相情感疾患患者的基因檢測結果顯示，其 GABAergic 神經元相關基因發生了錯義突變，導致合成的 GABA 受體蛋白的結構發生改變，使其與 GABA 分子的結合能力下降。請問此突變最可能導致患者出現哪種症狀？\",\n    \"options\": [\n        \"(A) 躁期症狀加劇，例如過度興奮、精力充沛。\",\n        \"(B) 憂鬱期症狀加劇，例如情緒低落、失去興趣。\",\n        \"(C) 認知功能下降，例如記憶力減退、注意力不集中。\",\n        \"(D) 運動功能障礙，例如肌肉僵硬、動作遲緩。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"GABA 是一種抑制性神經傳遞物質，能降低腦部興奮性。如果 GABA 受體蛋白的結合能力下降，代表 GABA 的抑制作用減弱，腦部容易處於興奮狀態，因此最可能導致躁期症狀加劇。選項 (B) 憂鬱期與 GABA 作用減弱的關聯較弱；選項 (C) 和 (D) 則與 GABAergic 神經元的功能關聯性較低。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:33:31",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同族群雙相情感疾患患者中，特定可信賴基因突變發生率",
+            "x_label": "族群",
+            "y_label": "突變發生率 (%)",
+            "data_x": [
+                "歐洲人",
+                "東亞人",
+                "非裔美國人",
+                "拉丁美洲人"
+            ],
+            "data_y": [
+                2.5,
+                1.8,
+                3.1,
+                2.2
+            ]
+        },
+        "question": "根據圖表，下列敘述何者正確？",
+        "options": [
+            "(A) 東亞族群中，特定可信賴基因的突變發生率最低。",
+            "(B) 非裔美國人族群中，特定可信賴基因的突變發生率最高。",
+            "(C) 歐洲人與拉丁美洲人族群的突變發生率相同。",
+            "(D) 所有族群的突變發生率都低於 2%。"
+        ],
+        "correct_answer": "B",
+        "explanation": "圖表顯示，非裔美國人族群的突變發生率為 3.1%，是四個族群中最高的。東亞族群的突變發生率為 1.8%，最低。歐洲人與拉丁美洲人的突變發生率分別為 2.5% 和 2.2%，不相同。並非所有族群的突變發生率都低於 2%。"
+    }
+}

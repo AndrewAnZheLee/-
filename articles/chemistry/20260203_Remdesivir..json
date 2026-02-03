@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Remdesivir",
+    "meta": {
+        "title": "Remdesivir.",
+        "summary": "Remdesivir, marketed under the brand name Veklury, is an antiviral drug with a broad spectrum of activity. There were various countries where the use of Remdesivir for the treatment of COVID-19 was authorized during the pandemic. Remdesivir was first designed to treat hepatitis C, but it was later tested for Ebola virus sickness and Marburg virus infections. Remdesivir is a prodrug designed to facilitate the intracellular transport of GS-441524 monophosphate and its subsequent biotransformation into GS-441524 triphosphate, a ribonucleotide analogue inhibitor of viral RNA polymerase. The objective of this chapter is to provide a comprehensive review of Remdesivir (GS-5734), including its nomenclature, physiochemical properties, preparation methods, identification procedures, numerous qualitative and quantitative analytical techniques, ADME profiles, and pharmacological effects. In addition, the chapter provides a variety of chromatographic and spectroscopic techniques for separating brimonidine from other drugs in combination formulations.",
+        "published": "2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37061276/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "spectroscopic identification",
+        "subject": "chemistry"
+    },
+    "content": "# Remdesivir (瑞德西維)\n\n## 1. 研究背景與課本關聯\n\n大家應該對 COVID-19 不陌生吧？在疫情期間，瑞德西維 (Remdesivir) 曾被許多國家核准使用，希望能幫助患者對抗病毒。其實，瑞德西維一開始並不是為了對付 COVID-19 而設計的，而是為了治療肝炎 C。後來，科學家發現它對其他病毒也有效果。這項研究的重點，就在於深入了解瑞德西維的化學性質、如何製造、如何檢測，以及它在體內的代謝過程。這些內容，都與高中化學的「無機與分析化學」章節息息相關，例如物質的鑑定、分離分析、以及藥物在體內的代謝途徑，都屬於我們學習的範圍。\n\n## 2. 核心發現\n\n瑞德西維並不是直接發揮作用，而是一種「前藥」(prodrug)。什麼是前藥呢？就像有些藥物需要經過肝臟代謝才能變成有效成分一樣，瑞德西維進入細胞後，會經過一系列的化學反應，最終轉變成一種名為 GS-441524 三磷酸的物質。這個 GS-441524 三磷酸，結構上很像我們 DNA 或 RNA 的組成成分 – 核苷酸。\n\n病毒複製需要一種叫做 RNA 聚合酶的酵素。GS-441524 三磷酸因為結構相似，會「假裝」成為 RNA 聚合酶的原料，進而干擾病毒 RNA 的合成，達到抑制病毒複製的效果。我們可以把它想像成「偽裝者」，混入病毒的生產線，破壞病毒的製造過程。\n\n這份研究詳細探討了瑞德西維的命名、物理化學性質（例如溶解度、熔點等）、製備方法、以及如何用各種分析方法來確認它的純度和含量。研究中使用了許多分析化學的技術，像是層析法 (chromatography) 和光譜法 (spectroscopy)，來分離和鑑定瑞德西維，甚至可以從混合藥物中將它分離出來。此外，研究也探討了瑞德西維在體內的吸收 (Absorption)、分配 (Distribution)、代謝 (Metabolism)、以及排泄 (Excretion) – 也就是所謂的 ADME 過程，這對於了解藥物的效果和副作用非常重要。\n\n簡單來說，這份研究就像是為瑞德西維做了一份完整的「身家調查」，從它的化學構造到在體內的行為，都仔細地分析了一遍，希望能幫助我們更有效地利用這種藥物對抗病毒。\n\n---\n```json\n{\n    \"question\": \"瑞德西維 (Remdesivir) 是一種前藥，其作用機制是轉變成 GS-441524 三磷酸後，干擾病毒 RNA 的合成。下列關於 GS-441524 三磷酸的敘述，何者最合理？\",\n    \"options\": [\n        \"(A) GS-441524 三磷酸的分子結構中，應含有磷酸基 (PO₄³⁻) 和核糖基 (ribose)。\",\n        \"(B) GS-441524 三磷酸會直接與病毒的蛋白質結合，使其失去活性。\",\n        \"(C) GS-441524 三磷酸會破壞病毒的細胞壁，導致病毒死亡。\",\n        \"(D) GS-441524 三磷酸會改變病毒的基因序列，使其無法複製。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"GS-441524 三磷酸是一種核苷酸類似物，核苷酸的基本結構包含磷酸基、糖類（此處為核糖）和鹼基。它之所以能干擾病毒 RNA 的合成，是因為它會被錯誤地加入到正在合成的 RNA 鏈中，阻礙 RNA 聚合酶的正常功能。選項 (B) 描述的是酵素抑制劑的作用方式，選項 (C) 描述的是抗生素的作用方式，選項 (D) 描述的是基因突變，這些都不符合瑞德西維的作用機制。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:42:48",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "瑞德西維在體內代謝過程中 GS-441524 三磷酸濃度的變化",
+            "x_label": "給藥後時間 (小時)",
+            "y_label": "GS-441524 三磷酸濃度 (nM)",
+            "data_x": [
+                0,
+                2,
+                4,
+                6,
+                8,
+                12,
+                24
+            ],
+            "data_y": [
+                0,
+                15,
+                45,
+                60,
+                55,
+                40,
+                10
+            ]
+        },
+        "question": "根據圖表所示，瑞德西維給藥後，GS-441524 三磷酸濃度隨時間的變化趨勢，下列敘述何者最合理？",
+        "options": [
+            "(A) GS-441524 三磷酸濃度先上升後下降，表示藥物被吸收、代謝和排泄的過程。",
+            "(B) GS-441524 三磷酸濃度持續上升，表示藥物在體內不斷累積。",
+            "(C) GS-441524 三磷酸濃度一直維持穩定，表示藥物在體內沒有代謝。",
+            "(D) GS-441524 三磷酸濃度先下降後上升，表示藥物在體內經歷了多次代謝。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示 GS-441524 三磷酸濃度在給藥後逐漸上升，達到峰值後又開始下降。這符合藥物在體內 ADME (吸收、分配、代謝、排泄) 的過程。藥物被吸收後，濃度上升；達到一定濃度後，開始被代謝和排泄，導致濃度下降。選項 (B) 不合理，因為藥物不可能在體內無限累積。選項 (C) 不合理，因為藥物一定會被代謝。選項 (D) 的變化趨勢與圖表不符。"
+    }
+}

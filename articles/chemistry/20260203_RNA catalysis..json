@@ -1,0 +1,48 @@
+{
+    "id": "20260203_RNA cataly",
+    "meta": {
+        "title": "RNA catalysis.",
+        "summary": "Our understanding of the relationship between the structure of RNA and its catalytic activity has advanced significantly in the past year. These advances include time-resolved crystallographic studies on the hammerhead ribozyme, as well as new structures of a group I intron, a lead(II)-cleavage ribozyme, a hepatitis delta virus ribozyme, and components of the spliceosome machinery and the peptidyl transferase center of the ribosome and, most significantly, the structure of the ribosome itself.",
+        "published": "1998",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9914252/",
+        "source": "PubMed",
+        "mapping_chapter": "有機化學 (Organic Chemistry)",
+        "mapping_keyword": "catalytic synthesis",
+        "subject": "chemistry"
+    },
+    "content": "# RNA 催化\n\n## 1. 研究背景與課本關聯\n\n大家可能知道，酵素是生物體內重要的催化劑，能加速化學反應。但你可能不知道，除了蛋白質之外，RNA 也能扮演催化劑的角色！這就像我們在廚房裡，除了用瓦斯爐加熱，也可以用壓力鍋加速烹煮一樣。這篇研究探討的就是 RNA 如何像酵素一樣，加速化學反應。這與高中化學的「有機化學」章節息息相關，因為 RNA 本身就是一種有機分子，由核糖、磷酸和鹼基組成，而其催化作用的原理，也涉及分子結構、鍵結和反應機轉等有機化學的核心概念。\n\n## 2. 核心發現\n\n過去，科學家普遍認為只有蛋白質才能擔任生物催化劑，也就是酵素。但近年來，越來越多的研究發現，RNA 也能像酵素一樣，催化特定的化學反應，這種 RNA 具有催化功能的分子，我們稱之為「核酶 (ribozyme)」。\n\n這篇研究報告指出，科學家們在過去一年中，對 RNA 催化的理解有了顯著的進展。他們利用「時間解析晶體結構分析」等技術，更深入地研究了幾種重要的核酶，像是「鎚頭核酶 (hammerhead ribozyme)」。鎚頭核酶是一種常見的 RNA 自切割核酶，可以將 RNA 分子切割成兩段。研究人員透過觀察其結構變化，了解了切割反應發生的機制。\n\n此外，研究也探討了其他核酶，例如「第一類內含子 (group I intron)」、「鉛離子切割核酶 (lead(II)-cleavage ribozyme)」、「肝炎δ病毒核酶 (hepatitis delta virus ribozyme)」，以及參與「剪接體 (spliceosome)」和「核醣體 (ribosome)」的 RNA 成分。特別值得一提的是，科學家們成功解析了核醣體的完整結構！\n\n核醣體是細胞內負責蛋白質合成的「工廠」，而其核心功能——「肽鍵形成 (peptidyl transferase)」——其實是由核醣體 RNA (rRNA) 催化的，而非蛋白質！這顛覆了過去的認知，證明 RNA 在生命活動中扮演著更重要的角色。\n\n這些研究的結果，讓我們更了解 RNA 的結構如何影響其催化活性。例如，RNA 分子的摺疊方式、鹼基配對、以及與金屬離子（如鉛離子）的結合，都會影響其催化效率。這些發現對於我們理解生命的起源、以及開發新的藥物和生物技術，都具有重要的意義。\n\n---\n```json\n{\n    \"question\": \"某研究團隊發現一種新型核酶，其催化反應需要鎂離子 (Mg²⁺) 的輔助。下列關於鎂離子在核酶催化反應中可能扮演的角色，哪一個敘述最合理？\",\n    \"options\": [\n        \"(A) 鎂離子提供電子，參與反應的氧化還原過程。\",\n        \"(B) 鎂離子作為路易斯酸，穩定負電荷的過渡態，降低活化能。\",\n        \"(C) 鎂離子與 RNA 的磷酸基團形成共價鍵，改變 RNA 的結構。\",\n        \"(D) 鎂離子與 RNA 的鹼基配對，增加 RNA 的穩定性。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"鎂離子 (Mg²⁺) 是一種路易斯酸，具有接受電子對的能力。在核酶催化反應中，負電荷的過渡態是不穩定的，鎂離子可以與過渡態上的負電荷相互作用，降低其能量，從而穩定過渡態，降低活化能，加速反應。選項 (A) 氧化還原反應通常涉及蛋白質中的輔酶，而非鎂離子。選項 (C) 鎂離子通常不形成共價鍵，而是透過靜電作用與磷酸基團結合。選項 (D) 鎂離子雖然可以影響 RNA 的結構，但主要作用是穩定過渡態，而非直接參與鹼基配對。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:43:10",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同金屬離子濃度對鎚頭核酶切割效率的影響",
+            "x_label": "金屬離子濃度 (mM)",
+            "y_label": "切割效率 (%)",
+            "data_x": [
+                0,
+                0.5,
+                1,
+                2,
+                4,
+                8
+            ],
+            "data_y": [
+                5,
+                25,
+                60,
+                85,
+                90,
+                92
+            ]
+        },
+        "question": "科學家研究鎚頭核酶的切割效率，發現金屬離子的濃度會影響其催化活性。下圖顯示不同金屬離子濃度下，鎚頭核酶的切割效率。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 鎚頭核酶的切割效率隨著金屬離子濃度的增加而增加，但達到一定濃度後，增加幅度趨於平緩。",
+            "(B) 鎚頭核酶的切割效率與金屬離子濃度呈負相關，濃度越高，切割效率越低。",
+            "(C) 鎚頭核酶在沒有金屬離子存在下，就能達到最高的切割效率。",
+            "(D) 金屬離子濃度對鎚頭核酶的切割效率沒有顯著影響。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著金屬離子濃度的增加，鎚頭核酶的切割效率也隨之增加。然而，當金屬離子濃度達到 4 mM 以上時，切割效率的增加幅度明顯減緩，趨近於一個飽和值。這表示金屬離子在一定濃度範圍內能有效促進核酶的催化活性，但過高的濃度則無法進一步提升效率，可能因為核酶的活性中心已被充分佔據。"
+    }
+}

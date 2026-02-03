@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Recent Adv",
+    "meta": {
+        "title": "Recent Advances in the Synthesis of C-N/N-N Atropisomers via Asymmetric Annulation.",
+        "summary": "C-N/N-N atropisomers constitute pivotal structural elements in privileged scaffolds of natural products, bioactive compounds, chiral ligands, and advanced functional materials. With these wide-ranging utilities, the construction of these axially chiral frameworks has garnered increasing attention from chemists. This review highlights asymmetric annulation as a powerful and efficient strategy to construct such scaffolds, enabling simultaneous aromatic ring formation and axial chirality control in a single step. Recent advances up to August 2025 are summarized, covering both transition metal catalysis (eg., palladium, rhodium, copper, cobalt with chiral ligands) and organocatalysis (e.g., chiral phosphoric acids and N-heterocyclic carbenes). Key methodologies include [4 + 2] cyclizations, ynamide annulations, C-H activation, and annulations involving acroleins or aminocarbonyls, offering versatile routes to diverse C-N and N-N atropisomers with high enantioselectivity. This work provides an integration of catalytic systems previously reviewed in isolation, underscoring the progress in synthetic efficiency and catalytic system diversity.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41627594/",
+        "source": "PubMed",
+        "mapping_chapter": "有機化學 (Organic Chemistry)",
+        "mapping_keyword": "catalytic synthesis",
+        "subject": "chemistry"
+    },
+    "content": "# 透過不對稱環化反應合成具有軸手性的C-N/N-N異構物\n\n## 1. 研究背景與課本關聯\n\n你可能在生活中看過一些藥物，它們的分子結構雖然相同，但因為空間排列不同，效果卻差很多，就像左右手的關係一樣。這種現象就與「手性」有關。化學家們一直努力研究如何精準地製造出只有單一種手性的分子，因為不同的手性可能會有不同的生理活性。這篇研究就探討了如何有效地製造出具有特殊手性結構的化合物，這些化合物在藥物、新材料等領域都有很大的潛力。這與高中化學課本的「有機化學」章節中關於「手性」、「異構物」以及「有機反應」的內容密切相關，特別是學習了官能基、取代基後，更能理解此研究的意義。\n\n## 2. 核心發現\n\n這篇研究主要介紹了一種叫做「不對稱環化反應」的有效方法，用來製造具有「軸手性」的C-N/N-N異構物。什麼是軸手性呢？想像一下，如果一個分子中存在一個被旋轉限制的單鍵，導致分子兩端的取代基無法自由旋轉，就像一個被卡住的旋轉木馬，那麼這個分子就具有軸手性。C-N/N-N異構物指的是分子中含有碳-氮或氮-氮鍵，並且具有這種軸手性結構的化合物。\n\n研究中，化學家們利用不同的催化劑，例如「過渡金屬催化劑」（像是鈧、銠、銅、鈷，並搭配具有手性的配體）和「有機催化劑」（像是手性磷酸和N-雜環卡賓），來控制環化反應的進行方向，從而得到只有單一種手性的產物，也就是具有高度「對映選擇性」的化合物。\n\n具體來說，他們使用了幾種不同的環化反應方式：\n\n*   **[4+2]環化反應**：類似於我們學過的狄爾斯-艾德勒反應，但加入了手性催化劑來控制反應的立體化學。\n*   **炔醯胺環化反應**：利用炔基和醯胺基團進行環化，形成新的環狀結構。\n*   **C-H活化**：直接活化碳-氫鍵，使其參與反應，是一種非常有效率的合成方法。\n*   **涉及丙烯醛或胺基甲醯基的環化反應**：利用這些反應物作為原料，進行環化反應。\n\n這些方法都能夠有效地合成出多樣化的C-N和N-N異構物，而且產物的純度很高。這篇研究的重點在於整合了過去零散的研究成果，展示了不同催化系統的優勢，並突顯了在合成效率和催化劑多樣性方面的進展。總而言之，這項研究為合成具有特殊手性結構的化合物提供了更多有效的策略，對於開發新藥物和新材料具有重要的意義。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某藥物分子具有軸手性，其結構中一個被旋轉限制的單鍵連接兩個苯環。若使用不對稱環化反應合成此藥物，並使用手性催化劑，下列哪一項敘述最能解釋手性催化劑的作用？\",\n    \"options\": [\n        \"(A) 手性催化劑能降低反應的活化能，加速反應速率，並控制產物的手性。\",\n        \"(B) 手性催化劑能提供反應所需的氮原子，促進C-N鍵的形成。\",\n        \"(C) 手性催化劑能增加反應的溫度，使反應更容易進行。\",\n        \"(D) 手性催化劑能改變反應物的化學式，使其更容易形成環狀結構。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"手性催化劑的主要作用是降低反應的活化能，加速反應速率，同時由於其自身的 chirality (手性)，能誘導反應朝向生成特定手性的產物，也就是控制產物的手性。選項(B) 描述的是反應物的功能，而非催化劑的作用；選項(C) 改變溫度雖然可以影響速率，但無法控制手性；選項(D) 改變化學式則改變了反應本身。\"\n}\n",
+    "processed_at": "2026-02-03 11:42:26",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同催化劑對映選擇性比較",
+            "x_label": "催化劑",
+            "y_label": "對映選擇性 (%)",
+            "data_x": [
+                "無催化劑",
+                "鈧催化劑",
+                "銠催化劑",
+                "銅催化劑",
+                "手性磷酸催化劑",
+                "N-雜環卡賓催化劑"
+            ],
+            "data_y": [
+                2,
+                15,
+                68,
+                45,
+                92,
+                85
+            ]
+        },
+        "question": "研究中，不同的催化劑對不對稱環化反應的對映選擇性有顯著影響。根據上述圖表，下列哪一項敘述最符合實驗結果？",
+        "options": [
+            "(A) 使用手性磷酸催化劑時，對映選擇性最高，表示能最有效地控制生成單一種手性異構物的比例。",
+            "(B) 無催化劑的情況下，對映選擇性也達到較高的程度，表示反應本身具有一定的選擇性。",
+            "(C) 銅催化劑和銠催化劑的對映選擇性相近，表示它們在催化反應的機制上具有相似性。",
+            "(D) 所有的催化劑都能大幅提升對映選擇性，因此催化劑的種類對反應結果沒有顯著差異。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，手性磷酸催化劑的對映選擇性 (92%) 顯著高於其他催化劑，表明它在控制生成單一種手性異構物的比例方面最有效。選項(B)錯誤，無催化劑的對映選擇性最低。選項(C)錯誤，銅催化劑(45%)和銠催化劑(68%)的對映選擇性有明顯差異。選項(D)錯誤，催化劑種類對反應結果有顯著差異。"
+    }
+}

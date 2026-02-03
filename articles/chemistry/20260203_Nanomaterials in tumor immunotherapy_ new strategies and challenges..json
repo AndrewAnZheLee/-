@@ -1,0 +1,46 @@
+{
+    "id": "20260203_Nanomateri",
+    "meta": {
+        "title": "Nanomaterials in tumor immunotherapy: new strategies and challenges.",
+        "summary": "Tumor immunotherapy exerts its anti-tumor effects by stimulating and enhancing immune responses of the body. It has become another important modality of anti-tumor therapy with significant clinical efficacy and advantages compared to chemotherapy, radiotherapy and targeted therapy. Although various kinds of tumor immunotherapeutic drugs have emerged, the challenges faced in the delivery of these drugs, such as poor tumor permeability and low tumor cell uptake rate, had prevented their widespread application. Recently, nanomaterials had emerged as a means for treatment of different diseases due to their targeting properties, biocompatibility and functionalities. Moreover, nanomaterials possess various characteristics that overcome the defects of traditional tumor immunotherapy, such as large drug loading capacity, precise tumor targeting and easy modification, thus leading to their wide application in tumor immunotherapy. There are two main classes of novel nanoparticles mentioned in this review: organic (polymeric nanomaterials, liposomes and lipid nanoparticles) and inorganic (non-metallic nanomaterials and metallic nanomaterials). Besides, the fabrication method for nanoparticles, Nanoemulsions, was also introduced. In summary, this review article mainly discussed the research progress of tumor immunotherapy based on nanomaterials in the past few years and offers a theoretical basis for exploring novel tumor immunotherapy strategies in the future.",
+        "published": "2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37312116/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "nanomaterials synthesis",
+        "subject": "chemistry"
+    },
+    "content": "# 奈米材料在腫瘤免疫療法中的應用：新策略與挑戰\n\n## 1. 研究背景與課本關聯\n\n想像一下，我們想把藥物送到身體裡對抗癌細胞，就像是想把包裹送到一個偏遠的村莊。傳統的藥物可能很難穿透腫瘤組織，或是被身體的其他部位攔截，導致藥效不佳。現在科學家們利用「奈米材料」來做包裹，就像是使用小型、精準的飛機，能更有效地將藥物送到目標位置。這與高中化學的「物質構造」章節息息相關，因為奈米材料的特性，例如表面積、粒子大小、以及組成元素，都直接影響其功能和與生物體的交互作用。我們學習原子、分子、以及不同物質的結構，就能理解奈米材料如何被設計和應用。\n\n## 2. 核心發現\n\n這篇研究報告主要探討了如何運用奈米材料來提升腫瘤免疫療法的效果。傳統的腫瘤治療，像是化療、放射線治療，雖然有效，但同時也會傷害到正常的細胞。而免疫療法則是透過刺激我們自身的免疫系統來對抗癌細胞，具有較高的選擇性和較低的副作用。然而，免疫藥物要有效發揮作用，需要能夠順利進入腫瘤組織，並被癌細胞吸收，這卻是個難題。\n\n奈米材料的出現，為解決這個難題提供了新的可能性。奈米材料的尺寸非常小，大約是頭髮絲的幾千分之一，因此具有以下優點：\n\n*   **高載藥量：** 奈米材料就像一個小小的容器，可以攜帶大量的免疫藥物。\n*   **精準靶向：** 科學家可以透過化學修飾，讓奈米材料具有特殊的「標籤」，使其能夠鎖定癌細胞，減少對正常細胞的影響。這就像是給飛機加上導航系統，使其能夠準確地抵達目的地。\n*   **穿透力佳：** 奈米材料的尺寸小，更容易穿透腫瘤組織的屏障，到達癌細胞所在的位置。\n*   **易於修飾：** 奈米材料的表面可以進行各種化學修飾，使其具有不同的功能，例如增加溶解度、延長藥物作用時間等。\n\n研究中提到的奈米材料主要分為兩大類：**有機奈米材料**和**無機奈米材料**。有機奈米材料包括**高分子奈米材料**（例如聚合物微球）、**脂體**和**脂質奈米粒子**。這些材料通常具有良好的生物相容性，但穩定性可能較差。無機奈米材料則包括**非金屬奈米材料**（例如二氧化矽奈米粒子）和**金屬奈米材料**（例如金奈米粒子）。這些材料通常具有較高的穩定性，但可能存在毒性問題。此外，研究也介紹了一種製備奈米粒子的方法，稱為**奈米乳化法**，利用界面化學原理，將兩種不互溶的液體混合，形成穩定的奈米級分散系統。\n\n總而言之，這項研究顯示，奈米材料在腫瘤免疫療法中具有巨大的潛力，可以克服傳統免疫療法的限制，提高治療效果。未來，科學家們將繼續研究奈米材料的設計、製備和應用，以開發出更安全、更有效的抗癌療法。\n\n---\n```json\n{\n    \"question\": \"某研究團隊設計了一種以金奈米粒子為載體，表面修飾具有特定抗原結合能力的抗體，用以將免疫調節劑直接送達腫瘤細胞。請問下列哪一項化學特性對於提高此系統的治療效果最為關鍵？\",\n    \"options\": [\n        \"(A) 金奈米粒子的導電性，使其能促進腫瘤細胞的電化學反應。\",\n        \"(B) 抗體的專一性，使其能精準辨識並結合腫瘤細胞表面的特定抗原。\",\n        \"(C) 金奈米粒子的表面積，使其能增加免疫調節劑的溶解度。\",\n        \"(D) 抗體的分子量，使其能影響金奈米粒子的穿透腫瘤組織的能力。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"此系統的核心在於精準將免疫調節劑送達腫瘤細胞。抗體的專一性是確保載體能正確辨識並結合腫瘤細胞的關鍵，進而提高藥物在腫瘤部位的濃度和治療效果。金奈米粒子的導電性與治療效果無直接關聯；表面積雖然影響溶解度，但專一性更重要；抗體的分子量影響穿透力，但在此系統中，專一性是更關鍵的因素。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:38:45",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同奈米材料載體對腫瘤組織藥物滲透率的影響",
+            "x_label": "奈米材料類型",
+            "y_label": "藥物滲透率 (%)",
+            "data_x": [
+                "無載體對照組",
+                "聚合物微球",
+                "脂體",
+                "二氧化矽奈米粒子",
+                "金奈米粒子"
+            ],
+            "data_y": [
+                5,
+                20,
+                35,
+                45,
+                60
+            ]
+        },
+        "question": "某研究團隊比較不同奈米材料作為藥物載體，對腫瘤組織藥物滲透率的影響。結果如圖所示，請問根據圖表資訊，下列敘述何者正確？",
+        "options": [
+            "(A) 使用金奈米粒子作為載體，藥物滲透率顯著高於其他奈米材料，可能與其較佳的穿透力有關。",
+            "(B) 聚合物微球的藥物滲透率最低，表示其生物相容性較差。",
+            "(C) 脂體和二氧化矽奈米粒子的藥物滲透率相同，表示兩種材料的特性完全一致。",
+            "(D) 無載體對照組的藥物滲透率最高，表示藥物可以直接有效進入腫瘤組織。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，金奈米粒子的藥物滲透率 (60%) 顯著高於其他奈米材料和無載體對照組 (5%)。文章中提到奈米材料的尺寸小，更容易穿透腫瘤組織屏障，而金奈米粒子在此實驗中表現最佳，因此推測其較佳的穿透力是提高藥物滲透率的主要原因。選項B錯誤，生物相容性與滲透率無直接關係。選項C錯誤，即使滲透率相同，材料特性也可能不同。選項D錯誤，無載體對照組滲透率最低。"
+    }
+}

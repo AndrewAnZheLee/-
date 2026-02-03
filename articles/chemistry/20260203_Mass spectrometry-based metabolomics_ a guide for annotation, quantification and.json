@@ -1,0 +1,42 @@
+{
+    "id": "20260203_Mass spect",
+    "meta": {
+        "title": "Mass spectrometry-based metabolomics: a guide for annotation, quantification and best reporting practices.",
+        "summary": "Mass spectrometry-based metabolomics approaches can enable detection and quantification of many thousands of metabolite features simultaneously. However, compound identification and reliable quantification are greatly complicated owing to the chemical complexity and dynamic range of the metabolome. Simultaneous quantification of many metabolites within complex mixtures can additionally be complicated by ion suppression, fragmentation and the presence of isomers. Here we present guidelines covering sample preparation, replication and randomization, quantification, recovery and recombination, ion suppression and peak misidentification, as a means to enable high-quality reporting of liquid chromatography- and gas chromatography-mass spectrometry-based metabolomics-derived data.",
+        "published": "2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34239102/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "chromatography techniques",
+        "subject": "chemistry"
+    },
+    "content": "# 質譜儀與代謝物體學：化合物偵測、定量與良好報告的指南\n\n## 1. 研究背景與課本關聯\n\n你是否曾經好奇，為什麼不同的人喝了同一杯咖啡，身體反應卻不一樣？或者為什麼運動員的尿液檢查可以偵測出是否使用禁藥？這些問題的答案，都與我們體內無數的「代謝物」息息相關。代謝物是生物體內參與代謝作用的小分子，像是葡萄糖、胺基酸、脂肪酸等等。這篇研究，就探討如何利用高科技儀器，一次性分析體內大量的代謝物，並準確地測量它們的含量。這與高中化學的「無機與分析化學」章節密切相關，因為我們在學習分析化學時，就已經接觸到各種分析儀器，例如質譜儀，以及如何利用這些儀器進行定性與定量分析。\n\n## 2. 核心發現\n\n這篇研究主要探討的是「質譜儀-代謝物體學」 (Mass Spectrometry-based Metabolomics) 的應用與注意事項。簡單來說，代謝物體學就像是偵測體內所有化學物質的「指紋」，而質譜儀就是用來讀取這些指紋的工具。\n\n質譜儀的原理是將分子轉化為帶電粒子（離子），然後根據其質量電荷比 (m/z) 將這些離子分離。不同的代謝物，其分子量不同，因此產生的質譜圖譜也會不同，就像是不同的指紋一樣。透過比對樣品的質譜圖譜與標準品的質譜圖譜，我們可以判斷樣品中含有哪些代謝物（定性分析）。\n\n然而，代謝物體學的挑戰在於，體內代謝物的種類繁多，濃度範圍也很大，而且許多代謝物結構相似，容易產生干擾。研究中指出，在進行代謝物體學分析時，需要注意以下幾個關鍵點：\n\n*   **樣品前處理：** 必須妥善處理生物樣品，例如血液、尿液等，以去除雜質，並將代謝物萃取出來。\n*   **重複與隨機化：** 為了確保實驗結果的可靠性，需要進行多次重複實驗，並隨機分配樣品，以避免系統性誤差。\n*   **定量分析：** 準確測量代謝物的含量非常重要。研究中提到，在複雜的樣品中，可能會發生「離子抑制」現象，也就是某些物質會干擾其他物質的離子化，導致定量結果不準確。因此，需要使用適當的標準品進行校正。\n*   **異構物問題：** 許多代謝物存在異構物，也就是分子式相同，但結構不同的化合物。質譜儀可能無法區分異構物，因此需要結合其他分析技術，例如氣相層析 (Gas Chromatography, GC) 或液相層析 (Liquid Chromatography, LC)，才能準確地識別和定量這些異構物。\n*   **報告標準：** 研究強調，為了確保研究結果的可重複性與可信度，需要遵循一套標準化的報告規範，詳細記錄實驗方法、數據處理過程以及結果分析。\n\n總而言之，質譜儀-代謝物體學是一項強大的分析工具，可以幫助我們了解生物體內的化學變化，進而研究疾病的發生機制、評估藥物的療效，以及開發新的診斷方法。但要獲得可靠的結果，必須嚴格遵守實驗規範，並仔細分析數據。\n\n---\n```json\n{\n    \"question\": \"小明利用質譜儀分析兩種未知樣品 A 和 B，發現樣品 A 的主要離子峰位於 m/z = 180，而樣品 B 的主要離子峰位於 m/z = 196。假設這兩種樣品都含有碳、氫、氧元素，且樣品 B 比樣品 A 多了一個氧原子，請問這兩種樣品最有可能的分子式分別為何？\",\n    \"options\": [\n        \"(A) 樣品 A: C₁₂H₂₄O₂，樣品 B: C₁₂H₂₄O₃\",\n        \"(B) 樣品 A: C₆H₁₂O₃，樣品 B: C₆H₁₂O₄\",\n        \"(C) 樣品 A: C₁₀H₂₀O，樣品 B: C₁₀H₂₀O₂\",\n        \"(D) 樣品 A: C₈H₁₆O₄，樣品 B: C₈H₁₆O₅\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"質量數的差異主要來自於原子質量。一個氧原子的原子量約為 16。樣品 B 比樣品 A 多一個氧原子，因此 m/z 值增加了 16 (196 - 180 = 16)。選項 A 符合這個條件，且分子式合理。其他選項的質量差異不符或分子式不合理。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:37:03",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同飲食組別的血漿葡萄糖濃度",
+            "x_label": "飲食組別",
+            "y_label": "血漿葡萄糖濃度 (mg/dL)",
+            "data_x": [
+                "低碳飲食組",
+                "標準飲食組",
+                "高碳飲食組"
+            ],
+            "data_y": [
+                85,
+                110,
+                145
+            ]
+        },
+        "question": "研究人員想探討不同飲食對血漿葡萄糖濃度的影響。他們將實驗動物分為三組：低碳飲食組、標準飲食組和高碳飲食組。利用質譜儀分析各組動物的血漿樣本，得到如下圖表所示的結果。根據圖表，下列敘述何者正確？",
+        "options": [
+            "(A) 高碳飲食組的血漿葡萄糖濃度明顯低於其他兩組。",
+            "(B) 標準飲食組的血漿葡萄糖濃度介於低碳飲食組和高碳飲食組之間。",
+            "(C) 三組動物的血漿葡萄糖濃度沒有明顯差異。",
+            "(D) 低碳飲食組的血漿葡萄糖濃度與標準飲食組相同。"
+        ],
+        "correct_answer": "B",
+        "explanation": "圖表顯示，高碳飲食組的血漿葡萄糖濃度最高（145 mg/dL），低碳飲食組最低（85 mg/dL），標準飲食組的濃度（110 mg/dL）介於兩者之間。這符合我們對不同飲食方式影響血糖的預期，高碳飲食會導致血糖升高，而低碳飲食則有助於降低血糖。"
+    }
+}

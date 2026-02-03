@@ -1,0 +1,58 @@
+{
+    "id": "20260203_Zirconia r",
+    "meta": {
+        "title": "Zirconia restoration types, properties, tooth preparation design, and bonding. A narrative review.",
+        "summary": "The purpose of this review was to provide dental professionals with information regarding the various types of zirconia restorations, their mechanical and optical properties, tooth preparation design, and bonding protocol in an effort to enhance the longevity and durability of zirconia restorations. The yttria content of zirconia ceramics determines their classification. The mechanical and optical properties of each type are discussed, with an emphasis on the effect of yttria concentration on the properties of zirconia. The processing and sintering methods are also discussed as they have a direct impact on the properties of zirconia. The design of tooth preparation, specifically occlusal reduction, varies depending on the type of zirconia used in each case. Finally, a protocol for zirconia restoration bonding is described to ensure optimal bonding to the tooth structure. Not all zirconia restorations are the same. The selection of zirconia type based on yttria concentration, processing and sintering methods, tooth preparation design, and adherence to the bonding protocol are all critical to the success and longevity of zirconia restorations. Zirconia restorations are the most commonly used indirect restorative material. The selection of the most appropriate zirconia type based on its yttria content, which determines its strength and translucency, is critical to the success and the longevity of the restoration. Tooth preparation design also influences the strength and translucency of the zirconia. Air-borne particle abrasion, followed by a ceramic primer and resin cement, can ensure a durable bond to the tooth structure.",
+        "published": "2024",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37840220/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "rare earth elements properties",
+        "subject": "chemistry"
+    },
+    "content": "# 鋯氧化物牙冠的種類、特性、牙齒預備設計與黏著 (Zirconia restoration types, properties, tooth preparation design, and bonding. A narrative review.)\n\n## 1. 研究背景與課本關聯\n\n大家有沒有看過朋友做牙齒矯正或植牙？很多時候，醫生會使用人工牙冠來修復受損的牙齒。現在，越來越多牙醫會選擇使用「鋯氧化物」這種材質來製作牙冠，因為它非常堅固耐用，而且外觀也相當自然。這份研究就針對不同種類的鋯氧化物牙冠進行了深入探討，從材質的成分、特性，到製作方式、黏著技巧都有詳細的說明。這與高中化學的「無機與分析化學」章節息息相關，因為鋯氧化物本身就是一種無機化合物，而它的特性則取決於它的化學組成和晶體結構，就像我們學習的氧化物、配位化合物一樣，成分比例會影響物質的性質。\n\n## 2. 核心發現\n\n鋯氧化物 (ZrO₂) 是一種非常堅硬的陶瓷材料，但純粹的鋯氧化物在加熱冷卻過程中容易產生體積變化，導致材料破裂。為了改善這個問題，科學家會在鋯氧化物中摻雜「氧化釩」(Y₂O₃)，也就是加入一些釩元素。氧化釩的含量會直接影響鋯氧化物的性質，這就像我們在實驗室調配溶液時，不同濃度會影響溶液的顏色和反應速率一樣。\n\n根據氧化釩的含量，鋯氧化物可以分為不同的種類。氧化釩含量較低的鋯氧化物，強度較高，但透明度較差，適合製作需要承受較大咬合力的後牙牙冠。而氧化釩含量較高的鋯氧化物，透明度較好，更接近天然牙齒的顏色，適合製作前牙牙冠，追求美觀效果。\n\n除了成分比例，鋯氧化物的「燒結」過程也很重要。燒結是指將粉末狀的鋯氧化物在高溫下加熱，使其顆粒結合在一起，形成緻密的陶瓷體。燒結的溫度、時間和壓力都會影響鋯氧化物的密度、強度和透明度。這就像我們在實驗中進行沉澱反應，控制溫度和攪拌速度可以影響沉澱物的粒徑和純度一樣。\n\n此外，牙齒的預備設計也很重要。為了確保鋯氧化物牙冠能夠牢固地黏著在牙齒上，牙醫需要適當的磨除牙齒表面，創造足夠的空間。不同的鋯氧化物種類，所需的牙齒預備量也不同。\n\n最後，鋯氧化物牙冠的黏著需要經過特殊的處理。首先，使用「空氣磨砂」技術，在牙齒表面產生微小的粗糙度，增加黏著面積。接著，塗上「陶瓷底漆」，促進樹脂黏著劑與鋯氧化物和牙齒之間的結合。最後，使用「樹脂黏著劑」將牙冠黏著在牙齒上。這個過程就像我們在實驗室進行表面處理，增加反應物之間的接觸面積，提高反應速率一樣。\n\n總而言之，選擇適合的鋯氧化物種類，並配合適當的牙齒預備設計和黏著技巧，才能確保鋯氧化物牙冠的耐用性和美觀性。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某牙醫診所使用不同含量的氧化釩(Y₂O₃)製作鋯氧化物牙冠。發現氧化釩含量越高，牙冠的透明度越高，但強度卻隨之降低。請問此現象最能體現高中化學中哪一個概念？\",\n    \"options\": [\n        \"(A) 晶體結構的改變會影響物質的物理性質\",\n        \"(B) 氧化還原反應的速率與溫度有關\",\n        \"(C) 溶液的濃度會影響其顏色深淺\",\n        \"(D) 氣體體積與壓力成反比\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"氧化釩的摻雜改變了鋯氧化物的晶體結構，導致其透明度和強度發生變化。氧化釩的加入會形成氧空位，影響晶格的穩定性，進而影響材料的物理性質。這與高中化學中學習的晶體結構和缺陷對物質性質的影響相符。選項(B)、(C)和(D)與鋯氧化物牙冠的特性無直接關聯。\"\n}\n",
+    "processed_at": "2026-02-03 11:45:27",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "氧化釩含量與鋯氧化物強度、透明度之關係",
+            "x_label": "氧化釩含量 (wt%)",
+            "y_label": "材料性質",
+            "data_x": [
+                0,
+                2,
+                4,
+                6,
+                8,
+                10
+            ],
+            "data_y": [
+                [
+                    900,
+                    850,
+                    780,
+                    700,
+                    600,
+                    500
+                ],
+                [
+                    10,
+                    30,
+                    50,
+                    70,
+                    85,
+                    95
+                ]
+            ]
+        },
+        "question": "某研究團隊針對不同氧化釩含量的鋯氧化物進行強度與透明度測試。結果如圖所示，其中上線代表強度，下線代表透明度。根據圖表判斷，下列敘述何者正確？",
+        "options": [
+            "(A) 氧化釩含量增加，鋯氧化物的強度會下降，透明度會上升。",
+            "(B) 氧化釩含量增加，鋯氧化物的強度與透明度都會上升。",
+            "(C) 氧化釩含量增加，鋯氧化物的強度與透明度都會下降。",
+            "(D) 氧化釩含量與鋯氧化物的強度和透明度無明顯關聯。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著氧化釩含量的增加，上線（強度）呈現下降趨勢，而下線（透明度）呈現上升趨勢。這表示氧化釩含量增加，鋯氧化物的強度會下降，透明度會上升。這與文章中提到的氧化釩含量與鋯氧化物性質的關係相符。"
+    }
+}

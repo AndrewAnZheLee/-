@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Biological",
+    "meta": {
+        "title": "Biological functions of sphingomyelins.",
+        "summary": "Sphingomyelin (SM) is a dominant sphingolipid in membranes of mammalian cells and this lipid class is specifically enriched in the plasma membrane, the endocytic recycling compartment, and the trans Golgi network. The distribution of SM and cholesterol among cellular compartments correlate. Sphingolipids have extensive hydrogen-bonding capabilities which together with their saturated nature facilitate the formation of sphingolipid and SM-enriched lateral domains in membranes. Cholesterol prefers to interact with SMs and this interaction has many important functional consequences. In this review, the synthesis, regulation, and intracellular distribution of SMs are discussed. The many direct roles played by membrane SM in various cellular functions and processes will also be discussed. These include involvement in the regulation of endocytosis and receptor-mediated ligand uptake, in ion channel and G-protein coupled receptor function, in protein sorting, and functioning as receptor molecules for various bacterial toxins, and for non-bacterial pore-forming toxins. SM is also an important constituent of the eye lens membrane, and is believed to participate in the regulation of various nuclear functions. SM is an independent risk factor in the development of cardiovascular disease, and new studies have shed light on possible mechanism behind its role in atherogenesis.",
+        "published": "2013",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23684760/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "hydrogen bonding network",
+        "subject": "chemistry"
+    },
+    "content": "# 脊髓脂質：細胞膜中不可或缺的角色\n\n## 1. 研究背景與課本關聯\n\n你有沒有想過，為什麼我們的細胞膜不是像一團混亂的油漆，而是有特定的結構和功能？細胞膜的主要成分除了磷脂質，還有另一種重要的脂質，叫做「脊髓脂質」。它就像細胞膜中的「結構磚」，影響細胞膜的流動性、穩定性，甚至參與細胞之間的訊息傳遞。這與高中化學的「物質構造」章節息息相關，因為我們要了解脂質的分子結構（例如：脂肪酸、醇類）以及分子間作用力（例如：氫鍵），才能理解脊髓脂質如何在細胞膜中發揮作用，並影響細胞的生理機能。\n\n## 2. 核心發現\n\n這篇研究探討了脊髓脂質在哺乳動物細胞中的多種功能。首先，脊髓脂質主要存在於細胞膜、內吞回收腔室以及高爾基網路等細胞區隔中，而且它的分布與另一種重要的細胞膜成分「膽固醇」密切相關。這兩者就像好朋友一樣，常常一起出現。\n\n脊髓脂質的分子結構中含有大量的氫鍵形成能力，而且其脂肪酸鏈通常是飽和的，這使得脊髓脂質容易在細胞膜中形成特定的區域，也就是所謂的「脂質筏 (lipid raft)」。這些脂質筏就像細胞膜上的小島，可以聚集特定的蛋白質，進而影響細胞的訊號傳導。\n\n更重要的是，膽固醇特別喜歡與脊髓脂質結合，這種結合會改變細胞膜的流動性，使其更穩定。這種穩定性對於許多細胞功能至關重要，例如：\n\n*   **內吞作用 (endocytosis)**：細胞如何吸收外部物質的過程。\n*   **離子通道 (ion channel) 和 G-蛋白耦合受體 (G-protein coupled receptor)**：細胞如何接收並傳遞訊息。\n*   **蛋白質分選 (protein sorting)**：細胞如何將蛋白質運送到正確的位置。\n*   **毒素作用**：某些細菌毒素會利用脊髓脂質作為進入細胞的通道。\n\n此外，脊髓脂質也是眼睛晶狀體膜的重要成分，可能參與調節核功能。最新的研究也發現，脊髓脂質的含量與心血管疾病的發生風險有關，可能參與動脈粥狀硬化的形成。\n\n總而言之，脊髓脂質不僅是細胞膜的結構成分，更是一個多功能的分子，參與調節許多重要的細胞過程，對於維持生命體的功能至關重要。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊發現，在特定疾病患者的細胞膜中，脊髓脂質的含量明顯降低，導致細胞膜的流動性增加。請問此現象最可能影響下列哪一項細胞功能？\",\n    \"options\": [\n        \"(A) 蛋白質的正確摺疊與功能\",\n        \"(B) 離子通道的開關與訊息傳遞\",\n        \"(C) DNA 的複製與轉錄\",\n        \"(D) 醣類的合成與分解\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"細胞膜的流動性會直接影響膜蛋白（例如離子通道）的活動。流動性增加可能導致離子通道的穩定性降低，進而影響其開關功能和訊息傳遞。蛋白質摺疊主要與細胞內環境有關，DNA複製轉錄與細胞核功能相關，醣類代謝則與細胞內酵素有關，這些都與脊髓脂質含量改變的直接影響較小。\"\n}\n",
+    "processed_at": "2026-02-03 11:31:09",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同膽固醇濃度下，脊髓脂質對細胞膜流動性的影響",
+            "x_label": "膽固醇濃度 (μM)",
+            "y_label": "細胞膜流動性指數 (相對值)",
+            "data_x": [
+                0,
+                20,
+                40,
+                60,
+                80,
+                100
+            ],
+            "data_y": [
+                1.0,
+                0.95,
+                0.8,
+                0.65,
+                0.5,
+                0.4
+            ]
+        },
+        "question": "研究人員利用人工細胞膜模型，探討膽固醇濃度與脊髓脂質含量對細胞膜流動性的影響。實驗結果如圖所示，圖中曲線代表在不同膽固醇濃度下，細胞膜流動性指數的變化。請問，下列敘述何者最合理？",
+        "options": [
+            "(A) 隨著膽固醇濃度增加，細胞膜流動性降低，且脊髓脂質的存在能減緩此降低趨勢。",
+            "(B) 隨著膽固醇濃度增加，細胞膜流動性增加，脊髓脂質對流動性無明顯影響。",
+            "(C) 脊髓脂質會使細胞膜流動性維持在一個固定水平，不受膽固醇濃度的影響。",
+            "(D) 膽固醇濃度越高，脊髓脂質對細胞膜流動性的影響越大。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據圖表，可以觀察到隨著膽固醇濃度增加，細胞膜流動性指數下降，表示細胞膜流動性降低。文章中提到膽固醇與脊髓脂質結合會增加細胞膜穩定性，降低流動性。因此，脊髓脂質的存在會減緩膽固醇濃度增加所造成的流動性降低趨勢。選項B、C、D與圖表數據及文章內容不符。"
+    }
+}

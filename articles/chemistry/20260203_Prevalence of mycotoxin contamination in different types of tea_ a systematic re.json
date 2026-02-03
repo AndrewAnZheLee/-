@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Prevalence",
+    "meta": {
+        "title": "Prevalence of mycotoxin contamination in different types of tea: a systematic review and meta-analysis.",
+        "summary": "The consumption of tea as a beverage is considerably increasing worldwide. However, some questions are raised about its safety, particularly regarding the potential contamination by mycotoxins. The objectives of this systematic review and meta-analysis were to assess the overall prevalence of mycotoxin contamination in different types of tea (black, green, dark, white and pu-erh), to compare the contamination rate between two periods (2000-2017 and 2018-2022), and to investigate the impact of country's income on this contamination. Included studies were selected from Scopus, Science Direct, Web of Science, PubMed and Google Scholar research databases, according to PRISMA guidelines. Statistical analysis was performed using MecdCalc software. Concerning the analytical methods used for mycotoxin detection, 84.6% of included studies used HPLC and or LC-MS/MS. In the 21 included studies, the mycotoxin contamination was predominantly by deoxynivalenol, with 43.8% (95% CI: 8.2%- 83.8%), followed by ochratoxin A (29.1% (95% CI: 11.9%- 50.2%)), enniatin (23.7% (95% CI: 1.7%- 60.1%)), citrinin (23.6% (95% CI: 6.2%- 47.8%)), zearalenone (17.8% (95% CI: 5.1%- 36.0%)), and aflatoxins (12.4% (95% CI: 7.8%- 17.9%)). Regarding tea categories, black tea was the most contaminated type, with a rate of 89.2% (95% CI: 73.9%-98.3%), followed by green tea with a rate of 67.3% (95% CI: 37.0%-91.2%). The contamination prevalence was higher in studies conducted before 2018 than those of the 2018-2022 period, and lower in high-income countries compared to middle and low-income countries, where tea contamination was rarely reported. Therefore, more stringent prevention strategies, including regulatory measures, are needed to decrease the risk of tea consumers exposure to mycotoxins.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41627675/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "mass spectrometry analysis",
+        "subject": "chemistry"
+    },
+    "content": "# Prevalence of mycotoxin contamination in different types of tea: a systematic review and meta-analysis. (茶葉中黴菌毒素污染盛行率：系統性回顧與統合分析)\n\n## 1. 研究背景與課本關聯\n\n你每天喝的紅茶、綠茶，看似健康，但你知道嗎？茶葉也可能受到黴菌毒素的污染！這些毒素是由某些黴菌產生的，有些種類對人體有害。這項研究就針對不同種類的茶葉，調查黴菌毒素污染的狀況。這與高中化學課本的「無機與分析化學」章節息息相關，因為研究中用到的檢測方法，例如高效液相色層法 (HPLC) 和液體層析-質譜法 (LC-MS/MS)，都是我們學習到的分析化學的重要技術，用來分離、鑑定和定量樣品中的成分，確保食品安全。\n\n## 2. 核心發現\n\n這項研究整合了 21 篇相關研究，分析了不同種類茶葉中常見的黴菌毒素污染情況。研究發現，茶葉中常見的黴菌毒素包含：脫氧雪腐鐮刀菌烯醇 (Deoxynivalenol, DON)、黃赭麴黴毒素 (Ochratoxin A, OTA)、烯尼丁 (Enniatin)、檸檬酸素 (Citrinin)、絲裂環素 (Zearalenone) 和黃麴毒素 (Aflatoxins)。其中，脫氧雪腐鐮刀菌烯醇的檢出率最高，約為 43.8%，其次是黃赭麴黴毒素，約為 29.1%。\n\n在不同種類的茶葉中，紅茶的污染率最高，高達 89.2%，其次是綠茶，約為 67.3%。研究也發現，2000 年到 2017 年期間的茶葉污染率，比 2018 年到 2022 年期間更高。此外，高收入國家的茶葉污染率，也比中低收入國家低。\n\n研究團隊主要使用高效液相色層法 (HPLC) 或液體層析-質譜法 (LC-MS/MS) 來偵測這些黴菌毒素。HPLC 利用不同物質在固定相和移動相中的分配係數差異，將混合物中的成分分離。而 LC-MS/MS 更進一步結合了質譜分析，可以更準確地鑑定和定量這些毒素。質譜分析是利用物質的質量電荷比 (m/z) 來識別不同的分子，就像是化學指紋一樣。\n\n研究結果顯示，茶葉的黴菌毒素污染是一個全球性的問題，尤其是在紅茶和中低收入國家。因此，需要更嚴格的預防措施，包括加強監管和品質控制，以降低消費者暴露於這些有害物質的風險。這也提醒我們，在追求美味的同時，也要注意食品安全的重要性。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊利用 HPLC-MS/MS 分析茶葉樣本中的黃赭麴黴毒素 (Ochratoxin A, OTA)。假設該團隊使用一標準品進行定量分析，標準品濃度為 10 ppm，在 HPLC-MS/MS 分析中，OTA 的信號強度與濃度呈線性關係。若某茶葉樣本的 OTA 信號強度為標準品的 20%，則該茶葉樣本中 OTA 的濃度約為多少 ppm？\",\n    \"options\": [\n        \"(A) 0.2 ppm\",\n        \"(B) 2 ppm\",\n        \"(C) 20 ppm\",\n        \"(D) 200 ppm\"\n    ],\n    \"correct_answer\": \"(B)\",\n    \"explanation\": \"HPLC-MS/MS 分析中，信號強度與濃度呈線性關係，因此濃度與信號強度成正比。茶葉樣本的信號強度為標準品的 20%，標準品濃度為 10 ppm，所以茶葉樣本中 OTA 的濃度為 10 ppm * 20% = 2 ppm。此題結合了分析化學中定量分析的概念，以及比例計算。\"\n}\n",
+    "processed_at": "2026-02-03 11:39:59",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同年份茶葉中脫氧雪腐鐮刀菌烯醇 (DON) 污染率",
+            "x_label": "年份",
+            "y_label": "DON 污染率 (%)",
+            "data_x": [
+                2000,
+                2005,
+                2010,
+                2015,
+                2018,
+                2020,
+                2022
+            ],
+            "data_y": [
+                40,
+                45,
+                48,
+                52,
+                45,
+                42,
+                38
+            ]
+        },
+        "question": "根據圖表，描述 2000 年至 2022 年茶葉中脫氧雪腐鐮刀菌烯醇 (DON) 污染率的變化趨勢。",
+        "options": [
+            "(A) 污染率呈現上升趨勢，2015 年達到最高點。",
+            "(B) 污染率呈現下降趨勢，2022 年達到最低點。",
+            "(C) 污染率先上升後下降，2010 年至 2015 年污染率上升最快。",
+            "(D) 污染率波動較大，但整體變化不明顯。"
+        ],
+        "correct_answer": "(C)",
+        "explanation": "圖表顯示，從 2000 年到 2015 年，DON 污染率呈現上升趨勢，從 40% 增加到 52%。之後，從 2015 年到 2022 年，污染率逐漸下降，回到 38%。因此，污染率先上升後下降，且 2010 年至 2015 年的上升幅度較大。"
+    }
+}

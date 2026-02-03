@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Mechanisti",
+    "meta": {
+        "title": "Mechanistic insights and catalyst design for the selective hydrogenolysis of cellulose to C<sub>2</sub>-C<sub>3</sub> alcohols.",
+        "summary": "Catalytic hydrogenolysis of cellulose into low-carbon alcohols offers a promising route toward sustainable chemical manufacture and carbon-neutral energy systems. Recent advances in aqueous-phase catalysis have progressively clarified the reaction network encompassing cellulose depolymerization, glucose isomerization, retro-aldol C-C scission, and the hydrogenation of key carbonyl intermediates. This review integrates these mechanistic insights with catalyst and process design, highlighting how noble-metal and non-noble bifunctional systems leverage acid-metal cooperation, redox flexibility, and spatial confinement to orchestrate glycosidic, C-O, and C-C bond activation with increasing precision. Kinetic and engineering studies further reveal how reactor configuration, operating conditions, and feedstock pretreatment shape conversion efficiency and carbon utilization in both batch and continuous modes. Emerging opportunities, including single-atom catalysts that maximize atom efficiency and enable precise site control, defect-engineered oxides, machine-learning-assisted discovery for accelerated catalyst optimization, and integrated reaction-separation platforms, hold considerable promise for enabling cost-effective, scalable, and recyclable catalytic systems. Together, these advances establish a coherent framework linking fundamental chemistry with reactor-level engineering, laying the groundwork for practical one-step aqueous-phase routes to bio-derived low-carbon alcohols.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41626186/",
+        "source": "PubMed",
+        "mapping_chapter": "化學反應 (Chemical Reactions)",
+        "mapping_keyword": "reaction kinetics",
+        "subject": "chemistry"
+    },
+    "content": "# 將植物纖維變身「綠色酒精」：化學催化新進展\n\n## 1. 研究背景與課本關聯\n\n你是否曾想過，我們每天吃的米飯、麵包，甚至穿的棉質衣物，都能變成燃料？這些物質的主要成分「纖維素」，是植物細胞壁的重要組成部分。科學家們正努力研究如何將這些植物纖維素轉化為更有用的化學物質，像是我們常用的酒精。這個研究就聚焦在如何利用化學催化，將纖維素分解成低碳醇類，例如乙醇和丙醇，作為更環保的燃料和化工原料。這與高中化學課本中「化學反應」的章節息息相關，因為我們學習了各種有機反應，像是分解反應、氧化還原反應等，而這個研究的核心就在於控制這些反應，達到我們想要的結果。\n\n## 2. 核心發現\n\n這個研究主要探討如何有效地將纖維素轉化為乙醇和丙醇。纖維素本身是個大分子，由許多葡萄糖分子連接而成，要將它變成酒精，需要經過一系列的化學反應：\n\n1. **纖維素分解 (Depolymerization)：** 首先，纖維素需要被分解成較小的葡萄糖分子。\n2. **葡萄糖異構化 (Isomerization)：** 葡萄糖會轉變成其他異構物，例如果糖。\n3. **碳-碳鍵斷裂 (C-C scission)：** 這是關鍵的一步，需要將葡萄糖或其異構物的碳-碳鍵斷裂，產生更小的分子片段。這個過程類似於我們在課本中學習的醛酮的裂解反應。\n4. **氫化反應 (Hydrogenation)：** 最後，這些分子片段會與氫氣反應，形成乙醇、丙醇等低碳醇類。這是一個典型的氧化還原反應，需要催化劑的幫助。\n\n研究發現，使用特定的催化劑，可以有效地控制這些反應的發生。這些催化劑通常是含有貴金屬（例如鉑、鈋）或非貴金屬的「雙功能系統」，它們同時具有酸性與金屬的特性，可以促進反應的進行。研究人員發現，催化劑的結構、反應的溫度、壓力，以及原料的預處理方式，都會影響反應的效率和產物的選擇性。\n\n更進一步的研究，甚至開始利用「單原子催化劑」和「缺陷工程氧化物」，來提高催化劑的效率。單原子催化劑可以最大化原子利用率，而缺陷工程氧化物則可以調整催化劑的活性位點。此外，研究人員也利用機器學習來加速催化劑的設計和優化，並開發整合反應與分離的平台，以降低生產成本。總而言之，這個研究為我們提供了一個更清晰的框架，將基礎化學原理與實際的反應工程結合，朝著更有效率、更環保的生物質轉化技術邁進。\n\n\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊欲利用纖維素進行化學反應，生成乙醇作為燃料。下列哪一個步驟**不是**此過程可能涉及的化學反應類型？\",\n    \"options\": [\n        \"(A) 分解反應 (Depolymerization)\",\n        \"(B) 加成反應 (Addition Reaction)\",\n        \"(C) 氫化反應 (Hydrogenation)\",\n        \"(D) 異構化反應 (Isomerization)\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"纖維素轉化為乙醇的過程主要涉及將大分子分解成小分子（分解反應）、改變分子結構（異構化反應）、以及與氫氣反應（氫化反應）。加成反應通常是指兩個分子結合形成一個更大的分子，在此過程中並未發生，因此不是纖維素轉化為乙醇的必要步驟。\"\n}\n",
+    "processed_at": "2026-02-03 11:37:26",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同催化劑結構下，纖維素轉化為乙醇的產率",
+            "x_label": "反應溫度 (°C)",
+            "y_label": "乙醇產率 (%)",
+            "data_x": [
+                50,
+                100,
+                150,
+                200,
+                250,
+                300
+            ],
+            "data_y": [
+                15,
+                35,
+                55,
+                65,
+                60,
+                50
+            ]
+        },
+        "question": "研究團隊使用不同結構的催化劑進行纖維素轉化為乙醇的實驗。圖表顯示在不同反應溫度下，某種催化劑的乙醇產率變化趨勢。根據圖表，下列敘述何者正確？",
+        "options": [
+            "(A) 隨著反應溫度升高，乙醇產率持續增加。",
+            "(B) 在 200°C 時，乙醇產率達到最大值。",
+            "(C) 在 300°C 時，乙醇產率開始下降，可能表示反應發生了逆反應或催化劑失活。",
+            "(D) 乙醇產率與反應溫度呈現線性關係。"
+        ],
+        "correct_answer": "C",
+        "explanation": "圖表顯示，乙醇產率在 200°C 時達到最大值，但隨後在 250°C 和 300°C 時開始下降。這表示在較高溫度下，可能存在不利於乙醇產生的因素，例如反應的逆反應速率增加、催化劑的活性降低或分解等。選項 A 錯誤，因為產率並非持續增加；選項 B 錯誤，因為產率在 200°C 後開始下降；選項 D 錯誤，因為產率變化並非線性。"
+    }
+}

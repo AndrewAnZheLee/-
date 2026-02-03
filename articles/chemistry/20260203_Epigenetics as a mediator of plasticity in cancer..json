@@ -1,0 +1,46 @@
+{
+    "id": "20260203_Epigenetic",
+    "meta": {
+        "title": "Epigenetics as a mediator of plasticity in cancer.",
+        "summary": "The concept of an epigenetic landscape describing potential cellular fates arising from pluripotent cells, first advanced by Conrad Waddington, has evolved in light of experiments showing nondeterministic outcomes of regulatory processes and mathematical methods for quantifying stochasticity. In this Review, we discuss modern approaches to epigenetic and gene regulation landscapes and the associated ideas of entropy and attractor states, illustrating how their definitions are both more precise and relevant to understanding cancer etiology and the plasticity of cancerous states. We address the interplay between different types of regulatory landscapes and how their changes underlie cancer progression. We also consider the roles of cellular aging and intrinsic and extrinsic stimuli in modulating cellular states and how landscape alterations can be quantitatively mapped onto phenotypic outcomes and thereby used in therapy development.",
+        "published": "2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36758093/",
+        "source": "PubMed",
+        "mapping_chapter": "化學反應 (Chemical Reactions)",
+        "mapping_keyword": "entropy change",
+        "subject": "chemistry"
+    },
+    "content": "# 表觀遺傳學：癌症塑性的調控者\n\n## 1. 研究背景與課本關聯\n\n想像一下，你用同樣的食譜做蛋糕，但每次烤出來的成品卻略有不同：有時候鬆軟，有時候偏硬，有時候顏色深一點。雖然材料一樣，但環境溫度、攪拌時間等因素都會影響結果。細胞也是一樣，即使擁有相同的基因藍圖（DNA），在不同的環境下，表現出來的特性也會有所差異。這就像高中化學課本中學習的「化學反應」一樣，反應的速率、產物的比例會受到溫度、催化劑等因素影響。而表觀遺傳學，就是研究這些「非DNA序列」的改變如何影響基因表現，進而影響細胞的特性，甚至導致癌症的發生與發展。\n\n## 2. 核心發現\n\n這篇研究探討的是「表觀遺傳學」如何在癌症中扮演調控的角色，讓癌細胞具有「塑性」，也就是能夠適應環境變化，甚至產生抗藥性。\n\n在高中化學中，我們學習到化學反應會趨向於能量最低的穩定狀態。同樣的概念，生物學家也用「能量景觀」(Epigenetic Landscape)來描述細胞的各種可能狀態。這個景觀就像一個多山的區域，山谷代表穩定的細胞狀態，而山峰則代表不穩定的狀態。細胞會傾向於滑向最低的山谷，也就是最穩定的狀態。\n\n然而，癌症的發生往往伴隨著這個「能量景觀」的改變。原本穩定的山谷可能消失，出現新的山谷，或者山谷變得更淺，讓細胞更容易從一個狀態跳到另一個狀態。這種改變是由於表觀遺傳修飾所引起的。\n\n表觀遺傳修飾主要包括 DNA 甲基化和組蛋白修飾。**DNA 甲基化**就像在 DNA 上貼上標籤，影響基因的讀取。**組蛋白修飾**則像是改變 DNA 纏繞的方式，讓基因更容易或更難被讀取。這些修飾並不會改變 DNA 的序列，但會改變基因的表現，就像調整化學反應的速率一樣。\n\n研究指出，癌細胞的表觀遺傳修飾會發生改變，導致細胞的「塑性」增加。這種塑性讓癌細胞更容易適應治療，例如產生抗藥性。此外，細胞老化和外界刺激（例如毒素、輻射）也會影響表觀遺傳修飾，進一步影響細胞的狀態。\n\n科學家們正在努力研究如何定量分析這些表觀遺傳修飾的改變，並將其與癌症的發展和治療效果聯繫起來。透過了解這些改變，我們可以開發出更有效的癌症治療方法，例如利用藥物來改變表觀遺傳修飾，讓癌細胞回到穩定的狀態，或者阻止癌細胞產生抗藥性。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某種癌症細胞的表觀遺傳修飾發生改變，導致原本被抑制的基因A開始大量表現，進而促進細胞增殖。下列哪種表觀遺傳修飾最有可能發生？\",\n    \"options\": [\n        \"(A) DNA 甲基化增加，抑制基因A的轉錄\",\n        \"(B) 組蛋白乙醯化減少，使DNA纏繞更緊密，抑制基因A的轉錄\",\n        \"(C) DNA 甲基化減少，促進基因A的轉錄\",\n        \"(D) 組蛋白去乙醯化增加，使DNA纏繞更鬆散，抑制基因A的轉錄\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"DNA 甲基化和組蛋白乙醯化是兩種重要的表觀遺傳修飾。DNA 甲基化增加通常會抑制基因的轉錄，而組蛋白乙醯化減少則會使DNA纏繞更緊密，同樣抑制基因的轉錄。題目中基因A開始大量表現，表示其轉錄受到促進，因此DNA甲基化減少（選項C）是最有可能的改變。組蛋白去乙醯化會使DNA纏繞更鬆散，促進轉錄，但題目描述的是基因A原本被抑制，後才大量表現，因此去乙醯化並非最直接的解釋。\"\n}\n",
+    "processed_at": "2026-02-03 11:32:19",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同化療藥物下，癌細胞DNA甲基化水平變化",
+            "x_label": "化療時間 (天)",
+            "y_label": "DNA甲基化水平 (相對值，%)",
+            "data_x": [
+                0,
+                7,
+                14,
+                21,
+                28
+            ],
+            "data_y": [
+                80,
+                75,
+                60,
+                50,
+                40
+            ]
+        },
+        "question": "研究人員對某種癌細胞進行化療，並監測其DNA甲基化水平的變化。圖表顯示了癌細胞在不同化療時間下的DNA甲基化水平。根據圖表，下列哪種推論最合理？",
+        "options": [
+            "(A) 化療過程中，癌細胞的DNA甲基化水平逐漸降低，可能導致基因表現改變，增加產生抗藥性的風險。",
+            "(B) 化療過程中，癌細胞的DNA甲基化水平逐漸升高，可能抑制癌細胞的增殖。",
+            "(C) DNA甲基化水平在化療7天時達到峰值，之後保持穩定。",
+            "(D) DNA甲基化水平與化療時間無明顯關聯。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著化療時間的增加，癌細胞的DNA甲基化水平呈現下降趨勢。文章中提到，DNA甲基化減少會促進基因轉錄，而癌細胞的表觀遺傳修飾改變會增加其塑性，例如產生抗藥性。因此，DNA甲基化水平降低可能導致基因表現改變，增加產生抗藥性的風險。選項B與圖表趨勢相反。選項C的描述不準確，圖表顯示甲基化水平持續下降。選項D與圖表顯示的明顯關聯性不符。"
+    }
+}

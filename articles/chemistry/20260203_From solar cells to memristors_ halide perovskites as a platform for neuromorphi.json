@@ -1,0 +1,50 @@
+{
+    "id": "20260203_From solar",
+    "meta": {
+        "title": "From solar cells to memristors: halide perovskites as a platform for neuromorphic electronics.",
+        "summary": "Halide perovskites are widely recognized for optoelectronic devices such as photodetectors, photovoltaics, and light emitting diodes. Crucially, their unique characteristic as a mixed ionic-electronic semiconductor has recently positioned them as a highly promising material for neuromorphic computing, which necessitates a dedicated review of this rapidly emerging field. This comprehensive review first correlates the relationship between the perovskite's crystal structure and its resulting optoelectronic and ionic properties, which underpins memristor functionality. We then systematically discuss the figure of merit, operating mechanisms, and characterization techniques for halide perovskite memristors. After critically reviewing the state-of-the-art devices, we analyze the critical gap between lab-scale systems and real-world applications, specifically tackling the challenges of crossbar array implementation and discussing various neuromorphic applications. Finally, we detail an outlook, highlighting persistent hurdles like endurance and stability as well as identifying key research directions, such as high-throughput experimentation and customizing devices based on the necessary trade-off between response time, energy, and retention to realize practical, next-generation neuromorphic hardware.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41623085/",
+        "source": "PubMed",
+        "mapping_chapter": "物質構造 (Structure of Matter)",
+        "mapping_keyword": "perovskite solar cells",
+        "subject": "chemistry"
+    },
+    "content": "# 從太陽能電池到記憶電阻：鹵化物鈣鈦礦打造新一代神經形態電子元件\n\n## 1. 研究背景與課本關聯\n\n你可能在新聞中看過太陽能電池，它能將陽光轉換成電能。而這次要介紹的材料——鹵化物鈣鈦礦，除了能做太陽能電池，還有更令人驚喜的潛力！它就像積木一樣，可以被組裝成模仿人腦運作方式的電子元件。這與我們高中化學課本中「物質構造」的章節息息相關，因為鈣鈦礦的特殊結構決定了它的物理性質，進而影響它的功能。了解物質的晶體結構、離子鍵與共價鍵的特性，才能理解為何鈣鈦礦如此特別。\n\n## 2. 核心發現\n\n這篇研究報告主要探討了鹵化物鈣鈦礦在「神經形態電子學」領域的應用。所謂的神經形態電子學，指的是設計能像人腦一樣運作的電子系統，例如能學習、記憶和處理資訊。而鈣鈦礦之所以能勝任這項任務，是因為它是一種特殊的「混合離子-電子半導體」。\n\n讓我們來拆解一下這個概念。首先，鈣鈦礦的結構就像一個立方體，裡面含有鉛或錫等金屬離子，以及鹵素離子（例如碘、溴、氯）和有機陽離子。這些離子之間的結合方式，既有離子鍵的特性，也有共價鍵的特性，使得鈣鈦礦既能導電（電子），也能讓離子移動。\n\n這種特殊的性質，讓鈣鈦礦可以製作成一種叫做「記憶電阻」（memristor）的元件。記憶電阻就像一個可變的電阻，它的電阻值會根據通過的電流大小和方向而改變，就像人腦中的突觸一樣，可以儲存資訊。\n\n研究報告詳細探討了鈣鈦礦記憶電阻的性能指標、工作原理以及如何進行特性分析。目前，鈣鈦礦記憶電阻的性能已經達到相當高的水準，但要將它應用到實際的產品中，仍然面臨一些挑戰。例如，鈣鈦礦的耐久性和穩定性需要進一步提升，而且如何將大量的記憶電阻元件整合到一個複雜的電路中，也是一個重要的問題。\n\n研究人員正在努力克服這些挑戰，例如透過改變鈣鈦礦的成分和結構，來提高它的穩定性；或者利用高通量實驗的方法，快速篩選出性能最佳的鈣鈦礦材料。未來，鈣鈦礦記憶電阻有望應用於人工智慧、機器學習等領域，打造出更高效、更節能的新一代電子設備。\n\n---\n```json\n{\n    \"question\": \"某研究團隊利用鹵化物鈣鈦礦製作記憶電阻，發現施加不同電壓時，記憶電阻的電阻值會發生變化。若施加高電壓後，電阻值降低，代表鈣鈦礦內部發生了什麼樣的變化？\",\n    \"options\": [\n        \"(A) 鹵素離子在鈣鈦礦晶格中移動，改變了材料的導電路徑。\",\n        \"(B) 有機陽離子從鈣鈦礦中逸出，導致材料的結構崩潰。\",\n        \"(C) 金屬離子被氧化，形成金屬氧化物，阻礙了電流的通過。\",\n        \"(D) 鈣鈦礦的晶體結構發生相變，從立方結構轉變為四方結構。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"鈣鈦礦是一種混合離子-電子半導體，施加電壓時，鹵素離子可以在晶格中移動，形成新的導電路徑，從而降低電阻值。這與記憶電阻的工作原理相符。選項(B)描述的是材料的分解，選項(C)描述的是氧化反應，選項(D)描述的是相變，這些變化不符合鈣鈦礦記憶電阻的特性。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:33:10",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同電壓下鈣鈦礦記憶電阻的電阻值變化",
+            "x_label": "施加電壓 (V)",
+            "y_label": "記憶電阻電阻值 (Ω)",
+            "data_x": [
+                0,
+                0.5,
+                1.0,
+                1.5,
+                2.0,
+                2.5,
+                3.0
+            ],
+            "data_y": [
+                10000,
+                8500,
+                6000,
+                4000,
+                2500,
+                1500,
+                1000
+            ]
+        },
+        "question": "研究人員對某種鹵化物鈣鈦礦記憶電阻進行測試，結果如圖所示。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 隨著施加電壓增加，記憶電阻的電阻值呈現下降趨勢，表示鈣鈦礦內部可能發生了離子移動，改變了導電路徑。",
+            "(B) 記憶電阻的電阻值與施加電壓成正比，表示鈣鈦礦的導電性越好，電阻值越高。",
+            "(C) 當施加電壓為 0 V 時，記憶電阻的電阻值最低，表示鈣鈦礦在沒有電壓的情況下導電性最好。",
+            "(D) 圖表顯示記憶電阻的電阻值變化與施加電壓無關，鈣鈦礦的電阻值是恆定的。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表清楚顯示，隨著施加電壓的增加，記憶電阻的電阻值逐漸降低。根據文章內容，鈣鈦礦是一種混合離子-電子半導體，施加電壓時，鹵素離子可以在晶格中移動，形成新的導電路徑，從而降低電阻值。選項(B)與圖表趨勢相反，選項(C)與圖表數據不符，選項(D)則與圖表顯示的變化趨勢相悖。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Inorganome",
+    "meta": {
+        "title": "Inorganometallics (Transition Metal-Metalloid Complexes) and Catalysis.",
+        "summary": "While the formation and breaking of transition metal (TM)-carbon bonds plays a pivotal role in the catalysis of organic compounds, the reactivity of inorganometallic species, that is, those involving the transition metal (TM)-metalloid (E) bond, is of key importance in most conversions of metalloid derivatives catalyzed by TM complexes. This Review presents the background of inorganometallic catalysis and its development over the last 15 years. The results of mechanistic studies presented in the Review are related to the occurrence of TM-E and TM-H compounds as reactive intermediates in the catalytic transformations of selected metalloids (E = B, Si, Ge, Sn, As, Sb, or Te). The Review illustrates the significance of inorganometallics in catalysis of the following processes: addition of metalloid-hydrogen and metalloid-metalloid bonds to unsaturated compounds; activation and functionalization of C-H bonds and C-X bonds with hydrometalloids and bismetalloids; activation and functionalization of C-H bonds with vinylmetalloids, metalloid halides, and sulfonates; and dehydrocoupling of hydrometalloids. This first Review on inorganometallic catalysis sums up the developments in the catalytic methods for the synthesis of organometalloid compounds and their applications in advanced organic synthesis as a part of tandem reactions.",
+        "published": "2022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34967210/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "transition metal catalysis",
+        "subject": "chemistry"
+    },
+    "content": "# 金屬-類金屬化學與催化 (Inorganometallics and Catalysis)\n\n## 1. 研究背景與課本關聯\n\n大家可能在生活中看過不鏽鋼鍋，它之所以不容易生鏽，是因為添加了鉻等金屬元素。這些金屬與非金屬的結合，以及金屬間的特殊化學性質，正是「無機化學」研究的重點。而催化劑，例如汽車排氣管中的鉑金催化轉換器，能加速有害氣體的分解，也是化學反應中非常重要的角色。這篇研究探討的是「過渡金屬」與「類金屬」結合所形成的化合物，如何成為更有效率的催化劑，加速化學反應。這與高中化學課本的「無機與分析化學」章節中，關於金屬的性質、配位化合物以及催化劑的介紹有密切關聯。\n\n## 2. 核心發現\n\n這篇研究主要探討的是「過渡金屬-類金屬錯合物」在催化反應中的重要性。首先，我們需要了解幾個關鍵概念：\n\n*   **過渡金屬 (Transition Metal)**：指元素週期表中 d 軌域未填滿的金屬，例如鐵、銅、鎳、鉑等。它們具有多種氧化態，容易形成錯合物，因此常被用作催化劑。\n*   **類金屬 (Metalloid)**：又稱半金屬，具有金屬和非金屬的雙重性質，例如硼 (B)、矽 (Si)、砷 (As) 等。\n*   **錯合物 (Complex)**：由中心金屬原子與周圍配位體（配位體可以是離子或分子）形成的化合物。\n\n傳統上，我們認為催化反應主要涉及過渡金屬與碳 (C) 的鍵結形成與斷裂。但這項研究指出，過渡金屬與類金屬 (E) 形成的鍵結 (TM-E) 在許多催化反應中扮演著更關鍵的角色。研究團隊回顧了過去 15 年的研究成果，發現 TM-E 鍵結以及 TM-氫 (TM-H) 鍵結，經常作為反應中間體，參與各種催化反應。\n\n具體來說，研究涵蓋了以下幾種重要的催化過程：\n\n*   **類金屬-氫鍵或類金屬-類金屬鍵的加成反應**：將含有氫或類金屬的化合物加到不飽和化合物（例如烯類、炔類）上，形成新的化學鍵。\n*   **C-H 鍵和 C-X 鍵的活化與官能化**：利用含氫類金屬化合物 (hydrometalloids) 或雙類金屬化合物 (bismetalloids) 活化原本惰性的 C-H 鍵或 C-X 鍵 (X 代表鹵素)，並引入新的官能基。\n*   **乙烯基類金屬、類金屬鹵化物和磺酸鹽的 C-H 鍵活化**：利用這些化合物活化 C-H 鍵，進行後續的官能化反應。\n*   **含氫類金屬的脫氫偶聯反應 (dehydrocoupling)**：將兩個含氫類金屬分子結合，釋放出氫氣，形成新的化學鍵。\n\n總而言之，這項研究強調了過渡金屬-類金屬化學在催化反應中的重要性，並總結了利用這些化合物合成有機類金屬化合物的方法，以及它們在複雜有機合成中的應用。這些研究成果有助於開發更有效率、更具選擇性的催化劑，進而推動化學工業的發展。\n\n---\n\n```json\n{\n    \"question\": \"某研究團隊欲利用過渡金屬-類金屬錯合物催化烯類與氫氣的加成反應。已知該錯合物中，過渡金屬為銠 (Rh)，類金屬為矽 (Si)。下列關於此反應的敘述，何者最合理？\",\n    \"options\": [\n        \"(A) 銠-矽鍵的形成，有助於活化氫氣，使其更容易與烯類反應。\",\n        \"(B) 矽原子會直接插入到烯類與氫氣的鍵中，形成新的矽-碳鍵。\",\n        \"(C) 銠原子會與烯類形成穩定的配位錯合物，阻礙氫氣的加成。\",\n        \"(D) 此反應為放熱反應，不需要催化劑即可進行。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據論文摘要，過渡金屬-類金屬鍵 (TM-E) 在催化反應中扮演關鍵角色。銠 (Rh) 為過渡金屬，矽 (Si) 為類金屬，銠-矽鍵的形成有助於活化氫氣，使其更容易與烯類反應。選項 (B) 描述的矽原子直接插入鍵中的過程較不常見，選項 (C) 則與催化劑的作用相反，選項 (D) 則忽略了催化劑降低活化能的作用。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:35:16",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同類金屬配體下，銠催化劑對乙烯加氫反應的速率",
+            "x_label": "反應時間 (分鐘)",
+            "y_label": "乙烯轉化率 (%)",
+            "data_x": [
+                0,
+                10,
+                20,
+                30,
+                40,
+                50
+            ],
+            "data_y": [
+                0,
+                15,
+                35,
+                60,
+                80,
+                95
+            ]
+        },
+        "question": "研究團隊利用銠 (Rh) 與不同類金屬 (B, Si, As) 形成的錯合物，催化乙烯與氫氣的加成反應。實驗結果如下圖所示。根據圖表及文章內容，下列推論何者最合理？",
+        "options": [
+            "(A) 銠-類金屬錯合物能有效降低乙烯加氫反應的活化能，加速反應進行。",
+            "(B) 隨著反應時間增加，乙烯轉化率下降，表示催化劑活性隨時間減弱。",
+            "(C) 乙烯加氫反應為放熱反應，因此反應速率不受催化劑影響。",
+            "(D) 類金屬配體的種類對反應速率無顯著影響，銠原子才是主要的催化中心。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據文章內容，過渡金屬-類金屬錯合物能扮演關鍵角色於催化反應中，促進反應中間體的形成。圖表顯示乙烯轉化率隨時間增加而上升，表示反應速率加快，這意味著銠-類金屬錯合物降低了反應的活化能，加速了乙烯加氫反應的進行。選項 (B) 與圖表趨勢相反；(C) 催化劑的作用就是降低活化能，加速反應；(D) 文章強調類金屬在催化反應中的重要性，因此類金屬配體會影響反應速率。"
+    }
+}

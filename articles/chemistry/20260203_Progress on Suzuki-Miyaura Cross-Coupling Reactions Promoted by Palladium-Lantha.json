@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Progress o",
+    "meta": {
+        "title": "Progress on Suzuki-Miyaura Cross-Coupling Reactions Promoted by Palladium-Lanthanide Coordination Polymers as Catalytic Systems.",
+        "summary": "Lanthanide coordination polymers have been developed at a fast rate during the past two decades due to their appealing applications in the modern field of materials science and emerging technologies like luminescence, magnetism, sensing, gas adsorption, and catalysis. The role of lanthanides in imparting specific properties to the coordination polymers has been fully documented in extensive studies carried out by numerous research groups. It has been shown that because lanthanide(III) ions possess a variable coordination number, they readily build two-dimensional and three-dimensional architectures with definite channels, permanent pores, and distinct surface areas. Due to their strong oxophilic propensity and hard Lewis acid character, lanthanides favor the construction of stable coordination polymers and MOF configurations by strongly binding the coordinating groups of the organic linkers. Associated with palladium complexes, the lanthanide ions provide synergistic effects with Lewis acid sites, beneficial to the catalytic activity. These attractive characteristics of lanthanides enabled them to be fruitfully applied in Pd-Ln coordination polymers with catalytic properties. This review covers an array of Pd-Ln coordination polymers applied as heterogeneous catalysts in Suzuki-Miyaura C(sp<sup>2</sup>)-C(sp<sup>2</sup>) cross-coupling reactions. The activity and chemoselectivity of Pd(II) ions and Pd nanoparticles associated in coordination polymers with different lanthanides from a selected array of rare earth elements (Eu, Sm, Eu, Gd, Pr, Nd, Ce, La, or Tb) is discussed. High yields (>99%) are attained under optimized reaction conditions. The specific role of lanthanides and organic ligands in creating sustainable and recyclable heterogeneous Pd catalysts is evidenced. Mechanistic aspects of the C(sp<sup>2</sup>)-C(sp<sup>2</sup>) cross-coupling reactions are considered. The synergistic interaction between lanthanides and palladium as well as with the organic ligands is highlighted.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41599426/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "rare earth elements properties",
+        "subject": "chemistry"
+    },
+    "content": "# 釓-鑭系元素協調聚合物催化鈴木-宮浦交錯偶聯反應的進展 (Palladium-Lanthanide Coordination Polymers 催化鈴木-宮浦交錯偶聯反應的進展)\n\n## 1. 研究背景與課本關聯\n\n你有沒有想過，為什麼有些化學反應需要「催化劑」才能更快完成？就像煮飯時加一點醋可以讓豆子更快變軟一樣，催化劑可以降低反應的活化能，加速反應速率。而催化劑本身並不會被消耗掉。這篇研究就探討了一種新型的催化劑系統，結合了釓（Palladium）和鑭系元素（Lanthanide）。這與高中化學的「無機與分析化學」章節息息相關，因為我們在學習過渡金屬的特性、配位化學，以及金屬氧化物的應用時，都為理解這類研究奠定了基礎。\n\n## 2. 核心發現\n\n這篇研究主要探討了利用「釓-鑭系元素協調聚合物」作為「鈴木-宮浦交錯偶聯反應」的催化劑。首先，讓我們拆解一下這些名詞：\n\n*   **鈴木-宮浦交錯偶聯反應 (Suzuki-Miyaura Cross-Coupling Reaction)**：這是一種非常重要的有機化學反應，可以將兩個碳原子連接起來，形成新的碳-碳鍵。在製藥、材料科學等領域都有廣泛應用。簡單來說，就像樂高積木一樣，將兩個不同的積木塊組裝在一起。\n*   **釓 (Palladium)**：一種過渡金屬，常被用作催化劑，因為它具有良好的催化活性。\n*   **鑭系元素 (Lanthanide)**：包括鑭、鈧、鋄等一系列元素，它們的特性是具有未填滿的 f 軌域，具有獨特的發光、磁性等性質。\n*   **協調聚合物 (Coordination Polymer)**：由金屬離子和有機配體透過配位鍵連接形成的聚合物。想像一下，用磁鐵（金屬離子）和連接器（有機配體）組裝成一個複雜的結構。\n\n研究發現，將釓和鑭系元素結合在一起，形成協調聚合物，可以產生「協同效應」。鑭系元素具有強大的「路易斯酸性」，可以幫助活化反應物，而釓則負責催化碳-碳鍵的形成。這種組合比單獨使用釓催化劑更有效率。\n\n更重要的是，這種釓-鑭系元素協調聚合物是一種「非均相催化劑」，也就是說，催化劑和反應物處於不同的相態（例如固體和液體）。這使得催化劑更容易從反應混合物中分離出來，並且可以重複使用，符合「綠色化學」的理念，實現永續化。\n\n研究團隊測試了不同的鑭系元素（如銪、釤、鋄、釹、鈰、鑭、鋱），發現不同的鑭系元素會影響催化劑的活性和選擇性。在最佳的反應條件下，反應產率可以達到 99% 以上。研究也探討了反應的具體機制，發現鑭系元素和有機配體之間的相互作用，對於催化劑的穩定性和活性至關重要。總而言之，這項研究為開發高效、可回收的鈴木-宮浦交錯偶聯反應催化劑提供了一個新的方向。\n\n---\n\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊利用釓-鑭系元素協調聚合物作為鈴木-宮浦交錯偶聯反應的催化劑，發現不同鑭系元素會影響催化活性。下列關於鑭系元素在該催化系統中作用的敘述，何者最合理？\",\n    \"options\": [\n        \"(A) 鑭系元素主要提供路易斯酸性，活化反應物，並與釓產生協同效應。\",\n        \"(B) 鑭系元素主要作為配位體，穩定釓離子，防止其沉澱。\",\n        \"(C) 鑭系元素主要參與碳-碳鍵的形成，直接提供反應所需的碳原子。\",\n        \"(D) 鑭系元素主要吸收反應產物，使反應向生成物方向移動。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據文章內容，鑭系元素具有強大的路易斯酸性，可以幫助活化反應物，與釓產生協同效應，提高催化效率。選項 (B) 雖然配位體有穩定金屬離子的作用，但並非鑭系元素的主要功能。選項 (C) 和 (D) 則與反應機制不符。\"\n}\n",
+    "processed_at": "2026-02-03 11:40:25",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同鑭系元素對鈴木-宮浦偶聯反應催化效率的影響",
+            "x_label": "鑭系元素",
+            "y_label": "反應產率 (%)",
+            "data_x": [
+                "鑭 (La)",
+                "鈰 (Ce)",
+                "鋄 (Pr)",
+                "釹 (Nd)",
+                "釤 (Sm)",
+                "鋱 (Eu)"
+            ],
+            "data_y": [
+                88,
+                92,
+                95,
+                97,
+                93,
+                85
+            ]
+        },
+        "question": "某研究團隊使用不同鑭系元素與釓形成的協調聚合物催化鈴木-宮浦偶聯反應，並測量反應產率。根據上述圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 鑭系元素種類對催化效率無顯著影響。",
+            "(B) 鋄 (Pr) 與釹 (Nd) 形成的協調聚合物具有最高的催化效率。",
+            "(C) 鑭 (La) 形成的協調聚合物催化效率明顯低於其他鑭系元素。",
+            "(D) 鋱 (Eu) 形成的協調聚合物催化效率與鈰 (Ce) 形成的協調聚合物相同。"
+        ],
+        "correct_answer": "B",
+        "explanation": "根據圖表，鋄 (Pr) 的反應產率為 95%，釹 (Nd) 的反應產率為 97%，兩者皆為最高值。因此，鋄和釹形成的協調聚合物具有最高的催化效率。選項 (A) 錯誤，因為圖表顯示不同鑭系元素對催化效率有顯著影響。選項 (C) 錯誤，鑭的產率雖然較低，但並非明顯最低。選項 (D) 錯誤，鋱的產率為 85%，鈰的產率為 92%，兩者不同。"
+    }
+}

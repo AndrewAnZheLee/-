@@ -1,0 +1,46 @@
+{
+    "id": "20260203_Peptide ma",
+    "meta": {
+        "title": "Peptide macrocyclization by transition metal catalysis.",
+        "summary": "Peptide macrocyclization has traditionally relied on lactam, lactone and disulfide bond-forming reactions that aim at introducing conformational constraints into small peptide sequences. With the advent of ruthenium-catalyzed ring-closing metathesis and copper-catalyzed alkyne-azide cycloaddition, peptide chemists embraced transition metal catalysis as a powerful macrocyclization tool with relevant applications in chemical biological and peptide drug discovery. This article provides a comprehensive overview of the reactivity and methodological diversification of metal-catalyzed peptide macrocyclization as a special class of late-stage peptide derivatization method. We report the evolution from classic palladium-catalyzed cross-coupling approaches to more modern oxidative versions based on C-H activation, heteroatom alkylation/arylation and annulation processes, in which aspects such as chemoselectivity and diversity generation at the ring-closing moiety became dominant over the last years. The transit from early cycloadditions and alkyne couplings as ring-closing steps to very recent 3d metal-catalyzed macrocyclization methods is highlighted. Similarly, the new trends in decarboxylative radical macrocyclizations and the interplay between photoredox and transition metal catalysis are included. This review charts future perspectives in the field hoping to encourage further progress and applications, while bringing attention to the countless possibilities available by diversifying not only the metal, but also the reactivity modes and tactics to bring peptide functional groups together and produce structurally diverse macrocycles.",
+        "published": "2020",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32142086/",
+        "source": "PubMed",
+        "mapping_chapter": "無機與分析化學 (Inorganic & Analytical)",
+        "mapping_keyword": "transition metal catalysis",
+        "subject": "chemistry"
+    },
+    "content": "# 肽環化反應：利用過渡金屬催化打造新分子\n\n## 1. 研究背景與課本關聯\n\n想像一下，我們想設計一個能鎖定特定癌細胞的藥物，這個藥物需要能緊密結合癌細胞表面的蛋白質。如果藥物分子像一條筆直的繩子，可能不容易找到正確的鎖定點。但如果將繩子彎曲成一個環狀，增加接觸面積，就能更有效地與蛋白質結合。這就是「肽環化」的概念！這篇研究探討的就是如何利用金屬催化劑，將短鏈的胺基酸序列（肽）變成環狀結構。這與高中化學的「無機與分析化學」章節息息相關，因為我們學習了金屬的特性、配位化合物，以及金屬離子在催化反應中的作用。\n\n## 2. 核心發現\n\n這篇論文主要介紹了利用過渡金屬催化劑來達成「肽環化」的各種方法。傳統上，肽環化會利用胺基和羧基形成醯胺鍵、或利用半胱胺酸的硫醇基形成二硫鍵來將肽鏈連接起來。但這些方法有其限制，例如反應條件較為嚴苛，或是產物選擇性不夠好。\n\n近年來，化學家發現利用過渡金屬催化劑，例如釕(Ru)、銅(Cu)和鈀(Pd)，可以更有效地進行肽環化。其中，釕催化的環化重排反應(Ring-Closing Metathesis, RCM)和銅催化的炔-氮化物環加成反應(Copper-catalyzed Azide-Alkyne Cycloaddition, CuAAC)是常用的方法。\n\n更進一步的研究，則發展出更精巧的策略，例如利用鈀催化的碳-氫鍵活化(C-H activation)來形成碳-碳鍵，或是利用金屬催化劑促進雜原子（例如氮、氧）的烷基化或芳基化反應。這些方法不僅可以提高反應的選擇性，還能創造出更多樣化的環狀結構。\n\n論文中也提到，近年來，研究人員開始探索利用光還原催化(Photoredox catalysis)與過渡金屬催化結合，以及利用脫羧自由基反應(Decarboxylative radical macrocyclization)來達成肽環化。這些新興技術，為肽環化反應帶來了更多可能性。\n\n總而言之，這篇研究概述了利用過渡金屬催化劑進行肽環化的最新進展，強調了金屬種類、反應模式和策略的多樣性，以及其在化學生物學和肽藥物開發上的潛力。透過這些技術，我們可以設計出具有特定結構和功能的環狀肽，進而開發出更有效的藥物和生物材料。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊欲設計一種環狀肽藥物，希望其能有效穿透細胞膜。已知環狀肽的親脂性會影響其穿透細胞膜的能力。下列哪一種金屬催化的肽環化方法，最有可能產生具有較高親脂性的環狀肽？\",\n    \"options\": [\n        \"(A) 銅催化的炔-氮化物環加成反應 (CuAAC)，此反應引入了剛性三唑環。\",\n        \"(B) 釕催化的環化重排反應 (RCM)，此反應形成碳-碳雙鍵。\",\n        \"(C) 鈀催化的碳-氫鍵活化反應，此反應形成碳-碳單鍵。\",\n        \"(D) 利用二硫鍵形成環狀肽，此反應引入了硫原子。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"銅催化的炔-氮化物環加成反應(CuAAC)會形成一個剛性的三唑環，這個環結構本身就具有一定的親脂性。此外，三唑環的引入可以限制肽鏈的構象，使其更易於穿透細胞膜。釕催化的環化重排反應形成碳-碳雙鍵，雖然可以環化，但對親脂性的影響較小。鈀催化的碳-氫鍵活化反應形成碳-碳單鍵，對親脂性的影響更小。而二硫鍵的引入主要影響肽的穩定性，對親脂性的影響最小。\"\n}\n",
+    "processed_at": "2026-02-03 11:39:35",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同金屬催化劑對肽環化反應產率的影響",
+            "x_label": "金屬催化劑",
+            "y_label": "產率 (%)",
+            "data_x": [
+                "無催化劑",
+                "釕(Ru)",
+                "銅(Cu)",
+                "鈀(Pd)",
+                "金(Au)"
+            ],
+            "data_y": [
+                5,
+                65,
+                78,
+                82,
+                45
+            ]
+        },
+        "question": "研究人員比較不同過渡金屬催化劑對肽環化反應產率的影響。下列圖表顯示了在相同反應條件下，使用不同金屬催化劑所獲得的產率。根據圖表結果，哪一種金屬催化劑在肽環化反應中表現最佳？",
+        "options": [
+            "(A) 釕(Ru)",
+            "(B) 銅(Cu)",
+            "(C) 鈀(Pd)",
+            "(D) 金(Au)"
+        ],
+        "correct_answer": "C",
+        "explanation": "圖表顯示，使用鈀(Pd)作為催化劑時，肽環化反應的產率最高，達到82%。雖然銅(Cu)的產率也較高(78%)，但仍略低於鈀(Pd)。無催化劑的產率最低，僅為5%，表明金屬催化劑對於肽環化反應至關重要。釕(Ru)和金(Au)的產率分別為65%和45%，相較於鈀(Pd)和銅(Cu)較低。"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Heterogene",
+    "meta": {
+        "title": "Heterogeneous catalysis mediated by light, electricity and enzyme via machine learning: Paradigms, applications and prospects.",
+        "summary": "Energy crisis and environmental pollution have become the bottleneck of human sustainable development. Therefore, there is an urgent need to develop new catalysts for energy production and environmental remediation. Due to the high cost caused by blind screening and limited valuable computing resources, the traditional experimental methods and theoretical calculations are difficult to meet with the requirements. In the past decades, computer science has made great progress, especially in the field of machine learning (ML). As a new research paradigm, ML greatly accelerates the theoretical calculation methods represented by first principal calculation and molecular dynamics, and establish the physical picture of heterogeneous catalytic processes for energy and environment. This review firstly summarized the general research paradigms of ML in the discovery of catalysts. Then, the latest progresses of ML in light-, electricity- and enzyme-mediated heterogeneous catalysis were reviewed from the perspective of catalytic performance, operating conditions and reaction mechanism. The general guidelines of ML for heterogeneous catalysis were proposed. Finally, the existing problems and future development trend of ML in heterogeneous catalysis mediated by light, electricity and enzyme were summarized. We highly expect that this review will facilitate the interaction between ML and heterogeneous catalysis, and illuminate the development prospect of heterogeneous catalysis.",
+        "published": "2022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36116627/",
+        "source": "PubMed",
+        "mapping_chapter": "化學反應 (Chemical Reactions)",
+        "mapping_keyword": "heterogeneous catalysis",
+        "subject": "chemistry"
+    },
+    "content": "# 光、電、酵素輔助異質催化：機器學習的應用與展望\n\n## 1. 研究背景與課本關聯\n\n大家有沒有想過，為什麼汽車能行駛、工廠能運轉，甚至我們呼吸都需要能量？這些能量的來源，很多都仰賴「化學反應」。但有些反應需要很長的時間才能完成，或者需要很高的溫度才能進行，這對環境和能源利用都是很大的挑戰。就像生鏽一樣，鐵跟氧氣反應生成氧化鐵，這個反應很慢；而燃燒瓦斯，則需要點火才能快速發生。化學家們一直在尋找「催化劑」，希望能加速反應、降低反應所需的能量。這與高中化學課本的「化學反應」章節緊密相關，我們學習了反應速率、活化能、催化劑等概念，而這篇研究就是在探討如何更有效率地找到更好的催化劑。\n\n## 2. 核心發現\n\n這篇研究主要探討如何利用「機器學習」（Machine Learning, ML）來加速尋找新型的「異質催化劑」（Heterogeneous Catalyst）的過程。異質催化劑指的是，催化劑和反應物處於不同的相態，例如固態催化劑加速液態或氣態反應物之間的反應。\n\n傳統上，尋找催化劑就像大海撈針，需要化學家們不斷地實驗、調整配方，耗費大量時間和資源。而理論計算雖然可以預測催化效果，但計算量非常龐大，需要高性能電腦才能完成。\n\n機器學習的出現，就像給了化學家們一個聰明助手。它可以從大量的實驗數據和理論計算結果中學習，建立模型，預測不同物質的催化效果。這就像我們學習化學反應式，知道哪些物質容易反應、反應條件如何一樣。\n\n這篇研究特別關注三種利用外部能量輔助催化的方式：\n\n*   **光催化 (Photocatalysis)**：利用光能激發催化劑，使其更容易促進反應。例如，某些金屬氧化物在光照下可以分解水，產生氫氣，這是一種清潔能源。\n*   **電催化 (Electrocatalysis)**：利用電能驅動催化反應。例如，電解水可以產生氫氣和氧氣。\n*   **酵素催化 (Enzyme Catalysis)**：利用生物體內的酵素作為催化劑。酵素具有高度的專一性，可以加速特定的化學反應。\n\n研究者們利用機器學習，分析這些不同催化方式的「反應速率」、「活化能」、「反應機構」等數據，希望能找到更有效率、更環保的催化劑。他們也提出了一些使用機器學習尋找異質催化劑的通用原則。\n\n總而言之，這篇研究顯示，機器學習可以大幅加速催化劑的發現過程，為解決能源危機和環境污染提供新的思路。未來，機器學習將在催化化學領域扮演更重要的角色，幫助我們開發出更高效、更環保的化學反應。\n\n---\n```json\n{\n    \"question\": \"某研究團隊欲利用機器學習預測一種新型固態催化劑在特定反應中的活性。他們收集了大量不同金屬氧化物成分、晶體結構、表面積等數據，以及對應的反應速率。請問，機器學習模型在預測催化活性時，最可能利用下列哪種化學概念建立關聯？\",\n    \"options\": [\n        \"(A) 鍵能與反應速率的關係：較弱的鍵更容易斷裂，反應速率較快。\",\n        \"(B) 莫耳體積與反應速率的關係：莫耳體積越大，反應速率越快。\",\n        \"(C) 氧化數與反應速率的關係：氧化數越高，反應速率越快。\",\n        \"(D) 分子量與反應速率的關係：分子量越大，反應速率越快。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"機器學習模型會從數據中尋找模式，而催化劑的活性與反應物鍵的斷裂和形成密切相關。鍵能越弱，反應物越容易斷裂，活化能越低，反應速率就越快。因此，機器學習模型最可能利用鍵能與反應速率的關係來預測催化活性。莫耳體積、氧化數和分子量與反應速率的關聯性較弱，且不具普遍性。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:34:20",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "scatter",
+            "title": "不同金屬氧化物表面積與光催化反應速率之關係",
+            "x_label": "表面積 (m²/g)",
+            "y_label": "反應速率 (mol/g·hr)",
+            "data_x": [
+                5,
+                15,
+                25,
+                35,
+                45,
+                55,
+                65
+            ],
+            "data_y": [
+                0.1,
+                0.3,
+                0.6,
+                0.9,
+                1.2,
+                1.5,
+                1.8
+            ]
+        },
+        "question": "研究團隊利用機器學習分析不同金屬氧化物作為光催化劑的活性。他們測量了七種金屬氧化物的表面積與對應的光催化反應速率，結果如圖所示。根據圖表資訊，下列敘述何者最合理？",
+        "options": [
+            "(A) 金屬氧化物的表面積越大，光催化反應速率通常越高。",
+            "(B) 金屬氧化物的表面積越小，光催化反應速率通常越高。",
+            "(C) 金屬氧化物的表面積與光催化反應速率之間沒有明顯關聯。",
+            "(D) 金屬氧化物的表面積達到一定程度後，光催化反應速率會下降。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表呈現了表面積與反應速率呈現正相關的趨勢，即表面積越大，反應速率越高。這是因為表面積越大，反應物與催化劑接觸的面積就越大，反應發生的機會就越多，因此反應速率就越快。機器學習模型會從這種數據模式中學習，並預測新型催化劑的活性。"
+    }
+}
