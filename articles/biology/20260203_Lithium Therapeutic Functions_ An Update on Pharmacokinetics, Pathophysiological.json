@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Lithium Th",
+    "meta": {
+        "title": "Lithium Therapeutic Functions: An Update on Pharmacokinetics, Pathophysiological Mechanisms of Action, Toxicity, and Side Effects.",
+        "summary": "Lithium is the most commonly used medicine to treat bipolar disorder (BD). It is considered a mood regulator, and the mechanisms underlying this effect still need to be elucidated. Some modulations are involved in neuroprotection, including neuronal communication, neuron differentiation and survival, synaptic modulation and plasticity, modulation of cognition, contribution to antioxidant defense, and reduction of inflammation, glial dysfunction, and apoptosis. In general, about 50% of the concentrations in serum are in the brain. However, it is essential to note that many gene expression differences influence the concentrations and actions of individuals. This review discusses the various mechanisms of lithium in BD I and II, its effects on neurotransmitters and receptors, the hypothalamic-pituitary-adrenal (HPA) axis, inflammation and neuroinflammation, immune functions, oxidative and nitrosative stress, mitochondrial respiratory chain function, intracellular signaling, and brain plasticity, as well as toxicity and side effects.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41627641/",
+        "source": "PubMed",
+        "mapping_chapter": "細胞與遺傳 (Cell & Genetics)",
+        "mapping_keyword": "apoptosis mechanism",
+        "subject": "biology"
+    },
+    "content": "# 鋰的治療功能：藥物動態、作用機制、毒性與副作用的最新進展 (鋰的治療效應：從細胞到基因的探索)\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過「躁鬱症」？這是一種情緒起伏很大的心理疾病，患者可能在極度興奮和極度低落之間擺盪。治療躁鬱症最常用的藥物之一就是「鋰」。鋰雖然使用已久，但科學家對於它如何發揮作用，其實還沒有完全了解。這篇研究就試圖更深入地探討鋰在體內的運作機制。這與高中生物的「細胞與遺傳」章節息息相關，因為鋰的作用涉及到神經細胞的訊息傳遞、基因表現的調控，以及細胞內部的各種生化反應，這些都與我們學習的細胞功能、遺傳物質的表達息息相關。\n\n## 2. 核心發現\n\n鋰主要用於治療躁鬱症，被認為是一種情緒穩定劑。但它並非單純地「壓抑」情緒，而是透過多種複雜的機制來保護神經細胞，並促進大腦功能的正常化。\n\n首先，鋰可以影響**神經傳遞**。大腦中的神經細胞之間需要透過**神經傳導物質**（例如：多巴胺、血清素等）來傳遞訊息。鋰可以調節這些神經傳導物質的釋放、接收，以及**受器**的敏感度，進而影響情緒和行為。\n\n更進一步地，鋰還能促進**神經元的存活**和**分化**。想像一下，大腦就像一個城市，神經細胞就是城市裡的居民。鋰可以幫助這些「居民」更好地生長、發展，並維持城市的穩定。它能增強**突觸**的**可塑性**，也就是大腦學習和記憶的能力。\n\n此外，鋰還具有**抗氧化**和**抗發炎**的作用。我們知道，細胞在代謝過程中會產生一些有害的**自由基**，這些自由基會損害細胞，導致老化和疾病。鋰可以清除自由基，減輕**氧化壓力**。同時，鋰也能抑制**神經發炎**，因為慢性發炎會損害大腦功能。\n\n研究也發現，鋰會影響**下視丘-腦下垂體-腎上腺 (HPA) 軸**的功能。HPA 軸是身體應對壓力的重要系統，鋰可以調節 HPA 軸的活動，減輕壓力對大腦的影響。\n\n值得注意的是，每個人的基因都略有不同，這會影響鋰在體內的濃度和作用效果。大約一半的鋰會進入大腦，但個體間的**基因表現差異**會影響鋰的吸收、代謝和作用。這也解釋了為什麼有些人對鋰的反應很好，有些人則不然。\n\n雖然鋰對躁鬱症的治療效果顯著，但它也可能產生一些**毒性**和**副作用**，例如：甲狀腺功能異常、腎臟問題等。因此，在使用鋰的過程中，需要密切監測患者的身體狀況。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"小明患有躁鬱症，醫師開立含鋰的藥物給他治療。已知鋰能影響神經傳遞，下列哪一項敘述最能解釋鋰如何調節情緒？\",\n    \"options\": [\n        \"(A) 鋰直接進入細胞核，改變神經細胞的DNA序列，使其產生更穩定的情緒。\",\n        \"(B) 鋰抑制神經細胞的粒線體功能，減少能量供應，降低神經細胞的興奮性。\",\n        \"(C) 鋰調節神經傳導物質的釋放與受器的敏感度，影響神經細胞之間的訊息傳遞。\",\n        \"(D) 鋰促進神經細胞的凋亡，清除大腦中不必要的神經細胞，達到情緒穩定的效果。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"鋰主要透過調節神經傳導物質的釋放和受器的敏感度來影響神經細胞之間的訊息傳遞，進而調節情緒。選項(A)描述的是基因突變，與鋰的作用機制不符；選項(B)抑制粒線體功能會導致細胞能量不足，反而可能加重病情；選項(D)促進細胞凋亡會損害大腦功能，與鋰的治療目的相反。\"\n}\n",
+    "processed_at": "2026-02-03 11:24:01",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "鋰濃度與神經可塑性指標BDNF表達量之關係",
+            "x_label": "鋰血藥濃度 (nM)",
+            "y_label": "腦源性神經滋養因子 (BDNF) 表達量 (相對值，%)",
+            "data_x": [
+                0,
+                50,
+                100,
+                150,
+                200,
+                250,
+                300
+            ],
+            "data_y": [
+                80,
+                95,
+                110,
+                120,
+                125,
+                128,
+                125
+            ]
+        },
+        "question": "研究人員探討鋰血藥濃度對大腦神經可塑性指標腦源性神經滋養因子 (BDNF) 表達量的影響。BDNF在神經元的存活、分化和突觸可塑性中扮演重要角色。根據圖表所示，下列哪一項敘述最符合實驗結果？",
+        "options": [
+            "(A) 鋰血藥濃度越高，BDNF表達量顯著增加，但達到一定濃度後，增加幅度趨緩。",
+            "(B) 鋰血藥濃度與BDNF表達量呈現負相關，濃度越高，表達量越低。",
+            "(C) 鋰血藥濃度對BDNF表達量沒有顯著影響，兩者之間沒有明顯的關係。",
+            "(D) BDNF表達量在鋰血藥濃度為0時最高，隨濃度增加而快速下降。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著鋰血藥濃度的增加，BDNF表達量也隨之增加。然而，當鋰濃度達到200nM後，BDNF表達量的增加幅度明顯減緩，趨近於一個飽和值。這表示鋰能促進BDNF的表達，但效果存在一個最佳濃度範圍，超過此範圍後，增加效果有限。選項(B)與圖表趨勢相反；選項(C)忽略了圖表顯示的明顯相關性；選項(D)與圖表顯示的初始狀態不符。"
+    }
+}

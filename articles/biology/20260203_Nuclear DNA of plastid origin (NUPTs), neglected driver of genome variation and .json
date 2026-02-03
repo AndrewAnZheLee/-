@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Nuclear DN",
+    "meta": {
+        "title": "Nuclear DNA of plastid origin (NUPTs), neglected driver of genome variation and evolutionary innovation.",
+        "summary": "Plant nuclear genomes contain a variable, though typically minor, fraction of DNA sequences of plastid origin known as NUPTs. Unlike the massive transfer of DNA and genes from the proto-organelle genome to the nucleus that occurred during the endosymbiotic event that gave rise to plastids, the formation of NUPTs is an ongoing process that does not imply concomitant DNA loss. Although NUPTs are generally considered to be potentially deleterious insertions that are continuously generated and rapidly eliminated at near-constant turnover rates, accumulating evidence reveals alternative evolutionary trajectories. In this review, we discuss recent findings that highlight the episodic formation of NUPTs, their subsequent proliferation, and their eventual long-term fixation within the nuclear genome. We also explore their non-random spatial association with specific genomic elements. NUPTs show preferential overlap with specific superfamilies of transposable elements, which may facilitate their proliferation and dispersal throughout the nuclear genome. Regarding protein-coding genes, the contribution of NUPTs varies among species. In contrast, NUPTs are found to be consistently enriched among certain classes of non-coding RNA genes, notably rRNA, tRNA, and specific regulatory RNA families, suggesting that they are involved in the evolution of gene regulation and translational machinery. Overall, these findings underscore the unexpected complexity of the mechanisms underlying NUPT formation and support the idea that they are a significant source of genome variation and evolutionary innovation. Further research is necessary to fully elucidate the mechanisms underlying NUPT formation, as well as to determine their potential adaptive significance in plant genome evolution.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41628475/",
+        "source": "PubMed",
+        "mapping_chapter": "植物生物學 (Plant Biology)",
+        "mapping_keyword": "plant alternation of generations",
+        "subject": "biology"
+    },
+    "content": "# 塑膠體基因入侵核基因庫：植物基因演化的新推手\n\n## 1. 研究背景與課本關聯\n\n大家知道，植物的細胞內有葉綠體，負責進行光合作用。葉綠體過去其實是一種獨立的細菌，後來進入植物細胞內，與植物細胞共生，最終成為我們現在看到的葉綠體。這個過程稱為「內共生學說」，是高中生物課本「植物生物學」章節中非常重要的概念。但你知道嗎？葉綠體不只是把自己留在植物細胞內，它的基因也偷偷地跑到植物細胞的核基因庫裡，而且這個基因轉移的過程，並不是只有在內共生初期發生，而是持續不斷地進行！這就像是外來移民不斷融入當地社會，改變了社會的樣貌。\n\n## 2. 核心發現\n\n這篇研究探討的是一種名為「NUPTs」（Nuclear DNA of plastid origin，源於塑膠體的核基因）的基因片段。NUPTs 指的是原本存在於葉綠體（或更廣義的塑膠體，包含葉綠體、色素體等）中的 DNA 片段，經過某種機制，轉移到植物細胞的核基因庫中。\n\n過去科學家認為，NUPTs 只是隨機插入基因體中的「垃圾 DNA」，會被細胞快速清除，對植物的演化沒有太大影響。但近年來的研究發現，NUPTs 的形成、擴增和固定化，其實是一個複雜的過程，而且它們的影響遠比我們想像的要大。\n\n研究發現，NUPTs 的形成並非隨機發生，而是會與特定的「轉位子」（transposable elements，俗稱跳躍基因）聚集在一起。轉位子就像基因體中的流動元素，可以複製並插入到基因體的不同位置，而 NUPTs 似乎利用了轉位子的機制，加速自己在基因體中的擴散。\n\n更重要的是，NUPTs 並不是完全沒有功能。研究人員發現，NUPTs 在某些非編碼 RNA 基因中特別豐富，例如核醣體 RNA (rRNA)、轉運 RNA (tRNA) 以及一些調控 RNA。這表示 NUPTs 可能參與了基因表現的調控，甚至影響了蛋白質的合成。換句話說，這些原本來自葉綠體的基因片段，竟然可能在植物的基因調控和演化中扮演重要的角色！\n\n總而言之，這項研究顛覆了我們對 NUPTs 的傳統觀念，指出它們不僅是基因體變異的來源，也可能是植物演化的重要推手。未來，更深入的研究有助於我們了解 NUPTs 的形成機制，以及它們在植物適應環境和演化過程中的具體作用。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某植物科學家發現一個新的植物品種，其核基因庫中NUPTs的含量明顯高於其他品種。根據上述研究，下列哪一項推論最合理？\",\n    \"options\": [\n        \"(A) 此品種的光合作用效率可能受到影響，因為葉綠體基因的完整性受到破壞。\",\n        \"(B) 此品種的基因體可能更不穩定，因為NUPTs的插入會導致基因突變。\",\n        \"(C) 此品種的基因調控機制可能發生改變，進而影響其表現型。\",\n        \"(D) 此品種的細胞分裂速度會加快，因為NUPTs的擴增會促進細胞增殖。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"根據文章，NUPTs 豐富於某些非編碼 RNA 基因，參與基因表現的調控。因此，NUPTs 含量較高的品種，其基因調控機制可能發生改變，進而影響表現型。選項 (A) 錯誤，因為 NUPTs 轉移不一定破壞葉綠體基因的完整性；選項 (B) 錯誤，NUPTs 並非必然導致基因突變；選項 (D) 錯誤，NUPTs 擴增與細胞分裂速度無直接關聯。\"\n}\n",
+    "processed_at": "2026-02-03 11:25:11",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同植物物種NUPTs含量與環境適應能力相關性",
+            "x_label": "NUPTs 含量 (每百萬個鹼基對)",
+            "y_label": "乾旱抗性指數 (0-1，1代表完全抗旱)",
+            "data_x": [
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5,
+                0.6,
+                0.7
+            ],
+            "data_y": [
+                0.2,
+                0.35,
+                0.5,
+                0.6,
+                0.7,
+                0.8,
+                0.9
+            ]
+        },
+        "question": "研究人員對七種不同植物物種進行了NUPTs含量和乾旱抗性指數的測量，結果如圖所示。根據圖表和文章內容，下列哪一項推論最合理？",
+        "options": [
+            "(A) NUPTs 含量越高，植物的乾旱抗性指數越高，表明NUPTs可能在植物適應乾旱環境中扮演重要角色。",
+            "(B) NUPTs 含量與乾旱抗性指數之間沒有明顯關聯，說明NUPTs對植物的乾旱適應能力沒有影響。",
+            "(C) NUPTs 含量過高會降低植物的乾旱抗性，因為過多的NUPTs會干擾植物正常的基因調控。",
+            "(D) 乾旱抗性指數越高，植物的NUPTs含量越低，說明植物在適應乾旱環境的過程中會清除NUPTs。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著NUPTs含量的增加，乾旱抗性指數也呈現上升趨勢，表明兩者之間存在正相關關係。文章中提到NUPTs可能參與基因表現的調控，進而影響植物的表現型，因此NUPTs含量越高，植物的乾旱抗性可能越強。選項 (B) 錯誤，圖表顯示存在明顯關聯；選項 (C) 和 (D) 錯誤，與圖表數據和文章內容不符。"
+    }
+}

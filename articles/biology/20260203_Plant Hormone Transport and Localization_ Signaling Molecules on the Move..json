@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Plant Horm",
+    "meta": {
+        "title": "Plant Hormone Transport and Localization: Signaling Molecules on the Move.",
+        "summary": "Plant hormones are a group of small signaling molecules produced by plants at very low concentrations that have the ability to move and function at distal sites. Hormone homeostasis is critical to balance plant growth and development and is regulated at multiple levels, including hormone biosynthesis, catabolism, perception, and transduction. In addition, plants move hormones over short and long distances to regulate various developmental processes and responses to environmental factors. Transporters coordinate these movements, resulting in hormone maxima, gradients, and cellular and subcellular sinks. Here, we summarize the current knowledge of most of the characterized plant hormone transporters with respect to biochemical, physiological, and developmental activities. We further discuss the subcellular localizations of transporters, their substrate specificities, and the need for multiple transporters for the same hormone in the context of plant growth and development.",
+        "published": "2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36889002/",
+        "source": "PubMed",
+        "mapping_chapter": "植物生物學 (Plant Biology)",
+        "mapping_keyword": "plant hormone",
+        "subject": "biology"
+    },
+    "content": "# 植物激素的運輸與定位：行走的信號分子\n\n## 1. 研究背景與課本關聯\n\n大家有沒有觀察過，植物會朝著光線生長，或是根部會趨向土壤中的水分？這些現象並非植物有意識的行為，而是植物透過化學物質來傳遞訊息、協調各部位的生長發展。這些化學物質就是我們在高中生物課本「植物生物學」章節中學到的「植物激素」。植物激素濃度非常低，卻能影響植物的各種生理過程，例如細胞伸長、分化、開花結果等等。本研究探討的就是這些植物激素如何在植物體內移動，以及如何精準地到達需要發揮功能的部位，這與我們學習植物激素的調控機制息息相關。\n\n## 2. 核心發現\n\n這篇研究論文主要探討植物激素的運輸機制。植物激素雖然濃度低，但卻能在植物體內長距離移動，影響遠端組織的生長發育，維持植物的體內平衡。這個過程受到多種因素的調控，包括激素的合成、分解、受體的感知，以及信號的傳遞等等。\n\n更重要的是，植物激素的移動並非隨意進行，而是受到特定「運輸蛋白」的協助。這些運輸蛋白就像是植物體內的交通工具，負責將激素從產生部位運送到需要作用的部位。不同的激素可能需要不同的運輸蛋白才能有效地運輸。例如，有些運輸蛋白負責將激素從細胞內運出，有些則負責將激素吸收到細胞內。\n\n研究發現，這些運輸蛋白的分布位置並不均勻，它們存在於細胞膜的不同部位，甚至細胞內的特定區域。這種精準的定位，可以確保激素能夠形成濃度梯度，也就是在特定區域累積較高的激素濃度，進而引導植物的生長方向。\n\n值得注意的是，對於同一种激素，可能存在多種不同的運輸蛋白。這表示植物可以透過調控不同運輸蛋白的活性，來精細地控制激素的運輸速率和方向，以應對不同的環境變化和發育需求。例如，在植物受到逆境時，可能需要快速地將某些激素運送到受損部位，以促進修復。\n\n總而言之，這項研究揭示了植物激素運輸的複雜機制，強調了運輸蛋白在植物生長發育和環境適應中的重要角色。了解這些機制，有助於我們更深入地理解植物的生命現象，並應用於農業生產和植物育種。\n\n---\n```json\n{\n    \"question\": \"小明在進行植物向光性實驗時，發現植物的彎曲程度與光照方向有關。假設植物體內存在甲、乙兩種運輸蛋白，甲蛋白負責將生長素從植物頂端運送到根部，乙蛋白負責將生長素從根部運送到頂端。如果小明將植物放置在單側光照下，下列哪種情況最能解釋植物彎向光源的原因？\",\n    \"options\": [\n        \"(A) 光照刺激導致頂端生長素濃度增加，乙蛋白活性降低，使生長素更多地運輸到背光側，促進背光側細胞伸長。\",\n        \"(B) 光照刺激導致頂端生長素濃度降低，甲蛋白活性增加，使生長素更多地運輸到背光側，促進背光側細胞伸長。\",\n        \"(C) 光照刺激導致根部生長素濃度增加，乙蛋白活性增加，使生長素更多地運輸到背光側，抑制背光側細胞伸長。\",\n        \"(D) 光照刺激導致根部生長素濃度降低，甲蛋白活性降低，使生長素更多地運輸到向光側，促進向光側細胞伸長。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"生長素的極性運輸是植物向光性的關鍵。單側光照會導致生長素在背光側累積較多。選項(A)描述了光照刺激導致頂端生長素濃度增加，同時乙蛋白活性降低，使得原本由根部運送到頂端的生長素減少，進而使生長素更多地留在背光側，促進背光側細胞伸長，造成植物彎向光源。選項(B)和(D)描述的生長素運輸方向與向光性原理不符。選項(C)則描述了抑制背光側細胞伸長，與實際現象相反。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:25:55",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同生長素運輸蛋白活性與生長素在植物不同部位濃度關係",
+            "x_label": "時間 (小時)",
+            "y_label": "生長素濃度 (μg/g fresh weight)",
+            "data_x": [
+                0,
+                2,
+                4,
+                6,
+                8,
+                10
+            ],
+            "data_y": [
+                1.2,
+                1.5,
+                2.1,
+                2.8,
+                3.5,
+                4.2
+            ]
+        },
+        "question": "研究人員探討不同生長素運輸蛋白的活性對植物生長素分佈的影響。他們測量了在單側光照下，植物頂端和背光側細胞內生長素濃度隨時間的變化。假設甲蛋白負責將生長素從頂端運送到背光側，且甲蛋白的活性與生長素運輸速率呈正相關。根據圖表數據，下列哪種推論最合理？",
+        "options": [
+            "(A) 隨著時間的推移，甲蛋白的活性逐漸增加，導致背光側生長素濃度上升，促進背光側細胞伸長。",
+            "(B) 隨著時間的推移，甲蛋白的活性逐漸降低，導致背光側生長素濃度下降，抑制背光側細胞伸長。",
+            "(C) 生長素濃度在頂端和背光側保持穩定，甲蛋白的活性對生長素分佈沒有顯著影響。",
+            "(D) 隨著時間的推移，甲蛋白的活性先增加後降低，導致背光側生長素濃度呈現波動變化。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著時間的推移，生長素濃度持續上升。根據文章內容，甲蛋白負責將生長素從頂端運送到背光側，且活性與運輸速率呈正相關。因此，生長素濃度上升可以推斷甲蛋白的活性也隨之增加，促進了背光側細胞的伸長，使植物彎向光源。選項(B)與圖表數據不符。選項(C)否定了運輸蛋白的作用。選項(D)沒有數據支持。"
+    }
+}

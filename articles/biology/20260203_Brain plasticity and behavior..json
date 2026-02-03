@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Brain plas",
+    "meta": {
+        "title": "Brain plasticity and behavior.",
+        "summary": "Brain plasticity refers to the brain's ability to change structure and function. Experience is a major stimulant of brain plasticity in animal species as diverse as insects and humans. It is now clear that experience produces multiple, dissociable changes in the brain including increases in dendritic length, increases (or decreases) in spine density, synapse formation, increased glial activity, and altered metabolic activity. These anatomical changes are correlated with behavioral differences between subjects with and without the changes. Experience-dependent changes in neurons are affected by various factors including aging, gonadal hormones, trophic factors, stress, and brain pathology. We discuss the important role that changes in dendritic arborization play in brain plasticity and behavior, and we consider these changes in the context of changing intrinsic circuitry of the cortex in processes such as learning.",
+        "published": "1998",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9496621/",
+        "source": "PubMed",
+        "mapping_chapter": "動物生理 (Animal Physiology)",
+        "mapping_keyword": "brain",
+        "subject": "biology"
+    },
+    "content": "# 大腦的可塑性與行為 (Brain plasticity and behavior)\n\n## 1. 研究背景與課本關聯\n\n你有沒有發現，練鋼琴的人手指會更靈活，長期運動的人肌肉會更發達？甚至，學習新的語言，大腦的某些區域也會變得更活躍？這些現象都指向一個重要的概念：大腦並非一成不變，而是具有「可塑性」。這就像橡皮泥一樣，可以被經驗塑造、改變。在高中生物的「動物生理」章節中，我們學習了神經系統的結構與功能，包含神經元的傳遞訊息方式。而這篇研究，正是深入探討了神經系統如何隨著經驗而改變，進而影響我們的行為，是動物生理中非常重要的延伸概念。\n\n## 2. 核心發現\n\n這篇研究指出，大腦的可塑性是指大腦在結構和功能上都能夠改變的能力。這種改變並非只發生在發育階段，而是會因為經驗而持續發生，而且在各種動物，從昆蟲到人類，都觀察得到。\n\n具體來說，經驗會導致大腦產生多種變化。首先，**樹突**的長度會增加，這就像是神經元接收訊息的「天線」變得更長，能接收更多訊息。其次，**棘突**的密度也會改變，棘突是樹突上的小突起，是**突觸**形成的地方，棘突的增加或減少，代表著神經元之間連結的數量發生變化。更進一步，新的突觸會形成，強化神經元的連結，而**神經膠細胞**的活動也會增加，神經膠細胞負責支持和保護神經元，它們的活躍也反映了神經元的活動強度。此外，大腦的**代謝活動**也會改變，表示大腦的能量使用方式發生了調整。\n\n這些結構上的變化，與行為上的差異密切相關。例如，學習新的技能，會伴隨著相關腦區樹突長度的增加和突觸密度的增加，進而提升學習效果。\n\n研究也提到，影響大腦可塑性的因素很多，包含**老化**、**性腺激素**、**神經滋養因子**、**壓力**，以及**腦部病理**等。老化會降低大腦的可塑性，而性腺激素和神經滋養因子則有助於促進大腦的可塑性。壓力過大或腦部受到損傷，則可能阻礙大腦的可塑性。\n\n特別值得注意的是，樹突的**分支化** (dendritic arborization) 在大腦可塑性中扮演著重要的角色。樹突分支化程度越高，神經元接收訊息的能力就越強，這對於**學習**和**記憶**等認知功能至關重要。研究認為，這些變化反映了大腦內部神經迴路的改變，進而影響我們的行為。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"小明從小學習繪畫，經過多年的訓練，他的大腦皮層中負責視覺和運動控制的區域，樹突密度明顯增加。請問，此現象最能體現下列哪一項生物學概念？\",\n    \"options\": [\n        \"(A) 大腦的可塑性，經驗能改變大腦的結構與功能\",\n        \"(B) 基因表現，繪畫天賦是由基因決定的\",\n        \"(C) 穩態調節，大腦維持內部環境的穩定\",\n        \"(D) 反射弧，繪畫動作是無意識的反射行為\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"樹突密度增加代表神經元之間的連結增強，這是大腦可塑性的直接表現。小明的繪畫經驗促使大腦結構發生改變，符合大腦可塑性的定義。選項(B)雖然基因有影響，但經驗的塑造更直接。選項(C)穩態調節是維持內部環境穩定，與結構改變無關。選項(D)繪畫是複雜的動作，並非單純的反射。\"\n}\n",
+    "processed_at": "2026-02-03 11:19:11",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同年齡組別老鼠學習迷宮的突觸密度變化",
+            "x_label": "年齡 (月)",
+            "y_label": "海馬區突觸密度 (個/mm²)",
+            "data_x": [
+                1,
+                3,
+                6,
+                9,
+                12,
+                15,
+                18
+            ],
+            "data_y": [
+                1500,
+                1800,
+                2000,
+                1900,
+                1700,
+                1400,
+                1100
+            ]
+        },
+        "question": "研究人員觀察不同年齡組別老鼠在學習迷宮後的突觸密度變化。圖表顯示，隨著年齡增長，老鼠海馬區的突觸密度呈現特定趨勢。根據圖表及文章內容，下列敘述何者最合理？",
+        "options": [
+            "(A) 老鼠的突觸密度隨著年齡增長而增加，表示大腦的可塑性隨著年齡增強。",
+            "(B) 老鼠的突觸密度在特定年齡後開始下降，可能與老化導致的大腦可塑性降低有關。",
+            "(C) 老鼠的突觸密度變化與學習迷宮無關，突觸密度是基因預先決定的。",
+            "(D) 老鼠的突觸密度在所有年齡組別都保持穩定，表示大腦結構不會改變。"
+        ],
+        "correct_answer": "B",
+        "explanation": "圖表顯示，老鼠的突觸密度在6個月後開始下降，這與文章中提到的老化會降低大腦可塑性相符。突觸密度的下降表示神經元之間的連結減少，可能影響學習能力。選項(A)與圖表趨勢相反。選項(C)忽略了文章強調的經驗塑造大腦可塑性的概念。選項(D)與文章及圖表皆不符。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Biodiversi",
+    "meta": {
+        "title": "Biodiversity loss and its impact on humanity.",
+        "summary": "The most unique feature of Earth is the existence of life, and the most extraordinary feature of life is its diversity. Approximately 9 million types of plants, animals, protists and fungi inhabit the Earth. So, too, do 7 billion people. Two decades ago, at the first Earth Summit, the vast majority of the world's nations declared that human actions were dismantling the Earth's ecosystems, eliminating genes, species and biological traits at an alarming rate. This observation led to the question of how such loss of biological diversity will alter the functioning of ecosystems and their ability to provide society with the goods and services needed to prosper.",
+        "published": "2012",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22678280/",
+        "source": "PubMed",
+        "mapping_chapter": "生態與演化 (Ecology & Evolution)",
+        "mapping_keyword": "biodiversity loss",
+        "subject": "biology"
+    },
+    "content": "# 生物多樣性喪失及其對人類的影響\n\n## 1. 研究背景與課本關聯\n\n你是否曾經在都市叢林中，難得一見蝴蝶翩翩飛舞，或是聽到鳥兒清脆的鳴叫？這些景象的減少，其實就是生物多樣性喪失的警訊。台灣的生態環境豐富，從高山到海洋，孕育了許多獨特的物種。然而，隨著人類活動的影響，許多生物正面臨生存危機。這篇研究探討的就是生物多樣性喪失對人類的影響，而這與高中生物課本的「生態與演化」章節緊密相關，我們在學習「生態系的功能與穩定性」、「物種多樣性與環境適應」時，就已經了解到生物多樣性對維持生態平衡的重要性。\n\n## 2. 核心發現\n\n地球上最獨特的地方就是擁有生命，而生命最特別的特徵就是其多樣性。估計地球上有約 900 萬種植物、動物、原生生物和真菌。除了這些生物之外，還有 70 億的人類。早在二十年前的地球高峰會上，世界上大多數國家就已經意識到人類的活動正在破壞地球的生態系統，以驚人的速度消滅基因、物種和生物特徵。\n\n這項研究的核心問題是：生物多樣性的喪失將如何改變生態系統的功能，以及它們提供給人類所需商品和服務的能力？簡單來說，生物多樣性就像生態系統的零件，零件越多、種類越豐富，生態系統就越穩定、功能越完善。\n\n當物種滅絕時，生態系統提供的「生態系服務」也會受到影響。生態系服務包含許多對人類至關重要的功能，例如：植物進行光合作用提供氧氣、森林涵養水源、蜜蜂為農作物授粉、濕地淨化水質等等。這些服務都是免費的，但卻是人類生存的基礎。\n\n生物多樣性喪失會導致生態系功能降低，進而影響人類的糧食安全、水資源供應、疾病控制，甚至氣候調節。例如，如果授粉昆蟲減少，農作物產量就會下降，導致糧食危機；森林砍伐會加速水土流失，增加洪患風險；生物多樣性降低也會使生態系更容易受到外來種入侵，造成生態失衡。\n\n研究指出，人類活動是導致生物多樣性喪失的主要原因，包括棲息地破壞、過度捕撈、環境污染、氣候變遷等等。因此，保護生物多樣性不僅是為了保護地球上的其他生物，更是為了保護我們人類自己。我們需要採取行動，減少對環境的破壞，維護生態系統的完整性，才能確保人類社會的可持續發展。\n\n---\n```json\n{\n    \"question\": \"某農村地區過去擁有豐富的生物多樣性，包括多種昆蟲、鳥類和植物。然而，由於農藥的大量使用和棲息地遭到破壞，導致許多昆蟲和鳥類數量銳減。請問，這種情況最可能對該地區的農業生產造成什麼影響？\",\n    \"options\": [\n        \"(A) 農作物授粉效率降低，導致產量減少。\",\n        \"(B) 土壤肥力增加，農作物生長更加茂盛。\",\n        \"(C) 天敵昆蟲數量增加，有效控制害蟲。\",\n        \"(D) 農作物對病蟲害的抵抗力增強。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"農藥的使用會直接殺死授粉昆蟲，而棲息地破壞則會減少鳥類等授粉者的數量。授粉是農作物繁殖的重要步驟，授粉效率降低將直接導致農作物產量減少。選項 (B) 農藥的使用反而會破壞土壤生態，降低土壤肥力；選項 (C) 農藥會殺死包括天敵在內的昆蟲，而非增加其數量；選項 (D) 生物多樣性喪失通常會降低農作物的抵抗力，而非增強。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:18:50",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同棲息地面積下，農作物產量變化趨勢",
+            "x_label": "棲息地面積 (公頃)",
+            "y_label": "農作物產量 (噸/公頃)",
+            "data_x": [
+                5,
+                10,
+                15,
+                20,
+                25,
+                30
+            ],
+            "data_y": [
+                2.5,
+                3.8,
+                4.5,
+                5.2,
+                5.8,
+                6.0
+            ]
+        },
+        "question": "某地區進行了一項研究，探討棲息地面積變化對農作物產量的影響。研究人員記錄了不同棲息地面積下的農作物產量，結果如圖所示。根據圖表資訊，下列敘述何者最合理？",
+        "options": [
+            "(A) 棲息地面積越大，農作物產量越高，顯示生物多樣性對農業生產有正向影響。",
+            "(B) 棲息地面積與農作物產量之間沒有明顯關聯，說明環境因素對農業影響不大。",
+            "(C) 棲息地面積小於 10 公頃時，農作物產量增加最快，之後增加幅度趨緩。",
+            "(D) 棲息地面積超過 25 公頃後，農作物產量不再增加，表示達到產量上限。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著棲息地面積的增加，農作物產量呈現上升趨勢。這表明更豐富的棲息地（通常意味著更高的生物多樣性）能夠提供生態系服務，例如授粉、害蟲控制等，從而提高農作物產量。選項 (B) 錯誤，圖表顯示有明顯關聯；選項 (C) 雖然描述了趨勢，但沒有點出生物多樣性的重要性；選項 (D) 數據顯示產量仍在增加，並未達到上限。"
+    }
+}

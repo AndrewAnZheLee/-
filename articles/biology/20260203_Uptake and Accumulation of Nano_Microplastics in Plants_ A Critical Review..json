@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Uptake and",
+    "meta": {
+        "title": "Uptake and Accumulation of Nano/Microplastics in Plants: A Critical Review.",
+        "summary": "The ubiquitous presence of microplastics (MPs) and nanoplastics (NPs) in the environment is an undeniable and serious concern due to their higher persistence and extensive use in agricultural production. This review highlights the sources and fate of MPs and NPs in soil and their uptake, translocation, and physiological effects in the plant system. We provide the current snapshot of the latest reported studies with the majority of literature spanning the last five years. We draw attention to the potential risk of MPs and NPs in modern agriculture and their effects on plant growth and development. We also highlight their uptake and transport pathways in roots and leaves via different exposure methods in plants. Conclusively, agricultural practices, climate changes (wet weather and heavy rainfall), and soil organisms play a major role in transporting MPs and NPs in soil. NPs are more prone to enter plant cell walls as compared to MPs. Furthermore, transpiration pull is the dominant factor in the plant uptake and translocation of plastic particles. MPs have negligible negative effects on plant physiological and biochemical indicators. Overall, there is a dire need to establish long-term studies for a better understanding of their fate and associated risks mechanisms in realistic environment scenarios for safe agricultural functions.",
+        "published": "2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34835700/",
+        "source": "PubMed",
+        "mapping_chapter": "植物生物學 (Plant Biology)",
+        "mapping_keyword": "transpiration pull",
+        "subject": "biology"
+    },
+    "content": "# 植物吸收微塑膠與奈米塑膠：最新研究回顧\n\n## 1. 研究背景與課本關聯\n\n你是否曾在新聞中看到海洋生物誤食塑膠垃圾的畫面？塑膠污染已經是全球性的問題。但塑膠不只存在海洋，土壤中也充斥著大量的微塑膠和奈米塑膠！這些塑膠來自於農業用的塑膠覆蓋布、塑膠肥料、甚至是生活垃圾分解而成。這些微小的塑膠顆粒會如何影響植物的生長呢？這項研究正是探討這個問題。這與高中生物課本的「植物生物學」章節息息相關，因為我們在學習植物的養分吸收、運輸機制，以及環境因子如何影響植物生長時，都需要考慮到這些新的環境污染物。\n\n## 2. 核心發現\n\n這篇研究回顧了過去五年來，關於植物吸收和累積微塑膠（MPs）和奈米塑膠（NPs）的最新研究。研究發現，微塑膠和奈米塑膠進入土壤後，會受到農業行為、氣候變遷（例如：濕度增加、豪雨）以及土壤生物的影響而移動。\n\n那麼，植物是如何吸收這些塑膠的呢？研究指出，奈米塑膠比微塑膠更容易穿透植物細胞壁，進入植物體內。主要的吸收途徑是透過植物的根部，以及葉片表面的氣孔。而植物體內水分運輸的「蒸散作用」扮演了關鍵角色，就像植物吸收水分一樣，也將塑膠粒子向上運輸，從根部到葉片，形成「蒸散拉力」。\n\n有趣的是，目前的研究顯示，微塑膠對植物的生理和生化指標影響不大，也就是說，植物在短時間內似乎可以忍受微塑膠的存在。然而，這並不代表沒有風險！研究者強調，我們需要更長期的研究，才能了解這些塑膠在植物體內如何累積、如何影響植物的生長發育，以及是否會透過食物鏈進入人體。\n\n總而言之，這項研究提醒我們，塑膠污染不僅僅是海洋問題，也對農業和我們的食物安全構成潛在威脅。未來，我們需要更深入的研究，才能制定有效的策略，減少塑膠污染，保護我們的環境和健康。\n---\n```json\n{\n    \"question\": \"小明在進行盆栽實驗，發現使用回收塑膠盆栽的番茄植株，其果實的重量相較於使用陶瓷盆栽的番茄植株略輕。假設番茄植株吸收了塑膠盆釋放出的微塑膠，請問這些微塑膠最可能影響番茄植株的哪個生理作用，進而導致果實重量減少？\",\n    \"options\": [\n        \"(A) 光合作用速率降低，導致有機物合成減少\",\n        \"(B) 蒸散作用過度旺盛，導致水分流失過多\",\n        \"(C) 根部吸收水分和養分的能力下降，影響果實發育\",\n        \"(D) 氣孔開口受阻，影響二氧化碳的吸收\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"根據研究，微塑膠會進入植物體內，並可能影響根部功能。根部是植物吸收水分和養分的主要通道，如果根部吸收功能下降，將直接影響植物的生長發育，尤其是果實的形成，導致果實重量減少。選項(A)雖然光合作用重要，但微塑膠主要影響根部吸收；選項(B)蒸散作用是植物正常生理現象，微塑膠並非直接影響蒸散作用；選項(D)氣孔受阻影響較小，且主要影響二氧化碳吸收，與果實重量的直接關聯性較弱。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:28:56",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同濃度奈米塑膠對小黃瓜植株生物量累積的影響",
+            "x_label": "奈米塑膠濃度 (mg/kg 土壤)",
+            "y_label": "小黃瓜植株乾燥重量 (g)",
+            "data_x": [
+                0,
+                1,
+                5,
+                10,
+                20,
+                50
+            ],
+            "data_y": [
+                15.2,
+                14.8,
+                13.5,
+                12.1,
+                9.8,
+                6.5
+            ]
+        },
+        "question": "研究人員進行實驗，探討不同濃度奈米塑膠對小黃瓜植株生長的影響。結果如圖所示，請問根據圖表資訊，下列敘述何者最合理？",
+        "options": [
+            "(A) 奈米塑膠濃度越高，小黃瓜植株的乾燥重量越低，顯示奈米塑膠可能抑制植物的生長。",
+            "(B) 奈米塑膠濃度越高，小黃瓜植株的乾燥重量越高，表示奈米塑膠有助於植物的生長。",
+            "(C) 奈米塑膠濃度對小黃瓜植株的乾燥重量沒有明顯影響，植物具有抵抗奈米塑膠的能力。",
+            "(D) 小黃瓜植株在奈米塑膠濃度為 1 mg/kg 土壤時，生長最為旺盛。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著奈米塑膠濃度的增加，小黃瓜植株的乾燥重量呈現下降趨勢。乾燥重量是評估植物生物量的指標之一，重量下降表示植物的生長受到抑制。這與文章中提到的奈米塑膠可能影響植物生長發育的觀點相符。選項(B)與圖表數據相反；選項(C)圖表明顯顯示有影響；選項(D)圖表顯示1mg/kg時重量略低於0mg/kg。"
+    }
+}

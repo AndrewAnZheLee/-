@@ -1,0 +1,52 @@
+{
+    "id": "20260203_Celebratin",
+    "meta": {
+        "title": "Celebrating 20 Years of Genetic Discoveries in Legume Nodulation and Symbiotic Nitrogen Fixation.",
+        "summary": "Since 1999, various forward- and reverse-genetic approaches have uncovered nearly 200 genes required for symbiotic nitrogen fixation (SNF) in legumes. These discoveries advanced our understanding of the evolution of SNF in plants and its relationship to other beneficial endosymbioses, signaling between plants and microbes, the control of microbial infection of plant cells, the control of plant cell division leading to nodule development, autoregulation of nodulation, intracellular accommodation of bacteria, nodule oxygen homeostasis, the control of bacteroid differentiation, metabolism and transport supporting symbiosis, and the control of nodule senescence. This review catalogs and contextualizes all of the plant genes currently known to be required for SNF in two model legume species, <i>Medicago truncatula</i> and <i>Lotus japonicus</i>, and two crop species, <i>Glycine max</i> (soybean) and <i>Phaseolus vulgaris</i> (common bean). We also briefly consider the future of SNF genetics in the era of pan-genomics and genome editing.",
+        "published": "2020",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31649123/",
+        "source": "PubMed",
+        "mapping_chapter": "植物生物學 (Plant Biology)",
+        "mapping_keyword": "nitrogen fixation bacteria",
+        "subject": "biology"
+    },
+    "content": "# 豆科植物根瘤共生與氮固定：20 年的基因發現\n\n## 1. 研究背景與課本關聯\n\n大家有沒有觀察過田裡的豆科植物，像是大豆、黃豆、花生、三葉草等等？這些植物有個特別的能力，不需要額外施用氮肥就能長得很好！這是因為它們的根部會形成「根瘤」，裡面住著一群特殊的細菌，可以將空氣中的氮氣轉換成植物可以利用的氨，這個過程稱為「共生氮固定」。高中生物課本的「植物生物學」章節中，我們學習過植物的營養吸收、共生關係，以及細菌的代謝功能。這篇研究正是深入探討豆科植物與細菌共生氮固定的基因機制，進一步了解植物如何與微生物合作，取得生長所需的養分。\n\n## 2. 核心發現\n\n自從 1999 年以來，科學家們利用「正向遺傳學」和「逆向遺傳學」等方法，在豆科植物中發現了近 200 個與共生氮固定 (Symbiotic Nitrogen Fixation, SNF) 相關的基因。這些基因的發現，讓我們對植物演化、植物與微生物的訊號傳遞、細菌感染植物細胞的控制、植物細胞分裂形成根瘤的機制、根瘤數量的調控、細菌在植物細胞內的適應、根瘤內的氧氣平衡、細菌分化、支持共生的代謝與運輸，以及根瘤衰老的過程有了更深入的了解。\n\n研究主要以四種豆科植物作為模式：苜蓿 (<i>Medicago truncatula</i>)、日本蓮 (<i>Lotus japonicus</i>)，以及經濟作物大豆 (<i>Glycine max</i>) 和四季豆 (<i>Phaseolus vulgaris</i>)。科學家們仔細研究這些植物中，哪些基因在共生氮固定過程中扮演關鍵角色。\n\n舉例來說，有些基因控制植物如何釋放化學物質吸引根瘤菌；有些基因則負責植物細胞的結構改變，讓根瘤菌可以安全地進入並定居。還有一些基因控制根瘤內部的氧氣濃度，因為氮固定酶對氧氣非常敏感，需要維持適當的氧氣含量才能正常運作。此外，植物還需要提供能量和碳源給根瘤菌，這些過程也受到特定基因的調控。\n\n隨著科技的進步，現在科學家們正利用「全基因組學」(pan-genomics) 和「基因編輯」(genome editing) 等新技術，更精確地研究這些基因的功能，並嘗試改良豆科植物的共生能力，以減少對化學氮肥的依賴，實現更永續的農業生產。這對於台灣農業發展，減少環境污染，具有重要的意義。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某農民發現他種植的大豆今年收成不佳，經過檢測發現土壤中根瘤菌的數量明顯減少。下列哪一項可能是導致大豆收成不佳的主要原因？\",\n    \"options\": [\n        \"(A) 大豆根部缺乏與根瘤菌形成共生的基因，導致無法進行氮固定。\",\n        \"(B) 土壤中缺乏磷元素，限制了大豆的生長。\",\n        \"(C) 大豆受到病蟲害侵襲，影響了光合作用效率。\",\n        \"(D) 土壤的酸鹼度過高，抑制了根瘤菌的生長。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"共生氮固定需要植物與根瘤菌的合作。如果大豆缺乏與根瘤菌共生的基因，就無法形成根瘤，也無法進行氮固定，導致植物缺乏氮元素，進而影響生長和收成。選項 (B) 磷元素是植物生長必需的元素，但與根瘤菌的共生關係無直接關聯。選項 (C) 病蟲害會影響光合作用，但不會直接影響氮固定。選項 (D) 土壤酸鹼度會影響根瘤菌的生長，但如果植物本身缺乏共生基因，即使根瘤菌存在也無法進行氮固定。\"\n}\n",
+    "processed_at": "2026-02-03 11:19:58",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同基因突變株大豆根瘤數量與氮固定效率關係",
+            "x_label": "SNF基因突變株編號 (SNF-1 ~ SNF-8)",
+            "y_label": "氮固定效率 (µmol N/小時/根瘤)",
+            "data_x": [
+                "SNF-1",
+                "SNF-2",
+                "SNF-3",
+                "SNF-4",
+                "SNF-5",
+                "SNF-6",
+                "SNF-7",
+                "SNF-8"
+            ],
+            "data_y": [
+                1.2,
+                0.8,
+                2.5,
+                0.5,
+                1.8,
+                3.1,
+                0.9,
+                2.0
+            ]
+        },
+        "question": "科學家研究了八個與共生氮固定相關的SNF基因突變株的大豆，測量了它們的根瘤數量和氮固定效率。假設每個突變株的根瘤數量大致相同，圖表顯示了這些突變株的氮固定效率。根據圖表，下列哪一項推論最合理？",
+        "options": [
+            "(A) SNF-6基因的突變株具有最高的氮固定效率，表示該基因可能在促進氮固定過程中扮演重要角色。",
+            "(B) SNF-4基因的突變株氮固定效率最低，表示該基因是氮固定的必要基因。",
+            "(C) 所有的SNF基因突變株都對氮固定效率有顯著的影響，因此它們的功能是完全相同的。",
+            "(D) 氮固定效率與SNF基因突變株編號無關，因此這些基因可能與其他生理過程有關。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示SNF-6基因突變株的氮固定效率最高，這意味著SNF-6基因可能在促進氮固定過程中扮演重要角色。基因突變導致功能喪失或降低，因此效率越高，表示該基因的功能越重要。選項 (B) 雖然SNF-4效率最低，但不能直接推斷是必要基因，可能只是影響較小。選項 (C) 效率不同，表示功能不完全相同。選項 (D) 圖表顯示效率與基因編號有關聯，因此基因與氮固定有關。"
+    }
+}

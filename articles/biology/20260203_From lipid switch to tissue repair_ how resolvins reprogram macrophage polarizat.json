@@ -1,0 +1,50 @@
+{
+    "id": "20260203_From lipid",
+    "meta": {
+        "title": "From lipid switch to tissue repair: how resolvins reprogram macrophage polarization and function.",
+        "summary": "Specialized pro-resolving mediators (SPMs) derived from docosahexaenoic acid (DHA), particularly D-series resolvins (RvD1, RvD2, RvD3, and RvD5), function to terminate inflammation while preserving host defense. They are synthesized from DHA by lipoxygenases and act through G‑protein‑coupled receptors and lipid‑sensing transcription factors (TFs). These mediators reprogram macrophage metabolism towards fatty‑acid oxidation and oxidative phosphorylation, accelerate efferocytosis, and promote tissue repair. Here, we synthesize current knowledge on their biosynthesis, receptor signaling, and immunometabolic rewiring within macrophages, and critically appraise their therapeutic potential across cardiometabolic, musculoskeletal, autoimmune, and ischemia/reperfusion disorders. We also discuss analytical controversies surrounding their in vivo low‑abundance detection, and outline translational challenges including short half‑life, formulation stability, and emerging synthetic agonists. Finally, we propose priority research directions, from single-cell spatial lipidomics to clinical translation, to define the next frontier for resolvin-based immunotherapies.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41625186/",
+        "source": "PubMed",
+        "mapping_chapter": "細胞與遺傳 (Cell & Genetics)",
+        "mapping_keyword": "protein translation",
+        "subject": "biology"
+    },
+    "content": "# 從脂肪轉換到組織修復：解析素如何重塑巨噬細胞功能\n\n## 1. 研究背景與課本關聯\n\n你有受傷割到手嗎？傷口發紅、腫脹，這是身體的發炎反應，是免疫系統保護我們的機制。但發炎不是萬能的，過度或持續性的發炎反而會造成組織損害。就像煮過頭的菜一樣，過了頭就變質了！這篇研究探討的是身體裡一些特殊的分子，它們能幫助我們「關掉」發炎，並促進傷口癒合。這些分子與我們高中生物課本「細胞與遺傳」章節中學習的**細胞信號傳導**、**基因表現調控**，以及**免疫細胞**的功能息息相關，讓我們更了解身體如何精準地控制免疫反應。\n\n## 2. 核心發現\n\n這篇研究主要聚焦在名為「解析素 (Resolvin)」的一群分子。解析素是由於一種叫做**二十碳五烯酸 (DHA)** 的脂肪酸所產生的。DHA 是一種**必需脂肪酸**，我們無法自行合成，必須從食物中攝取，例如深海魚類。當身體發炎時，DHA 會經過一種叫做**氧合酶 (Lipoxygenase)** 的酵素作用，轉變成不同種類的解析素，像是 RvD1、RvD2、RvD3 和 RvD5。\n\n這些解析素就像是身體的「和平使者」，它們會與**巨噬細胞 (Macrophage)** 結合。巨噬細胞是我們免疫系統中的重要細胞，負責吞噬異物和清除壞死細胞。但巨噬細胞的功能並非單一，它們可以依照環境訊號呈現不同的狀態，也就是**極化 (Polarization)**。一般來說，發炎時的巨噬細胞會呈現一種促進發炎的狀態 (M1 型)，而解析素的作用就是將這些 M1 型巨噬細胞轉變成促進組織修復的狀態 (M2 型)。\n\n解析素如何做到這一點呢？它們會改變巨噬細胞的**細胞代謝 (Metabolism)**，讓細胞更傾向於利用**脂肪酸氧化 (Fatty acid oxidation)** 和**氧化磷酸化 (Oxidative phosphorylation)** 來產生能量。同時，解析素也會加速**吞噬作用 (Efferocytosis)**，讓巨噬細胞更有效率地清除死亡的細胞碎片，避免持續發炎。\n\n更進一步來說，解析素會透過**G蛋白耦合受體 (G-protein coupled receptor)** 和**脂質感應轉錄因子 (lipid-sensing transcription factor)** 傳遞訊號，進而影響巨噬細胞的**基因表現 (Gene expression)**，最終達到重塑巨噬細胞功能的目的。\n\n研究顯示，解析素在許多疾病中都具有潛在的治療價值，例如心血管疾病、肌肉骨骼疾病、自體免疫疾病以及缺血再灌流損傷等。然而，解析素在體內含量低、半衰期短，以及製劑穩定性等問題，都是目前研究面臨的挑戰。未來研究方向包括開發更有效的解析素合成劑，以及利用單細胞空間脂質體學等技術，更深入了解解析素的作用機制。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"小明在運動時扭傷了腳踝，導致局部紅腫疼痛。假設研究人員希望利用解析素來加速他的傷口癒合，請問解析素主要透過影響哪種細胞來達到治療效果？\\n(A) 淋巴球 (Lymphocyte)\\n(B) 巨噬細胞 (Macrophage)\\n(C) 血小板 (Platelet)\\n(D) 紅血球 (Erythrocyte)\",\n    \"options\": [\n        \"(A) 淋巴球 (Lymphocyte)\",\n        \"(B) 巨噬細胞 (Macrophage)\",\n        \"(C) 血小板 (Platelet)\",\n        \"(D) 紅血球 (Erythrocyte)\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據文章內容，解析素主要作用於巨噬細胞，將其從促進發炎的 M1 型轉變為促進組織修復的 M2 型，從而加速傷口癒合。淋巴球主要負責適應性免疫反應，血小板負責凝血，紅血球負責氧氣運輸，與解析素的直接作用機制無關。\"\n}\n",
+    "processed_at": "2026-02-03 11:21:53",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "解析素濃度與巨噬細胞M2型比例之關係",
+            "x_label": "解析素濃度 (nM)",
+            "y_label": "M2型巨噬細胞比例 (%)",
+            "data_x": [
+                0,
+                1,
+                5,
+                10,
+                25,
+                50,
+                100
+            ],
+            "data_y": [
+                15,
+                22,
+                35,
+                50,
+                70,
+                85,
+                92
+            ]
+        },
+        "question": "研究人員在體外培養巨噬細胞，並添加不同濃度的解析素(RvD1)。實驗結果顯示，解析素濃度越高，巨噬細胞轉化為M2型（促進組織修復）的比例也越高。根據圖表所示，下列敘述何者最合理？",
+        "options": [
+            "(A) 解析素濃度與M2型巨噬細胞比例呈現負相關。",
+            "(B) 當解析素濃度為0 nM時，M2型巨噬細胞比例為100%。",
+            "(C) 增加解析素濃度，可以有效提升巨噬細胞轉化為M2型的比例，但提升幅度會逐漸減緩。",
+            "(D) 解析素濃度越高，M2型巨噬細胞比例的增加幅度越明顯，呈現線性關係。"
+        ],
+        "correct_answer": "C",
+        "explanation": "圖表顯示，解析素濃度與M2型巨噬細胞比例呈現正相關，但曲線逐漸趨緩，表示增加解析素濃度雖然能提升M2型比例，但提升幅度會逐漸減小。選項A錯誤，因為是負相關。選項B錯誤，因為0 nM時比例為15%。選項D錯誤，因為不是線性關係。"
+    }
+}

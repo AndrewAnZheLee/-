@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Rice plant",
+    "meta": {
+        "title": "Rice plant development: from zygote to spikelet.",
+        "summary": "Rice is becoming a model plant in monocotyledons and a model cereal crop. For better understanding of the rice plant, it is essential to elucidate the developmental programs of the life cycle. To date, several attempts have been made in rice to categorize the developmental processes of some organs into substages. These studies are based exclusively on the morphological and anatomical viewpoints. Recent advancement in genetics and molecular biology has given us new aspects of developmental processes. In this review, we first describe the phasic development of the rice plant, and then describe in detail the developmental courses of major organs, leaf, root and spikelet, and specific organs/tissues. Also, for the facility of future studies, we propose a staging system for each organ.",
+        "published": "2005",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15659435/",
+        "source": "PubMed",
+        "mapping_chapter": "植物生物學 (Plant Biology)",
+        "mapping_keyword": "plant meiosis",
+        "subject": "biology"
+    },
+    "content": "# 水稻植物的發育：從受精卵到穗粒\n## 1. 研究背景與課本關聯\n\n大家每天吃的白米飯，其實是水稻經過加工後的結果。水稻不僅是重要的糧食作物，也是科學研究上常用的模式植物。想想我們在菜市場看到的稻米，從一粒小小的種子開始，經過發芽、長大、開花結果，最後形成我們食用的米粒，這個過程充滿了生物的奧妙。這篇研究就探討了水稻從受精卵到穗粒形成的完整發育過程。這與高中生物課本的「植物生物學」章節中關於植物的生長發育、器官構造與功能等內容息息相關，能幫助我們更深入了解植物生命週期。\n\n## 2. 核心發現\n\n這篇研究論文回顧了水稻植物發育的各個階段，並針對水稻的重要器官 – 葉、根、穗粒 – 的發育過程進行了詳細的分析。過去的研究主要著重於從**形態學**（外觀）和**解剖學**（內部構造）的角度來觀察水稻的發育，例如觀察葉片的形狀變化、根系的生長模式、以及穗粒的形成過程。\n\n然而，隨著**基因學**和**分子生物學**的進步，科學家們得以從更微觀的層面來理解水稻的發育機制。研究發現，水稻的發育受到許多**基因**的調控，這些基因控制著細胞的分化、組織的形成、以及器官的成熟。\n\n論文中將水稻的發育分為不同的**發育階段**，並針對葉、根、穗粒等器官，提出了更精確的**分期系統**。例如，葉片的發育可以分為幼葉期、生長期、成熟期等階段；根系的發育則可以根據根的長度和分支程度來劃分。而穗粒的發育，則從**花序**的形成、**小穗**的發育、到**頴花**的開花授粉、以及**胚乳**的發育等，都經過了精密的調控。\n\n研究者強調，了解水稻的發育過程，對於改良水稻品種、提高水稻產量具有重要的意義。透過研究控制水稻發育的基因，我們可以培育出抗病、耐旱、高產的水稻新品種，以應對日益嚴峻的糧食問題。這篇研究的貢獻在於整合了傳統的形態學觀察與現代的分子生物學知識，為未來水稻的研究奠定了基礎。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"農夫小明發現他種植的水稻，葉片呈現不正常的黃化現象，且根系生長不良，導致植株矮小。經過檢測，發現水稻體內缺乏某種重要的礦物質元素。請問，從分子生物學的角度來看，這種礦物質缺乏最有可能影響水稻的哪個生理過程？\",\n    \"options\": [\n        \"(A) 葉綠素的合成，進而影響光合作用\",\n        \"(B) 細胞壁的形成，導致植物結構不穩定\",\n        \"(C) 蛋白質的合成，影響植物的生長發育\",\n        \"(D) 氣孔的開閉，影響植物的蒸散作用\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"黃化現象通常與葉綠素合成不足有關，而葉綠素的合成需要特定的礦物質元素（例如鎂、氮）。葉綠素是光合作用的重要成分，缺乏葉綠素會導致光合作用效率降低，進而影響植物的生長發育。根系生長不良也可能是因為缺乏礦物質元素導致。選項(B)細胞壁主要由纖維素構成，與礦物質關係較間接；選項(C)蛋白質合成需要多種元素，但黃化現象更直接與葉綠素有關；選項(D)氣孔開閉主要受植物激素調控，與礦物質缺乏的關聯性較弱。\"\n}\n",
+    "processed_at": "2026-02-03 11:26:42",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同發育階段水稻穗粒中澱粉含量變化",
+            "x_label": "發育階段 (天)",
+            "y_label": "澱粉含量 (mg/g)",
+            "data_x": [
+                15,
+                25,
+                35,
+                45,
+                55,
+                65
+            ],
+            "data_y": [
+                20,
+                80,
+                250,
+                480,
+                650,
+                700
+            ]
+        },
+        "question": "研究人員分析了水稻穗粒在不同發育階段的澱粉含量。澱粉是水稻米粒的主要成分，其含量變化反映了水稻的成熟程度。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 澱粉含量在發育初期快速增加，之後增加速率逐漸減緩。",
+            "(B) 澱粉含量在發育過程中維持穩定，沒有明顯變化。",
+            "(C) 澱粉含量在發育後期快速增加，代表此時水稻正經歷花序形成階段。",
+            "(D) 澱粉含量在發育中期達到最高點，之後開始下降，表示水稻開始老化。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，澱粉含量從第15天到第65天持續增加，但增加的幅度逐漸變小。在發育初期（15-35天），澱粉含量增加速度較快；在發育後期（45-65天），澱粉含量增加速度變慢，趨近於一個飽和值。這符合水稻穗粒發育過程中，胚乳逐漸充實，澱粉累積的規律。選項(B)與圖表數據不符。選項(C)錯誤，花序形成階段發生在更早的階段。選項(D)錯誤，澱粉含量持續增加，沒有下降的趨勢。"
+    }
+}

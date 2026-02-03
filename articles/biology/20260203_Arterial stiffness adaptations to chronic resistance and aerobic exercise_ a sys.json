@@ -1,0 +1,42 @@
+{
+    "id": "20260203_Arterial s",
+    "meta": {
+        "title": "Arterial stiffness adaptations to chronic resistance and aerobic exercise: a systematic review of exercise modalities.",
+        "summary": "Arterial stiffness is a strong predictor of cardiovascular morbidity and mortality, especially in older adults. Despite exercise being shown to positively influence arterial health, the relative effectiveness of various exercise modalities remains unclear. This systematic review aimed to examine the effects of resistance training (RT), aerobic training (AER), and concurrent aerobic plus resistance training (CON) on arterial stiffness in older adults, a recognised modifiable and independent cardiovascular risk factor. A comprehensive search of Medline (EBSCO), EMBASE, the Cochrane Database of Systematic Reviews, and clinicaltrials.gov was conducted. The robust search strategy, which also included systematic reviews being hand-searched for relevant articles and a forward and backwards citation search on the included articles, was employed to reduce the risk of selection and publication biases. Studies included in the review assessed arterial stiffness using pulse wave velocity (PWV) and focused on individuals aged 60 years and above who participated in a chronic (≥ 8 weeks) structured exercise intervention (RT, AER, or CON). Only randomised controlled trials were included. Sixteen studies met the inclusion criteria, and their methodological quality was evaluated using the PEDro scale. The findings indicated that resistance training generally had a neutral effect (mean difference, MD: 0.06 m/s. SD: ±0.45) on arterial stiffness, whilst aerobic training produced modest improvements (MD: -0.62 m/s, SD: ±0.51). Notably, concurrent training consistently reduced arterial stiffness across diverse older adult(s) populations (MD: -0.85 m/s, SD: ±0.63). Combined aerobic and resistance training is the most effective non-pharmacological strategy for reducing arterial stiffness in older adults. This approach may offer essential benefits for cardiovascular health and healthy ageing. Further long-term studies are needed to explore the mechanisms involved and to inform tailored exercise interventions in geriatric populations.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41626383/",
+        "source": "PubMed",
+        "mapping_chapter": "動物生理 (Animal Physiology)",
+        "mapping_keyword": "cardiovascular hemodynamics",
+        "subject": "biology"
+    },
+    "content": "# 動脈僵硬與運動：長輩心血管健康的最佳策略\n\n## 1. 研究背景與課本關聯\n\n你有沒有發現，阿公阿嬤的血管好像比較硬？隨著年紀增長，動脈壁會逐漸失去彈性，變得僵硬，這就是動脈僵硬。動脈僵硬會增加心臟的負擔，提高高血壓、心肌梗塞等心血管疾病的風險。想想我們上課學的「動物生理」中，關於「循環系統」的內容，動脈的彈性對於維持血壓穩定、促進血液循環至關重要。這項研究就探討了不同的運動方式，如何幫助長輩改善動脈僵硬，維持心血管健康。\n\n## 2. 核心發現\n\n這篇研究是學者們針對許多相關研究進行的「系統性文獻回顧」，也就是說，他們仔細檢視了許多以隨機對照試驗設計的研究，希望能找出最有效的運動方式。研究對象是 60 歲以上的長輩，他們參與了至少八週的運動計畫，運動類型分為三種：\n\n*   **肌力訓練 (Resistance Training, RT)**：像是舉啞鈴、使用健身器材等，增加肌肉力量的訓練。\n*   **有氧訓練 (Aerobic Training, AER)**：像是快走、慢跑、游泳、騎自行車等，提高心肺功能的訓練。\n*   **混合訓練 (Concurrent Training, CON)**：同時進行肌力訓練和有氧訓練。\n\n研究人員用「脈波傳導速度 (Pulse Wave Velocity, PWV)」來評估動脈僵硬度。脈波傳導速度越快，代表動脈越僵硬。研究結果顯示：\n\n*   **肌力訓練**對於改善動脈僵硬度幾乎沒有明顯效果。\n*   **有氧訓練**可以稍微改善動脈僵硬度，平均可以降低 0.62 m/s 的脈波傳導速度。\n*   **混合訓練**的效果最顯著，可以有效降低動脈僵硬度，平均降低 0.85 m/s 的脈波傳導速度。\n\n這表示，對於長輩來說，同時進行有氧運動和肌力訓練，是改善動脈僵硬度、保護心血管健康的最佳方式。這也呼應了我們在學習「神經肌肉系統」時所了解的，運動不僅能增強肌肉力量，也能促進心血管功能的提升。研究團隊建議，未來需要更長期的研究，才能更深入了解運動改善動脈僵硬度的機制，並為不同狀況的長輩設計更精準的運動計畫。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"王奶奶最近被診斷出患有高血壓，醫生建議她規律運動。根據這篇研究，下列哪種運動方式最能有效降低王奶奶的動脈僵硬度，進而幫助控制血壓？\",\n    \"options\": [\n        \"(A) 每週三次，每次進行 30 分鐘的快走。\",\n        \"(B) 每週兩次，每次進行 45 分鐘的舉重訓練。\",\n        \"(C) 每週三次，每次進行 30 分鐘的快走，並搭配兩次的舉重訓練。\",\n        \"(D) 每天進行 15 分鐘的瑜珈伸展。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"根據研究結果，混合訓練（同時進行有氧運動和肌力訓練）對於降低動脈僵硬度效果最佳。快走是有氧運動，舉重訓練是肌力訓練，因此同時進行這兩種運動最能幫助王奶奶改善心血管健康，控制血壓。選項 A 僅有有氧運動，選項 B 僅有肌力訓練，效果不如混合訓練。選項 D 的瑜珈伸展雖然有益身心健康，但對於降低動脈僵硬度的效果較不明顯。\"\n}\n",
+    "processed_at": "2026-02-03 11:18:06",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同運動方式對脈波傳導速度 (PWV) 的影響",
+            "x_label": "運動類型",
+            "y_label": "脈波傳導速度變化 (m/s) (負值表示降低)",
+            "data_x": [
+                "肌力訓練 (RT)",
+                "有氧訓練 (AER)",
+                "混合訓練 (CON)"
+            ],
+            "data_y": [
+                -0.15,
+                -0.62,
+                -0.85
+            ]
+        },
+        "question": "研究人員比較了三種運動方式對 60 歲以上長輩動脈僵硬度的影響。根據圖表，下列敘述何者正確？",
+        "options": [
+            "(A) 混合訓練 (CON) 對於降低脈波傳導速度的影響最大。",
+            "(B) 肌力訓練 (RT) 對於降低脈波傳導速度的效果優於有氧訓練 (AER)。",
+            "(C) 三種運動方式對脈波傳導速度的影響相同。",
+            "(D) 有氧訓練 (AER) 導致脈波傳導速度上升。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，混合訓練 (CON) 的脈波傳導速度變化為 -0.85 m/s，數值為負且絕對值最大，表示其降低脈波傳導速度的效果最顯著，也就是動脈僵硬度改善最多。選項 B 錯誤，因為肌力訓練的變化為 -0.15 m/s，小於有氧訓練的 -0.62 m/s。選項 C 錯誤，因為三種運動方式的數值不同。選項 D 錯誤，因為有氧訓練的變化為負數，表示脈波傳導速度降低。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Neural reg",
+    "meta": {
+        "title": "Neural regulation of endocrine and autonomic stress responses.",
+        "summary": "The survival and well-being of all species requires appropriate physiological responses to environmental and homeostatic challenges. The re- establishment and maintenance of homeostasis entails the coordinated activation and control of neuroendocrine and autonomic stress systems. These collective stress responses are mediated by largely overlapping circuits in the limbic forebrain, the hypothalamus and the brainstem, so that the respective contributions of the neuroendocrine and autonomic systems are tuned in accordance with stressor modality and intensity. Limbic regions that are responsible for regulating stress responses intersect with circuits that are responsible for memory and reward, providing a means to tailor the stress response with respect to prior experience and anticipated outcomes.",
+        "published": "2009",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19469025/",
+        "source": "PubMed",
+        "mapping_chapter": "動物生理 (Animal Physiology)",
+        "mapping_keyword": "endocrine regulation",
+        "subject": "biology"
+    },
+    "content": "# 神經系統如何調控身體的壓力反應 (Neural regulation of endocrine and autonomic stress responses.)\n\n## 1. 研究背景與課本關聯\n\n你有沒有過考試前緊張、遇到可怕的生物突然心跳加速的經驗？這些都是身體對「壓力」的回應。當我們面對突發狀況或挑戰時，身體會自動啟動一套複雜的防禦機制，幫助我們應對。這套機制不僅僅是荷爾蒙的分泌，還牽涉到神經系統的精密調控。高中生物的「動物生理」章節中，我們學習過神經系統與內分泌系統如何協調運作，維持體內環境的穩定（體內平衡）。這篇研究就深入探討了神經系統如何指揮身體的壓力反應，以及這個過程如何受到過去經驗的影響。\n\n## 2. 核心發現\n\n這篇研究指出，當生物體（包含人類）遇到壓力時，會同時啟動「內分泌系統」和「自律神經系統」這兩種主要的壓力反應系統。這兩個系統並非獨立運作，而是透過大腦中特定區域的協調來整合。\n\n首先，壓力刺激會傳遞到大腦的「邊緣系統」，這個區域負責處理情緒、記憶和動機。邊緣系統會將訊息傳遞到「下視丘」，下視丘就像是壓力反應的總指揮官，它會啟動一系列的生理變化。\n\n下視丘會透過兩種方式來調控壓力反應：\n\n*   **內分泌系統調控：** 下視丘會刺激「腦下垂體」分泌「促腎上腺皮質激素 (ACTH)」，進而刺激「腎上腺皮質」分泌「皮質醇」。皮質醇是一種重要的「類固醇荷爾蒙」，能提高血糖、抑制免疫反應，提供能量來應對壓力。這部分與我們課本中學習的「內分泌系統」密切相關。\n*   **自律神經系統調控：** 下視丘也會影響「腦幹」，腦幹控制著「交感神經系統」和「副交感神經系統」。在壓力下，交感神經系統會被活化，導致心跳加速、呼吸加快、血壓升高，準備好「戰或逃 (fight-or-flight)」的反應。\n\n有趣的是，研究發現邊緣系統不僅負責處理當下的壓力，還會連結到負責「記憶」和「獎勵」的腦區。這表示，我們過去的經驗會影響我們對壓力的反應。例如，如果過去經歷過類似的壓力情境，身體的反應可能會更快、更強烈。此外，如果我們預期某個事件會帶來獎勵，即使它也伴隨著壓力，我們也可能更願意承受壓力。\n\n總而言之，這篇研究強調了神經系統在調控壓力反應中的核心地位，以及內分泌系統和自律神經系統之間的緊密合作。它也揭示了過去經驗如何塑造我們對壓力的反應，讓我們更了解身體如何適應環境的挑戰。\n\n---\n```json\n{\n    \"question\": \"小明在參加分科測驗前感到非常緊張，心跳加速、手心冒汗，同時也感到食慾不振。請問，小明身體的這些反應主要受到下列哪一種神經系統的影響？\",\n    \"options\": [\n        \"(A) 副交感神經系統\",\n        \"(B) 交感神經系統\",\n        \"(C) 體感覺神經系統\",\n        \"(D) 運動神經系統\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"小明在考試前感到緊張，心跳加速、手心冒汗等現象，都是典型的「戰或逃」反應，這是交感神經系統被活化的結果。交感神經系統負責在壓力下動員身體資源，準備應對威脅。副交感神經系統則是在休息狀態下起作用，促進身體的恢復和儲能。體感覺神經系統負責傳遞觸覺、溫度等感覺訊息，運動神經系統負責控制肌肉運動，與小明的壓力反應無直接關聯。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:24:51",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "壓力刺激下皮質醇濃度變化",
+            "x_label": "壓力刺激時間 (分鐘)",
+            "y_label": "皮質醇濃度 (ng/mL)",
+            "data_x": [
+                0,
+                15,
+                30,
+                45,
+                60,
+                90
+            ],
+            "data_y": [
+                5,
+                15,
+                30,
+                45,
+                50,
+                40
+            ]
+        },
+        "question": "研究人員對實驗小鼠進行壓力刺激，並在不同時間點測量其血液中的皮質醇濃度。圖表顯示了皮質醇濃度隨時間變化的趨勢。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 皮質醇濃度在壓力刺激後迅速升高，達到高峰後逐漸下降，反映了下視丘-腦下垂體-腎上腺皮質軸的調控。",
+            "(B) 皮質醇濃度隨時間持續升高，表示小鼠無法適應壓力刺激。",
+            "(C) 皮質醇濃度在壓力刺激後立即下降，表示小鼠對壓力刺激沒有反應。",
+            "(D) 皮質醇濃度變化與壓力刺激時間無關，可能受到其他因素干擾。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示皮質醇濃度在壓力刺激後迅速升高，在約 60 分鐘時達到高峰，然後逐漸下降。這符合下視丘-腦下垂體-腎上腺皮質軸的典型反應模式：壓力刺激啟動下視丘，促使腦下垂體釋放 ACTH，進而刺激腎上腺皮質分泌皮質醇。皮質醇濃度升高有助於身體應對壓力，但長時間處於高濃度狀態可能對身體有害，因此身體會透過負回饋機制降低皮質醇濃度。選項 B 和 C 的描述與圖表數據不符，選項 D 則缺乏具體證據。"
+    }
+}

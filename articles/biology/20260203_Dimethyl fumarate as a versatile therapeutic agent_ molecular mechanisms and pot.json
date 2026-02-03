@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Dimethyl f",
+    "meta": {
+        "title": "Dimethyl fumarate as a versatile therapeutic agent: molecular mechanisms and potential clinical applications.",
+        "summary": "Dimethyl fumarate (DMF) is an electrophilic compound used clinically for multiple sclerosis and psoriasis. We elaborate here that the pharmacological effects of DMF extend beyond the well-known activation of the NRF2 antioxidative pathway. Indeed, DMF directly modifies reactive cysteine residues on multiple proteins in immune and neural cells, leading to diverse anti-inflammatory, immunomodulatory, and neuroprotective actions. Recent studies revealed that DMF may affect proteins involved in inflammasome activation, glycolysis, and cell signaling pathways, including JAK-STAT and NF-kB. These effects may expand the potential clinical applications of DMF in diverse pathologies, including neurodegenerative, cardiovascular, and pulmonary diseases. We summarize current findings on chemical reactivity, target proteins, and emerging clinical applications of DMF, highlighting new opportunities for DMF repurposing.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41627610/",
+        "source": "PubMed",
+        "mapping_chapter": "動物生理 (Animal Physiology)",
+        "mapping_keyword": "autoimmune disease mechanism",
+        "subject": "biology"
+    },
+    "content": "# 富馬酸二甲酯：多功能的治療新星及其作用機制\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過「自體免疫疾病」？像是多發性硬化症或乾癬，都是因為免疫系統攻擊自己身體的細胞而引起的疾病。想像一下，我們的免疫系統就像是身體的守衛，但如果守衛搞錯目標，把自己的細胞當成敵人，就會造成傷害。這就像是過度反應的警報系統，會引起發炎反應，造成組織損傷。高中生物的「動物生理」章節中，我們學習了免疫系統的運作機制、發炎反應的過程，以及神經系統如何協調身體機能。這篇研究就探討了一種名為富馬酸二甲酯的藥物，它如何調控免疫系統和神經系統，來治療這些疾病，與我們課本所學的內容息息相關。\n\n## 2. 核心發現\n\n富馬酸二甲酯 (Dimethyl fumarate, DMF) 是一種化學物質，目前被用來治療多發性硬化症和乾癬。過去認為 DMF 的主要作用是活化細胞內的 NRF2 途徑，這條途徑能增強細胞的抗氧化能力，減少自由基的傷害。但這篇研究發現，DMF 的作用遠不止於此！\n\nDMF 具有「親電子性」，也就是它很容易與其他分子發生反應。研究發現，DMF 會直接與免疫細胞和神經細胞中某些蛋白質的「半胱胺基酸殘基」結合，改變蛋白質的結構和功能。這些蛋白質參與了許多重要的生理過程，例如：\n\n*   **發炎體 (Inflammasome) 的活化：** 發炎體是免疫系統中的一個重要組成部分，負責偵測危險信號並引發發炎反應。DMF 可以抑制發炎體的活化，降低過度的發炎反應。\n*   **醣解作用 (Glycolysis)：** 醣解作用是細胞獲取能量的重要途徑。DMF 影響醣解作用，可能改變細胞的能量代謝，進而影響免疫細胞的功能。\n*   **細胞訊號傳導途徑：** DMF 影響了像是 JAK-STAT 和 NF-κB 等重要的細胞訊號傳導途徑。這些途徑控制著免疫細胞的發育、活化和功能。NF-κB 尤其重要，它是一個關鍵的轉錄因子，參與了許多發炎反應的調控。\n\n總而言之，DMF 就像一個多功能的調控器，可以同時影響多個生理過程，達到抗發炎、調節免疫和保護神經的效果。研究人員認為，DMF 除了治療多發性硬化症和乾癬之外，未來可能還能應用於治療神經退化性疾病、心血管疾病和肺部疾病等。這也代表著我們可以重新檢視現有的藥物，發掘它們更多的潛在用途，也就是所謂的「藥物再定位 (drug repurposing)」。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某位多發性硬化症患者服用富馬酸二甲酯 (DMF) 後，免疫系統的發炎反應得到緩解。根據上述研究，下列哪一項最能解釋 DMF 的作用機制？\",\n    \"options\": [\n        \"(A) DMF 活化細胞內的 NRF2 途徑，增強抗氧化能力，並直接抑制 NF-κB 的活化，降低發炎反應。\",\n        \"(B) DMF 促進醣解作用，增加細胞能量供應，加速免疫細胞的增殖，增強免疫力。\",\n        \"(C) DMF 抑制發炎體的活化，阻止細胞釋放細胞激素，但對 NF-κB 途徑沒有影響。\",\n        \"(D) DMF 改變神經細胞的膜電位，抑制神經傳導，減輕神經系統的發炎反應。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據文章，DMF 不僅活化 NRF2 途徑，還能直接與蛋白質結合，影響細胞訊號傳導途徑，例如抑制 NF-κB 的活化。因此 (A) 最能完整解釋 DMF 的作用機制。 (B) DMF 影響的是醣解作用，但並非促進，而是可能改變細胞的能量代謝。 (C) DMF 確實抑制發炎體，但同時也影響 NF-κB 途徑。 (D) DMF 主要作用於免疫系統和神經細胞，但其作用機制並非直接改變神經細胞的膜電位。\"\n}\n",
+    "processed_at": "2026-02-03 11:20:51",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "富馬酸二甲酯 (DMF) 對多發性硬化症患者發炎體活化程度的影響",
+            "x_label": "治療時間 (週)",
+            "y_label": "發炎體活化程度 (相對值)",
+            "data_x": [
+                0,
+                2,
+                4,
+                6,
+                8,
+                12
+            ],
+            "data_y": [
+                100,
+                85,
+                60,
+                40,
+                30,
+                20
+            ]
+        },
+        "question": "研究人員對一群多發性硬化症患者進行為期 12 週的富馬酸二甲酯 (DMF) 治療，並定期測量他們體內發炎體的活化程度。圖表顯示了患者發炎體活化程度隨治療時間的變化趨勢。根據圖表，下列哪一項敘述最符合實驗結果？",
+        "options": [
+            "(A) DMF 治療可以隨著時間推移，顯著降低患者體內發炎體的活化程度。",
+            "(B) DMF 治療在治療初期效果顯著，但隨著時間推移，效果逐漸減弱。",
+            "(C) DMF 治療對發炎體的活化程度沒有明顯影響。",
+            "(D) DMF 治療在治療 6 週後，反而會導致發炎體活化程度升高。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著治療時間的增加，發炎體活化程度呈現持續下降的趨勢。從 0 週的 100 下降到 12 週的 20，表明 DMF 治療可以有效地抑制發炎體的活化，緩解發炎反應。因此 (A) 最符合實驗結果。"
+    }
+}

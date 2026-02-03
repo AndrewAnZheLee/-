@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Calcium-de",
+    "meta": {
+        "title": "Calcium-dependent protein kinases in plant immunity: from calcium signaling to network integration.",
+        "summary": "In response to environmental stimuli, plants rapidly activate calcium signaling to initiate downstream responses. The transmission of calcium signals involves three primary processes: perception, decoding, and relay. Calcium-dependent protein kinases (CDPKs/CPKs), as key Ca<sup>2+</sup> sensors, not only detect calcium signals but also respond to them by translating these signals into physiological activities within the cell. The influx of calcium ions (Ca<sup>2+</sup>) induced by pathogens triggers the conformational activation of cytosolic CPKs, which in turn enables the regulation of reactive oxygen species (ROS) production, MAPK cascades, transcriptional reprogramming, and hormone signaling. Acting as pivotal hubs in signal transduction, CPKs integrate diverse pathways to fine-tune the balance between growth and defense. We synthesize recent advances in understanding CPK-mediated immune mechanisms and their molecular crosstalk with other signaling networks. By highlighting emerging discoveries and unresolved questions, we provide a conceptual framework for exploiting CPKs to enhance durable and broad-spectrum disease resistance in crops.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41626339/",
+        "source": "PubMed",
+        "mapping_chapter": "植物生物學 (Plant Biology)",
+        "mapping_keyword": "plant defense mechanism",
+        "subject": "biology"
+    },
+    "content": "# 植物免疫系統中的鈣離子信號與蛋白激酶：從感知到調控\n\n## 1. 研究背景與課本關聯\n\n大家有沒有想過，植物不像我們一樣有免疫細胞，卻也能抵抗病原體的入侵呢？就像我們感冒時身體會發燒、產生白血球一樣，植物也會啟動一套複雜的防禦機制。當植物受到病原體攻擊時，細胞內會快速改變鈣離子的濃度，這就像是細胞間傳遞警報的信號。高中生物課本的「植物生物學」章節中，我們學習過植物的生長、代謝，以及對環境的反應。這篇研究就深入探討了植物如何利用鈣離子信號來啟動免疫反應，以及其中扮演關鍵角色的「鈣離子依賴性蛋白激酶」。\n\n## 2. 核心發現\n\n這篇研究主要探討了植物免疫系統中，一種名為「鈣離子依賴性蛋白激酶」（Calcium-dependent protein kinases，簡稱 CDPKs 或 CPKs）的蛋白質所扮演的角色。我們可以把CPKs想像成細胞內的「信號轉譯器」，它們能偵測細胞內鈣離子的濃度變化，並將這些變化轉化為細胞可以理解的指令。\n\n當植物受到病原體（例如細菌、病毒、真菌）入侵時，細胞膜上的受體會感知到病原體的存在，並引發鈣離子大量湧入細胞質中。這種鈣離子的增加，會活化細胞質中的CPKs。活化的CPKs就像一個多功能的開關，可以調控許多下游的生理活動，包括：\n\n*   **活性氧物質（ROS）的產生：** ROS 具有氧化作用，可以殺死病原體，就像我們身體發燒一樣，利用高溫來抑制病原體。\n*   **MAPK 訊號傳導途徑：** MAPK 是一種常見的訊號傳導途徑，可以傳遞訊息到細胞核，啟動基因表現的改變。\n*   **基因轉錄的重編程：** CPKs 可以影響特定基因的表現，讓植物產生抵抗病原體的蛋白質，例如抗性蛋白。\n*   **植物激素訊號傳導：** CPKs 可以與植物激素（例如乙烯、茉莉酸）的訊號傳導途徑相互作用，協調植物的防禦反應。\n\n更重要的是，CPKs 並不是孤軍奮戰，它們會與其他訊號傳導途徑相互連結，形成一個複雜的網路，精準地調控植物的生長與防禦之間的平衡。這就像一個交響樂團，不同的樂器（訊號途徑）相互配合，才能演奏出美妙的樂章（植物的免疫反應）。\n\n研究者希望透過更深入了解 CPKs 的作用機制，來培育出更具抗病性的農作物，減少農藥的使用，保障糧食安全。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊發現，當番茄植物受到真菌感染時，特定種類的 CPK 活性明顯增加。為了驗證此 CPK 在植物免疫反應中的作用，下列哪種實驗設計最合適？\",\n    \"options\": [\n        \"(A) 轉殖表現此 CPK 基因的番茄植株，觀察其對真菌感染的抵抗力是否增強。\",\n        \"(B) 施用抑制 CPK 活性的化學物質，觀察番茄植株對真菌感染的反應是否改變。\",\n        \"(C) 測量番茄植株細胞內鈣離子濃度的變化，並與未感染植株進行比較。\",\n        \"(D) 分析番茄植株中與真菌感染相關的基因表現，並與未感染植株進行比較。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"選項 (A) 透過基因轉殖，直接增加 CPK 的表現量，可以觀察 CPK 對植物抵抗力的影響，是驗證基因功能最直接有效的方法。選項 (B) 雖然可以觀察抑制 CPK 後的影響，但可能會有非特異性的副作用。選項 (C) 和 (D) 只能觀察現象，無法直接證明 CPK 的作用。\"\n}\n",
+    "processed_at": "2026-02-03 11:19:35",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同時間點下，番茄植株細胞內 CPK 活性與活性氧物質 (ROS) 含量變化",
+            "x_label": "感染真菌後時間 (小時)",
+            "y_label": "相對含量 (%)",
+            "data_x": [
+                0,
+                3,
+                6,
+                9,
+                12,
+                24
+            ],
+            "data_y": [
+                10,
+                35,
+                60,
+                75,
+                80,
+                50
+            ]
+        },
+        "question": "研究人員在番茄植株感染真菌後，連續測量細胞內特定 CPK 的活性以及活性氧物質 (ROS) 的含量。圖表顯示了兩種物質含量的變化趨勢。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) CPK 活性與 ROS 含量隨時間推移呈現同步增加的趨勢，暗示 CPK 可能參與 ROS 的產生，進而參與植物的防禦反應。",
+            "(B) CPK 活性在感染初期快速增加，但 ROS 含量變化不大，表示 CPK 的作用與 ROS 的產生無關。",
+            "(C) ROS 含量在感染初期快速增加，CPK 活性則維持不變，表示 ROS 是植物防禦反應的起始信號。",
+            "(D) CPK 活性與 ROS 含量呈現負相關，表示 CPK 可能抑制 ROS 的產生。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示 CPK 活性和 ROS 含量都隨著時間推移而增加，且兩者變化趨勢相似。根據文章內容，CPKs 可以調控 ROS 的產生，因此 CPK 活性增加可能導致 ROS 含量增加，進而啟動植物的防禦反應。選項 (B) 錯誤，因為圖表顯示 ROS 含量也隨時間增加。選項 (C) 錯誤，因為圖表顯示 CPK 活性也隨時間增加。選項 (D) 錯誤，因為圖表顯示兩者呈現正相關。"
+    }
+}

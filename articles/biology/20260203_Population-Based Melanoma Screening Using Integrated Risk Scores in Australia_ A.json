@@ -1,0 +1,44 @@
+{
+    "id": "20260203_Population",
+    "meta": {
+        "title": "Population-Based Melanoma Screening Using Integrated Risk Scores in Australia: A Narrative Review to Determine Readiness.",
+        "summary": "Melanoma represents a significant burden on the Australian healthcare system and early detection is crucial to improve patient and health system outcomes. Experts suggest that targeted screening for high-risk individuals could lead to more efficient use of healthcare resources. Integrated risk scores combine polygenic risk scores (PRS) and non-genetic risk factors to offer the best performance for melanoma risk stratification. However, the feasibility of using integrated risk scores on a population basis to identify those at highest risk has yet to be evaluated. This narrative review aimed to identify evidence gaps and key issues to be addressed to support implementation of melanoma integrated risk scores on a population-based scale in Australia. Findings highlighted the following research and infrastructure needs: understand the progression rate of melanoma in situ to invasive disease; define who should be offered integrated risk scores; address performance issues across ancestries; develop clearly defined risk thresholds and corresponding clinical advice; and investigate clinical utility and impact of receiving integrated risk scores. Furthermore, screening programmes will require: equitable access to post-screening care; guidelines and quality standards for generating PRS and integrated risk scores; healthcare rebates for PRS testing; infrastructure for computational and data storage needs; workforce training and clinical decision support resources; clearer protections around PRS use in risk-rated insurances; and clear plans for programme quality and performance management. In conclusion, integrated risk scores have potential to facilitate targeted high-risk melanoma screening in Australia. However, there are significant evidence and infrastructure gaps that must be addressed before programme implementation.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41626801/",
+        "source": "PubMed",
+        "mapping_chapter": "細胞與遺傳 (Cell & Genetics)",
+        "mapping_keyword": "polygenic",
+        "subject": "biology"
+    },
+    "content": "# 澳洲族群為基礎的黑色素瘤篩檢：整合風險評估的準備情況 (澳洲族群為基礎的黑色素瘤篩檢：整合風險評估的準備情況)\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過「家族病史」？如果你的爺爺奶奶或父母罹患癌症，你可能也會比較擔心自己罹患相同疾病的風險。這其實就跟基因有關！黑色素瘤是一種皮膚癌，雖然與環境因素（例如過度曝曬陽光）有關，但遺傳也扮演著重要的角色。澳洲是陽光強烈的地方，黑色素瘤的發生率很高，因此如何早期發現並治療黑色素瘤，是個重要的公共衛生議題。這項研究探討的是如何利用基因和非基因的風險因素，更精準地找出高風險族群，進行篩檢。這與高中生物課本的「細胞與遺傳」章節中學習的「基因表現」、「多基因遺傳」、「風險評估」等概念息息相關。\n\n## 2. 核心發現\n\n這篇研究報告主要探討在澳洲推廣族群為基礎的黑色素瘤篩檢，是否能透過「整合風險評估」（Integrated Risk Scores）來提高篩檢效率。所謂的整合風險評估，結合了兩種資訊：\n\n*   **多基因風險評分 (Polygenic Risk Score, PRS)：** 就像是根據你體內的數千個基因變異，計算出你罹患黑色素瘤的「基因傾向」分數。這些基因變異可能影響黑色素瘤細胞的生長、分化，或是免疫系統對癌細胞的反應。\n*   **非基因風險因素：** 包括家族病史、皮膚類型（例如膚色越白、越容易曬傷）、曬傷史、痣的數量和大小等等。\n\n研究發現，同時考慮基因和非基因的風險因素，比單獨考量其中一種，更能準確地判斷一個人罹患黑色素瘤的風險。然而，要將這種整合風險評估應用在整個澳洲族群，還需要克服一些挑戰。\n\n首先，研究人員需要更了解黑色素瘤從「原位癌」（melanoma in situ，癌細胞侷限在表皮層）發展成侵入性癌的速率，才能更精準地決定篩檢的時機。其次，必須明確定義哪些人應該接受整合風險評估，以及如何設定風險的臨界值，才能提供適當的臨床建議。此外，不同族群的基因背景不同，因此整合風險評估的準確性也可能存在差異，需要針對不同族群進行校正。\n\n更重要的是，推廣這種篩檢計畫需要完善的配套措施，包括：確保所有人都享有平等的篩檢機會；建立標準化的基因檢測流程和品質控制；提供基因檢測的醫療補助；建立龐大的資料儲存和運算基礎設施；培訓醫療人員，並提供臨床決策支援；以及制定明確的法規，保護個人基因資料的隱私，避免被保險公司等利用來進行風險分級保險。\n\n總結來說，整合風險評估有潛力可以更有效地篩檢高風險的黑色素瘤患者，但要真正實現，還需要克服許多技術和社會層面的挑戰。\n\n---\n\n```json\n{\n    \"question\": \"小明家族中有多位親屬罹患黑色素瘤，他本身皮膚白皙，且容易曬傷。根據這項研究，下列哪種做法最能有效評估小明的黑色素瘤風險？\",\n    \"options\": [\n        \"(A) 僅考慮小明的家族病史，定期進行皮膚檢查。\",\n        \"(B) 僅進行基因檢測，計算小明的多基因風險評分。\",\n        \"(C) 結合小明的家族病史、皮膚類型、曬傷史，以及基因檢測的多基因風險評分，進行綜合評估。\",\n        \"(D) 由於小明皮膚白皙且容易曬傷，因此不需要進行基因檢測，直接建議他避免陽光曝曬。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"這項研究強調整合風險評估的重要性，也就是同時考慮基因和非基因的風險因素。小明的家族病史、皮膚類型和曬傷史都是非基因風險因素，結合基因檢測的多基因風險評分，才能更準確地評估他的風險。選項(A)和(B)只考慮單一因素，選項(D)則忽略了基因風險。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:26:17",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同風險評估方式對黑色素瘤檢測準確率的影響",
+            "x_label": "風險評估方式",
+            "y_label": "檢測準確率 (%)",
+            "data_x": [
+                "僅家族病史",
+                "僅多基因風險評分",
+                "整合風險評估 (PRS+非基因)",
+                "無風險評估 (隨機抽樣)"
+            ],
+            "data_y": [
+                65,
+                72,
+                88,
+                50
+            ]
+        },
+        "question": "研究人員比較了四種不同的黑色素瘤風險評估方式對檢測準確率的影響。根據圖表，下列敘述何者正確？",
+        "options": [
+            "(A) 整合風險評估 (PRS+非基因) 的檢測準確率顯著高於其他三種方式。",
+            "(B) 僅家族病史的檢測準確率與僅多基因風險評分相當。",
+            "(C) 無風險評估 (隨機抽樣) 的檢測準確率最高。",
+            "(D) 多基因風險評分的檢測準確率比僅考慮家族病史低。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，整合風險評估的檢測準確率為 88%，明顯高於僅家族病史 (65%)、僅多基因風險評分 (72%) 和無風險評估 (50%)。這支持了研究中強調的整合風險評估能更準確判斷黑色素瘤風險的結論。"
+    }
+}

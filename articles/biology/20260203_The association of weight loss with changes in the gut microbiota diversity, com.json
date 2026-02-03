@@ -1,0 +1,52 @@
+{
+    "id": "20260203_The associ",
+    "meta": {
+        "title": "The association of weight loss with changes in the gut microbiota diversity, composition, and intestinal permeability: a systematic review and meta-analysis.",
+        "summary": "The gut microbiome may be a mediator between obesity and health outcomes. However, it is unclear how intentional weight loss changes the gut microbiota and intestinal permeability. We aimed to systematically review and quantify this association. We searched Medline, Embase, CINAHL, Cochrane databases, and trial registries until June 2020 (PROSPERO: CRD42020205292). We included trials of weight loss interventions (energy-restricted diets, pharmacotherapy, bariatric surgery) reporting on the microbiome. Two reviewers independently completed screening, extraction, and risk assessment with the ROBINS-I tool. Pooled standardized mean differences (SMDs) were obtained from random-effects meta-analyses. Forty-seven trials with 1,916 participants (81% female) and a median follow-up of 6 months (range: 2-24) were included. Based on imprecise evidence but with fairly consistent direction of effect, weight loss was associated with a statistically significant increase in α-diversity [SMD: 0.4 (95% CI: 0.2, 0.6], <i>p</i> < .0001, I<sup>2</sup> = 70%, n = 30 studies) and a statistically significant reduction in intestinal permeability [SMD: -0.7 (95% CI: -0.9, -0.4), <i>p</i> < .0001, I<sup>2</sup> = 83%, n = 17 studies]. Each kg of weight loss was associated with a 0.012 (95% CI: 0.0003, 0.024, <i>p</i> = .045) increase in α-diversity and a -0.017 (95% CI: -0.034, -0.001, <i>p</i> = .038) reduction in intestinal permeability. There was clear evidence of increases in the relative abundance of <i>Akkermansia</i>, but no clear evidence of changes in individual phyla, species, or fecal short-chain fatty acids. Restricting the analyses to the studies with lower risk of bias did not materially alter the estimates. Increasing weight loss is positively associated with increases in gut microbiota α-diversity and reductions in intestinal permeability.",
+        "published": "2022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35040746/",
+        "source": "PubMed",
+        "mapping_chapter": "生態與演化 (Ecology & Evolution)",
+        "mapping_keyword": "biodiversity loss",
+        "subject": "biology"
+    },
+    "content": "# 減重與腸道菌群多樣性、組成及腸道通透性的關聯：系統性回顧與統合分析 (Weight Loss and Its Impact on Gut Microbiota)\n\n## 1. 研究背景與課本關聯\n\n你有沒有發現，身邊的人或你自己，在改變飲食習慣、努力減重後，身體狀況也會跟著改變？例如，有些人減重後腸胃蠕動變好，或是比較不容易生病。這些改變，其實跟我們腸道內的「微生物群」息息相關。腸道內的細菌、病毒、真菌等微生物，數量龐大，而且種類繁多，它們共同組成了腸道菌群。這個菌群不僅影響消化吸收，更與免疫系統、甚至情緒都有連結。本研究探討的就是減重過程中，腸道菌群會如何變化，以及這些變化對健康的影響。這與高中生物課本「生態與演化」章節中，關於「群落生態學」與「共生關係」的內容密切相關，因為腸道菌群本身就是一個複雜的生態系統，而我們與腸道菌群的關係，正是典型的共生關係。\n\n## 2. 核心發現\n\n這項研究統合了47個臨床試驗，共1916位參與者，研究對象包含透過飲食控制、藥物治療或減重手術等方式減重的人。研究結果顯示，減重與腸道菌群的「α多樣性」顯著增加，以及腸道「通透性」顯著降低。\n\n首先，什麼是α多樣性？簡單來說，就是腸道內不同種類微生物的豐富度。想像一下，一個森林如果只有單一種樹木，生態系統就比較脆弱；同樣的，腸道菌群種類越多，生態系統就越穩定，也更能抵抗外來病原體的入侵。研究發現，每減輕一公斤體重，腸道菌群的α多樣性就會增加約0.012。\n\n其次，腸道通透性是指腸道黏膜屏障的完整性。腸道黏膜就像一道防護牆，防止細菌、毒素等有害物質進入血液循環。如果這道牆受損，通透性增加，就會導致「腸漏症」，引發發炎反應，甚至影響全身健康。研究顯示，減重可以降低腸道通透性，每減輕一公斤體重，腸道通透性就會降低約0.017。\n\n此外，研究也發現，減重後，腸道中特定菌種的數量會增加，例如 *Akkermansia*。這種細菌被認為對維持腸道健康有益。然而，研究並未發現減重對腸道菌群在界、綱、目、科等較高分類階層的組成有顯著影響，也未觀察到短鏈脂肪酸等代謝產物的明顯變化。\n\n總結來說，這項研究證實，減重不僅能改善體重，還能增加腸道菌群多樣性，強化腸道屏障功能，進而促進整體健康。雖然研究結果存在一些不確定性，但方向一致，顯示減重對腸道菌群的正面影響。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"小明是一位熱愛運動的高中生，他最近開始進行減重計畫，並觀察到自己排便更加順暢。根據上述研究，下列哪一項解釋最合理？\",\n    \"options\": [\n        \"(A) 減重導致腸道菌群的α多樣性降低，減少了有害菌的數量，因此改善了排便。\",\n        \"(B) 減重導致腸道通透性增加，促進了營養物質的吸收，因此改善了排便。\",\n        \"(C) 減重導致腸道菌群的α多樣性增加，提升了腸道生態系統的穩定性，並可能促進腸道蠕動，因此改善了排便。\",\n        \"(D) 減重導致 *Akkermansia* 的數量減少，降低了腸道發炎反應，因此改善了排便。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"根據研究，減重會增加腸道菌群的α多樣性，提升腸道生態系統的穩定性。多樣的菌群有助於維持腸道健康，促進腸道蠕動，進而改善排便。選項(A)錯誤，因為研究顯示α多樣性是增加而非降低。選項(B)錯誤，因為研究顯示腸道通透性是降低而非增加。選項(D)錯誤，因為研究顯示 *Akkermansia* 的數量是增加而非減少。\"\n}\n",
+    "processed_at": "2026-02-03 11:28:15",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "scatter",
+            "title": "減重量與腸道通透性降低幅度之關係",
+            "x_label": "減重量 (公斤)",
+            "y_label": "腸道通透性降低幅度 (單位：腸道通透性指數)",
+            "data_x": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "data_y": [
+                0.015,
+                0.032,
+                0.048,
+                0.065,
+                0.081,
+                0.097,
+                0.114,
+                0.13
+            ]
+        },
+        "question": "研究顯示，減重與腸道通透性顯著降低。假設研究者進一步分析了多位參與者的減重量與腸道通透性降低幅度，並繪製了散佈圖（如上圖所示）。根據圖表及文章內容，下列推論最合理？",
+        "options": [
+            "(A) 減重量與腸道通透性降低幅度呈現正相關，且每減輕一公斤體重，腸道通透性平均降低約0.017個單位。",
+            "(B) 減重量與腸道通透性降低幅度呈現負相關，表示減重越多，腸道通透性反而越高。",
+            "(C) 減重量與腸道通透性降低幅度之間沒有明顯關聯，腸道通透性的變化與減重量無關。",
+            "(D) 散佈圖顯示腸道通透性降低幅度在減重量達到5公斤後趨於平緩，表示減重超過5公斤對降低腸道通透性沒有額外益處。"
+        ],
+        "correct_answer": "A",
+        "explanation": "散佈圖顯示，隨著減重量的增加，腸道通透性降低幅度也隨之增加，呈現正相關。根據文章內容，每減輕一公斤體重，腸道通透性會降低約0.017個單位。因此，選項(A)最合理。選項(B)錯誤，因為呈現的是正相關而非負相關。選項(C)錯誤，因為圖表顯示兩者有明顯關聯。選項(D)的推論雖然可能，但圖表本身無法直接支持此結論，且文章並未提及此現象。"
+    }
+}

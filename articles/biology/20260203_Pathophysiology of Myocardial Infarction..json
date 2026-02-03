@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Pathophysi",
+    "meta": {
+        "title": "Pathophysiology of Myocardial Infarction.",
+        "summary": "Myocardial infarction is defined as sudden ischemic death of myocardial tissue. In the clinical context, myocardial infarction is usually due to thrombotic occlusion of a coronary vessel caused by rupture of a vulnerable plaque. Ischemia induces profound metabolic and ionic perturbations in the affected myocardium and causes rapid depression of systolic function. Prolonged myocardial ischemia activates a \"wavefront\" of cardiomyocyte death that extends from the subendocardium to the subepicardium. Mitochondrial alterations are prominently involved in apoptosis and necrosis of cardiomyocytes in the infarcted heart. The adult mammalian heart has negligible regenerative capacity, thus the infarcted myocardium heals through formation of a scar. Infarct healing is dependent on an inflammatory cascade, triggered by alarmins released by dying cells. Clearance of dead cells and matrix debris by infiltrating phagocytes activates anti-inflammatory pathways leading to suppression of cytokine and chemokine signaling. Activation of the renin-angiotensin-aldosterone system and release of transforming growth factor-β induce conversion of fibroblasts into myofibroblasts, promoting deposition of extracellular matrix proteins. Infarct healing is intertwined with geometric remodeling of the chamber, characterized by dilation, hypertrophy of viable segments, and progressive dysfunction. This review manuscript describes the molecular signals and cellular effectors implicated in injury, repair, and remodeling of the infarcted heart, the mechanistic basis of the most common complications associated with myocardial infarction, and the pathophysiologic effects of established treatment strategies. Moreover, we discuss the implications of pathophysiological insights in design and implementation of new promising therapeutic approaches for patients with myocardial infarction.",
+        "published": "2015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26426469/",
+        "source": "PubMed",
+        "mapping_chapter": "細胞與遺傳 (Cell & Genetics)",
+        "mapping_keyword": "cellular respiration",
+        "subject": "biology"
+    },
+    "content": "# 心肌梗塞的致病機轉 (Pathophysiology of Myocardial Infarction)\n\n## 1. 研究背景與課本關聯\n\n你有沒有聽過阿公、阿嬤或親戚朋友因為胸悶、呼吸困難而緊急送醫？很多時候，這可能是因為心肌梗塞！心肌梗塞就像是心臟的「零件」壞掉了，導致心臟無法正常跳動，供應身體氧氣和養分的效率下降。這篇研究探討的就是心肌梗塞發生的原因、過程，以及心臟如何嘗試修復自己。這與高中生物課本的「細胞與遺傳」章節息息相關，因為心肌梗塞涉及細胞死亡（細胞凋亡與壞死）、基因表現的調控、以及細胞間的訊息傳遞等重要概念。\n\n## 2. 核心發現\n\n心肌梗塞的根本原因，通常是供應心臟的冠狀動脈被阻塞。這個阻塞往往是因為血管壁上原本不穩定的斑塊破裂，引發血栓形成，完全阻斷血流，導致心肌細胞缺氧、缺血。\n\n當心肌細胞缺氧時，細胞內的代謝和離子平衡會被打亂，心臟的收縮功能會迅速下降。如果缺血時間過長，就會啟動一連串的細胞死亡機制，從心臟內壁（心內膜）開始，逐漸擴散到心臟外壁（心外膜）。細胞死亡的方式主要有兩種：**細胞凋亡 (apoptosis)** 和 **壞死 (necrosis)**。細胞凋亡是一種程式化的細胞死亡，細胞會主動啟動死亡程序，避免對周圍組織造成更大的傷害；而壞死則是因為受到嚴重損傷，細胞膜破裂，細胞內容物釋出，引發發炎反應。\n\n令人惋惜的是，成熟的心臟細胞幾乎沒有再生能力。因此，心肌梗塞造成的損傷，大部分會癒合成**疤痕組織**。這個癒合過程非常複雜，需要身體的免疫系統參與。當心肌細胞死亡時，會釋出一些警訊分子（alarmins），吸引**吞噬細胞 (phagocytes)** 前來清除死亡的細胞碎片和受損的組織。吞噬細胞的活動會啟動一系列的發炎反應，並進一步調控發炎程度。\n\n同時，身體的**腎素-血管收縮素-醛固酮系統 (renin-angiotensin-aldosterone system, RAAS)** 會被活化，並釋放**轉化生長因子β (transforming growth factor-β, TGF-β)**，促使**纖維母細胞 (fibroblasts)** 轉變成**肌纖維母細胞 (myofibroblasts)**，開始製造大量的**細胞外基質 (extracellular matrix)**，形成疤痕組織。\n\n然而，疤痕組織缺乏收縮能力，會影響心臟的整體功能，導致心臟擴張、心肌肥厚，最終造成心臟衰竭。因此，心肌梗塞的治療目標不僅僅是疏通血管，還包括抑制過度的發炎反應、促進疤痕組織的穩定，以及改善心臟的結構和功能。研究的重點就在於更深入了解這些分子訊號和細胞作用，希望能開發出更有效的治療方法。\n\n\n\n---\n```json\n{\n    \"question\": \"一位心肌梗塞患者在發病後，醫生發現其血液中大量的吞噬細胞。這些吞噬細胞的主要功能為何？\",\n    \"options\": [\n        \"(A) 促進心肌細胞的增殖，修復受損的心肌組織。\",\n        \"(B) 分泌抗體，中和引起心肌梗塞的病原體。\",\n        \"(C) 清除死亡的心肌細胞碎片和受損的組織，並調控發炎反應。\",\n        \"(D) 抑制血栓形成，防止血管再次阻塞。\"\n    ],\n    \"correct_answer\": \"C\",\n    \"explanation\": \"吞噬細胞是免疫系統的重要組成部分，其主要功能是吞噬和清除細胞碎片、病原體等。在心肌梗塞的過程中，死亡的心肌細胞會釋出信號吸引吞噬細胞前來清除碎片，並參與發炎反應的調控。選項(A)錯誤，成熟心肌細胞幾乎沒有再生能力；選項(B)錯誤，心肌梗塞通常不是由感染引起；選項(D)錯誤，血栓形成是梗塞的原因，而非吞噬細胞的功能。\"\n}\n```\n",
+    "processed_at": "2026-02-03 11:25:33",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "心肌梗塞後不同時間點 TGF-β 濃度變化",
+            "x_label": "心肌梗塞後時間 (小時)",
+            "y_label": "TGF-β 濃度 (pg/mL)",
+            "data_x": [
+                0,
+                6,
+                12,
+                24,
+                48,
+                72
+            ],
+            "data_y": [
+                25,
+                80,
+                150,
+                180,
+                160,
+                120
+            ]
+        },
+        "question": "研究人員監測心肌梗塞患者在發病後不同時間點血液中轉化生長因子β (TGF-β) 的濃度。根據圖表所示，下列敘述何者最合理？",
+        "options": [
+            "(A) TGF-β 濃度在心肌梗塞後初期快速上升，達到高峰後逐漸下降，反映了疤痕組織形成的過程。",
+            "(B) TGF-β 濃度在心肌梗塞後一直保持穩定，表示疤痕組織的形成不受其影響。",
+            "(C) TGF-β 濃度在心肌梗塞後持續上升，可能導致過度纖維化，加重心臟功能障礙。",
+            "(D) TGF-β 濃度在心肌梗塞後先上升後下降，但整體濃度變化不大，對心臟的影響有限。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據文章內容，TGF-β 的釋放會促使纖維母細胞轉變成肌纖維母細胞，形成疤痕組織。圖表顯示 TGF-β 濃度在心肌梗塞後初期快速上升，達到高峰（24小時），然後逐漸下降，這與疤痕組織形成的時間過程相符。初期濃度上升代表纖維化開始，後期下降可能代表纖維化趨於穩定。"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": "20260203_How to con",
+    "meta": {
+        "title": "How to conduct an individual participant data meta-analysis in response to an emerging pathogen: Lessons learned from Zika and COVID-19.",
+        "summary": "Sharing, harmonizing, and analyzing participant-level data is of central importance in the rapid research response to emerging pathogens. Individual participant data meta-analyses (IPD-MAs), which synthesize participant-level data from related primary studies, have several advantages over pooling study-level effect estimates in a traditional meta-analysis. IPD-MAs enable researchers to more effectively separate spurious heterogeneity related to differences in measurement from clinically relevant heterogeneity from differences in underlying risk or distribution of factors that modify disease progression. This tutorial describes the steps needed to conduct an IPD-MA of an emerging pathogen and how IPD-MAs of emerging pathogens differ from those of well-studied exposures and outcomes. We discuss key statistical issues, including participant- and study-level missingness and complex measurement error, and present recommendations. We review how IPD-MAs conducted during the COVID-19 response addressed these statistical challenges when harmonizing and analyzing participant-level data related to an emerging pathogen. The guidance presented here is based on lessons learned in our conduct of IPD-MAs in the research response to emerging pathogens, including Zika virus and COVID-19.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41626890/",
+        "source": "PubMed",
+        "mapping_chapter": "生態與演化 (Ecology & Evolution)",
+        "mapping_keyword": "population genetics",
+        "subject": "biology"
+    },
+    "content": "# 如何應對新興病原體：以登革熱與新冠病毒為例的個體資料統合分析\n\n## 1. 研究背景與課本關聯\n\n大家還記得2015年台灣爆發登革熱疫情，以及近幾年來的新冠病毒疫情嗎？面對這些突如其來的傳染病，科學家們需要快速找出病毒的特性、了解疾病的傳播途徑，以及評估不同治療方式的效果。但單靠一個實驗室或一個醫院的數據往往不夠全面。就像我們在生態調查時，只觀察一個地點的生物多樣性，很難推論整個生態系的狀況一樣。這篇研究就探討了如何整合來自不同研究的個體數據，以更有效地應對新興病原體。這與高中生物課本的「生態與演化」章節中，關於**族群生態學**、**資料分析**，以及**演化適應**的觀念息息相關，因為疾病的傳播與演化，也如同生物在環境中的適應與變化。\n\n## 2. 核心發現\n\n這篇研究主要介紹一種名為「個體資料統合分析」(Individual Participant Data Meta-Analysis, IPD-MA) 的統計方法。傳統的統合分析 (Meta-Analysis) 就像是將許多研究的「平均值」加權平均，得到一個總體的結論。但這種方法有個問題，如果不同研究的實驗設計、研究對象、或數據收集方式有所差異，就可能造成錯誤的結論，也就是**假性異質性**。\n\nIPD-MA 則不同，它不是只取研究的平均值，而是直接取得每個參與研究者的原始數據，例如年齡、性別、病史、症狀、檢驗結果等等。這樣的好處是，科學家們可以更精確地分析數據，找出造成疾病差異的真正原因。例如，我們可以分析不同年齡層的人感染新冠病毒後的重症率是否不同，或者不同基因型的人對登革熱病毒的抵抗力是否有所差異。\n\n想像一下，我們在研究某種植物的生長情況，如果只比較不同實驗組的「平均高度」，可能無法發現某些特定土壤成分對植物生長的影響。但如果我們記錄每個植物的生長數據，並分析土壤成分與生長之間的關係，就能更深入地了解植物生長的影響因素。\n\n研究中也提到，在應對新興病原體時，數據的缺失和測量誤差是常見的問題。例如，有些患者可能沒有提供完整的病史，或者不同的醫院使用的檢驗方法有所不同。科學家們需要使用更複雜的統計方法來處理這些問題，以確保分析結果的準確性。新冠疫情期間，科學家們就利用 IPD-MA 整合了來自世界各地的數據，快速了解病毒的傳播模式、重症風險因子，以及疫苗的保護效果。這項技術的成功應用，也為未來應對其他新興傳染病提供了寶貴的經驗。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊針對登革熱病毒的不同血清型，分別在A、B兩地進行研究。A地主要研究登革熱一型，B地則主要研究登革熱二型。若僅使用傳統的統合分析 (Meta-Analysis)，可能會產生什麼樣的問題？\",\n    \"options\": [\n        \"(A) 無法有效區分不同血清型對疾病重症率的影響，可能得出錯誤的結論。\",\n        \"(B) 數據量不足，無法進行統計分析。\",\n        \"(C) 實驗設計不嚴謹，數據不可信。\",\n        \"(D) 缺乏對照組，無法評估治療效果。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"傳統的統合分析僅比較研究的平均值，無法考慮不同研究對象的差異。在本例中，A地和B地研究的登革熱血清型不同，直接比較可能造成假性異質性，無法正確評估不同血清型對疾病重症率的影響。IPD-MA 透過整合個體數據，可以更精確地分析不同血清型的影響。\"\n}\n",
+    "processed_at": "2026-02-03 11:23:14",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同年齡層新冠病毒感染後重症率",
+            "x_label": "年齡 (歲)",
+            "y_label": "重症率 (%)",
+            "data_x": [
+                20,
+                30,
+                40,
+                50,
+                60,
+                70,
+                80
+            ],
+            "data_y": [
+                0.2,
+                0.5,
+                1.2,
+                2.5,
+                4.8,
+                8.1,
+                12.3
+            ]
+        },
+        "question": "根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 隨著年齡增長，新冠病毒感染後的重症率呈現上升趨勢。",
+            "(B) 20歲至30歲的族群是新冠病毒感染後最容易出現重症的年齡層。",
+            "(C) 年齡與新冠病毒感染後的重症率之間沒有明顯關聯。",
+            "(D) 80歲以上的族群，其重症率與70歲族群相比，下降幅度較大。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示，隨著年齡的增加，新冠病毒感染後的重症率也隨之增加，呈現明顯的上升趨勢。這表示年齡是影響新冠病毒感染後重症風險的重要因素之一。選項B錯誤，因為圖表顯示重症率隨著年齡增長而增加。選項C錯誤，因為圖表顯示明顯的關聯。選項D錯誤，因為圖表顯示80歲以上的族群重症率更高。"
+    }
+}

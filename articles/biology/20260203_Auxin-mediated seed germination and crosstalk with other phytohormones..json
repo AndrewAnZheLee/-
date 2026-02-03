@@ -1,0 +1,50 @@
+{
+    "id": "20260203_Auxin-medi",
+    "meta": {
+        "title": "Auxin-mediated seed germination and crosstalk with other phytohormones.",
+        "summary": "Seed germination is a critical and highly regulated process that transitions a dormant seed to an actively growing seedling. This process plays a vital physiological role in regulating seedling establishment, plant growth, and development, while ecologically it shapes species distribution patterns, drives plant population dynamics, and influences ecosystem productivity. Seed germination is tightly controlled by various environmental and intrinsic factors, with phytohormones acting as primary mediators. Auxins, mainly indole-3-acetic acid (IAA), are involved in many aspects of plant growth and development. Accumulating evidence suggests that IAA modulates the balance between dormancy and germination similarly to abscisic acid (ABA) and gibberellins (GAs). In this mini-review, we summarize our current knowledge on the molecular mechanisms underlying the modulatory roles of IAA during seed germination. We specifically examine the crosstalk between IAA and other key phytohormones (ABA and GAs) that shape germination outcomes. Clarifying these interactions will enhance our understanding of the dormancy-germination switch and may offer practical methods to control germination timing in agriculture.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41626343/",
+        "source": "PubMed",
+        "mapping_chapter": "植物生物學 (Plant Biology)",
+        "mapping_keyword": "plant hormone",
+        "subject": "biology"
+    },
+    "content": "# 輔長素與種子發芽：植物激素間的複雜對話\n\n## 1. 研究背景與課本關聯\n\n大家有沒有觀察過，種子要發芽並非只要有水和氧氣就一定會成功？像是有些種子需要經過一段時間的「後熟」，或是經歷低溫，才能打破休眠。這就表示種子發芽受到許多因素的控制。在高中生物課本的「植物生物學」章節中，我們學習到植物的生長發育受到植物激素的調控。這篇研究就聚焦在輔長素（Auxin）這個植物激素，以及它如何與其他重要的激素共同影響種子的發芽，這與我們課本中學習的植物激素調節機制息息相關。\n\n## 2. 核心發現\n\n種子發芽是植物生命週期中一個非常重要的階段，它代表著從休眠狀態轉變為一個可以生長的小苗。這個過程受到環境因素（例如光照、溫度、水分）和種子內在因素（例如休眠素、生長素）的嚴格控制。\n\n這篇研究主要探討了輔長素（indole-3-acetic acid，IAA）在種子發芽中的作用。我們知道，植物激素之間並非獨立運作，而是會彼此影響，形成複雜的信號網絡。過去的研究顯示，休眠素（abscisic acid，ABA）通常會抑制種子發芽，而吉貝瑞林（gibberellins，GAs）則會促進種子發芽。這兩者就像一個開關，調節種子的休眠與發芽。\n\n現在，研究發現輔長素也參與了這個調節過程，而且它與休眠素和吉貝瑞林之間存在著密切的交互作用。輔長素並非單純地促進或抑制發芽，而是透過調節休眠素和吉貝瑞林的平衡，來影響發芽的時機。\n\n具體來說，輔長素可以影響休眠素的合成或分解，進而降低休眠素的濃度，讓種子更容易發芽。另一方面，輔長素也可能與吉貝瑞林共同作用，增強吉貝瑞林的促進發芽效果。\n\n研究人員透過分子層面的分析，試圖了解輔長素如何影響種子發芽的相關基因表現，以及它與其他激素之間的信號傳導路徑。釐清這些交互作用，有助於我們更深入地了解種子休眠和發芽的機制，並且可能應用在農業上，例如透過調節植物激素的濃度，來控制種子的發芽時間，提高農作物的產量。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"小明在實驗中發現，將適量的輔長素塗抹在某些種子上，可以打破其休眠，促進發芽。下列哪一項最能解釋這個現象？\",\n    \"options\": [\n        \"(A) 輔長素直接促進種子吸收水分和氧氣，加速新陳代謝。\",\n        \"(B) 輔長素抑制了種子內休眠素的合成，降低了休眠素的濃度。\",\n        \"(C) 輔長素促進了種子內吉貝瑞林的合成，提高了吉貝瑞林的濃度。\",\n        \"(D) 輔長素改變了種子周圍的環境溫度，使其更適合發芽。\"\n    ],\n    \"correct_answer\": \"B\",\n    \"explanation\": \"根據文章內容，輔長素並非直接促進發芽，而是透過調節休眠素和吉貝瑞林的平衡來影響發芽。輔長素可以抑制休眠素的合成或分解，降低休眠素濃度，進而促進發芽。選項(A)描述的是發芽的必要條件，但並非輔長素的作用機制；選項(C)雖然可能，但文章更強調輔長素對休眠素的影響；選項(D)與輔長素無關。\"\n}\n",
+    "processed_at": "2026-02-03 11:18:26",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同輔長素濃度下，種子發芽率隨時間的變化",
+            "x_label": "時間 (小時)",
+            "y_label": "發芽率 (%)",
+            "data_x": [
+                0,
+                6,
+                12,
+                18,
+                24,
+                30,
+                36
+            ],
+            "data_y": [
+                0,
+                5,
+                20,
+                45,
+                70,
+                85,
+                90
+            ]
+        },
+        "question": "研究人員以某種植物的種子為材料，設計實驗探討輔長素對種子發芽的影響。他們將種子分為四組，分別浸泡在不同濃度的輔長素溶液中（0 mg/L、0.1 mg/L、0.5 mg/L、1 mg/L），並記錄不同時間點的發芽率。圖中顯示的是 0.5 mg/L 輔長素溶液浸泡下的種子發芽率隨時間變化的曲線。根據圖示及文章內容，下列推論最合理？",
+        "options": [
+            "(A) 輔長素濃度越高，種子發芽率上升的速度越快，且最終發芽率越高。",
+            "(B) 輔長素主要作用於種子的休眠素，降低其濃度，從而促進發芽。",
+            "(C) 輔長素對種子發芽的影響具有濃度閾值，低濃度下無明顯效果。",
+            "(D) 輔長素濃度越高，種子發芽所需的環境水分就越少。"
+        ],
+        "correct_answer": "B",
+        "explanation": "根據文章內容，輔長素並非直接促進發芽，而是透過調節休眠素和吉貝瑞林的平衡來影響發芽。輔長素可以抑制休眠素的合成或分解，降低休眠素濃度，進而促進發芽。圖示顯示輔長素促進了發芽率的上升，這與文章中輔長素調節休眠素的機制相符。選項(A)無法從圖中直接判斷最終發芽率是否更高；選項(C)圖中顯示0.5mg/L輔長素有明顯效果，無法判斷是否存在濃度閾值；選項(D)與輔長素的作用機制無關。"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Why Euglen",
+    "meta": {
+        "title": "Why Euglenozoans.",
+        "summary": "To accompany a new collection of methods and protocols, we discuss the relevance of the microbial eukaryotes belonging to the protist phylum Euglenozoa. For those interested by Euglena, applied biology is often relevant: as a starting point for useful natural products including biofuels, nutritional supplements, and metabolites with biomedical potential, or as an environmental agent for bioremediation. Arguably the most widely studied euglenozoans are the parasitic trypanosomatids. Collectively, trypanosomatids cause several serious neglected tropical diseases and economically important diseases of animals and plants; since the early 1900s, drug discovery and disease intervention have been prominent research areas. Yet for those interested in evolution, trypanosomatids and Euglena are host to all sorts of extreme biology either not seen or so pronounced in other eukaryotes. Euglenozoans are also relevant in an ecology context: free-living relatives of the trypanosomatids are abundant in freshwater environments. Moreover, the other major euglenozoan group, the diplonemids, are recently recognized as the most abundant heterotrophic protists in the world's oceans, their diversity and abundance at least comparable to major algal groups. Finally, the long history of euglenozoan study illustrates nicely the evolving nature of scientific discovery and reporting since Van Leeuwenhoek first saw Euglena in the pioneering days of microscopy.",
+        "published": "2026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41627727/",
+        "source": "PubMed",
+        "mapping_chapter": "生物技術 (Biotechnology)",
+        "mapping_keyword": "biofuel production",
+        "subject": "biology"
+    },
+    "content": "# 尤盤蟲類：微小生物，大有貢獻！\n\n## 1. 研究背景與課本關聯\n\n你有沒有在池塘裡看過綠色的、會游動的小生物？那很可能就是尤盤蟲（Euglena）！這些微小的單細胞生物，雖然不起眼，卻在科學研究上扮演著重要的角色。尤盤蟲類不僅是生物演化研究的寶貴材料，更因為其特殊的生理特性，在「生物技術」的應用上展現出巨大的潛力。例如，我們可以利用尤盤蟲來生產生物燃料、營養補充劑，甚至開發新的藥物。這與我們在高中生物課本中學習的「生物技術」章節，利用生物體或其產物來解決人類問題的概念不謀而合。\n\n## 2. 核心發現\n\n這篇研究論文主要探討了尤盤蟲類（Euglenozoa）這個原生生物門的重要性。尤盤蟲類包含多種生物，其中尤盤蟲是最廣為人知的。尤盤蟲具有植物和動物的雙重特性，既能進行光合作用，也能異營吸收有機物，這使得它在環境適應上非常靈活。\n\n除了尤盤蟲，尤盤蟲類中還有一個重要的分支——錐蟲類（Trypanosomatids）。錐蟲類包含許多寄生蟲，例如會引起非洲昏睡症、契沙病等熱帶疾病的病原體。這些疾病在發展中國家造成了嚴重的公共衛生問題，因此科學家們長期致力於研究錐蟲類的生物特性，希望能開發出有效的藥物來對抗這些疾病。\n\n有趣的是，錐蟲類和尤盤蟲在演化上具有密切的關係。研究發現，它們都擁有許多其他真核生物所沒有的特殊生物學特性，例如特殊的細胞器和代謝途徑，這對於研究真核生物的演化具有重要的意義。\n\n此外，研究也發現，尤盤蟲類在生態系統中扮演著重要的角色。尤盤蟲本身存在於淡水環境中，數量眾多。而另一類尤盤蟲類——雙鞭蟲類（Diplonemids），更是被發現是全球海洋中最豐富的異養型原生生物之一，其多樣性和數量甚至可以與主要的藻類相媲美。這顯示尤盤蟲類在海洋生態系統中扮演著不可或缺的角色。\n\n這項研究也提醒我們，科學發現是一個不斷演進的過程。早在顯微鏡的開創時期，科學家范·李文虎克就已經觀察到尤盤蟲，而現在，我們對尤盤蟲類的了解仍在不斷深入。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊發現一種新型的尤盤蟲，其細胞內含有大量的油脂顆粒，且能快速繁殖。若要利用此尤盤蟲進行生物燃料的生產，下列哪一項是最適當的策略？\",\n    \"options\": [\n        \"(A) 改變培養基的成分，使其無法進行光合作用，以增加油脂的累積。\",\n        \"(B) 提供充足的光照和二氧化碳，促進尤盤蟲的光合作用，增加生物量。\",\n        \"(C) 降低培養基的溫度，抑制尤盤蟲的代謝速率，以減少油脂的消耗。\",\n        \"(D) 加入抗生素，抑制其他微生物的生長，以確保尤盤蟲的純度。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"尤盤蟲在有光照時進行光合作用，產生葡萄糖，若限制光合作用，葡萄糖的供應減少，尤盤蟲會將多餘的能量轉換成油脂儲存，因此改變培養基成分使其無法光合作用，能有效增加油脂累積。選項(B)會促進生物量增加，但油脂含量不一定提高；選項(C)會降低尤盤蟲的生長速率；選項(D)雖然能確保純度，但與油脂累積無直接關係。\"\n}\n",
+    "processed_at": "2026-02-03 11:29:16",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "不同光照強度下尤盤蟲的生物量變化",
+            "x_label": "光照強度 (lux)",
+            "y_label": "生物量 (mg/mL)",
+            "data_x": [
+                0,
+                500,
+                1000,
+                1500,
+                2000,
+                2500
+            ],
+            "data_y": [
+                1.2,
+                2.5,
+                3.8,
+                4.5,
+                4.8,
+                4.7
+            ]
+        },
+        "question": "某研究團隊為了探討光照強度對尤盤蟲生長的影响，進行了實驗。他們在相同的培養基中，分別以不同光照強度培養尤盤蟲，並定期測量培養液中的生物量。根據上述圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) 尤盤蟲的生物量隨著光照強度的增加而持續增加，呈現線性關係。",
+            "(B) 尤盤蟲的生物量在光照強度達到 2000 lux 時達到最大值，之後開始下降。",
+            "(C) 光照強度對尤盤蟲的生物量沒有顯著影響。",
+            "(D) 尤盤蟲的生物量在光照強度為 0 lux 時最高，表示尤盤蟲不需要光照就能生長。"
+        ],
+        "correct_answer": "B",
+        "explanation": "圖表顯示，尤盤蟲的生物量隨著光照強度的增加而增加，但當光照強度超過 2000 lux 後，生物量不再增加，甚至略有下降。這表示尤盤蟲的光合作用有最佳光照強度，過強的光照可能反而會抑制其生長。選項(A)錯誤，因為關係並非線性；選項(C)錯誤，因為光照強度明顯影響生物量；選項(D)錯誤，因為在無光照下生物量最低。"
+    }
+}

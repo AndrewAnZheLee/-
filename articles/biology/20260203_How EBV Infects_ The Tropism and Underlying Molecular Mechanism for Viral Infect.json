@@ -1,0 +1,46 @@
+{
+    "id": "20260203_How EBV In",
+    "meta": {
+        "title": "How EBV Infects: The Tropism and Underlying Molecular Mechanism for Viral Infection.",
+        "summary": "The Epstein-Barr virus (EBV) is associated with a variety of human malignancies, including Burkitt's lymphoma, Hodgkin's disease, nasopharyngeal carcinoma and gastric cancers. EBV infection is crucial for the oncogenesis of its host cells. The prerequisite for the establishment of infection is the virus entry. Interactions of viral membrane glycoproteins and host membrane receptors play important roles in the process of virus entry into host cells. Current studies have shown that the main tropism for EBV are B cells and epithelial cells and that EBV is also found in the tumor cells derived from NK/T cells and leiomyosarcoma. However, the process of EBV infecting B cells and epithelial cells significantly differs, relying on heterogenous glycoprotein-receptor interactions. This review focuses on the tropism and molecular mechanism of EBV infection. We systematically summarize the key molecular events that mediate EBV cell tropism and its entry into target cells and provide a comprehensive overview.",
+        "published": "2022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36366470/",
+        "source": "PubMed",
+        "mapping_chapter": "植物生物學 (Plant Biology)",
+        "mapping_keyword": "tropism",
+        "subject": "biology"
+    },
+    "content": "# EBV 如何感染細胞：病毒的特性與感染機制\n\n## 1. 研究背景與課本關聯\n\n大家有沒有聽過「鼻咽癌」或「淋巴瘤」？這些疾病的發生，常常與一種叫做「EB病毒」（Epstein-Barr virus）的病毒有關。EB病毒感染非常普遍，許多人在小時候就已經接觸過，但通常不會有明顯症狀。然而，在某些情況下，病毒會潛伏在體內，甚至可能導致癌症的發生。雖然這篇研究講的是病毒，乍聽之下與高中生物的「植物生物學」好像沒有關係，但其實病毒感染細胞的機制，與植物受到病原體入侵的過程，在細胞層面上有許多相似之處，例如病毒/病原體如何利用細胞表面的受體進入細胞，以及如何影響細胞的生長與分化。了解病毒感染機制，有助於我們更深入理解生物體如何應對病原體的入侵。\n\n## 2. 核心發現\n\n這篇研究主要探討 EB 病毒如何感染人體細胞，以及它偏好感染哪些細胞。EB病毒感染人體細胞的第一步，就是病毒必須進入細胞內部。這個過程需要病毒表面的蛋白質（稱為醣蛋白）與宿主細胞表面的受體結合。想像一下，病毒就像一把鑰匙，而細胞表面的受體就像鎖，只有正確的鑰匙才能打開鎖，病毒才能進入細胞。\n\n研究發現，EB病毒主要感染兩種細胞：**B淋巴球**和**上皮細胞**。B淋巴球是我們免疫系統的重要組成部分，負責產生抗體來對抗外來病原體。上皮細胞則覆蓋在我們身體的表面，例如皮膚、呼吸道和消化道。\n\n然而，EB病毒感染B淋巴球和上皮細胞的方式並不相同。感染B淋巴球主要依靠病毒表面的醣蛋白 gp350/220 與 B 細胞表面的 **CD21 受體**結合。這個結合就像一個精準的鎖定機制，讓病毒能夠有效地進入 B 淋巴球。而感染上皮細胞則需要不同的醣蛋白和受體，例如病毒表面的醣蛋白 gH/gL 與上皮細胞表面的受體結合。\n\n更進一步的研究發現，EB病毒除了感染B淋巴球和上皮細胞外，也可能感染其他類型的細胞，例如**自然殺手細胞 (NK cells)** 和**平滑肌瘤細胞**。這些細胞的感染機制可能也與B淋巴球和上皮細胞有所不同。\n\n總而言之，這篇研究系統性地整理了 EB 病毒感染細胞的特性（稱為**細胞趨性**，tropism）以及其背後的分子機制。了解這些機制，有助於我們開發更有效的抗病毒藥物，以及預防和治療 EB 病毒相關的疾病，例如鼻咽癌和淋巴瘤。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"某研究團隊發現，在EB病毒感染上皮細胞時，病毒表面的gH/gL醣蛋白與宿主細胞表面的某種受體結合。如果這個受體的功能受到抑制，下列哪種情況最可能發生？\",\n    \"options\": [\n        \"(A) EB病毒感染上皮細胞的效率會降低\",\n        \"(B) EB病毒會更容易感染B淋巴球\",\n        \"(C) 宿主細胞的免疫反應會被增強\",\n        \"(D) EB病毒的基因體會發生突變\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"EB病毒感染上皮細胞需要gH/gL醣蛋白與宿主細胞表面的受體結合。如果這個受體的功能受到抑制，病毒就無法有效地進入上皮細胞，因此感染效率會降低。選項(B)錯誤，因為gH/gL主要參與上皮細胞的感染，與B淋巴球的感染機制不同。選項(C)和(D)與受體功能抑制的直接影響無關。\"\n}\n",
+    "processed_at": "2026-02-03 11:22:49",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "bar",
+            "title": "不同細胞類型中EB病毒感染效率比較",
+            "x_label": "細胞類型",
+            "y_label": "感染效率 (相對值)",
+            "data_x": [
+                "B淋巴球",
+                "上皮細胞",
+                "自然殺手細胞 (NK cells)",
+                "平滑肌瘤細胞",
+                "對照組 (未感染)"
+            ],
+            "data_y": [
+                85,
+                60,
+                25,
+                15,
+                0
+            ]
+        },
+        "question": "研究人員在體外培養不同類型的細胞，並測量EB病毒的感染效率。結果如圖所示。根據圖表，下列敘述何者最合理？",
+        "options": [
+            "(A) EB病毒感染B淋巴球的效率明顯高於其他細胞類型。",
+            "(B) EB病毒感染平滑肌瘤細胞的效率與感染上皮細胞相近。",
+            "(C) 對照組的感染效率代表了EB病毒的最高感染能力。",
+            "(D) EB病毒感染自然殺手細胞 (NK cells) 的效率與未感染的對照組無差異。"
+        ],
+        "correct_answer": "A",
+        "explanation": "圖表顯示B淋巴球的感染效率 (85) 遠高於其他細胞類型 (上皮細胞60, NK cells 25, 平滑肌瘤細胞15)，因此EB病毒感染B淋巴球的效率明顯高於其他細胞類型。選項(B)錯誤，平滑肌瘤細胞的感染效率明顯低於上皮細胞。選項(C)錯誤，對照組的感染效率為0，代表沒有感染發生。選項(D)錯誤，NK cells的感染效率為25，明顯高於對照組。"
+    }
+}

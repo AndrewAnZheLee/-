@@ -1,0 +1,48 @@
+{
+    "id": "20260203_Mitochondr",
+    "meta": {
+        "title": "Mitochondrial DAMPs as a critical driver in the development of acute graft versus host disease and emerging mitochondria targeted therapeutic strategies.",
+        "summary": "Mitochondrial fusion and fission regulate mitochondrial morphology and homeostasis, both of which are essential for maintaining cellular health. Free mitochondria and mitochondrial-containing extracellular vesicles have emerged as key mediators of pathological processes. Conditioning regimens for allogeneic hematopoietic cell transplantation (HCT) damage and lead to impaired mitochondrial function, including biogenesis and respiration, as well as elevated reactive oxygen species (ROS), which contribute to the development of inflammatory conditions as well as activation of antigen presenting cells, the latter being key players in acute graft versus host pathophysiology (GVHD). This leads to increased T-cell activation and proliferation, which increases alloreactivity and drives GVHD. Dysregulated mitochondrial dynamics lead to the release of mitochondrial DNA and formylated peptides, which act as Damage-Associated Molecular Patterns (DAMPs) and trigger cellular homeostatic imbalances, ultimately leading to more inflammation. The understanding that mitochondrial dysfunction contributes to GVHD offers novel therapeutic strategies, including blocking DAMP signaling and modulating immune cell metabolism to restore mitochondrial health. This review aims to understand mitochondrial homeostasis in both recipient and donor cells. This is crucial for understanding GVHD pathophysiology and developing mitochondria-targeted therapies or mitochondrial transfer strategies as potential therapeutic interventions for GVHD.",
+        "published": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41607789/",
+        "source": "PubMed",
+        "mapping_chapter": "細胞與遺傳 (Cell & Genetics)",
+        "mapping_keyword": "cellular respiration",
+        "subject": "biology"
+    },
+    "content": "# 胞器失控：線粒體損傷如何引發移植排斥反應？\n\n## 1. 研究背景與課本關聯\n\n想像一下，我們身體就像一個繁忙的都市，細胞是都市裡的建築物，而線粒體就是建築物裡的發電廠，提供細胞運作所需的能量。如果發電廠發生故障，整個建築物就會陷入混亂。這篇研究就探討了在骨髓移植這種醫療行為中，線粒體如何受到損傷，進而引發嚴重的排斥反應。這與高中生物課本「細胞與遺傳」章節中關於**細胞器功能**、**細胞呼吸**、以及**免疫系統**的知識息息相關，讓我們更了解細胞內部的精細調控，以及免疫系統如何辨識並攻擊異物。\n\n## 2. 核心發現\n\n骨髓移植（又稱異體造血幹細胞移植）是一種治療某些血液疾病的有效方法。然而，移植後可能會發生「急性宿主對移植物疾病」（Acute Graft-versus-Host Disease, GVHD），也就是移植的免疫細胞攻擊宿主的身體。這篇研究發現，GVHD的發生與**線粒體**的功能異常有密切關係。\n\n在骨髓移植前，為了清除宿主本身的免疫細胞，病人通常需要接受高劑量的化療或放射線治療。這些治療會對細胞造成損傷，特別是**線粒體**，導致線粒體的**融合**與**分裂**過程失衡，影響其正常功能，例如**有氧呼吸**效率降低，產生過多的**活性氧自由基 (ROS)**。\n\n受損的線粒體會釋放出一些特殊的分子，像是**線粒體DNA**和**甲醯化肽**，這些分子被免疫系統視為「危險信號」，稱為**損傷相關分子模式 (Damage-Associated Molecular Patterns, DAMPs)**。DAMPs會活化**抗原呈現細胞 (Antigen-Presenting Cells, APCs)**，進而刺激**T細胞**的活化和增殖。活化的T細胞會攻擊宿主的組織，引發嚴重的發炎反應，最終導致GVHD。\n\n簡單來說，化療或放射線治療導致線粒體受損，線粒體釋放DAMPs，DAMPs活化T細胞，T細胞攻擊宿主組織，造成GVHD。\n\n研究者也提出了一些新的治療策略，例如：阻斷DAMPs的信號傳導，或是調整免疫細胞的**代謝**，以恢復線粒體的功能。甚至有研究嘗試將健康的線粒體轉移到受損的細胞中，以改善細胞的功能。這些策略都顯示了針對線粒體進行治療，有望改善GVHD的預後。\n\n---\n===QUIZ_JSON===\n{\n    \"question\": \"小明接受異體骨髓移植後，出現皮膚紅腫、肝功能異常等症狀，經過檢查發現其體內T細胞大量活化並攻擊自身組織。根據上述研究，最有可能導致小明產生這些症狀的原因是什麼？\",\n    \"options\": [\n        \"(A) 移植的骨髓細胞產生了DAMPs，活化了宿主的T細胞。\",\n        \"(B) 宿主的免疫系統對移植的骨髓細胞產生了抗體。\",\n        \"(C) 移植的骨髓細胞直接攻擊了宿主的肝臟。\",\n        \"(D) 宿主的細胞因為化療而突變，被免疫系統攻擊。\"\n    ],\n    \"correct_answer\": \"A\",\n    \"explanation\": \"根據文章，化療或放射線治療會導致線粒體受損，釋放DAMPs，DAMPs會活化T細胞，進而攻擊宿主組織。因此，(A)選項最符合文章內容。 (B)選項描述的是抗體介導的排斥反應，文章主要探討的是DAMPs介導的排斥反應。(C)選項不符合文章描述的機制。(D)選項雖然化療可能導致突變，但文章強調的是線粒體損傷和DAMPs的作用。\"\n}\n",
+    "processed_at": "2026-02-03 11:24:21",
+    "chart_quiz": {
+        "chart_config": {
+            "type": "line",
+            "title": "骨髓移植後患者血清中DAMPs濃度變化",
+            "x_label": "移植後時間 (天)",
+            "y_label": "DAMPs濃度 (pg/mL)",
+            "data_x": [
+                0,
+                3,
+                7,
+                14,
+                21,
+                28
+            ],
+            "data_y": [
+                50,
+                120,
+                250,
+                300,
+                200,
+                100
+            ]
+        },
+        "question": "研究人員監測了接受異體骨髓移植的患者血清中DAMPs濃度隨時間的變化。圖中顯示了DAMPs濃度隨移植後時間的變化趨勢。根據圖表和文章內容，下列推論最合理的是？",
+        "options": [
+            "(A) DAMPs濃度在移植後初期升高，可能與GVHD的發生相關。",
+            "(B) DAMPs濃度在移植後持續降低，表示免疫系統逐漸恢復正常。",
+            "(C) DAMPs濃度與移植後時間呈負相關，說明線粒體功能逐漸恢復。",
+            "(D) DAMPs濃度在移植後7天達到高峰，之後維持穩定，對GVHD無影響。"
+        ],
+        "correct_answer": "A",
+        "explanation": "根據文章，線粒體受損會釋放DAMPs，DAMPs會活化T細胞，引發GVHD。圖表顯示DAMPs濃度在移植後初期（3-14天）迅速升高，這與GVHD發生的時間窗口相符，因此DAMPs濃度升高可能與GVHD的發生相關。 (B)選項與圖表趨勢不符。(C)選項雖然線粒體功能恢復可能導致DAMPs濃度降低，但圖表顯示的是先升高後降低的趨勢，且文章強調DAMPs的活化作用。(D)選項忽略了DAMPs濃度在14天後下降的趨勢。"
+    }
+}
